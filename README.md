@@ -121,6 +121,13 @@ end)
     loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
 end)
 
+local creds = window:Tab("帮助者脚本",'16060333448')
+
+local credits = creds:section("霖溺嘿嘿",true)
+    credits:Button("白貓『美』",function()
+    loadstring(game:HttpGet("https://shz.al/~lihhh"))()
+end)
+
 local creds = window:Tab("各位脚本作者脚本",'16060333448')
     
 local credits = creds:section("作者脚本",true)
@@ -380,6 +387,16 @@ end)
 end)
     credits:Button("刺客脚本只适配忍者和FL注入器",function()
     loadstring(game:HttpGet("https://shz.al/~CikeScriptfree"))()
+end)
+
+local creds = window:Tab("p死亡球脚本",'16060333448')
+
+local credits = creds:section("LINni脚本",true)
+     credits:Button("死亡球脚本",function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Ball1/main/Death"))()
+end)
+    credits:Button("死亡球脚本",function()
+    loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
 end)
 
 local creds = window:Tab("piggy脚本",'16060333448')

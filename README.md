@@ -261,6 +261,16 @@ local credits = creds:section("脚本密钥链接https://keyrblx.com/getkey/Shif
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexcirer/Alexcirer/main/V%20d"))()
 end)
 
+local creds = window:Tab("FE脚本『这几天将全部添加』",'16060333448')
+
+local credits = creds:section("霖溺嘿嘿",true)
+    credits:Button("C00lgui",function()
+    loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+    credits:Button("1x1x1x1",function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/JipYNCht'),true))()
+end)
+
 local creds = window:Tab("力量传奇",'16060333448')
 
 local credits = creds:section("自制为云脚本ui",true)

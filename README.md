@@ -1,4 +1,47 @@
- local library = loadstring(game:HttpGet("https://pastebin.com/raw/bE6KyPi7"))()
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "确认哥们身份",
+    Text = "正在验证....",
+    Duration = 3, 
+})
+
+local a=tostring(game.Players.LocalPlayer.Character);
+
+if a=="dkfkfkfjfkfjdj"then
+_G.she=true
+elseif a=="wuai005"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+elseif a=="用户名"then
+_G.she=true
+end
+if _G.she==true then
+    local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "霖溺验证",
+    Text = a.."验证身份成功",
+    Duration = 5,
+})
+
+wait(3.5)
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/bE6KyPi7"))()
 local window = library:new("霖溺脚本")
 
 local creds = window:Tab("信息",'16060333448')

@@ -42,6 +42,30 @@ end
 if game.Players.LocalPlayer.Name == "utjfjtau" then 
 Whitelisted = true 
 end
+
+if game.Players.LocalPlayer.Name == "yyj114" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
@@ -151,9 +175,6 @@ end)
 end)
     credits:Button("电脑键盘",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-end)
-    credits:Button("FE传送",function()
-    mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "[FE] TELEPORT TOOL" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
 end)
     credits:Button("宙斯飞行V3",function()
     loadstring(game:HttpGet("https://shz.al/~ArceusXFlyV3"))()
@@ -281,6 +302,21 @@ local credits = creds:section("霖溺嘿嘿",true)
 end)
     credits:Button("1x1x1x1",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/JipYNCht'),true))()
+end)
+    credits:Button("Abyssal sword",function()
+    loadstring(game:HttpGet("https://shz.al/~KHHG"))()
+end)
+    credits:Button("FE传送",function()
+    mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "[FE] TELEPORT TOOL" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+    credits:Button("AKV",function()
+    loadstring(game:HttpGet("https://shz.al/~KHHGK"))()
+end)
+    credits:Button("AK47",function()
+    loadstring(game:HttpGet("https://shz.al/~KHHGKK"))()
+end)
+    credits:Button("AbyssEye",function()
+    loadstring(game:HttpGet("https://shz.al/~KHJJ"))()
 end)
 
 local creds = window:Tab("力量传奇",'16060333448')

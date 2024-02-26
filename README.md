@@ -35,11 +35,11 @@ if game.Players.LocalPlayer.Name == "ssoo_886i" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "666nb23i" then 
+if game.Players.LocalPlayer.Name == "666nb23" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "utjfjtaui" then 
+if game.Players.LocalPlayer.Name == "utjfjtau" then 
 Whitelisted = true 
 end
 if Whitelisted == true then

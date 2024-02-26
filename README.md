@@ -71,7 +71,7 @@ if Whitelisted == true then
 CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "白名单认证",
-    Text = "玩家:"..game.Players.LocalPlayer.Name.."，你是白名单玩家，稍后会加载脚本",
+    Text = "玩家:"..game.Players.LocalPlayer.Name.."，祝你玩的开心，嘿嘿",
     Duration = 7, --时间
 })
 
@@ -88,7 +88,7 @@ local services = setmetatable({}, {
   end
 })
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/bE6KyPi7"))()
-local window = library:new("霖溺脚本")
+local window = library:new("『LINNI Script』")
 
 local creds = window:Tab("信息",'16060333448')
 
@@ -212,7 +212,7 @@ end)
 
 local creds = window:Tab("帮助者脚本",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("白貓『美』",function()
     loadstring(game:HttpGet("https://shz.al/~lihhh"))()
 end)
@@ -296,7 +296,7 @@ end)
 
 local creds = window:Tab("FE脚本『这几天将全部添加』",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("C00lgui",function()
     loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 end)
@@ -416,7 +416,7 @@ end)
 
 local creds = window:Tab("忍者传奇",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺忍者传奇（来源白貓）",function()
     loadstring(game:HttpGet("https://shz.al/~baimaomeilihh"))()
 end)
@@ -438,7 +438,7 @@ end)
 
 local creds = window:Tab("监狱人生",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("油管找的管理员脚本",function()
     loadstring(game:HttpGet("https://shz.al/~ggghhhh"))()
 end)
@@ -462,7 +462,7 @@ end)
 
 local creds = window:Tab("死亡球",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("死亡球（1）",function()
     loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
 end)
@@ -485,7 +485,7 @@ end)
 
 local creds = window:Tab("杀手于警长",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("杀手于警长（找的）",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/yadbPQUm",true))()
 end)
@@ -498,7 +498,7 @@ end)
 
 local creds = window:Tab("巴掌",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("自动刷巴掌",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Farm'))()
 end)
@@ -511,7 +511,7 @@ end)
 
 local creds = window:Tab("刀刃球",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿（听说的最强）",true)
+local credits = creds:section("『LINNI Script』（听说的最强）",true)
     credits:Button("霖溺汉化刀刃球",function()
     loadstring(game:HttpGet("https://shz.al/75G8"))()
 end)
@@ -542,7 +542,7 @@ end)
 
 local creds = window:Tab("模仿者",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("模仿者（1有自动赢）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ttjy9808/obfloadstringmainmimic/main/README.md", true))()
 end)
@@ -558,7 +558,7 @@ end)
 
 local creds = window:Tab("战斗勇士",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("战斗勇士（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
 end)
@@ -591,7 +591,7 @@ end)
 
 local creds = window:Tab("火箭发射模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("火箭发射模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0"))()
 end)
@@ -607,7 +607,7 @@ end)
 
 local creds = window:Tab("只因剑",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("只因剑（名字相同脚本不同）",function()
     loadstring(game:HttpGet(('https://gist.githubusercontent.com/blox-hub-roblox/021bad62bbc6a0adc4ba4e625f9ad7df/raw/c89af6e1acf587d09e4ce4bc7510e7100e0c0065/swordWarrior.lua'),true))()
 end)
@@ -626,7 +626,7 @@ end)
 
 local creds = window:Tab("彩虹朋友",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("彩虹朋友（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/XoNv04vR/raw"))()
 end)
@@ -642,7 +642,7 @@ end)
 
 local creds = window:Tab("河北唐县",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("河北唐县（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Tang%20Country.lua"))()
 end)
@@ -658,7 +658,7 @@ end)
 
 local creds = window:Tab("Blox Fruit",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("BF（听说第二强）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
 end)
@@ -695,7 +695,7 @@ end)
 
 local creds = window:Tab("破坏者谜团2",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("破坏者谜团2（多功能）",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
 end)
@@ -714,7 +714,7 @@ end)
 
 local creds = window:Tab("蜂群模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("蜂群模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/3A61hnGA", true))()
 end)
@@ -750,14 +750,14 @@ end)
 
 local creds = window:Tab("Drive World",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("Drive World脚本",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/DriveWorld.lua"))()
 end)
 
 local creds = window:Tab("一路向西",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("一路向西（无后坐力超级射速无限子弹）",function()
     loadstring(game:GetObjects("rbxassetid://10040701935")[1].Source)()
 end)
@@ -776,7 +776,7 @@ end)
 
 local creds = window:Tab("造船寻宝",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("造船寻宝（名字相同脚本不同）",function()
     loadstring(game:HttpGet("http://dirtgui.xyz/BuildABoat.lua",true))()
 end)
@@ -792,7 +792,7 @@ end)
 
 local creds = window:Tab("DOORS",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿（最强只是听说）",true)
+local credits = creds:section("『LINNI Script』（最强只是听说）",true)
     credits:Button("霖溺自制Doors",function()
     loadstring(game:HttpGet("https://shz.al/yWFF"))()
 end)
@@ -830,7 +830,7 @@ end)
 
 local creds = window:Tab("俄亥俄州",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("俄亥俄州（老外1）",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))()
 end)
@@ -855,14 +855,14 @@ end)
 
 local creds = window:Tab("The rake",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("The rake电脑端",function()
     loadstring(game:HttpGet("https://realzzhub.xyz/script.lua"))()
 end)
 
 local creds = window:Tab("兵工厂",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("兵工厂1",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
 end)
@@ -887,7 +887,7 @@ end)
 
 local creds = window:Tab("餐厅大亨",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("餐厅大亨（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/snake-hub/main/restaurant-tycoon-2.lua"))()
 end)
@@ -903,7 +903,7 @@ end)
 
 local creds = window:Tab("超级大力士模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("超级大力士模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongman", true))()
 end)
@@ -919,7 +919,7 @@ end)
 
 local creds = window:Tab("举重模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("举重模拟器",function()
     loadstring(game:HttpGet("https://pastefy.app/KSriAk53/raw"))()
 end)
@@ -932,14 +932,14 @@ end)
 
 local creds = window:Tab("怪兽宇宙",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("怪兽宇宙",function()
     loadstring(game:HttpGet("https://pastefy.app/oRWEIEcJ/raw"))()
 end)
 
 local creds = window:Tab("幸运方块",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("幸运方块",function()
     loadstring(game:HttpGet("https://pastefy.app/eAWNSTyw/raw"))()
 end)
@@ -952,7 +952,7 @@ end)
 
 local creds = window:Tab("汽车经销大亨",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("汽车经销大亨（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/5o594Q0i/raw"))()
 end)
@@ -971,7 +971,7 @@ end)
 
 local creds = window:Tab("寻宝模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("寻宝模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("http://void-scripts.com/Scripts/treasureHuntSim.lua"))()
 end)
@@ -987,7 +987,7 @@ end)
 
 local creds = window:Tab("拳击模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("拳击模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/T4O1SA3q/raw"))()
 end)
@@ -1003,7 +1003,7 @@ end)
 
 local creds = window:Tab("伐木大亨",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("伐木大亨（听说最强）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
 end)
@@ -1025,7 +1025,7 @@ end)
 
 local creds = window:Tab("最强战场",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("最强战场密钥找霖溺解",function()
     loaoostring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
 end)
@@ -1047,7 +1047,7 @@ end)
 
 local creds = window:Tab("奎尔湖",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("奎尔湖",function()
     loadstring(game:HttpGet("https://pastefy.app/ZwaXa3ZR/raw"))()
 end)
@@ -1060,7 +1060,7 @@ end)
 
 local creds = window:Tab("格林维尔",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("格林维尔",function()
     loadstring(game:HttpGet("https://pastefy.app/WBYAsWJm/raw"))()
 end)
@@ -1073,7 +1073,7 @@ end)
 
 local creds = window:Tab("恐怖奶奶",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("恐怖奶奶",function()
     loadstring(game:HttpGet("https://pastefy.app/o688Jvmn/raw"))()
 end)
@@ -1086,14 +1086,14 @@ end)
 
 local creds = window:Tab("奶酪逃亡",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("奶酪逃亡",function()
     loadstring(game:HttpGet("https://pastefy.app/IIpzN8f5/raw"))()
 end)
 
 local creds = window:Tab("我的餐厅",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("我的餐厅（不确定是手机端）",function()
     loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
 end)
@@ -1109,7 +1109,7 @@ end)
 
 local creds = window:Tab("钓鱼模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("钓鱼模拟器（1英文）",function()
     loadstring(game:HttpGet("https://shz.al/~LNINIGGDHH"))()
 end)
@@ -1128,7 +1128,7 @@ end)
 
 local creds = window:Tab("旗帜战争",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("旗帜战争（名字相同脚本不同）",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Flag%20Wars.txt'))()
 end)
@@ -1138,7 +1138,7 @@ end)
 
 local creds = window:Tab("法宝模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("法宝模拟器",function()
     loadstring(game:HttpGet("https://pastefy.app/9bGpv4H3/raw"))()
 end)
@@ -1154,7 +1154,7 @@ end)
 
 local creds = window:Tab("极速奔驰",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("极速奔驰",function()
     loadstring(game:HttpGet("https://pastefy.app/Y7607jwb/raw"))()
 end)
@@ -1167,7 +1167,7 @@ end)
 
 local creds = window:Tab("射击光束模拟器",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("射击光束模拟器",function()
     loadstring(game:HttpGet("https://pastefy.app/51yMuaCc/raw"))()
 end)
@@ -1180,7 +1180,7 @@ end)
 
 local creds = window:Tab("合并滴管",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("合并滴管",function()
     loadstring(game:HttpGet("https://pastefy.app/NpBrBCqM/raw"))()
 end)
@@ -1193,7 +1193,7 @@ end)
 
 local creds = window:Tab("动感星期五",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("动感星期五（Auto Click）",function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-Auto-Player-Mobile-6721"))()
 end)
@@ -1212,7 +1212,7 @@ end)
 
 local creds = window:Tab("活过杀手",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("活过杀手（垃圾）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
 end)
@@ -1225,14 +1225,14 @@ end)
 
 local creds = window:Tab("起床战争",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("起床vape",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
 local creds = window:Tab("RELEASE + EVENT The Heroes Simulator",'16060333448')
 
-local credits = creds:section("霖溺嘿嘿",true)
+local credits = creds:section("『LINNI Script』",true)
     credits:Button("Demonic HUB V2脚本",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
 end)

@@ -151,7 +151,7 @@ local services = setmetatable({}, {
     return game.GetService(game, k)
   end
 })
-local library = loadstring(game:HttpGet("https://pastebin.com/raw/bE6KyPi7"))()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/n6KRrKWP"))()
 local window = library:new("『LINNI Script』")
 
 local creds = window:Tab("信息",'16060333448')

@@ -625,7 +625,7 @@ end)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
 end)
     credits:Button("战斗勇士老外KJ",function()
-    
+    loadstring(game:HttpGet("https://shz.al/~KSISI"))()
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()

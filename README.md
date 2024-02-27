@@ -79,11 +79,11 @@ if game.Players.LocalPlayer.Name == "hdhdhuxhut" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "wszgr_9" then 
+if game.Players.LocalPlayer.Name == "FBI_hmr" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "FBI_hmr" then 
+if game.Players.LocalPlayer.Name == "wszgr_9" then 
 Whitelisted = true 
 end
 
@@ -1028,11 +1028,8 @@ end)
 local creds = window:Tab("寻宝模拟器",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("寻宝模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("http://void-scripts.com/Scripts/treasureHuntSim.lua"))()
-end)
-    credits:Button("寻宝模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/1vYhZHYV/raw"))()
+    credits:Button("寻宝模拟器『霖溺汉化』",function()
+    loadstring(game:HttpGet("https://shz.al/~MKS"))()
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()

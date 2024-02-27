@@ -95,6 +95,38 @@ if game.Players.LocalPlayer.Name == "423mBK" then
 Whitelisted = true 
 end
 
+if game.Players.LocalPlayer.Name == "cnm114514191" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
@@ -801,6 +833,9 @@ local creds = window:Tab("evade大逃脱",'16060333448')
 local credits = creds:section("evade脚本",true)
     credits:Button("evade脚本1",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
+end)
+    credits:Button("evade大逃脱",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/%E4%BA%91%E8%84%9A%E6%9C%ACEvade.lua"))()
 end)
     credits:Button("老外脚本",function()
     loadstring(game:HttpGet("https://shz.al/~jdjsjsKK"))()

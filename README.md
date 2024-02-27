@@ -87,7 +87,7 @@ if game.Players.LocalPlayer.Name == "wszgr_9" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "ajiwbwiu" then 
 Whitelisted = true 
 end
 
@@ -612,11 +612,20 @@ end)
 local creds = window:Tab("战斗勇士",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("战斗勇士（名字相同脚本不同）",function()
+    credits:Button("战斗勇士（英文电脑端，直接畅玩）",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
+end)
+    credits:Button("战斗勇士英文",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
+end)
+    credits:Button("战斗勇士老外英文",function()
+    loadstring(game:HttpGet("https://paste.gg/p/anonymous/697fc3cad5f743508318cb7399e89432/files/b5923e52edab4e5c91e46b74563d0ae8/raw"))()
+end)
+    credits:Button("战斗勇士老外",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
 end)
-    credits:Button("战斗勇士（2英文）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
+    credits:Button("战斗勇士老外KJ",function()
+    
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()

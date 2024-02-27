@@ -59,11 +59,43 @@ if game.Players.LocalPlayer.Name == "jbbhhb3" then
 Whitelisted = true 
 end
 
+if game.Players.LocalPlayer.Name == "jbyjojo" then 
+Whitelisted = true 
+end
+
 if game.Players.LocalPlayer.Name == "CNEJRIH" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "rennunxsmall" then 
+if game.Players.LocalPlayer.Name == "touzi5687" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
 if Whitelisted == true then
@@ -154,6 +186,9 @@ end)
 end)
     credits:Button("1x1x1x1",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/JipYNCht'),true))()
+end)
+    credits:Button("传送玩家",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
 end)
     credits:Button("工具包",function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
@@ -441,6 +476,9 @@ local creds = window:Tab("监狱人生",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("油管找的管理员脚本",function()
     loadstring(game:HttpGet("https://shz.al/~ggghhhh"))()
+end)
+    credits:Button("监狱人生",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mike260/main/Mikeexc",true))()
 end)
 local credits = creds:section("Tiger无敌了",true)
     credits:Button("tiger",function()

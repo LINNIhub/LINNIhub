@@ -152,9 +152,9 @@ local services = setmetatable({}, {
   end
 })
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/n6KRrKWP"))()
-local window = library:new("『LINNI Script』")
+local window = library:new("『LINNI Script』『CST』")
 
-local creds = window:Tab("信息",'16060333448')
+local creds = window:Tab("使用脚本必看♥",'16060333448')
 
 local bin = creds:section("玩家信息",true)
 
@@ -163,10 +163,11 @@ local bin = creds:section("玩家信息",true)
     
     local bin = creds:section("关于的脚本和作者的信息",true)
     bin:Label("官群:493057142")
-    bin:Label("作者:霖溺")
-    bin:Label("帮助者：白貓『人好』")
+    bin:Label("主作者:霖溺『罗布乐思组织CST』")
+    bin:Label("副作者：白貓『人好』")
     bin:Label("脚本永久免费")
     bin:Label("作者QQ1802952013")
+    bin:Label("副作者和我的脚本会相似")
     bin:Label("后续还会添加脚本进来，不会停更")
     bin:Label("找的老外脚本有些不能用见谅")
     bin:Label("欢迎进群让我添加脚本")

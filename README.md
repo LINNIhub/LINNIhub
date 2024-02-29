@@ -219,6 +219,7 @@ local services = setmetatable({}, {
     return game.GetService(game, k)
   end
 })
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("霖溺-脚本", "All")
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/n6KRrKWP"))()
 local window = library:new("『LINNI Script』『CST』")
 

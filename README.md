@@ -219,7 +219,7 @@ local services = setmetatable({}, {
     return game.GetService(game, k)
   end
 })
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("『霖溺-脚本😉』", "All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("霖溺-脚本", "All")
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/n6KRrKWP"))()
 local window = library:new("『LINNI Script』『CST』")
 
@@ -637,6 +637,9 @@ local creds = window:Tab("监狱人生",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("油管找的管理员脚本",function()
     loadstring(game:HttpGet("https://shz.al/~ggghhhh"))()
+end)
+    credits:Button("监狱人生",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mike260/main/Mikeexc",true))()
 end)
 local credits = creds:section("Tiger无敌了",true)
     credits:Button("tiger",function()

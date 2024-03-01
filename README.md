@@ -135,19 +135,19 @@ if game.Players.LocalPlayer.Name == "HGVngedYx" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "zzqmyxjj" then 
-Whitelisted = true 
-end
-
 if game.Players.LocalPlayer.Name == "zzqmyjj" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "yuhjnmnmhjyu" then 
+if game.Players.LocalPlayer.Name == "zzqmyxjj" then 
 Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "cnmrnm12345" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "yuhjnmnmhjyu" then 
 Whitelisted = true 
 end
 
@@ -159,11 +159,11 @@ if game.Players.LocalPlayer.Name == "CN_xiaozhe" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "244uhf" then 
+if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "hdhdhuxhut" then 
+if game.Players.LocalPlayer.Name == "244uhf" then 
 Whitelisted = true 
 end
 
@@ -230,7 +230,8 @@ local bin = creds:section("玩家信息",true)
     bin:Label("你的注入器:"..identifyexecutor())
     
     local bin = creds:section("关于的脚本和作者的信息",true)
-    bin:Label("官群:493057142")
+    bin:Label("大群:932613422")
+    bin:Label("副群:493057142")
     bin:Label("主作者:霖溺『罗布乐思组织CST』")
     bin:Label("副作者：白貓『人好』")
     bin:Label("脚本永久免费")
@@ -775,6 +776,9 @@ end)
     credits:Button("战斗勇士老外KJ",function()
     loadstring(game:HttpGet("https://shz.al/~KSISI"))()
 end)
+    credits:Button("战斗勇士无限体力",function()
+    loadstring(game:HttpGet("https://shz.al/~KSK"))()
+end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
@@ -869,8 +873,11 @@ end)
 local creds = window:Tab("Blox Fruit",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("BF『HOHO脚本汉化』",function()
-    loadstring(game:HttpGet("https://shz.al/~xjixjx"))()
+    credits:Button("霖溺BF",function()
+    loadstring(game:HttpGet("https://shz.al/~KAKKKS"))()
+end)
+    credits:Button("BF『HOHO脚本』",function()
+    https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua
 end)
     credits:Button("BF（听说第二强）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()

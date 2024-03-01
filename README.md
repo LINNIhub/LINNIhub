@@ -127,11 +127,11 @@ if game.Players.LocalPlayer.Name == "cn_qwaoi" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "jbvhhvghbvg" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "HGVngedYx" then 
 Whitelisted = true 
 end
 
@@ -1476,6 +1476,6 @@ end)
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
 end)
 else
-game.Players.LocalPlayer:Kick("『LINNI Script』加群493057142找管理要白名单，霖溺脚本永久免费，群友要我找脚本，我也会去")--踢人函数
+game.Players.LocalPlayer:Kick("『LINNI Script』加群493057142找霖溺要白名单，霖溺脚本永久免费，群友要我找脚本，我也会去")--踢人函数
    end
     

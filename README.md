@@ -873,7 +873,7 @@ local credits = creds:section("『LINNI Script』",true)
     loadstring(game:HttpGet("https://shz.al/~KAKKKS"))()
 end)
     credits:Button("BF『HOHO脚本』",function()
-    https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua"))()
 end)
     credits:Button("BF（听说第二强）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()

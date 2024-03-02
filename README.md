@@ -231,10 +231,6 @@ if game.Players.LocalPlayer.Name == "erazxtccy" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "StupidROND" then 
-Whitelisted = true 
-end
-
 if game.Players.LocalPlayer.Name == "jk131326" then 
 Whitelisted = true 
 end
@@ -248,6 +244,10 @@ Whitelisted = true
 end
 
 if game.Players.LocalPlayer.Name == "mesbme" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
 
@@ -931,6 +931,9 @@ local credits = creds:section("『LINNI Script』",true)
 end)
     credits:Button("狼脚本",function()
     loadstring(game:HttpGet("https://shz.al/~WarTycoon"))()
+end)
+    credits:Button("剑客脚本",function()
+    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
 
 local creds = window:Tab("彩虹朋友",'16060333448')

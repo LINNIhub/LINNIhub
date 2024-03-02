@@ -307,7 +307,7 @@ if game.Players.LocalPlayer.Name == "qwhkyh3" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "hdykhj666" then 
 Whitelisted = true 
 end
 
@@ -969,8 +969,11 @@ local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺BF",function()
     loadstring(game:HttpGet("https://shz.al/~KAKKKS"))()
 end)
-    credits:Button("BF『HOHO脚本』",function()
+    credits:Button("BF『HOHO脚本』链接不一样",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua"))()
+end)
+    credits:Button("BF『HOHIO脚本』链接不一样",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
     credits:Button("BF（听说第二强）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
@@ -1180,6 +1183,9 @@ end)
 local creds = window:Tab("兵工厂",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
+    credits:Button("霖溺出品必属精品",function()
+    loadstring(game:HttpGet("https://shz.al/~KKAKSKKS"))()
+end)
     credits:Button("兵工厂1",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
 end)

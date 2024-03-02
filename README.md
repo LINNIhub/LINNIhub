@@ -211,15 +211,15 @@ if game.Players.LocalPlayer.Name == "xiaokkhaiw" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "114514rrt7" then 
-Whitelisted = true 
-end
-
 if game.Players.LocalPlayer.Name == "AHHTYP" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "114514rrt7" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "fiowsja" then 
 Whitelisted = true 
 end
 
@@ -836,6 +836,13 @@ end)
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
+end)
+
+local creds = window:Tab("战争大亨脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("战争大亨",function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.lua')()
 end)
 
 local creds = window:Tab("彩虹朋友",'16060333448')

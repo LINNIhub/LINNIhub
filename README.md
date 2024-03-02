@@ -219,7 +219,7 @@ if game.Players.LocalPlayer.Name == "114514rrt7" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "fiowsja" then 
+if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
 
@@ -843,6 +843,9 @@ local creds = window:Tab("战争大亨脚本",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("战争大亨",function()
     loadstring(game:HttpGet'https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.lua')()
+end)
+    credits:Button("狼脚本",function()
+    loadstring(game:HttpGet("https://shz.al/~WarTycoon"))()
 end)
 
 local creds = window:Tab("彩虹朋友",'16060333448')

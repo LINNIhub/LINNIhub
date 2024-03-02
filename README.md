@@ -219,7 +219,7 @@ if game.Players.LocalPlayer.Name == "114514rrt7" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "ghjkzxc123456" then 
 Whitelisted = true 
 end
 
@@ -261,23 +261,20 @@ local bin = creds:section("玩家信息",true)
     bin:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
     bin:Label("你的注入器:"..identifyexecutor())
     
-    local bin = creds:section("关于的脚本和作者的信息",true)
-    bin:Label("大群:932613422")
-    bin:Label("副群:493057142")
-    bin:Label("主作者:霖溺『罗布乐思组织CST』")
-    bin:Label("副作者：白貓『人好』")
-    bin:Label("脚本永久免费")
-    bin:Label("作者QQ1802952013")
-    bin:Label("副作者和我的脚本会相似")
-    bin:Label("后续还会添加脚本进来，不会停更")
-    bin:Label("找的老外脚本有些不能用见谅")
-    bin:Label("欢迎进群让我添加脚本")
-    bin:Label("别好奇为啥加白名单因为仪式")
-    bin:Label("支持70多个服务器")
-    bin:Label("FE所有脚本添加中")
-    bin:Label("阿尔宙斯部分汉化完毕")
-    bin:Label("独一无二的缝合脚本，虽然缝合脚本名声不好，但没事")
-    bin:Label("我永远保持初心，缝合不缝合的能用就行了")
+    local bin = creds:section("关于的脚本和作者的信息😖",true)
+    bin:Label("大群:932613422😀")
+    bin:Label("副群:493057142🤨")
+    bin:Label("主作者:霖溺，作者QQ1802952013😁")
+    bin:Label("副作者：白貓『人好』🤓")
+    bin:Label("脚本永久免费😍")
+    bin:Label("副作者和我的脚本会相似🤔")
+    bin:Label("后续还会添加脚本进来，不会停更，找的一些老外脚本可能不能用见谅😘")
+    bin:Label("欢迎进群让我添加脚本😄")
+    bin:Label("别好奇为啥加白名单因为仪式😚")
+    bin:Label("支持70多个服务器😋")
+    bin:Label("FE所有脚本添加中😰")
+    bin:Label("独一无二的缝合脚本，虽然缝合脚本名声不好，脚本能用就行了😦")
+    bin:Label("脚本疯狂优化中😡")
     
 local credits = creds:section("关闭",true)
 
@@ -737,7 +734,7 @@ end)
 
 local creds = window:Tab("刀刃球",'16060333448')
 
-local credits = creds:section("『LINNI Script』（听说的最强）",true)
+local credits = creds:section("『LINNI Script』（听说的战场）",true)
     credits:Button("霖溺汉化刀刃球",function()
     loadstring(game:HttpGet("https://shz.al/75G8"))()
 end)
@@ -1233,7 +1230,7 @@ end)
     credits:Button("最强战场（英文）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
 end)
-    credits:Button("上面那个英文最强战场点我复制密钥",function()
+    credits:Button("上面那个英文最强战场点我复制密钥，复制不了的话密钥在这里BestTheStrongest5412Roblox",function()
     setclipboard("BestTheStrongest5412Roblox")
 end)
     credits:Button("剑客脚本",function()

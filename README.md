@@ -910,6 +910,13 @@ end)
     loadstring(game:HttpGet("https://shz.al/~CikeScriptfree"))()
 end)
 
+local creds = window:Tab("进击的僵尸脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("进击的僵尸",function()
+    loadstring(game:HttpGet("https://shz.al/~KSKSKSK"))()
+end)
+
 local creds = window:Tab("破坏者谜团2",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)

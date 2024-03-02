@@ -271,7 +271,7 @@ if game.Players.LocalPlayer.Name == "udhdbpww" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "sbsjbsjbshb" then 
 Whitelisted = true 
 end
 
@@ -352,6 +352,7 @@ local bin = creds:section("玩家信息",true)
     local bin = creds:section("关于的脚本和作者的信息😖",true)
     bin:Label("大群:932613422😀")
     bin:Label("副群:493057142🤨")
+    bin:Label("建议进霖溺群组，搜索霖溺号wuai005然后在信息里找我的群组")
     bin:Label("主作者:霖溺，作者QQ1802952013😁")
     bin:Label("副作者：白貓『人好』🤓")
     bin:Label("脚本永久免费😍")

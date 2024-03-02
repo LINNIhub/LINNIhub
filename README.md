@@ -1424,6 +1424,13 @@ end)
     loadstring(game:HttpGet("https://shz.al/~CikeScriptfree"))()
 end)
 
+local creds = window:Tab("成为跑酷忍者脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("成为跑酷忍者",function()
+    loadstring(game:HttpGet(('https://shz.al/~XiaoTian/Script/yyds')))()
+end)
+
 local creds = window:Tab("动感星期五",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)

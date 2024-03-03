@@ -1400,6 +1400,16 @@ for _, child in ipairs(player:GetChildren()) do
 end
 end)
 
+local creds = window:Tab("浴缸战争脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("（升级演习）浴缸战争",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Boom/main/Protected_1198219713372149.lua.txt",true))()
+end)
+    credits:Button("点我复制解密钥链接",function()
+    setclipboard("https://pandadevelopment.net/startkey.html?service=demonichubv2")
+end)
+
 local creds = window:Tab("飞行比赛脚本",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)

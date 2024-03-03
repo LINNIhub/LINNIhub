@@ -1,479 +1,407 @@
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-​
+
 CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "白名单认证",
     Text = "白名单验证...",
     Duration = 3, --时间
 })
-​
+
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-​
+
 local Whitelisted = false;
-​
+
 if game.Players.LocalPlayer.Name == "wuai005" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "ftj520" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "powerpo311" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "binhoushangyauuni" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "cmdd123yi" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "ssoo_886" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "666nb23" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "utjfjtau" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "yyj114" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "ydy1234566" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "fhh6661" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "jbbhhb3" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "jbyjojo" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "CNEJRIH" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "touzi5687" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "yfhmyyffxdt" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "hdhdhuxhut" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "FBI_hmr" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "wszgr_9" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "ajiwbwiu" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "423mBK" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "cnm114514191" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "pegoms" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "N1_N2" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "13ygfhhg" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "KSLMJMMMOOODDD" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "hy159S" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "qwqjjb" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "cn_qwaoi" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "jbvhhvghbvg" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "HGVngedYx" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "zzqmyjj" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "zzqmyxjj" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "cnmrnm12345" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "yuhjnmnmhjyu" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "werhaez" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "CN_xiaozhe" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "244uhf" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "fdcbnjd" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "accessqwe123" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "kskwiwjjsos" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "jinlingdashe666" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "deuidGenmmcoRetesiya" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "KSKYFGV" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "gdjjj55" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "cmdd123yiiba" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "qasuoid1" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "okkokkplok" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "iiiiiiasdfghjkl1" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "xiaokkhaiw" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "AHHTYP" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "114514rrt7" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "ghjkzxc123456" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "GN46661" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "erazxtccy" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "jk131326" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "miaomiao_233" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "xiaozhang9673" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "mesbme" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "KSXuHalo" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "ABcd124578e" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "qwerasd" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "pegoms" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "kpqccc" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "udhdbpww" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "sbsjbsjbshb" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "dhgyjOj" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "StupidROND" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "udhdbpww" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "EITVXG" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "AFCngedQx" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "gfh64524jx" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "udxcgrdx" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "qwhkyh3" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "hdykhj666" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "VE_LOVE156" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "awaqqqo" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "chneshuoy" then 
 Whitelisted = true 
 end
-​
-if game.Players.LocalPlayer.Name == "euehhdydhd" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "16761577053w" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "lts123123" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "uahzjzhshs" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "guan_597" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "guan_981" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "iwjwwowko3" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "ml114514_bei" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "emo_vnm" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "ufhystrd" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "wow_icome" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "sanren160" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "iijaksnw" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "541888qW1" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "mnmm111mnmm111" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "Hddtggvhgg8" then 
-Whitelisted = true 
-end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
-​
-if game.Players.LocalPlayer.Name == "用户名" then 
-Whitelisted = true 
-end
-​
-if game.Players.LocalPlayer.Name == "用户名" then 
-Whitelisted = true 
-end
-​
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
 if Whitelisted == true then
-​
+
 CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "白名单认证",
     Text = "玩家:"..game.Players.LocalPlayer.Name.."，祝你玩的开心，嘿嘿",
     Duration = 7, --时间
 })
-​
+
    
    repeat task.wait() until game:IsLoaded()
 local library = {}
 local ToggleUI = false
 library.currentTab = nil
 library.flags = {}
-​
+
 local services = setmetatable({}, {
   __index = function(t, k)
     return game.GetService(game, k)
@@ -481,11 +409,11 @@ local services = setmetatable({}, {
 })
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/n6KRrKWP"))()
 local window = library:new("『LINNI Script』『CST』")
-​
+
 local creds = window:Tab("使用脚本必看♥",'16060333448')
-​
+
 local bin = creds:section("玩家信息",true)
-​
+
     bin:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
     bin:Label("你的注入器:"..identifyexecutor())
     
@@ -506,7 +434,7 @@ local bin = creds:section("玩家信息",true)
     bin:Label("脚本疯狂优化中😡")
     
 local credits = creds:section("关闭",true)
-​
+
 credits:Toggle("脚本框架变小一点", "", false, function(state)
         if state then
         game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
@@ -518,7 +446,7 @@ credits:Toggle("脚本框架变小一点", "", false, function(state)
         game:GetService("CoreGui")["frosty"]:Destroy()
     end)
 local creds = window:Tab("复制大群小群系列",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("点我复制大群",function()
     setclipboard("932613422")
@@ -529,9 +457,9 @@ end)
     credits:Button("点我复制作者QQ",function()
     setclipboard("1802952013")
 end)
-​
+
 local creds = window:Tab("通用",'16060333448')
-​
+
 local credits = creds:section("通用脚本",true)
     credits:Button("霖溺FPS",function()
     loadstring(game:HttpGet("https://shz.al/~FHHF"))()
@@ -652,9 +580,9 @@ end)
     credits:Button("Synapse",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
 end)
-​
+
 local creds = window:Tab("霖溺汉化阿尔宙斯脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺汉化阿尔宙斯瞄准",function()
     loadstring(game:HttpGet("https://shz.al/~KKA"))()
@@ -674,21 +602,21 @@ end)
     credits:Button("infinite-Yield『懒得汉化了』",function()
     loadstring(game:HttpGet("https://shz.al/~DCFF"))()
 end)
-​
+
 local creds = window:Tab("老外脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("老外通用",function()
     loadstring(game:HttpGet("https://shz.al/~jdjsjs"))()
 end)
-​
+
 local creds = window:Tab("帮助者脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("白貓『美』",function()
     loadstring(game:HttpGet("https://shz.al/~lihhh"))()
 end)
-​
+
 local creds = window:Tab("各位脚本作者脚本",'16060333448')
     
 local credits = creds:section("作者脚本",true)
@@ -776,9 +704,9 @@ end)
     credits:Button("火脚本",function()
     loadstring(game:HttpGet("https://shz.al/~FireCatV2RobloxScript"))()
 end)
-​
+
 local creds = window:Tab("HUB",'16060333448')
-​
+
 local credits = creds:section("HUB脚本",true)
     credits:Button("EZ-HUB",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
@@ -793,9 +721,9 @@ end)
     credits:Button("Owl-Hub『嘿嘿』",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
 end)
-​
+
 local creds = window:Tab("FE脚本『这几天将全部添加』",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("C00lgui",function()
     loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
@@ -887,9 +815,9 @@ end)
     credits:Button("KillbotV2",function()
     loadstring(game:HttpGet("https://shz.al/~LDSLS"))()
 end)
-​
+
 local creds = window:Tab("力量传奇",'16060333448')
-​
+
 local credits = creds:section("自制为云脚本ui",true)
     credits:Button("霖溺力量传奇（来源白貓）",function()
     loadstring(game:HttpGet("https://shz.al/~baimaomeili"))()
@@ -897,9 +825,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("极速传奇",'16060333448')
-​
+
 local credits = creds:section("自制为云ui",true)
     credits:Button("霖溺自制极速传奇",function()
     loadstring(game:HttpGet("https://shz.al/~lninjj"))()
@@ -907,15 +835,12 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("忍者传奇",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺忍者传奇（来源白貓）",function()
     loadstring(game:HttpGet("https://shz.al/~baimaomeilihh"))()
-end)
-    credits:Button("忍者传奇",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyb150933/zyb/main/123'))()
 end)
     credits:Button("忍者传奇",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyb150933/zyb/main/123'))()
@@ -929,9 +854,9 @@ end)
     credits:Button("忍者（老外2）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatBlueDevil/Bleus/main/Ninja%20Legends/Source.lua"))()
 end)
-​
+
 local creds = window:Tab("监狱人生",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("油管找的管理员脚本",function()
     loadstring(game:HttpGet("https://shz.al/~ggghhhh"))()
@@ -953,9 +878,9 @@ end)
     credits:Button("剑客脚本（通用）",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("死亡球",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("死亡球（1）",function()
     loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
@@ -963,9 +888,9 @@ end)
     credits:Button("死亡球（2）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Ball1/main/Death"))()
 end)
-​
+
 local creds = window:Tab("自然灾害",'16060333448')
-​
+
 local credits = creds:section("自制为云ui",true)
     credits:Button("霖溺自制自然灾害",function()
     loadstring(game:HttpGet("https://shz.al/D8Kn"))()
@@ -982,9 +907,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("杀手于警长",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("杀手于警长（找的）",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/yadbPQUm",true))()
@@ -992,9 +917,9 @@ end)
     credits:Button("剑客脚本（通用）",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("巴掌模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("自动刷巴掌",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Farm'))()
@@ -1011,9 +936,9 @@ end)
     credits:Button("多功能（老外）",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
 end)
-​
+
 local creds = window:Tab("内脏与黑火药脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("加入https://discord.gg/RjqwhMY7DU获取密钥",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FnfCheatbotsonroblox/kitten.cc-lua/main/kitten-obfuscated%20(1).lua"))()
@@ -1021,30 +946,30 @@ end)
     credits:Button("",function()
     loadstring(game:HttpGet("https://shz.al/~KSKKS"))()
 end)
-​
+
 local creds = window:Tab("51区脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("51区",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Saktk-In-Area51/main/Area51", true))()
 end)
-​
+
 local creds = window:Tab("短信模拟器脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("短信模拟器",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/9hxkxUZ5'),true))()
 end)
-​
+
 local creds = window:Tab("克隆大亨脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("克隆大亨",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/CT-Destroyer"))()
 end)
-​
+
 local creds = window:Tab("刀刃球",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』（听说的战场）",true)
     credits:Button("霖溺汉化刀刃球",function()
     loadstring(game:HttpGet("https://shz.al/75G8"))()
@@ -1070,9 +995,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("模仿者",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("模仿者（1有自动赢）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ttjy9808/obfloadstringmainmimic/main/README.md", true))()
@@ -1083,9 +1008,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("战斗勇士",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("战斗勇士（英文电脑端，直接畅玩）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
@@ -1099,9 +1024,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("p死亡球脚本",'16060333448')
-​
+
 local credits = creds:section("LINni脚本",true)
      credits:Button("死亡球脚本",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Ball1/main/Death"))()
@@ -1109,16 +1034,16 @@ end)
     credits:Button("死亡球脚本",function()
     loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
 end)
-​
+
 local creds = window:Tab("piggy脚本",'16060333448')
-​
+
 local credits = creds:section("piggy脚本",true)
     credits:Button("piggy脚本",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua"))()
 end)
-​
+
 local creds = window:Tab("火箭发射模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("火箭发射模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0"))()
@@ -1129,9 +1054,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("只因剑",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("只因剑（名字相同脚本不同）",function()
     loadstring(game:HttpGet(('https://gist.githubusercontent.com/blox-hub-roblox/021bad62bbc6a0adc4ba4e625f9ad7df/raw/c89af6e1acf587d09e4ce4bc7510e7100e0c0065/swordWarrior.lua'),true))()
@@ -1145,9 +1070,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("战争大亨脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("战争大亨",function()
     loadstring(game:HttpGet'https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.lua')()
@@ -1158,9 +1083,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("彩虹朋友",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("彩虹朋友（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/XoNv04vR/raw"))()
@@ -1168,12 +1093,15 @@ end)
     credits:Button("彩虹朋友自动获胜",function()
     loadstring(game:HttpGet("https://shz.al/~zkzkzisKAKAKKKKSS"))()
 end)
+    credits:Button("彩虹朋友（推荐）",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("河北唐县",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("河北唐县（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Tang%20Country.lua"))()
@@ -1184,9 +1112,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("Blox Fruit",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺BF",function()
     loadstring(game:HttpGet("https://shz.al/~KAKKKS"))()
@@ -1227,16 +1155,16 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("进击的僵尸脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("进击的僵尸",function()
     loadstring(game:HttpGet("https://shz.al/~KSKSKSK"))()
 end)
-​
+
 local creds = window:Tab("破坏者谜团2",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("破坏者谜团2（多功能）",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
@@ -1250,9 +1178,12 @@ end)
     credits:Button("破坏者谜团2",function()
     loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end)
-​
+    credits:Button("破坏者谜团（透视谁是警长）",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+end)
+
 local creds = window:Tab("蜂群模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺简易汉化",function()
     loadstring(game:HttpGet("https://shz.al/~HHAKKJA"))()
@@ -1275,16 +1206,16 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("小偷模拟器脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("小偷模拟器",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/adrician/Thief-Simulator---GUI/main/Thief%20sim.lua"),true))()
 end)
-​
+
 local creds = window:Tab("evade大逃脱",'16060333448')
-​
+
 local credits = creds:section("evade脚本",true)
     credits:Button("evade脚本1",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
@@ -1295,30 +1226,30 @@ end)
     credits:Button("老外脚本",function()
     loadstring(game:HttpGet("https://shz.al/~jdjsjsKK"))()
 end)
-​
+
 local creds = window:Tab("Fling Things and People脚本",'16060333448')
-​
+
 local credits = creds:section("Fling Things and People脚本",true)
     credits:Button("Fling Things and People1",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
 end)
-​
+
 local creds = window:Tab("披萨店脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("披萨点自动工作",function()
     loadstring(game:HttpGet("https://shz.al/~HHHSUSU"))()
 end)
-​
+
 local creds = window:Tab("Drive World",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("Drive World脚本",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/DriveWorld.lua"))()
 end)
-​
+
 local creds = window:Tab("一路向西",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("一路向西（无后坐力超级射速无限子弹）",function()
     loadstring(game:GetObjects("rbxassetid://10040701935")[1].Source)()
@@ -1332,9 +1263,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab(".,.77寻宝",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("造船寻宝（名字相同脚本不同）",function()
     loadstring(game:HttpGet("http://dirtgui.xyz/BuildABoat.lua",true))()
@@ -1348,25 +1279,19 @@ end)
     credits:Button("造船寻宝（刷钱）",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
 end)
-​
+
 local creds = window:Tab("鲨口求生脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("鲨口求生有一些功能慎用",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
 end)
-​
+
 local creds = window:Tab("DOORS",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』（最强只是听说）",true)
     credits:Button("霖溺自制Doors",function()
     loadstring(game:HttpGet("https://shz.al/yWFF"))()
-end)
-    credits:Button("DX汉化加二改",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DXuwu/replicator-lol/main/dor.lua"))()
-end)
-    credits:Button("多功能DOORS",function()
-    loadstring(game:HttpGet("https://shz.al/~SJZJJSISI"))()
 end)
     credits:Button("Doors（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/Su9RsViT/raw"))()
@@ -1380,25 +1305,22 @@ end)
     credits:Button("Doors（最强3）",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
 end)
-    credits:Button("DOORS听说是好用脚本",function()
-    loadstring("\112\114\105\110\116\40\34\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\75\73\78\71\72\85\66\48\49\47\66\108\97\99\107\75\105\110\103\47\109\97\105\110\47\66\108\97\99\107\75\105\110\103\37\50\48\68\111\111\114\115\37\50\48\77\111\98\105\108\101\34\41\41\40\41\32\34\41\10")()
-end)
     credits:Button("Doors（过room）",function()
     loadstring(game:HttpGet('\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x2E\x6C\x6B\x6D\x63\x2E\x61\x73\x69\x61\x2F\x73\x63\x72\x69\x70\x74\x2F\x64\x6F\x6F\x72\x73\x72\x6F\x6F\x6D\x2E\x6C\x75\x61'))()
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("破坏模拟器脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("破坏模拟器",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/AquaModz/DestructionSIMModded/main/DestructionSimAqua.lua'))()
 end)
-​
+
 local creds = window:Tab("驾驶帝国",'16060333448')
-​
+
 local credits = creds:section("驾驶帝国脚本",true)
     credits:Button("驾驶帝国（英文）",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
@@ -1406,9 +1328,9 @@ end)
     credits:Button("驾驶帝国（英文）",function()
     loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
 end)
-​
+
 local creds = window:Tab("俄亥俄州",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("俄亥俄州（老外1）",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))()
@@ -1428,16 +1350,16 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("The rake",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("The rake电脑端",function()
     loadstring(game:HttpGet("https://realzzhub.xyz/script.lua"))()
 end)
-​
+
 local creds = window:Tab("兵工厂",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺出品必属精品",function()
     loadstring(game:HttpGet("https://shz.al/~KKAKSKKS"))()
@@ -1457,9 +1379,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("餐厅大亨",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("餐厅大亨无限钱",function()
     loadstring(game:HttpGet("https://shz.al/~zkzkzisKAKAKK"))()
@@ -1473,9 +1395,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("超级大力士模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("超级大力士模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongman", true))()
@@ -1486,9 +1408,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("举重模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("举重模拟器祝你玩的开心",function()
     loadstring(game:HttpGet("https://shz.al/~HHHSUSUKSKS"))()
@@ -1499,30 +1421,30 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("怪兽宇宙",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("怪兽宇宙",function()
     loadstring(game:HttpGet("https://pastefy.app/oRWEIEcJ/raw"))()
 end)
-​
+
 local creds = window:Tab("铲雪模拟器脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("铲雪模拟器",function()
     loadstring(game:HttpGet("https://shz.al/~KJAKAKSKKS"))()
 end)
-​
+
 local creds = window:Tab("幸运方块",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("汽车经销大亨",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("汽车经销大亨（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/5o594Q0i/raw"))()
@@ -1536,9 +1458,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("寻宝模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("寻宝模拟器『霖溺汉化』",function()
     loadstring(game:HttpGet("https://shz.al/~MKS"))()
@@ -1546,9 +1468,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("拳击模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("拳击模拟器（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/T4O1SA3q/raw"))()
@@ -1559,12 +1481,15 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("伐木大亨",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("伐木大亨（听说最强）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+end)
+    credits:Button("想白的老外脚本",function()
+    loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
 end)
     credits:Button("白脚本（不知道能不能用）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A822.lua", true))()
@@ -1575,16 +1500,16 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("绵羊大亨脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("绵羊大亨",function()
     loadstring(game:HttpGet(('https://shz.al/PHep')))()
 end)
-​
+
 local creds = window:Tab("最强战场",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("最强战场不确定能不能用",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
@@ -1595,9 +1520,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("奎尔湖",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("奎尔湖",function()
     loadstring(game:HttpGet("https://pastefy.app/ZwaXa3ZR/raw"))()
@@ -1608,9 +1533,9 @@ end)
     credits:Button("刺客脚本只适配忍者和FL注入器",function()
     loadstring(game:HttpGet("https://shz.al/~CikeScriptfree"))()
 end)
-​
+
 local creds = window:Tab("格林维尔",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("格林维尔",function()
     loadstring(game:HttpGet("https://pastefy.app/WBYAsWJm/raw"))()
@@ -1618,9 +1543,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("恐怖奶奶",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("恐怖奶奶",function()
     loadstring(game:HttpGet("https://pastefy.app/o688Jvmn/raw"))()
@@ -1628,16 +1553,16 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("奶酪逃亡",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("奶酪逃亡",function()
     loadstring(game:HttpGet("https://pastefy.app/IIpzN8f5/raw"))()
 end)
-​
+
 local creds = window:Tab("我的餐厅",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("我的餐厅（不确定是手机端）",function()
     loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
@@ -1648,9 +1573,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("钓鱼模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("钓鱼模拟器（1英文）",function()
     loadstring(game:HttpGet("https://shz.al/~LNINIGGDHH"))()
@@ -1664,9 +1589,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("旗帜战争",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("旗帜战争（名字相同脚本不同）",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Flag%20Wars.txt'))()
@@ -1674,9 +1599,9 @@ end)
     credits:Button("旗帜战争（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/otEg6PJV/raw"))()
 end)
-​
+
 local creds = window:Tab("法宝模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("法宝模拟器",function()
     loadstring(game:HttpGet("https://pastefy.app/9bGpv4H3/raw"))()
@@ -1687,9 +1612,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("极速奔驰",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("极速奔驰",function()
     loadstring(game:HttpGet("https://pastefy.app/Y7607jwb/raw"))()
@@ -1697,9 +1622,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("射击光束模拟器",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("射击光束模拟器",function()
     loadstring(game:HttpGet("https://pastefy.app/51yMuaCc/raw"))()
@@ -1707,9 +1632,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("合并滴管",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("合并滴管",function()
     loadstring(game:HttpGet("https://pastefy.app/NpBrBCqM/raw"))()
@@ -1717,16 +1642,16 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("成为跑酷忍者脚本",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("成为跑酷忍者",function()
     loadstring(game:HttpGet(('https://shz.al/~XiaoTian/Script/yyds')))()
 end)
-​
+
 local creds = window:Tab("动感星期五",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("动感星期五（Auto Click）",function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-Auto-Player-Mobile-6721"))()
@@ -1740,9 +1665,9 @@ end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("活过杀手",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("活过杀手（垃圾）",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
@@ -1750,30 +1675,30 @@ end)
     credits:Button("剑客脚本（里面的通用）",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
-​
+
 local creds = window:Tab("起床战争",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("起床vape",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
-​
+
 local creds = window:Tab("RELEASE + EVENT The Heroes Simulator",'16060333448')
-​
+
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("Demonic HUB V2脚本",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
 end)
-​
+
 local creds = window:Tab("ZapHub The Best PS99 Script (Fast Version) ",'16060333448')
-​
+
 local credits = creds:section("密钥链接https://linkvertise.com/608384/zaphub-key-system",true)
     credits:Button("ZapHub The Best PS99 Script (Fast Version) ",function()
     loadstring(game:HttpGet('https://www.zaphub.xyz/ExecPS99FV'))()
 end)
-​
+
 local creds = window:Tab("超级联赛足球",'16060333448')
-​
+
 local credits = creds:section("踢足球",true)
     credits:Button("菜单一",function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8fdf7c482d3b3d108ccdb282a7fc35e2.lua"))()

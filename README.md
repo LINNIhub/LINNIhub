@@ -446,6 +446,18 @@ end
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
@@ -902,6 +914,9 @@ local credits = creds:section("『LINNI Script』",true)
     credits:Button("霖溺忍者传奇（来源白貓）",function()
     loadstring(game:HttpGet("https://shz.al/~baimaomeilihh"))()
 end)
+    credits:Button("忍者传奇",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyb150933/zyb/main/123'))()
+end)
     credits:Button("忍者传奇工作室",function()
     loadstring(game:HttpGet("https://shz.al/~BBXX"))()
 end)
@@ -913,9 +928,6 @@ end)
 end)
     credits:Button("忍者传奇plus",function()
     loadstring(game:HttpGet("https://shz.al/~ANSNBXX"))()
-end)
-    credits:Button("忍者传奇大全",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/2UjrXwTV")))
 end)
     credits:Button("忍者传奇",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyb150933/zyb/main/123'))()
@@ -1525,6 +1537,9 @@ local credits = creds:section("『LINNI Script』",true)
     credits:Button("铲雪模拟器",function()
     loadstring(game:HttpGet("https://shz.al/~KJAKAKSKKS"))()
 end)
+    credits:Button("铲雪模拟器114514",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3pbmVX8k"))()
+end)
 
 local creds = window:Tab("幸运方块",'16060333448')
 
@@ -1554,6 +1569,9 @@ local creds = window:Tab("寻宝模拟器",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("寻宝模拟器『霖溺汉化』",function()
     loadstring(game:HttpGet("https://shz.al/~MKS"))()
+end)
+    credits:Button("寻宝模拟器",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/B4WsvZgv"))()
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
@@ -1601,8 +1619,11 @@ end)
 local creds = window:Tab("最强战场",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("最强战场能用",function()
+    credits:Button("最强战场不确定能不能用",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
+end)
+    credits:Button("最强战场（英文）",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()

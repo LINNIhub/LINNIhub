@@ -351,7 +351,7 @@ if game.Players.LocalPlayer.Name == "iwjwwowko3" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "ml114514_bei" then 
 Whitelisted = true 
 end
 
@@ -1526,11 +1526,8 @@ end)
 local creds = window:Tab("最强战场",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("最强战场不确定能不能用",function()
+    credits:Button("最强战场能用",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
-end)
-    credits:Button("最强战场（英文）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()

@@ -415,6 +415,34 @@ if game.Players.LocalPlayer.Name == "rvvzson_1" then
 Whitelisted = true 
 end
 
+if game.Players.LocalPlayer.Name == "CN_RYESOSB" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "vipBoos666666" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end

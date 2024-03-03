@@ -494,6 +494,10 @@ end
 if game.Players.LocalPlayer.Name == "YHKngedYx" then 
 Whitelisted = true 
 end
+
+if game.Players.LocalPlayer.Name == "ouofvv" then 
+Whitelisted = true 
+end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
@@ -819,15 +823,31 @@ local credits = creds:section("HUB脚本",true)
     credits:Button("EZ-HUB",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 end)
+    credits:Button("unfair hub",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
 local credits = creds:section("脚本密钥链接https://keyrblx.com/getkey/ShifeScripts",true)
     credits:Button(" Shadow Hub V2",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexcirer/Alexcirer/main/V%20d"))()
 end)
+local credits = creds:section("HUB脚本",true)
+    credits:Button("PlaybackX Hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt'))()
+end)
     credits:Button("Tianhe's script hub",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/xdQVhQdm'))()
 end)
+    credits:Button("Mango hub",function()
+    loadstring(game:HttpGet('https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta'))()
+end)
+    credits:Button("VG hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
     credits:Button("Owl-Hub『嘿嘿』",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+    credits:Button("HOHO_hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
 local creds = window:Tab("FE脚本『这几天将全部添加』",'16060333448')

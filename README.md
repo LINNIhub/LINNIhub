@@ -383,7 +383,10 @@ if game.Players.LocalPlayer.Name == "cnmrnm12345" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "youkhuoo" then 
+Whitelisted = true 
+end
+if game.Players.LocalPlayer.Name == "ovo_dashaby" then 
 Whitelisted = true 
 end
 if Whitelisted == true then

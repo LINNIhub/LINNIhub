@@ -435,7 +435,7 @@ if game.Players.LocalPlayer.Name == "dream_94980" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "KE_JNKSXKSJA" then 
 Whitelisted = true 
 end
 
@@ -475,7 +475,7 @@ local services = setmetatable({}, {
     return game.GetService(game, k)
   end
 })
-local library = loadstring(game:HttpGet("https://pastebin.com/raw/r7a5cERQ"))()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/rYPnFhrD"))()
 local window = library:new("『LINNI Script』『CST』")
 
 local creds = window:Tab("使用脚本必看♥",'16060333448')

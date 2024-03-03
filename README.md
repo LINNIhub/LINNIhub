@@ -1182,6 +1182,37 @@ end)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
 end)
 
+local creds = window:Tab("nico下一个机器人脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("nico下一个机器人",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/elonof/nicosbots-script/main/main.lua",true))()
+end)
+    credits:Button("nico下一个机器人",function()
+    loadstring(game:HttpGet("https://fern.wtf/scripts/nico_bot.lua", true))()
+end)
+    credits:Button("nico下一个机器人",function()
+    local hrp = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+hrp.Parent = nil
+hrp:Clone()
+hrp.Parent = game.Players.LocalPlayer.Character
+hrp.Name = "Humanoid"
+game.StarterGui:SetCore("SendNotification", {Title="God Mode"; Text="God Mode Activated"; Duration=5;})
+end)
+    credits:Button("nico下一个机器人",function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/fartbutt69/Nico-s-Nextbot-Killer/main/script.lua", true))()
+end)
+    credits:Button("nico下一个机器人",function()
+    local Player = game:GetService("Players").LocalPlayer
+
+while true do 
+wait(0.5)
+Player.Character.HumanoidRootPart.Position = Vector3.new(0, -50, 0)
+wait(0.5)
+Player.Character.HumanoidRootPart.Position = Vector3.new(0, -80, 0)
+end
+end)
+
 local creds = window:Tab("蜂群模拟器",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)

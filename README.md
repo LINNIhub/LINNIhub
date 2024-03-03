@@ -367,7 +367,7 @@ if game.Players.LocalPlayer.Name == "wow_icome" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "sanren160" then 
 Whitelisted = true 
 end
 

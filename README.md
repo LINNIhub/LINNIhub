@@ -339,7 +339,7 @@ if game.Players.LocalPlayer.Name == "uahzjzhshs" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "用户名" then 
+if game.Players.LocalPlayer.Name == "guan_597" then 
 Whitelisted = true 
 end
 
@@ -1293,6 +1293,18 @@ local credits = creds:section("『LINNI Script』（最强只是听说）",true)
     credits:Button("霖溺自制Doors",function()
     loadstring(game:HttpGet("https://shz.al/yWFF"))()
 end)
+    credits:Button("最强汉化DOORS",function()
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
+end)
+    credits:Button("DX汉化加二改",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DXuwu/replicator-lol/main/dor.lua"))()
+end)
+    credits:Button("多功能DOORS",function()
+    loadstring(game:HttpGet("https://shz.al/~SJZJJSISI"))()
+end)
+    credits:Button("微山DOORS",function()
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
+end)
     credits:Button("Doors（名字相同脚本不同）",function()
     loadstring(game:HttpGet("https://pastefy.app/Su9RsViT/raw"))()
 end)
@@ -1304,6 +1316,9 @@ end)
 end)
     credits:Button("Doors（最强3）",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+    credits:Button("DOORS听说是好用脚本",function()
+    loadstring("\112\114\105\110\116\40\34\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\75\73\78\71\72\85\66\48\49\47\66\108\97\99\107\75\105\110\103\47\109\97\105\110\47\66\108\97\99\107\75\105\110\103\37\50\48\68\111\111\114\115\37\50\48\77\111\98\105\108\101\34\41\41\40\41\32\34\41\10")()
 end)
     credits:Button("Doors（过room）",function()
     loadstring(game:HttpGet('\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x2E\x6C\x6B\x6D\x63\x2E\x61\x73\x69\x61\x2F\x73\x63\x72\x69\x70\x74\x2F\x64\x6F\x6F\x72\x73\x72\x6F\x6F\x6D\x2E\x6C\x75\x61'))()

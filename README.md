@@ -599,6 +599,22 @@ if game.Players.LocalPlayer.Name == "lakssjdjh" then
 Whitelisted = true 
 end
 
+if game.Players.LocalPlayer.Name == "Uwjwnseuejwj" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "用户名" then 
+Whitelisted = true 
+end
+
 if game.Players.LocalPlayer.Name == "用户名" then 
 Whitelisted = true 
 end

@@ -1,6 +1,7 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
 local window = library:new("『LINNI Script』『CST』")
 
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『LINNI Script』"; Text ="😋"; Duration = 4; })
 local creds = window:Tab("使用脚本必看♥",'16060333448')
 
 local bin = creds:section("玩家信息",true)
@@ -132,9 +133,6 @@ end)
 end)
     credits:Button("飞车『霖溺』",function()
     loadstring(game:HttpGet("https://shz.al/~KISJS"))()
-end)
-    credits:Button("甩飞",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/GnvPVBEi"))()
 end)
     credits:Button("人物转起来",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()

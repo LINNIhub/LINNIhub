@@ -52,7 +52,7 @@ end)
 local creds = window:Tab("通用",'16060333448')
 
 local credits = creds:section("通用脚本",true)
-    credits:Button("聊天气泡美化",function()
+    credits:Button("聊天气泡美化这个自制",function()
     loadstring(game:HttpGet("https://shz.al/~lniNimeihua"))()
 end)
     credits:Button("霖溺FPS",function()

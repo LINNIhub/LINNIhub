@@ -1,7 +1,8 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『LINNI Script』"; Text ="😋"; Duration = 4; })
+
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
 local window = library:new("『LINNI Script』『CST』")
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『LINNI Script』"; Text ="😋"; Duration = 4; })
 local creds = window:Tab("使用脚本必看♥",'16060333448')
 
 local bin = creds:section("玩家信息",true)

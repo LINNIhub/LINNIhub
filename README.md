@@ -1,63 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『L！INNI Script』"; Text ="欢迎哥们使用我的脚本，建议进群"; Duration = 4; })
 
-textcolour = Color3.new(0,0,0)
-
-game:GetService("Chat").BubbleChatEnabled = true
-
-coroutine.wrap(function()
-    while wait() do
-        for i = 0,255,10 do
-            textcolour = Color3.new(255/255,i/255,0/255)
-            wait()
-        end
-        for i = 255,0,-10 do
-            textcolour = Color3.new(i/255,255/255,0/255)
-            wait()
-        end
-        for i = 0,255,10 do
-            textcolour = Color3.new(0/255,255/255,i/255)
-            wait()
-        end
-        for i = 255,0,-10 do
-            textcolour = Color3.new(0/255,i/255,255/255)
-            wait()
-        end
-        for i = 0,255,10 do
-            textcolour = Color3.new(i/255,0/255,255/255)
-            wait()
-        end
-        for i = 255,0,-10 do
-            textcolour = Color3.new(255/255,0/255,i/255)
-            wait()
-        end
-    end
-end)()
-
-local settings = {
-
-}
-
-while wait() do
-    pcall(function()
-            game:GetService("Chat"):SetBubbleChatSettings({
-            TextColor3 = textcolour,
-            BubbleDuration = 20,
-            MaxBubbles = 20,
-            BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-            TextSize = 16,
-            Font = Enum.Font.Ubuntu,
-            Transparency = .1,
-            CornerRadius = UDim.new(0, 30),
-            TailVisible = true,
-            Padding = 8,
-            MaxWidth = 500,
-            VerticalStudsOffset = 0,
-            BubblesSpacing = 3,
-            MinimizeDistance = 250,
-            MaxDistance = 500,
-        })
-    end)
-end
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
 local window = library:new("『LINNI Script』『CST』")
 
@@ -110,6 +52,9 @@ end)
 local creds = window:Tab("通用",'16060333448')
 
 local credits = creds:section("通用脚本",true)
+    credits:Button("聊天气泡美化",function()
+    loadstring(game:HttpGet("https://shz.al/~lniNimeihua"))()
+end)
     credits:Button("霖溺FPS",function()
     loadstring(game:HttpGet("https://shz.al/~FHHF"))()
 end)
@@ -178,6 +123,9 @@ end)
     loadstring(game:HttpGet("https://shz.al/~LDSLS66"))()
 end)
 local credits = creds:section("通用脚本",true)
+    credits:Button("聊天气泡美化",function()
+    
+end)
     credits:Button("工具包",function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
@@ -684,6 +632,16 @@ end)
 end)
     credits:Button("剑客脚本",function()
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
+end)
+
+local creds = window:Tab("出租车司机脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("自动抽蛋开启",function()
+    loadstring(game:HttpGet("https://shz.al/~KAKSKSK"))()
+end)
+    credits:Button("自动抽蛋关闭",function()
+    loadstring(game:HttpGet("https://shz.al/~KA28272"))()
 end)
 
 local creds = window:Tab("战斗勇士",'16060333448')

@@ -1,4 +1,6 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『LINNI Script』"; Text ="😋"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『L！INNI Script』"; Text ="😋"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『L！INNI Script』"; Text ="欢迎进群"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『L！INNI Script』"; Text ="欢迎让作者找服务器脚本"; Duration = 4; })
 
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
 local window = library:new("『LINNI Script』『CST』")

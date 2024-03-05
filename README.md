@@ -1,5 +1,63 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『L！INNI Script』"; Text ="欢迎哥们使用我的脚本，建议进群"; Duration = 4; })
 
+textcolour = Color3.new(0,0,0)
+
+game:GetService("Chat").BubbleChatEnabled = true
+
+coroutine.wrap(function()
+    while wait() do
+        for i = 0,255,10 do
+            textcolour = Color3.new(255/255,i/255,0/255)
+            wait()
+        end
+        for i = 255,0,-10 do
+            textcolour = Color3.new(i/255,255/255,0/255)
+            wait()
+        end
+        for i = 0,255,10 do
+            textcolour = Color3.new(0/255,255/255,i/255)
+            wait()
+        end
+        for i = 255,0,-10 do
+            textcolour = Color3.new(0/255,i/255,255/255)
+            wait()
+        end
+        for i = 0,255,10 do
+            textcolour = Color3.new(i/255,0/255,255/255)
+            wait()
+        end
+        for i = 255,0,-10 do
+            textcolour = Color3.new(255/255,0/255,i/255)
+            wait()
+        end
+    end
+end)()
+
+local settings = {
+
+}
+
+while wait() do
+    pcall(function()
+            game:GetService("Chat"):SetBubbleChatSettings({
+            TextColor3 = textcolour,
+            BubbleDuration = 20,
+            MaxBubbles = 20,
+            BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+            TextSize = 16,
+            Font = Enum.Font.Ubuntu,
+            Transparency = .1,
+            CornerRadius = UDim.new(0, 30),
+            TailVisible = true,
+            Padding = 8,
+            MaxWidth = 500,
+            VerticalStudsOffset = 0,
+            BubblesSpacing = 3,
+            MinimizeDistance = 250,
+            MaxDistance = 500,
+        })
+    end)
+end
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
 local window = library:new("『LINNI Script』『CST』")
 
@@ -15,7 +73,7 @@ local bin = creds:section("玩家信息",true)
     bin:Label("副群:493057142🤨")
     bin:Label("主作者:霖溺，作者QQ1802952013😁")
     bin:Label("副作者：白貓，钢筋，无xia🤓")
-    bin:Label("脚本永久免费😍")
+    bin:Label("脚本永久免费😍另外有些脚本是小天自制的")
     bin:Label("后续还会添加脚本进来，不会停更，找的一些老外脚本可能不能用见谅😘")
     bin:Label("欢迎进群让我添加脚本😄")
     bin:Label("别好奇为啥加白名单因为仪式😚")
@@ -123,7 +181,7 @@ local credits = creds:section("通用脚本",true)
     credits:Button("工具包",function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
-    credits:Button("这个透视必须可以",function()
+    credits:Button("绘制『小天』",function()
     loadstring(game:HttpGet(('https://shz.al/~Xiaotian/ESPScript')))()
 end)
     credits:Button("骂人无违规",function()
@@ -1211,7 +1269,7 @@ end)
 local creds = window:Tab("绵羊大亨脚本",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("绵羊大亨",function()
+    credits:Button("绵羊大亨『小天』",function()
     loadstring(game:HttpGet(('https://shz.al/PHep')))()
 end)
 

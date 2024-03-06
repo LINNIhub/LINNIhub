@@ -444,6 +444,23 @@ end)
     loadstring(game:HttpGet("https://shz.al/~LDSLS"))()
 end)
 
+local creds = window:Tab("Vehicle Legends CARS!脚本",'16060333448')
+
+local credits = creds:section("『卡密模式』",true)
+    credits:Button("Vehicle Legends CARS!",function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/2399/18728/FiberHubFree.lua'))()
+end)
+    credits:Button("点击我复制dc链接自己弄",function()
+    setclipboard("https://discord.gg/NZYMVZvT2H")
+end)
+local credits = creds:section("『不需要卡密模式』",true)
+    credits:Button("Vehicle Legends CARS!",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/houjk2/Boosthub/main/main.lua"))()
+end)
+    credits:Button("Vehicle Legends CARS!",function()
+    loadstring(game:HttpGet("https://shz.al/~CNCJJFD882"))()
+end)
+
 local creds = window:Tab("Sol's RNG脚本",'16060333448')
 
 local credits = creds:section("『卡密模式』",true)

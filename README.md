@@ -1,7 +1,58 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『L！INNI Script』"; Text ="欢迎哥们使用我的脚本，建议进群"; Duration = 4; })
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "白名单验证...",
+    Duration = 6, --时间
+})
+
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+local Whitelisted = false;
+
+if game.Players.LocalPlayer.Name == "wuai005" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "iwqqqqqqqqqs" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "iwqqqqqqqqs" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "AK_xjs978" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "hdykhj666" then 
+Whitelisted = true 
+end
+if Whitelisted == true then
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "玩家:"..game.Players.LocalPlayer.Name.."，祝你玩的开心，嘿嘿",
+    Duration = 10, --时间
+})
+
+   
+   repeat task.wait() until game:IsLoaded()
+local library = {}
+local ToggleUI = false
+library.currentTab = nil
+library.flags = {}
+
+local services = setmetatable({}, {
+  __index = function(t, k)
+    return game.GetService(game, k)
+  end
+})
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
-local window = library:new("『LINNI Script』『CST』")
+local window = library:new("『LINNI Script』高级付费版本")
 
 local creds = window:Tab("使用脚本必看♥",'16060333448')
 
@@ -21,7 +72,7 @@ local bin = creds:section("玩家信息",true)
     bin:Label("准备更新付费和免费模式脚本😚")
     bin:Label("支持70多个服务器😋")
     bin:Label("FE所有脚本添加中😰")
-    bin:Label("独一无二的缝合脚本，虽然缝合脚本名声不好，脚本能用就行了😦")
+    bin:Label("脚本很好😦")
     bin:Label("脚本疯狂优化中😡")
     
 local credits = creds:section("关闭",true)
@@ -1493,4 +1544,7 @@ end)
     credits:Button("菜单二",function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
 end)
-    
+else
+game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找霖溺买，群主和管理『名称为霖溺的』都是我")--踢人函数
+   end
+   

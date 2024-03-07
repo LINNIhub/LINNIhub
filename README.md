@@ -49,6 +49,13 @@ end)
     setclipboard("1802952013")
 end)
 
+local creds = window:Tab("娱乐脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("非常娱乐",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KingHaxxor/King-Hax-Gui/main/Arab-Gui%E2%98%85"))();
+end)
+
 local creds = window:Tab("通用",'16060333448')
 
 local credits = creds:section("通用脚本",true)

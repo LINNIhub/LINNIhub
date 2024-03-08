@@ -214,10 +214,6 @@ end
 if game.Players.LocalPlayer.Name == "king_lol886" then 
 Whitelisted = true 
 end
-
-if game.Players.LocalPlayer.Name == "ghjgf540" then 
-Whitelisted = true 
-end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
@@ -303,7 +299,7 @@ local credits = creds:section("『LINNI Script』",true)
     setclipboard("932613422")
 end)
     credits:Button("点我复制副群",function()
-    setclipboard("493057142")
+    setclipboard("759903662")
 end)
     credits:Button("点我复制作者QQ",function()
     setclipboard("1802952013")

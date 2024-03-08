@@ -4,7 +4,7 @@ CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "白名单认证",
     Text = "白名单验证...",
-    Duration = 6, --时间
+    Duration = 6, --时间。
 })
 
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui

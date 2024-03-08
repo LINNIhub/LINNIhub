@@ -179,11 +179,11 @@ if game.Players.LocalPlayer.Name == "Retention_Star" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "plm123plm123123" then 
+if game.Players.LocalPlayer.Name == "tgydggg" then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "tgydggg" then 
+if game.Players.LocalPlayer.Name == "plm123plm123123" then 
 Whitelisted = true 
 end
 if Whitelisted == true then

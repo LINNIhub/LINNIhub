@@ -1422,9 +1422,6 @@ local credits = creds:section("『LINNI Script』",true)
     credits:Button("The rake电脑端",function()
     loadstring(game:HttpGet("https://realzzhub.xyz/script.lua"))()
 end)
-    credits:Button("the rake",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/3EloHIyChay123123/The-rake-noob-edition-gui/main/.GUI"))()
-end)
 
 local creds = window:Tab("兵工厂",'16060333448')
 

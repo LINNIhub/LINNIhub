@@ -4,7 +4,7 @@ CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "白名单认证",
     Text = "白名单验证...",
-    Duration = 6, --时间。
+    Duration = 6, --时间
 })
 
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
@@ -187,6 +187,9 @@ end)
 end)
     credits:Button("音乐",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/beta/main/music.lua"))()
+end)
+    credits:Button("夜视仪",function()
+    _G.OnShop = trueloadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
 end)
     credits:Button("正常范围",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jiNwDbCN"))()
@@ -848,6 +851,9 @@ local credits = creds:section("piggy脚本",true)
     credits:Button("piggy脚本",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua"))()
 end)
+    credits:Button("piggy😆",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0piggy2", true))()
+end)
     credits:Button("piggy英文",function()
     loadstring(game:HttpGet("https://encurtador.com.br/fiyFJ"))()
 end)
@@ -969,7 +975,7 @@ end)
 local creds = window:Tab("拯救上帝脚本",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("拯救上帝大玉版",function()
+    credits:Button("拯救上帝大玉版🤓",function()
     loadstring(game:HttpGet("https://shz.al/~LINNI114514666"))()
 end)
 
@@ -978,6 +984,9 @@ local creds = window:Tab("进击的僵尸脚本",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("进击的僵尸",function()
     loadstring(game:HttpGet("https://shz.al/~KSKSKSK"))()
+end)
+     credits:Button("进击的僵尸🧟‍",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack", true))()
 end)
 
 local creds = window:Tab("破坏者谜团2",'16060333448')

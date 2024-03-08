@@ -130,14 +130,6 @@ end
 if game.Players.LocalPlayer.Name == "awing707" then 
 Whitelisted = true 
 end
-
-if game.Players.LocalPlayer.Name == "yfhmyyffxdt" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "CN_xiaozhe" then 
-Whitelisted = true 
-end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
@@ -1267,13 +1259,6 @@ end)
     loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
 end)
 
-local creds = window:Tab("吃货模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("吃",function()
-    loadstring(game:HttpGet("https://shz.al/~LINNICHI"))()
-end)
-
 local creds = window:Tab("动物进化脚本",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
@@ -1343,13 +1328,6 @@ local creds = window:Tab("The rake",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("The rake电脑端",function()
     loadstring(game:HttpGet("https://realzzhub.xyz/script.lua"))()
-end)
-
-local creds = window:Tab("稿子挖矿模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("稿子挖矿模拟器",function()
-    loadstring(game:HttpGet("https://shz.al/~LINNIGAO"))()
 end)
 
 local creds = window:Tab("兵工厂",'16060333448')

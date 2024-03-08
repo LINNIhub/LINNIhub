@@ -1650,20 +1650,6 @@ end)
     jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
 end)
 
-local creds = window:Tab("木材大亨2脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("木材大亨版本2",function()
-    loadstring(game:HttpGet("https://vendettahub.xyz/Vendetta/Loaders/SpookFinder.v3", true))()
-end)
-
-local creds = window:Tab("木材大亨脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("木材大亨版本1",function()
-    loadstring(game:HttpGet("https://shz.al/~mcdh"))()
-end)
-
 local creds = window:Tab("射击光束模拟器",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)

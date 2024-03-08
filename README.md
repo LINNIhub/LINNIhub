@@ -255,7 +255,15 @@ credits:Toggle("脚本框架变小一点", "", false, function(state)
     credits:Button("关闭脚本",function()
         game:GetService("CoreGui")["frosty"]:Destroy()
     end)
-
+local credits = creds:section("彩虹ui",true)
+credits:Toggle("彩虹UI", "", false, function(state)
+        if state then
+        game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
+        else
+            game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
+        end
+    end)
+    
 local creds = window:Tab("复制大群小群系列",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)

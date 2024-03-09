@@ -1378,22 +1378,22 @@ end)
     loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
 end)
 
-local creds = window:Tab("动物进化脚本",'16060333448')
+local creds = window:Tab("动物进化脚本『有稳定』",'16060333448')
 
 local credits = creds:section("『LINNI Script』",true)
-    credits:Button("动物进化1",function()
+    credits:Button("动物进化1『容易封』",function()
     game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("Lv", 999999999)
 end)
-    credits:Button("动物进化2",function()
+    credits:Button("动物进化2『容易封』",function()
     game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("Xp", 999999999)
 end)
-    credits:Button("动物进化3",function()
+    credits:Button("动物进化3『容易封』",function()
     game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("DmgLvl", 999999999)
 end)
-    credits:Button("动物进化4",function()
+    credits:Button("动物进化4『容易封』",function()
     game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("CritDmgLvl", 999999999)
 end)
-    credits:Button("动物进化",function()
+    credits:Button("动物进化『容易封』",function()
     local player = game.Players.LocalPlayer
 
 for _, child in ipairs(player:GetChildren()) do
@@ -1401,6 +1401,9 @@ for _, child in ipairs(player:GetChildren()) do
         child.Value = true
     end
 end
+end)
+    credits:Button("动物进化『稳』",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Secure/Animal-Evolution-Simulator/main/.lua"))()
 end)
 
 local creds = window:Tab("浴缸战争脚本",'16060333448')

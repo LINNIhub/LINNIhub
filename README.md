@@ -12,15 +12,15 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 local Whitelisted = false;
 
 if game.Players.LocalPlayer.Name == "wuai005" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "iwqqqqqqqqqs" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "iwqqqqqqqqs" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "AK_xjs978" then 
@@ -28,241 +28,241 @@ Whitelisted = libnibcnm
 end
 
 if game.Players.LocalPlayer.Name == "hdykhj666" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "FBI_hmr" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "wszgr_9" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "okkokkplok" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "udxcgrdx" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "THQngedqx" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "sueii74" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "udhehuxh" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "miaomiao_233" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "miamia_1234567891011" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "cmdd123yi" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "123dgd3" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "GN46661" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "AYHngedGx" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "binhoushangyauun" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "qw118118" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "cn_qwaoi" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "bajidashe" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ydy1234566" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "Infinitejade404" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "HFO_DR" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "EVOKINGJFC2" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "cnmrnm12345" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "nbbcscydw" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "123654abcf" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "awing707" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "yfhmyyffxdt" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "CN_xiaozhe" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ifw215n" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ifw215" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "zbsswl" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ajiwbwiu" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "wkert2" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "IIWZBII" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "xu6123liang55" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "Ehhsbsuj" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "hdhdhuxhut" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "Retention_Star" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "tgydggg" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "plm123plm123123" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ginghoayo" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "guan_597" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "skkwwj8" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "jsjswijshwh" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "lts123123" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "548nssb" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "king_lol886" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "CN_fnf73" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ghjgf540" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "hhdhdhs2i" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "Ling_Mao" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "ufhystrd" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "fuzenan_2" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "fuzenan_xiao" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "vpn_fdeer" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "woyaochifan3" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "zkrwxy520" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "zkrwxy520" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "woyaochifan3" then 
-Whitelisted = linnicnm 
+Whitelisted = true 
 end
-if Whitelisted == linnicnm then
+if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
     -- Customizable
@@ -1825,27 +1825,6 @@ local credits = creds:section("踢足球",true)
 end)
     credits:Button("菜单二",function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
-end)
-
-local creds = window:Tab("能力大战脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("能力大战",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywars/main/Protected%20(29).lua"))()
-end)
-
-local creds = window:Tab("最强拳击脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("拳击",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))()
-end)
-
-local creds = window:Tab("打墙模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("打墙模拟器",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JunBloxYTPlayz/SORIX-Hub/main/Punch%20Wall%20Simulator"))()
 end)
 else
 game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找霖溺买，群主和管理『名称为霖溺的』都是我")--踢人函数

@@ -314,6 +314,14 @@ end
 if game.Players.LocalPlayer.Name == "AK_xjs978" then 
 Whitelisted = true 
 end
+
+if game.Players.LocalPlayer.Name == "Ziyouzhidu" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "CN86123" then 
+Whitelisted = true 
+end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
@@ -961,7 +969,6 @@ local creds = window:Tab("内脏与黑火药脚本",'16060333448')
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("内脏与黑火药",function()
     local scriptUrl = "https://raw.githubusercontent.com/EnableDev1/kitten/main/fdsasd9ujiofsdiufu9834u89fu389-obfuscated.lua"
-
 local function loadAndExecuteScript(url)
     local success, response = pcall(function()
         return game:HttpGet(url)
@@ -983,6 +990,16 @@ local function loadAndExecuteScript(url)
 end
 
 loadAndExecuteScript(scriptUrl) 
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("加入https://discord.gg/RjqwhMY7DU获取密钥",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FnfCheatbotsonroblox/kitten.cc-lua/main/kitten-obfuscated%20(1).lua"))()
+end)
+    credits:Button("点击我复制dc",function()
+    setclipboard("https://discord.gg/RjqwhMY7DU")
+end)
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("内脏与黑火药",function()
+    loadstring(game:HttpGet("https://shz.al/~KSKKS"))()
 end)
 
 local creds = window:Tab("51区脚本",'16060333448')

@@ -2,8 +2,8 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
 CoreGui:SetCore("SendNotification", {
     -- Customizable
-    Title = "白名单认证",
-    Text = "白名单验证...",
+    Title = "霖溺脚本认证",
+    Text = "脚本验证...",
     Duration = 6, --时间
 })
 
@@ -306,11 +306,19 @@ end
 if game.Players.LocalPlayer.Name == "True23513" then 
 Whitelisted = true 
 end
+
+if game.Players.LocalPlayer.Name == "maochips" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "XDHZABU" then 
+Whitelisted = true 
+end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {
     -- Customizable
-    Title = "白名单认证",
+    Title = "『LINNI Script』",
     Text = "玩家:"..game.Players.LocalPlayer.Name.."，祝你玩的开心，嘿嘿",
     Duration = 10, --时间
 })
@@ -344,10 +352,10 @@ local bin = creds:section("玩家信息",true)
     bin:Label("副作者：白貓，钢筋，无xia🤓")
     bin:Label("本脚本在俄亥俄州可能不能开启，忍者注入器也不支持开启😍另外有些脚本是小天自制的")
     bin:Label("后续还会添加脚本进来，不会停更，找的一些老外脚本可能不能用见谅😘")
+    bin:Label("由于左边列表不能添加服务器了，所以在本脚本里面加个后续，在作者脚本里面看😚")
     bin:Label("欢迎进群让我添加脚本😄")
     bin:Label("付费模式脚本😚")
     bin:Label("支持70多个服务器😋")
-    bin:Label("FE所有脚本添加中😰")
     bin:Label("脚本很好😦")
     bin:Label("脚本疯狂优化中😡")
     
@@ -1874,5 +1882,5 @@ end)
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
 end)
 else
-game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找霖溺买，群主和管理『名称为霖溺的』都是我")--踢人函数
+game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找管理霖溺买，由于左边列表不能添加服务器了，所以在本脚本里面加个后续，在作者脚本里面看")--踢人函数
    end

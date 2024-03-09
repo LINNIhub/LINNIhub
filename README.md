@@ -24,7 +24,7 @@ Whitelisted = true
 end
 
 if game.Players.LocalPlayer.Name == "AK_xjs978" then 
-Whitelisted = true 
+Whitelisted = libnibcnm 
 end
 
 if game.Players.LocalPlayer.Name == "hdykhj666" then 
@@ -312,6 +312,10 @@ Whitelisted = true
 end
 
 if game.Players.LocalPlayer.Name == "XDHZABU" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "AK_xjs978" then 
 Whitelisted = true 
 end
 if Whitelisted == true then
@@ -821,13 +825,6 @@ end)
     credits:Button("点击我复制密钥链接",function()
     setclipboard("https://pandadevelopment.net/startkey.html?service=demonichubv2")
 end)
-    credits:Button("热乎呢刚找的Sol's RNG",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rah-Md/Sol-Rgn-Scripts/main/Upd.lua"))()
-end)
-    credits:Button("点击我复制链接",function()
-    setclipboard("https://linkvertise.com/1045829/sol-rgn-script-upd?o=sharing")
-end)
-
 local credits = creds:section("『免费模式』",true)
     credits:Button("Sol's RNG",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()

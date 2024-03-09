@@ -11,8 +11,8 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
 local Whitelisted = false;
 
-if game.Players.LocalPlayer.Name == "wuai005" then 
-Whitelisted = true 
+elseif game.Players.LocalPlayer.Name == "wuai005" then 
+_G.Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "iwqqqqqqqqqs" then 
@@ -821,6 +821,13 @@ end)
     credits:Button("点击我复制密钥链接",function()
     setclipboard("https://pandadevelopment.net/startkey.html?service=demonichubv2")
 end)
+    credits:Button("热乎呢刚找的Sol's RNG",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rah-Md/Sol-Rgn-Scripts/main/Upd.lua"))()
+end)
+    credits:Button("点击我复制链接",function()
+    setclipboard("https://linkvertise.com/1045829/sol-rgn-script-upd?o=sharing")
+end)
+
 local credits = creds:section("『免费模式』",true)
     credits:Button("Sol's RNG",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()

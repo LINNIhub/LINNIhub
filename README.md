@@ -322,6 +322,10 @@ end
 if game.Players.LocalPlayer.Name == "CN86123" then 
 Whitelisted = true 
 end
+
+if game.Players.LocalPlayer.Name == "skkwwj8" then 
+Whitelisted = true 
+end
 if Whitelisted == true then
 
 CoreGui:SetCore("SendNotification", {

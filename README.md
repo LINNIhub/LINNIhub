@@ -829,6 +829,13 @@ end)
     credits:Button("点击我复制密钥链接",function()
     setclipboard("https://pandadevelopment.net/startkey.html?service=demonichubv2")
 end)
+    credits:Button("热乎呢刚找的Sol's RNG",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rah-Md/Sol-Rgn-Scripts/main/Upd.lua"))()
+end)
+    credits:Button("点击我复制链接",function()
+    setclipboard("https://linkvertise.com/1045829/sol-rgn-script-upd?o=sharing")
+end)
+
 local credits = creds:section("『免费模式』",true)
     credits:Button("Sol's RNG",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
@@ -966,30 +973,6 @@ end)
 
 local creds = window:Tab("内脏与黑火药脚本",'16060333448')
 
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("内脏与黑火药",function()
-    local scriptUrl = "https://raw.githubusercontent.com/EnableDev1/kitten/main/fdsasd9ujiofsdiufu9834u89fu389-obfuscated.lua"
-local function loadAndExecuteScript(url)
-    local success, response = pcall(function()
-        return game:HttpGet(url)
-    end)
-
-    if success then
-        local loadedFunction, loadError = loadstring(response)
-        if loadedFunction then
-            local executionSuccess, executionError = pcall(loadedFunction)
-            if not executionSuccess then
-                warn("Error executing the loader dm o9am. " .. executionError)
-            end
-        else
-            warn("" .. loadError)
-        end
-    else
-        warn("" .. response)
-    end
-end
-
-loadAndExecuteScript(scriptUrl) 
 local credits = creds:section("『LINNI Script』",true)
     credits:Button("加入https://discord.gg/RjqwhMY7DU获取密钥",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FnfCheatbotsonroblox/kitten.cc-lua/main/kitten-obfuscated%20(1).lua"))()

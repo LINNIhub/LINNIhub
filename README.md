@@ -12,241 +12,257 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 local Whitelisted = false;
 
 if game.Players.LocalPlayer.Name == "wuai005" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "iwqqqqqqqqqs" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "iwqqqqqqqqs" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "AK_xjs978" then 
-Whitelisted = true 
+Whitelisted = libnibcnm 
 end
 
 if game.Players.LocalPlayer.Name == "hdykhj666" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "FBI_hmr" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "wszgr_9" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "okkokkplok" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "udxcgrdx" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "THQngedqx" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "sueii74" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "udhehuxh" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "miaomiao_233" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "miamia_1234567891011" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "cmdd123yi" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "123dgd3" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "GN46661" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "AYHngedGx" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "binhoushangyauun" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "qw118118" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "cn_qwaoi" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "bajidashe" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ydy1234566" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "Infinitejade404" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "HFO_DR" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "EVOKINGJFC2" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "cnmrnm12345" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "nbbcscydw" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "123654abcf" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "awing707" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "yfhmyyffxdt" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "CN_xiaozhe" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ifw215n" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ifw215" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "zbsswl" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ajiwbwiu" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "wkert2" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "IIWZBII" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "xu6123liang55" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "Ehhsbsuj" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "hdhdhuxhut" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "Retention_Star" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "tgydggg" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "plm123plm123123" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ginghoayo" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "guan_597" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "skkwwj8" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "jsjswijshwh" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "lts123123" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "548nssb" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "king_lol886" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "CN_fnf73" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ghjgf540" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "hhdhdhs2i" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "Ling_Mao" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "ufhystrd" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "fuzenan_2" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "fuzenan_xiao" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
 
 if game.Players.LocalPlayer.Name == "vpn_fdeer" then 
-Whitelisted = true 
+Whitelisted = linnicnm 
 end
-if Whitelisted == true then
+
+if game.Players.LocalPlayer.Name == "woyaochifan3" then 
+Whitelisted = linnicnm 
+end
+
+if game.Players.LocalPlayer.Name == "zkrwxy520" then 
+Whitelisted = linnicnm 
+end
+
+if game.Players.LocalPlayer.Name == "zkrwxy520" then 
+Whitelisted = linnicnm 
+end
+
+if game.Players.LocalPlayer.Name == "woyaochifan3" then 
+Whitelisted = linnicnm 
+end
+if Whitelisted == linnicnm then
 
 CoreGui:SetCore("SendNotification", {
     -- Customizable

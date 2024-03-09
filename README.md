@@ -856,6 +856,9 @@ local credits = creds:section("自制为云ui",true)
     credits:Button("霖溺自制自然灾害",function()
     loadstring(game:HttpGet("https://shz.al/D8Kn"))()
 end)
+    credits:Button("自然灾害lua",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
+end)
     credits:Button("自然灾害1",function()
     loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetweg", true))()
 end)
@@ -1823,7 +1826,27 @@ end)
     credits:Button("菜单二",function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
 end)
+
+local creds = window:Tab("能力大战脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("能力大战",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywars/main/Protected%20(29).lua"))()
+end)
+
+local creds = window:Tab("最强拳击脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("拳击",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))()
+end)
+
+local creds = window:Tab("打墙模拟器脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("打墙模拟器",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JunBloxYTPlayz/SORIX-Hub/main/Punch%20Wall%20Simulator"))()
+end)
 else
 game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找霖溺买，群主和管理『名称为霖溺的』都是我")--踢人函数
    end
-   

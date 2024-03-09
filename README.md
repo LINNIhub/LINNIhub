@@ -1834,6 +1834,13 @@ end)
     credits:Button("菜单二",function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
 end)
+
+local creds = window:Tab("索纳里亚世界脚本",'16060333448')
+
+local credits = creds:section("『LINNI Script』",true)
+    credits:Button("索纳里亚",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mangnex/Lycan-X-Hub/main/Creature%20of%20Sonaria%20Mobile"))()
+end)
 else
 game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找霖溺买，群主和管理『名称为霖溺的』都是我")--踢人函数
    end

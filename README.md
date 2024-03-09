@@ -347,7 +347,7 @@ local services = setmetatable({}, {
     return game.GetService(game, k)
   end
 })
-local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/baqm9Sw3"))()
 local window = library:new("『LINNI Script』高级付费版本")
 
 local creds = window:Tab("使用脚本必看♥",'16060333448')

